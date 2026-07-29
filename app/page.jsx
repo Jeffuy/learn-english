@@ -1,94 +1,177 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 const TEAM_COLORS = ["#ffcb3d", "#9ce36f", "#ff8d79", "#82c7ff", "#d7a7ff", "#63dbc9"];
 const QUESTION_COUNTS = [15, 25, 35, 50];
+const STORAGE_KEY = "word-rally-game-v1";
 
-const QUESTIONS = [
-  {
+const QUIZZES = {
+  everyday: {
+    name: "Everyday English",
+    description: "Grammar, places & common words",
+    icon: "Aa",
+    questions: [
+      {
+        id: "everyday-1",
     sentence: "She ___ to school every morning.",
     answer: "walks",
     options: ["walk", "walks", "walking", "walked"],
     hint: "Present simple",
   },
   {
+    id: "everyday-2",
     sentence: "We are going to the ___ to borrow a book.",
     answer: "library",
     options: ["bakery", "library", "hospital", "station"],
     hint: "Places in town",
   },
   {
+    id: "everyday-3",
     sentence: "My brother is ___ than me.",
     answer: "taller",
     options: ["tall", "tallest", "taller", "more tall"],
     hint: "Comparatives",
   },
   {
+    id: "everyday-4",
     sentence: "There ___ two apples on the table.",
     answer: "are",
     options: ["is", "be", "am", "are"],
     hint: "There is / There are",
   },
   {
+    id: "everyday-5",
     sentence: "I ___ my homework yesterday.",
     answer: "finished",
     options: ["finish", "finishes", "finished", "finishing"],
     hint: "Past simple",
   },
   {
+    id: "everyday-6",
     sentence: "Could I have a glass ___ water, please?",
     answer: "of",
     options: ["at", "of", "for", "with"],
     hint: "Common expressions",
   },
   {
+    id: "everyday-7",
     sentence: "The cat is hiding ___ the bed.",
     answer: "under",
     options: ["under", "during", "into", "across"],
     hint: "Prepositions",
   },
   {
+    id: "everyday-8",
     sentence: "They ___ playing football right now.",
     answer: "are",
     options: ["is", "are", "do", "have"],
     hint: "Present continuous",
   },
   {
+    id: "everyday-9",
     sentence: "You ___ wear a seat belt in the car.",
     answer: "must",
     options: ["must", "might", "could", "would"],
     hint: "Modal verbs",
   },
   {
+    id: "everyday-10",
     sentence: "How ___ milk do we need?",
     answer: "much",
     options: ["many", "often", "long", "much"],
     hint: "Countable and uncountable nouns",
+      },
+    ],
   },
-];
+  travel: {
+    name: "Travel Talk",
+    description: "Airports, hotels & getting around",
+    icon: "✈",
+    questions: [
+      { id: "travel-1", sentence: "Where can I ___ a taxi?", answer: "find", options: ["find", "found", "finding", "finds"], hint: "Asking for help" },
+      { id: "travel-2", sentence: "I would like to ___ a room for two nights.", answer: "book", options: ["stay", "book", "sleep", "visit"], hint: "At the hotel" },
+      { id: "travel-3", sentence: "What time does the train ___?", answer: "leave", options: ["leaves", "leaving", "leave", "left"], hint: "Transport" },
+      { id: "travel-4", sentence: "Could you show me your ___, please?", answer: "passport", options: ["ticket", "passport", "suitcase", "map"], hint: "At the airport" },
+      { id: "travel-5", sentence: "Our flight has been ___ for two hours.", answer: "delayed", options: ["delayed", "visited", "packed", "landed"], hint: "Flight updates" },
+      { id: "travel-6", sentence: "Is breakfast ___ in the room price?", answer: "included", options: ["including", "include", "included", "includes"], hint: "At the hotel" },
+      { id: "travel-7", sentence: "Turn left ___ the traffic lights.", answer: "at", options: ["on", "at", "for", "by"], hint: "Directions" },
+      { id: "travel-8", sentence: "How ___ is the city center from here?", answer: "far", options: ["far", "long", "many", "often"], hint: "Directions" },
+      { id: "travel-9", sentence: "We need to ___ our bags before the flight.", answer: "check in", options: ["take off", "check in", "get on", "pick up"], hint: "Airport phrases" },
+      { id: "travel-10", sentence: "The bus stop is ___ the bank and the café.", answer: "between", options: ["through", "above", "between", "across"], hint: "Prepositions" },
+    ],
+  },
+  food: {
+    name: "Food & Dining",
+    description: "Restaurants, ingredients & cooking",
+    icon: "🍴",
+    questions: [
+      { id: "food-1", sentence: "Could we see the ___, please?", answer: "menu", options: ["recipe", "menu", "bill", "plate"], hint: "At a restaurant" },
+      { id: "food-2", sentence: "I am allergic ___ peanuts.", answer: "to", options: ["with", "at", "to", "for"], hint: "Food allergies" },
+      { id: "food-3", sentence: "Would you like your steak rare or ___?", answer: "well-done", options: ["boiled", "well-done", "sweet", "fresh"], hint: "Ordering food" },
+      { id: "food-4", sentence: "Please ___ the onions into small pieces.", answer: "chop", options: ["pour", "chop", "boil", "taste"], hint: "Cooking verbs" },
+      { id: "food-5", sentence: "This soup is too ___.", answer: "salty", options: ["salt", "salty", "saltier", "salted"], hint: "Describing food" },
+      { id: "food-6", sentence: "Can we have the ___, please?", answer: "bill", options: ["order", "bill", "meal", "table"], hint: "At a restaurant" },
+      { id: "food-7", sentence: "There isn’t ___ sugar left.", answer: "any", options: ["some", "many", "any", "few"], hint: "Quantifiers" },
+      { id: "food-8", sentence: "First, ___ the water in a large pot.", answer: "boil", options: ["bake", "fry", "boil", "grill"], hint: "Cooking verbs" },
+      { id: "food-9", sentence: "I’d like the salad ___ the dressing.", answer: "without", options: ["without", "under", "during", "among"], hint: "Special requests" },
+      { id: "food-10", sentence: "How ___ eggs do we need for the cake?", answer: "many", options: ["much", "many", "often", "more"], hint: "Countable nouns" },
+    ],
+  },
+};
+
+function shuffled(items) {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const randomIndex = Math.floor(Math.random() * (index + 1));
+    [copy[index], copy[randomIndex]] = [copy[randomIndex], copy[index]];
+  }
+  return copy;
+}
+
+function createQuestionDeck(quizId, count) {
+  const ids = QUIZZES[quizId].questions.map((question) => question.id);
+  const deck = [];
+
+  while (deck.length < count) {
+    let batch = shuffled(ids);
+    if (deck.length && batch[0] === deck[deck.length - 1]) {
+      batch = [...batch.slice(1), batch[0]];
+    }
+    deck.push(...batch);
+  }
+
+  return deck.slice(0, count);
+}
 
 function TeamMark({ color }) {
   return <span className="team-mark" style={{ background: color }} aria-hidden="true" />;
 }
 
 export default function Home() {
+  const [hydrated, setHydrated] = useState(false);
   const [phase, setPhase] = useState("setup");
   const [teamNames, setTeamNames] = useState(["The Rockets", "Word Wizards"]);
   const [teams, setTeams] = useState([]);
   const [questionCount, setQuestionCount] = useState(15);
+  const [selectedQuiz, setSelectedQuiz] = useState("everyday");
+  const [questionDeck, setQuestionDeck] = useState([]);
   const [currentTeam, setCurrentTeam] = useState(0);
   const [selectedNumber, setSelectedNumber] = useState(null);
-  const [usedNumbers, setUsedNumbers] = useState([]);
+  const [outcomes, setOutcomes] = useState({});
   const [answerMode, setAnswerMode] = useState(null);
   const [selectedOption, setSelectedOption] = useState(null);
+  const [answerResult, setAnswerResult] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
 
-  const activeQuestion = selectedNumber
-    ? QUESTIONS[(selectedNumber - 1) % QUESTIONS.length]
-    : QUESTIONS[0];
+  const quiz = QUIZZES[selectedQuiz];
+  const activeQuestionId = selectedNumber ? questionDeck[selectedNumber - 1] : null;
+  const activeQuestion =
+    quiz.questions.find((question) => question.id === activeQuestionId) ??
+    quiz.questions[0];
 
-  const remaining = questionCount - usedNumbers.length;
+  const answeredCount = Object.keys(outcomes).length;
+  const remaining = questionCount - answeredCount;
   const winnerScore = Math.max(...teams.map((team) => team.score), 0);
   const winners = teams.filter((team) => team.score === winnerScore);
 
@@ -96,6 +179,81 @@ export default function Home() {
     () => [...teams].sort((a, b) => b.score - a.score),
     [teams],
   );
+
+  useEffect(() => {
+    let savedGame = null;
+    let cancelled = false;
+
+    try {
+      savedGame = JSON.parse(localStorage.getItem(STORAGE_KEY));
+    } catch {
+      localStorage.removeItem(STORAGE_KEY);
+    }
+
+    queueMicrotask(() => {
+      if (cancelled) return;
+
+      if (savedGame?.version === 1) {
+        setPhase(savedGame.phase ?? "setup");
+        setTeamNames(savedGame.teamNames ?? ["The Rockets", "Word Wizards"]);
+        setTeams(savedGame.teams ?? []);
+        setQuestionCount(savedGame.questionCount ?? 15);
+        setSelectedQuiz(QUIZZES[savedGame.selectedQuiz] ? savedGame.selectedQuiz : "everyday");
+        setQuestionDeck(savedGame.questionDeck ?? []);
+        setCurrentTeam(savedGame.currentTeam ?? 0);
+        setSelectedNumber(savedGame.selectedNumber ?? null);
+        setOutcomes(savedGame.outcomes ?? {});
+        setAnswerMode(savedGame.answerMode ?? null);
+        setSelectedOption(savedGame.selectedOption ?? null);
+        setAnswerResult(savedGame.answerResult ?? null);
+        setShowAnswer(savedGame.showAnswer ?? false);
+      }
+      setHydrated(true);
+    });
+
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  useEffect(() => {
+    if (!hydrated) return;
+
+    localStorage.setItem(
+      STORAGE_KEY,
+      JSON.stringify({
+        version: 1,
+        phase,
+        teamNames,
+        teams,
+        questionCount,
+        selectedQuiz,
+        questionDeck,
+        currentTeam,
+        selectedNumber,
+        outcomes,
+        answerMode,
+        selectedOption,
+        answerResult,
+        showAnswer,
+      }),
+    );
+  }, [
+    hydrated,
+    phase,
+    teamNames,
+    teams,
+    questionCount,
+    selectedQuiz,
+    questionDeck,
+    currentTeam,
+    selectedNumber,
+    outcomes,
+    answerMode,
+    selectedOption,
+    answerResult,
+    showAnswer,
+  ]);
 
   function updateTeamName(index, value) {
     setTeamNames((names) => names.map((name, i) => (i === index ? value : name)));
@@ -123,8 +281,14 @@ export default function Home() {
         color: TEAM_COLORS[index],
       })),
     );
-    setUsedNumbers([]);
+    setQuestionDeck(createQuestionDeck(selectedQuiz, questionCount));
+    setOutcomes({});
     setCurrentTeam(0);
+    setSelectedNumber(null);
+    setAnswerMode(null);
+    setSelectedOption(null);
+    setAnswerResult(null);
+    setShowAnswer(false);
     setPhase("board");
   }
 
@@ -132,8 +296,13 @@ export default function Home() {
     setSelectedNumber(number);
     setAnswerMode(null);
     setSelectedOption(null);
+    setAnswerResult(null);
     setShowAnswer(false);
     setPhase("question");
+  }
+
+  function checkChoiceAnswer() {
+    setAnswerResult(selectedOption === activeQuestion.answer);
   }
 
   function finishTurn(correct) {
@@ -146,10 +315,12 @@ export default function Home() {
       );
     }
 
-    const nextUsed = selectedNumber ? [...usedNumbers, selectedNumber] : usedNumbers;
-    setUsedNumbers(nextUsed);
+    const nextOutcomes = selectedNumber
+      ? { ...outcomes, [selectedNumber]: correct }
+      : outcomes;
+    setOutcomes(nextOutcomes);
 
-    if (nextUsed.length >= questionCount) {
+    if (Object.keys(nextOutcomes).length >= questionCount) {
       setPhase("finished");
       return;
     }
@@ -158,27 +329,58 @@ export default function Home() {
     setPhase("board");
   }
 
-  function resetGame() {
+  function resetGame(skipConfirmation = false) {
+    if (
+      !skipConfirmation &&
+      phase !== "setup" &&
+      !window.confirm("Restart the game? All scores and progress will be cleared.")
+    ) {
+      return;
+    }
+
+    localStorage.removeItem(STORAGE_KEY);
     setPhase("setup");
     setTeams([]);
-    setUsedNumbers([]);
+    setQuestionDeck([]);
+    setOutcomes({});
+    setCurrentTeam(0);
     setSelectedNumber(null);
+    setAnswerMode(null);
+    setSelectedOption(null);
+    setAnswerResult(null);
+    setShowAnswer(false);
+  }
+
+  if (!hydrated) {
+    return (
+      <main className="loading-state">
+        <span className="brand-badge">W!</span>
+        <p>Loading your game…</p>
+      </main>
+    );
   }
 
   return (
     <main>
       <header className="site-header">
-        <button className="brand" onClick={resetGame} aria-label="Go to game setup">
+        <button className="brand" onClick={() => resetGame()} aria-label="Restart Word Rally">
           <span className="brand-badge">W!</span>
           <span>Word Rally</span>
         </button>
-        {phase !== "setup" && phase !== "finished" && (
-          <div className="round-status">
-            <span className="status-dot" />
-            Round in progress
-            <strong>{remaining} left</strong>
-          </div>
-        )}
+        <div className="header-actions">
+          {phase !== "setup" && phase !== "finished" && (
+            <div className="round-status">
+              <span className="status-dot" />
+              Saved automatically
+              <strong>{remaining} left</strong>
+            </div>
+          )}
+          {phase !== "setup" && (
+            <button className="restart-button" onClick={() => resetGame()}>
+              ↻ Restart game
+            </button>
+          )}
+        </div>
       </header>
 
       {phase === "setup" && (
@@ -265,14 +467,25 @@ export default function Home() {
                   <span className="step-number">03</span>
                   <div>
                     <h2>Pick a topic</h2>
-                    <p>More topics are coming soon</p>
+                    <p>Choose a quiz for this game</p>
                   </div>
                 </div>
-                <button className="topic-option selected">
-                  <span className="topic-icon">Aa</span>
-                  <span><strong>Everyday English</strong><small>Grammar, places & common words</small></span>
-                  <span className="check">✓</span>
-                </button>
+                <div className="topic-list">
+                  {Object.entries(QUIZZES).map(([quizId, quizOption]) => (
+                    <button
+                      key={quizId}
+                      className={`topic-option ${selectedQuiz === quizId ? "selected" : ""}`}
+                      onClick={() => setSelectedQuiz(quizId)}
+                    >
+                      <span className="topic-icon">{quizOption.icon}</span>
+                      <span>
+                        <strong>{quizOption.name}</strong>
+                        <small>{quizOption.description}</small>
+                      </span>
+                      {selectedQuiz === quizId && <span className="check">✓</span>}
+                    </button>
+                  ))}
+                </div>
               </section>
 
               <button className="start-button" onClick={startGame}>
@@ -316,16 +529,21 @@ export default function Home() {
             </div>
             <div className={`number-grid ${questionCount >= 35 ? "dense" : ""}`}>
               {Array.from({ length: questionCount }, (_, index) => index + 1).map((number) => {
-                const isUsed = usedNumbers.includes(number);
+                const hasOutcome = Object.prototype.hasOwnProperty.call(outcomes, number);
+                const wasCorrect = outcomes[number] === true;
                 return (
                   <button
                     key={number}
-                    disabled={isUsed}
-                    className={isUsed ? "used" : ""}
+                    disabled={hasOutcome}
+                    className={hasOutcome ? (wasCorrect ? "correct" : "incorrect") : ""}
                     onClick={() => openQuestion(number)}
-                    aria-label={isUsed ? `Question ${number}, already played` : `Choose question ${number}`}
+                    aria-label={
+                      hasOutcome
+                        ? `Question ${number}, answered ${wasCorrect ? "correctly" : "incorrectly"}`
+                        : `Choose question ${number}`
+                    }
                   >
-                    {isUsed ? "✓" : number}
+                    {hasOutcome ? (wasCorrect ? "✓" : "×") : number}
                   </button>
                 );
               })}
@@ -372,23 +590,51 @@ export default function Home() {
                   <span>Worth 10 points</span>
                 </div>
                 <div className="answer-options">
-                  {activeQuestion.options.map((option, index) => (
-                    <button
-                      key={option}
-                      onClick={() => setSelectedOption(option)}
-                      className={selectedOption === option ? "selected" : ""}
-                    >
-                      <span>{String.fromCharCode(65 + index)}</span>{option}
-                    </button>
-                  ))}
+                  {activeQuestion.options.map((option, index) => {
+                    const isSelected = selectedOption === option;
+                    const isCorrectAnswer = option === activeQuestion.answer;
+                    const resultClass =
+                      answerResult === null
+                        ? isSelected ? "selected" : ""
+                        : isCorrectAnswer
+                          ? "correct-answer"
+                          : isSelected
+                            ? "wrong-answer"
+                            : "";
+
+                    return (
+                      <button
+                        key={option}
+                        disabled={answerResult !== null}
+                        onClick={() => setSelectedOption(option)}
+                        className={resultClass}
+                      >
+                        <span>{String.fromCharCode(65 + index)}</span>{option}
+                      </button>
+                    );
+                  })}
                 </div>
-                <button
-                  className="submit-answer"
-                  disabled={!selectedOption}
-                  onClick={() => finishTurn(selectedOption === activeQuestion.answer)}
-                >
-                  Lock in answer
-                </button>
+                {answerResult === null ? (
+                  <button
+                    className="submit-answer"
+                    disabled={!selectedOption}
+                    onClick={checkChoiceAnswer}
+                  >
+                    Lock in answer
+                  </button>
+                ) : (
+                  <div className={`answer-feedback ${answerResult ? "correct" : "incorrect"}`}>
+                    <div>
+                      <strong>{answerResult ? "✓ Correct!" : "× Not quite"}</strong>
+                      <span>
+                        {answerResult
+                          ? "Great answer — 10 points!"
+                          : <>The correct answer is <b>{activeQuestion.answer}</b>.</>}
+                      </span>
+                    </div>
+                    <button onClick={() => finishTurn(answerResult)}>Continue →</button>
+                  </div>
+                )}
               </div>
             )}
 
@@ -433,7 +679,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <button className="start-button" onClick={resetGame}>Play again <span>↻</span></button>
+          <button className="start-button" onClick={() => resetGame(true)}>Play again <span>↻</span></button>
         </section>
       )}
     </main>

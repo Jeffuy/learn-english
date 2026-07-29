@@ -93,6 +93,29 @@ input:focus-visible {
   font-size: 14px;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.restart-button {
+  border: 1px solid #d6dce7;
+  border-radius: 10px;
+  background: white;
+  color: #536177;
+  padding: 9px 12px;
+  font-size: 12px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.restart-button:hover {
+  color: #be4939;
+  border-color: #efb4ab;
+  background: #fff7f5;
+}
+
 .round-status strong {
   color: var(--ink);
   border-left: 1px solid var(--line);
@@ -106,6 +129,16 @@ input:focus-visible {
   border-radius: 50%;
   background: #39b979;
   box-shadow: 0 0 0 5px rgba(57, 185, 121, 0.13);
+}
+
+.loading-state {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 17px;
+  color: var(--muted);
+  font-weight: 800;
 }
 
 .setup-shell,
@@ -382,16 +415,34 @@ input:focus-visible {
   box-shadow: inset 0 0 0 1px var(--blue);
 }
 
+.topic-list {
+  display: grid;
+  gap: 9px;
+}
+
 .topic-option {
   display: flex;
   width: 100%;
   align-items: center;
   text-align: left;
   gap: 12px;
-  border: 1px solid var(--blue);
-  background: #f4f6ff;
+  border: 1px solid var(--line);
+  background: white;
   border-radius: 15px;
   padding: 13px;
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s, transform 0.15s;
+}
+
+.topic-option:hover {
+  transform: translateY(-1px);
+  border-color: #aeb9de;
+}
+
+.topic-option.selected {
+  border-color: var(--blue);
+  background: #f4f6ff;
+  box-shadow: inset 0 0 0 1px var(--blue);
 }
 
 .topic-icon {
@@ -401,9 +452,13 @@ input:focus-visible {
   height: 42px;
   border-radius: 12px;
   color: white;
-  background: var(--blue);
+  background: #78869c;
   font-family: Georgia, serif;
   font-weight: 700;
+}
+
+.topic-option.selected .topic-icon {
+  background: var(--blue);
 }
 
 .topic-option > span:nth-child(2) {
@@ -620,11 +675,19 @@ input:focus-visible {
   box-shadow: 0 8px 0 #c9d0e4, 0 13px 22px rgba(37, 50, 82, 0.1);
 }
 
-.number-grid button.used {
-  color: #aab1bd;
-  background: #edeff2;
+.number-grid button.correct {
+  color: white;
+  background: var(--green);
   box-shadow: none;
-  border-color: #e0e3e8;
+  border-color: #268a58;
+  cursor: default;
+}
+
+.number-grid button.incorrect {
+  color: white;
+  background: #df604e;
+  box-shadow: none;
+  border-color: #c44d3d;
   cursor: default;
 }
 
@@ -845,6 +908,34 @@ input:focus-visible {
   color: white;
 }
 
+.answer-options button:disabled {
+  cursor: default;
+}
+
+.answer-options button.correct-answer {
+  color: #19754a;
+  border-color: var(--green);
+  background: #eefaf4;
+  box-shadow: inset 0 0 0 1px var(--green);
+}
+
+.answer-options button.correct-answer span {
+  color: white;
+  background: var(--green);
+}
+
+.answer-options button.wrong-answer {
+  color: #b33e30;
+  border-color: #df604e;
+  background: #fff2ef;
+  box-shadow: inset 0 0 0 1px #df604e;
+}
+
+.answer-options button.wrong-answer span {
+  color: white;
+  background: #df604e;
+}
+
 .submit-answer,
 .reveal-button {
   display: block;
@@ -862,6 +953,54 @@ input:focus-visible {
 .submit-answer:disabled {
   background: #d9dde6;
   cursor: not-allowed;
+}
+
+.answer-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-top: 18px;
+  padding: 15px 16px;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.answer-feedback.correct {
+  color: #176740;
+  background: #eaf8f1;
+  border: 1px solid #93d6b6;
+}
+
+.answer-feedback.incorrect {
+  color: #9b392d;
+  background: #fff0ed;
+  border: 1px solid #efb0a7;
+}
+
+.answer-feedback strong,
+.answer-feedback span {
+  display: block;
+}
+
+.answer-feedback strong {
+  font-size: 16px;
+}
+
+.answer-feedback span {
+  margin-top: 3px;
+  font-size: 12px;
+}
+
+.answer-feedback button {
+  flex: 0 0 auto;
+  border: 0;
+  border-radius: 11px;
+  color: white;
+  background: var(--ink);
+  padding: 11px 15px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
 .speak-panel {
@@ -1056,11 +1195,12 @@ input:focus-visible {
   }
 
   .round-status {
-    font-size: 0;
+    display: none;
   }
 
-  .round-status strong {
-    font-size: 12px;
+  .restart-button {
+    padding: 8px 10px;
+    font-size: 11px;
   }
 
   .setup-shell {
@@ -1125,6 +1265,11 @@ input:focus-visible {
   .mode-picker > div,
   .answer-options {
     grid-template-columns: 1fr;
+  }
+
+  .answer-feedback {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .question-topline {

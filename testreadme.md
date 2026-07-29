@@ -137,6 +137,8 @@ The app contains eight mixed quizzes based on *B2 First Formula Course Book*, pl
 - 1,850 question entries in total
 - 4 answer options per question
 - No repeated question text within an individual quiz
+- Every focused quiz contains 50 separately authored concepts
+- Focused questions are not created by renaming people or adding cosmetic context
 
 ## Game options
 

@@ -59,6 +59,17 @@ test("the book provides complete mixed and focused quizzes", () => {
       50,
       `${quizId} must not repeat question text`,
     );
+    if (quiz.kind === "focused") {
+      assert.equal(
+        new Set(quiz.questions.map(({ conceptId }) => conceptId)).size,
+        50,
+        `${quizId} must contain 50 independent concepts`,
+      );
+      assert.ok(
+        quiz.questions.every(({ conceptId }) => Boolean(conceptId)),
+        `${quizId} must identify every independent concept`,
+      );
+    }
     assert.ok(
       quiz.questions.every(
         ({ sentence }) =>

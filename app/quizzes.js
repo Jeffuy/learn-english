@@ -1,3 +1,5 @@
+import { INITIAL_FOCUSED_QUIZZES } from "./focused-quizzes.js";
+
 function makeQuestions(unitId, rows) {
   return rows.map(([sentence, answer, options, hint, context], index) => ({
     id: `${unitId}-${String(index + 1).padStart(2, "0")}`,
@@ -927,4 +929,5 @@ const FOCUSED_QUIZZES = Object.fromEntries(
 export const QUIZZES = {
   ...MIXED_QUIZZES,
   ...FOCUSED_QUIZZES,
+  ...INITIAL_FOCUSED_QUIZZES,
 };

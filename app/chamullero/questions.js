@@ -210,6 +210,7 @@ export const CHAMULLERO_QUESTIONS = [
   {
     id: 17,
     term: "Chorro",
+    highlight: "chorros",
     emoji: "🚲",
     sentence: "Le robaron la bicicleta de la puerta de su casa; está lleno de chorros últimamente.",
     answer: "Ladrones",
@@ -223,6 +224,7 @@ export const CHAMULLERO_QUESTIONS = [
   {
     id: 18,
     term: "Compa",
+    highlight: "compas",
     emoji: "🎵",
     sentence: "Con mis compas siempre escuchamos música.",
     answer: "Compañeros o amigos",
@@ -444,6 +446,7 @@ export const CHAMULLERO_QUESTIONS = [
   {
     id: 35,
     term: "Bizcocho",
+    highlight: "bizcochos",
     emoji: "🥐",
     sentence: "Fui a la panadería y traje medio kilo de bizcochos de queso y margaritas.",
     answer: "Una pieza pequeña de panadería, dulce o salada",
@@ -561,6 +564,7 @@ export const CHAMULLERO_QUESTIONS = [
   {
     id: 44,
     term: "Quemarse",
+    highlight: "quemar",
     emoji: "😡",
     sentence: "Se va a quemar muchísimo cuando vea que le rompiste el celular.",
     answer: "Enojarse mucho",
@@ -574,6 +578,7 @@ export const CHAMULLERO_QUESTIONS = [
   {
     id: 45,
     term: "Ligar",
+    highlight: "ligando",
     emoji: "🎲",
     sentence: "Fui sin estudiar nada al examen parcial y terminé ligando un seis de pura suerte.",
     answer: "Tener suerte o recibir algo favorable",
@@ -626,6 +631,7 @@ export const CHAMULLERO_QUESTIONS = [
   {
     id: 49,
     term: "Dar pelota",
+    highlight: "da pelota",
     emoji: "👂",
     sentence: "Le expliqué tres veces cómo funciona el programa, pero no me da pelota.",
     answer: "Prestar atención o hacer caso",

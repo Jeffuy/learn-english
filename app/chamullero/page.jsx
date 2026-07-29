@@ -24,6 +24,26 @@ function isValidOrder(order) {
   );
 }
 
+function HighlightedSentence({ question }) {
+  const highlightedText = question.highlight ?? question.term;
+  const startIndex = question.sentence
+    .toLocaleLowerCase("es")
+    .indexOf(highlightedText.toLocaleLowerCase("es"));
+
+  if (startIndex === -1) return question.sentence;
+
+  const endIndex = startIndex + highlightedText.length;
+  return (
+    <>
+      {question.sentence.slice(0, startIndex)}
+      <mark className={styles.highlightedTerm}>
+        {question.sentence.slice(startIndex, endIndex)}
+      </mark>
+      {question.sentence.slice(endIndex)}
+    </>
+  );
+}
+
 export default function ChamulleroPage() {
   const [hydrated, setHydrated] = useState(false);
   const [order, setOrder] = useState([]);
@@ -180,7 +200,9 @@ export default function ChamulleroPage() {
           </div>
           <span className={styles.term}>{currentQuestion.term}</span>
           <p className={styles.prompt}>¿Qué significa en esta frase?</p>
-          <h1>“{currentQuestion.sentence}”</h1>
+          <h1>
+            “<HighlightedSentence question={currentQuestion} />”
+          </h1>
 
           <div className={styles.options}>
             {currentQuestion.options.map((option, index) => {

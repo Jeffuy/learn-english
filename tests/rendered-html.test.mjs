@@ -292,7 +292,15 @@ test("the secret Uruguayan slang quiz contains fifty complete questions", async 
         options.includes(answer),
     ),
   );
+  assert.ok(
+    CHAMULLERO_QUESTIONS.every(({ highlight, sentence, term }) =>
+      sentence
+        .toLocaleLowerCase("es")
+        .includes((highlight ?? term).toLocaleLowerCase("es")),
+    ),
+  );
   assert.match(secretPage, /El Chamullero/);
+  assert.match(secretPage, /HighlightedSentence/);
   assert.match(secretPage, /chamullero-secret-quiz-v1/);
   assert.match(secretPage, /¿Qué significa en esta frase\?/);
   assert.doesNotMatch(mainPage, /chamullero/i);

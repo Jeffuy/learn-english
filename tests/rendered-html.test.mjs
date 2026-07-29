@@ -218,3 +218,53 @@ test("the active bank stores every question explicitly", async () => {
     /flatMap|createSentenceVariant|expandFocusedQuestions|conditionalSituations/,
   );
 });
+
+test("definition questions use distractors from the same semantic area", () => {
+  const caveQuestion = QUIZZES["art-natural-phenomena"].questions.find(
+    ({ answer }) => answer === "stalagmite",
+  );
+  const obligationQuestion = QUIZZES["modal-verbs"].questions.find(
+    ({ sentence }) => sentence.startsWith("Cyclists"),
+  );
+
+  assert.deepEqual(
+    new Set(caveQuestion.options),
+    new Set(["stalagmite", "stalactite", "geyser", "volcano"]),
+  );
+  assert.deepEqual(
+    new Set(obligationQuestion.options),
+    new Set(["must", "might", "could", "would"]),
+  );
+});
+
+test("modal questions are direct sentences with matching answer forms", () => {
+  const questions = QUIZZES["modal-verbs"].questions;
+
+  assert.equal(questions.length, 50);
+  assert.ok(
+    questions.every(({ sentence }) =>
+      !sentence.startsWith("The modal expression"),
+    ),
+  );
+  assert.deepEqual(questions[40], {
+    id: "modal-verbs-41",
+    conceptId: "modal-verbs:explicit-41",
+    sentence: "___ I come in, please?",
+    answer: "May",
+    options: ["May", "Should", "Must", "Would"],
+    hint: "Modal verbs",
+  });
+});
+
+test("the game never shows long meta-question prefixes", () => {
+  const questions = Object.values(QUIZZES).flatMap((quiz) => quiz.questions);
+
+  assert.ok(
+    questions.every(
+      ({ sentence }) =>
+        !/^(The modal expression|The expression meaning|The word meaning|The term for)/.test(
+          sentence,
+        ),
+    ),
+  );
+});

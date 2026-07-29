@@ -5543,25 +5543,25 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-01",
         "conceptId": "phrasal-verbs:bring up",
-        "sentence": "The expression meaning “introduce a subject in conversation” is ___.",
+        "sentence": "To ___ means to introduce a subject in conversation.",
         "answer": "bring up",
         "options": [
           "bring up",
-          "figure out",
-          "go over",
-          "look into"
+          "deal with",
+          "call off",
+          "come back"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-02",
         "conceptId": "phrasal-verbs:call off",
-        "sentence": "The expression meaning “cancel a planned event” is ___.",
+        "sentence": "To ___ means to cancel a planned event.",
         "answer": "call off",
         "options": [
-          "fill in",
-          "grow up",
-          "look up",
+          "bring up",
+          "carry on",
+          "deal with",
           "call off"
         ],
         "hint": "Phrasal Verbs"
@@ -5569,51 +5569,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-03",
         "conceptId": "phrasal-verbs:carry on",
-        "sentence": "The expression meaning “continue doing something” is ___.",
+        "sentence": "To ___ means to continue doing something.",
         "answer": "carry on",
         "options": [
-          "hand in",
-          "make up",
+          "come across",
+          "bring up",
           "carry on",
-          "find out"
+          "call off"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-04",
         "conceptId": "phrasal-verbs:come across",
-        "sentence": "The expression meaning “find something unexpectedly” is ___.",
+        "sentence": "To ___ means to find something unexpectedly.",
         "answer": "come across",
         "options": [
-          "pick up",
+          "call off",
           "come across",
-          "get along with",
-          "hold on"
+          "carry on",
+          "come up with"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-05",
         "conceptId": "phrasal-verbs:come up with",
-        "sentence": "The expression meaning “produce an idea or solution” is ___.",
+        "sentence": "To ___ means to produce an idea or solution.",
         "answer": "come up with",
         "options": [
           "come up with",
-          "get away with",
-          "keep up with",
-          "point out"
+          "come across",
+          "cut down on",
+          "carry on"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-06",
         "conceptId": "phrasal-verbs:cut down on",
-        "sentence": "The expression meaning “reduce the amount you use” is ___.",
+        "sentence": "To ___ means to reduce the amount you use.",
         "answer": "cut down on",
         "options": [
-          "get over",
-          "look after",
-          "put off",
+          "come up with",
+          "drop off",
+          "come across",
           "cut down on"
         ],
         "hint": "Phrasal Verbs"
@@ -5621,51 +5621,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-07",
         "conceptId": "phrasal-verbs:drop off",
-        "sentence": "The expression meaning “take someone somewhere and leave them there” is ___.",
+        "sentence": "To ___ means to take someone somewhere and leave them there.",
         "answer": "drop off",
         "options": [
-          "look forward to",
-          "run into",
+          "figure out",
+          "come up with",
           "drop off",
-          "give up"
+          "cut down on"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-08",
         "conceptId": "phrasal-verbs:figure out",
-        "sentence": "The expression meaning “understand or solve something” is ___.",
+        "sentence": "To ___ means to understand or solve something.",
         "answer": "figure out",
         "options": [
-          "run out of",
+          "cut down on",
           "figure out",
-          "go over",
-          "look into"
+          "drop off",
+          "fill in"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-09",
         "conceptId": "phrasal-verbs:fill in",
-        "sentence": "The expression meaning “complete missing information on a form” is ___.",
+        "sentence": "To ___ means to complete missing information on a form.",
         "answer": "fill in",
         "options": [
           "fill in",
-          "grow up",
-          "look up",
-          "set off"
+          "figure out",
+          "find out",
+          "drop off"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-10",
         "conceptId": "phrasal-verbs:find out",
-        "sentence": "The expression meaning “discover a fact” is ___.",
+        "sentence": "To ___ means to discover a fact.",
         "answer": "find out",
         "options": [
-          "hand in",
-          "make up",
-          "set up",
+          "fill in",
+          "get along with",
+          "figure out",
           "find out"
         ],
         "hint": "Phrasal Verbs"
@@ -5673,51 +5673,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-11",
         "conceptId": "phrasal-verbs:get along with",
-        "sentence": "The expression meaning “have a friendly relationship with someone” is ___.",
+        "sentence": "To ___ means to have a friendly relationship with someone.",
         "answer": "get along with",
         "options": [
-          "pick up",
-          "show up",
+          "get away with",
+          "fill in",
           "get along with",
-          "hold on"
+          "find out"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-12",
         "conceptId": "phrasal-verbs:get away with",
-        "sentence": "The expression meaning “avoid punishment for something wrong” is ___.",
+        "sentence": "To ___ means to avoid punishment for something wrong.",
         "answer": "get away with",
         "options": [
-          "sort out",
+          "find out",
           "get away with",
-          "keep up with",
-          "point out"
+          "get along with",
+          "get over"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-13",
         "conceptId": "phrasal-verbs:get over",
-        "sentence": "The expression meaning “recover from an illness or disappointment” is ___.",
+        "sentence": "To ___ means to recover from an illness or disappointment.",
         "answer": "get over",
         "options": [
           "get over",
-          "look after",
-          "put off",
-          "speak up"
+          "get away with",
+          "give up",
+          "get along with"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-14",
         "conceptId": "phrasal-verbs:give up",
-        "sentence": "The expression meaning “stop trying or abandon a habit” is ___.",
+        "sentence": "To ___ means to stop trying or abandon a habit.",
         "answer": "give up",
         "options": [
-          "look forward to",
-          "run into",
-          "take after",
+          "get over",
+          "go over",
+          "get away with",
           "give up"
         ],
         "hint": "Phrasal Verbs"
@@ -5725,51 +5725,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-15",
         "conceptId": "phrasal-verbs:go over",
-        "sentence": "The expression meaning “review something carefully” is ___.",
+        "sentence": "To ___ means to review something carefully.",
         "answer": "go over",
         "options": [
-          "run out of",
-          "take off",
+          "grow up",
+          "get over",
           "go over",
-          "look into"
+          "give up"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-16",
         "conceptId": "phrasal-verbs:grow up",
-        "sentence": "The expression meaning “develop from a child into an adult” is ___.",
+        "sentence": "To ___ means to develop from a child into an adult.",
         "answer": "grow up",
         "options": [
-          "take on",
+          "give up",
           "grow up",
-          "look up",
-          "set off"
+          "go over",
+          "hand in"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-17",
         "conceptId": "phrasal-verbs:hand in",
-        "sentence": "The expression meaning “submit work to a teacher” is ___.",
+        "sentence": "To ___ means to submit work to a teacher.",
         "answer": "hand in",
         "options": [
           "hand in",
-          "make up",
-          "set up",
-          "think over"
+          "grow up",
+          "hold on",
+          "go over"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-18",
         "conceptId": "phrasal-verbs:hold on",
-        "sentence": "The expression meaning “wait for a short time” is ___.",
+        "sentence": "To ___ means to wait for a short time.",
         "answer": "hold on",
         "options": [
-          "pick up",
-          "show up",
-          "throw away",
+          "hand in",
+          "keep up with",
+          "grow up",
           "hold on"
         ],
         "hint": "Phrasal Verbs"
@@ -5777,51 +5777,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-19",
         "conceptId": "phrasal-verbs:keep up with",
-        "sentence": "The expression meaning “stay at the same level or speed” is ___.",
+        "sentence": "To ___ means to stay at the same level or speed.",
         "answer": "keep up with",
         "options": [
-          "sort out",
-          "try out",
+          "look after",
+          "hand in",
           "keep up with",
-          "point out"
+          "hold on"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-20",
         "conceptId": "phrasal-verbs:look after",
-        "sentence": "The expression meaning “take care of someone or something” is ___.",
+        "sentence": "To ___ means to take care of someone or something.",
         "answer": "look after",
         "options": [
-          "turn down",
+          "hold on",
           "look after",
-          "put off",
-          "speak up"
+          "keep up with",
+          "look forward to"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-21",
         "conceptId": "phrasal-verbs:look forward to",
-        "sentence": "The expression meaning “feel excited about a future event” is ___.",
+        "sentence": "To ___ means to feel excited about a future event.",
         "answer": "look forward to",
         "options": [
           "look forward to",
-          "run into",
-          "take after",
-          "turn into"
+          "look after",
+          "look into",
+          "keep up with"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-22",
         "conceptId": "phrasal-verbs:look into",
-        "sentence": "The expression meaning “investigate a situation” is ___.",
+        "sentence": "To ___ means to investigate a situation.",
         "answer": "look into",
         "options": [
-          "run out of",
-          "take off",
-          "turn up",
+          "look forward to",
+          "look up",
+          "look after",
           "look into"
         ],
         "hint": "Phrasal Verbs"
@@ -5829,51 +5829,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-23",
         "conceptId": "phrasal-verbs:look up",
-        "sentence": "The expression meaning “search for information” is ___.",
+        "sentence": "To ___ means to search for information.",
         "answer": "look up",
         "options": [
-          "take on",
-          "work out",
+          "make up",
+          "look forward to",
           "look up",
-          "set off"
+          "look into"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-24",
         "conceptId": "phrasal-verbs:make up",
-        "sentence": "The expression meaning “invent a story that is not true” is ___.",
+        "sentence": "To ___ means to invent a story that is not true.",
         "answer": "make up",
         "options": [
-          "break down",
+          "look into",
           "make up",
-          "set up",
-          "think over"
+          "look up",
+          "pick up"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-25",
         "conceptId": "phrasal-verbs:pick up",
-        "sentence": "The expression meaning “collect someone or learn something informally” is ___.",
+        "sentence": "To ___ means to collect someone or learn something informally.",
         "answer": "pick up",
         "options": [
           "pick up",
-          "show up",
-          "throw away",
-          "break out"
+          "make up",
+          "point out",
+          "look up"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-26",
         "conceptId": "phrasal-verbs:point out",
-        "sentence": "The expression meaning “draw attention to a fact” is ___.",
+        "sentence": "To ___ means to draw attention to a fact.",
         "answer": "point out",
         "options": [
-          "sort out",
-          "try out",
-          "check in",
+          "pick up",
+          "put off",
+          "make up",
           "point out"
         ],
         "hint": "Phrasal Verbs"
@@ -5881,51 +5881,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-27",
         "conceptId": "phrasal-verbs:put off",
-        "sentence": "The expression meaning “delay doing something” is ___.",
+        "sentence": "To ___ means to delay doing something.",
         "answer": "put off",
         "options": [
-          "turn down",
-          "check out",
+          "run into",
+          "pick up",
           "put off",
-          "speak up"
+          "point out"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-28",
         "conceptId": "phrasal-verbs:run into",
-        "sentence": "The expression meaning “meet someone unexpectedly” is ___.",
+        "sentence": "To ___ means to meet someone unexpectedly.",
         "answer": "run into",
         "options": [
-          "come back",
+          "point out",
           "run into",
-          "take after",
-          "turn into"
+          "put off",
+          "run out of"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-29",
         "conceptId": "phrasal-verbs:run out of",
-        "sentence": "The expression meaning “use all of something so none remains” is ___.",
+        "sentence": "To ___ means to use all of something so none remains.",
         "answer": "run out of",
         "options": [
           "run out of",
-          "take off",
-          "turn up",
-          "deal with"
+          "run into",
+          "set off",
+          "put off"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-30",
         "conceptId": "phrasal-verbs:set off",
-        "sentence": "The expression meaning “begin a journey” is ___.",
+        "sentence": "To ___ means to begin a journey.",
         "answer": "set off",
         "options": [
-          "take on",
-          "work out",
-          "bring up",
+          "run out of",
+          "set up",
+          "run into",
           "set off"
         ],
         "hint": "Phrasal Verbs"
@@ -5933,51 +5933,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-31",
         "conceptId": "phrasal-verbs:set up",
-        "sentence": "The expression meaning “arrange or establish something” is ___.",
+        "sentence": "To ___ means to arrange or establish something.",
         "answer": "set up",
         "options": [
-          "break down",
-          "call off",
+          "show up",
+          "run out of",
           "set up",
-          "think over"
+          "set off"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-32",
         "conceptId": "phrasal-verbs:show up",
-        "sentence": "The expression meaning “arrive at a place” is ___.",
+        "sentence": "To ___ means to arrive at a place.",
         "answer": "show up",
         "options": [
-          "carry on",
+          "set off",
           "show up",
-          "throw away",
-          "break out"
+          "set up",
+          "sort out"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-33",
         "conceptId": "phrasal-verbs:sort out",
-        "sentence": "The expression meaning “resolve a problem” is ___.",
+        "sentence": "To ___ means to resolve a problem.",
         "answer": "sort out",
         "options": [
           "sort out",
-          "try out",
-          "check in",
-          "come across"
+          "show up",
+          "speak up",
+          "set up"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-34",
         "conceptId": "phrasal-verbs:speak up",
-        "sentence": "The expression meaning “talk more loudly” is ___.",
+        "sentence": "To ___ means to talk more loudly.",
         "answer": "speak up",
         "options": [
-          "turn down",
-          "check out",
-          "come up with",
+          "sort out",
+          "take after",
+          "show up",
           "speak up"
         ],
         "hint": "Phrasal Verbs"
@@ -5985,51 +5985,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-35",
         "conceptId": "phrasal-verbs:take after",
-        "sentence": "The expression meaning “resemble an older relative” is ___.",
+        "sentence": "To ___ means to resemble an older relative.",
         "answer": "take after",
         "options": [
-          "come back",
-          "cut down on",
+          "take off",
+          "sort out",
           "take after",
-          "turn into"
+          "speak up"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-36",
         "conceptId": "phrasal-verbs:take off",
-        "sentence": "The expression meaning “leave the ground or remove clothing” is ___.",
+        "sentence": "To ___ means to leave the ground or remove clothing.",
         "answer": "take off",
         "options": [
-          "drop off",
+          "speak up",
           "take off",
-          "turn up",
-          "deal with"
+          "take after",
+          "take on"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-37",
         "conceptId": "phrasal-verbs:take on",
-        "sentence": "The expression meaning “accept a responsibility or challenge” is ___.",
+        "sentence": "To ___ means to accept a responsibility or challenge.",
         "answer": "take on",
         "options": [
           "take on",
-          "work out",
-          "bring up",
-          "figure out"
+          "take off",
+          "think over",
+          "take after"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-38",
         "conceptId": "phrasal-verbs:think over",
-        "sentence": "The expression meaning “consider something carefully” is ___.",
+        "sentence": "To ___ means to consider something carefully.",
         "answer": "think over",
         "options": [
-          "break down",
-          "call off",
-          "fill in",
+          "take on",
+          "throw away",
+          "take off",
           "think over"
         ],
         "hint": "Phrasal Verbs"
@@ -6037,51 +6037,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-39",
         "conceptId": "phrasal-verbs:throw away",
-        "sentence": "The expression meaning “put something in the rubbish” is ___.",
+        "sentence": "To ___ means to put something in the rubbish.",
         "answer": "throw away",
         "options": [
-          "carry on",
-          "find out",
+          "try out",
+          "take on",
           "throw away",
-          "break out"
+          "think over"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-40",
         "conceptId": "phrasal-verbs:try out",
-        "sentence": "The expression meaning “test something to see if it works” is ___.",
+        "sentence": "To ___ means to test something to see if it works.",
         "answer": "try out",
         "options": [
-          "get along with",
+          "think over",
           "try out",
-          "check in",
-          "come across"
+          "throw away",
+          "turn down"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-41",
         "conceptId": "phrasal-verbs:turn down",
-        "sentence": "The expression meaning “refuse an offer or reduce volume” is ___.",
+        "sentence": "To ___ means to refuse an offer or reduce volume.",
         "answer": "turn down",
         "options": [
           "turn down",
-          "check out",
-          "come up with",
-          "get away with"
+          "try out",
+          "turn into",
+          "throw away"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-42",
         "conceptId": "phrasal-verbs:turn into",
-        "sentence": "The expression meaning “change from one thing to another” is ___.",
+        "sentence": "To ___ means to change from one thing to another.",
         "answer": "turn into",
         "options": [
-          "come back",
-          "cut down on",
-          "get over",
+          "turn down",
+          "turn up",
+          "try out",
           "turn into"
         ],
         "hint": "Phrasal Verbs"
@@ -6089,51 +6089,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-43",
         "conceptId": "phrasal-verbs:turn up",
-        "sentence": "The expression meaning “arrive unexpectedly or increase volume” is ___.",
+        "sentence": "To ___ means to arrive unexpectedly or increase volume.",
         "answer": "turn up",
         "options": [
-          "drop off",
-          "give up",
+          "work out",
+          "turn down",
           "turn up",
-          "deal with"
+          "turn into"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-44",
         "conceptId": "phrasal-verbs:work out",
-        "sentence": "The expression meaning “find a solution or exercise” is ___.",
+        "sentence": "To ___ means to find a solution or exercise.",
         "answer": "work out",
         "options": [
-          "go over",
+          "turn into",
           "work out",
-          "bring up",
-          "figure out"
+          "turn up",
+          "break down"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-45",
         "conceptId": "phrasal-verbs:break down",
-        "sentence": "The expression meaning “stop functioning” is ___.",
+        "sentence": "To ___ means to stop functioning.",
         "answer": "break down",
         "options": [
           "break down",
-          "call off",
-          "fill in",
-          "grow up"
+          "work out",
+          "break out",
+          "turn up"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-46",
         "conceptId": "phrasal-verbs:break out",
-        "sentence": "The expression meaning “start suddenly, especially a fire or disease” is ___.",
+        "sentence": "To ___ means to start suddenly, especially a fire or disease.",
         "answer": "break out",
         "options": [
-          "carry on",
-          "find out",
-          "hand in",
+          "break down",
+          "check in",
+          "work out",
           "break out"
         ],
         "hint": "Phrasal Verbs"
@@ -6141,51 +6141,51 @@ export const QUIZZES = {
       {
         "id": "phrasal-verbs-47",
         "conceptId": "phrasal-verbs:check in",
-        "sentence": "The expression meaning “register when arriving at a hotel or airport” is ___.",
+        "sentence": "To ___ means to register when arriving at a hotel or airport.",
         "answer": "check in",
         "options": [
-          "get along with",
-          "hold on",
+          "check out",
+          "break down",
           "check in",
-          "come across"
+          "break out"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-48",
         "conceptId": "phrasal-verbs:check out",
-        "sentence": "The expression meaning “examine something or leave a hotel” is ___.",
+        "sentence": "To ___ means to examine something or leave a hotel.",
         "answer": "check out",
         "options": [
-          "keep up with",
+          "break out",
           "check out",
-          "come up with",
-          "get away with"
+          "check in",
+          "come back"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-49",
         "conceptId": "phrasal-verbs:come back",
-        "sentence": "The expression meaning “return to a place” is ___.",
+        "sentence": "To ___ means to return to a place.",
         "answer": "come back",
         "options": [
           "come back",
-          "cut down on",
-          "get over",
-          "look after"
+          "check out",
+          "deal with",
+          "check in"
         ],
         "hint": "Phrasal Verbs"
       },
       {
         "id": "phrasal-verbs-50",
         "conceptId": "phrasal-verbs:deal with",
-        "sentence": "The expression meaning “take action to handle a problem” is ___.",
+        "sentence": "To ___ means to take action to handle a problem.",
         "answer": "deal with",
         "options": [
-          "drop off",
-          "give up",
-          "look forward to",
+          "come back",
+          "bring up",
+          "check out",
           "deal with"
         ],
         "hint": "Phrasal Verbs"
@@ -6201,25 +6201,25 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-01",
         "conceptId": "art-natural-phenomena:aurora",
-        "sentence": "The term for coloured lights appearing naturally in a polar sky is ___.",
+        "sentence": "___ refers to coloured lights appearing naturally in a polar sky.",
         "answer": "aurora",
         "options": [
           "aurora",
-          "rainbow",
-          "stalactite",
-          "landscape"
+          "horizon",
+          "eclipse",
+          "lightning"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-02",
         "conceptId": "art-natural-phenomena:bioluminescence",
-        "sentence": "The term for light produced by a living organism is ___.",
+        "sentence": "___ refers to light produced by a living organism.",
         "answer": "bioluminescence",
         "options": [
-          "halo",
-          "stalagmite",
-          "still life",
+          "whirlpool",
+          "waterspout",
+          "aurora",
           "bioluminescence"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6227,51 +6227,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-03",
         "conceptId": "art-natural-phenomena:eclipse",
-        "sentence": "The term for an event in which one space object blocks another is ___.",
+        "sentence": "___ refers to an event in which one space object blocks another.",
         "answer": "eclipse",
         "options": [
+          "mirage",
           "horizon",
-          "mural",
           "eclipse",
-          "lightning"
+          "aurora"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-04",
         "conceptId": "art-natural-phenomena:mirage",
-        "sentence": "The term for an optical image caused by hot air bending light is ___.",
+        "sentence": "___ refers to an optical image caused by hot air bending light.",
         "answer": "mirage",
         "options": [
-          "sculpture",
+          "aurora",
           "mirage",
-          "avalanche",
-          "reflection"
+          "eclipse",
+          "meteor shower"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-05",
         "conceptId": "art-natural-phenomena:geyser",
-        "sentence": "The term for a spring that shoots hot water and steam upwards is ___.",
+        "sentence": "___ refers to a spring that shoots hot water and steam upwards.",
         "answer": "geyser",
         "options": [
           "geyser",
-          "whirlpool",
-          "shadow",
-          "collage"
+          "stalagmite",
+          "volcano",
+          "stalactite"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-06",
         "conceptId": "art-natural-phenomena:meteor shower",
-        "sentence": "The term for many bright space rocks appearing in the night sky is ___.",
+        "sentence": "___ refers to many bright space rocks appearing in the night sky.",
         "answer": "meteor shower",
         "options": [
-          "glacier",
-          "silhouette",
-          "installation",
+          "mirage",
+          "rainbow",
+          "eclipse",
           "meteor shower"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6279,51 +6279,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-07",
         "conceptId": "art-natural-phenomena:waterspout",
-        "sentence": "The term for a spinning column of air and water over the sea is ___.",
+        "sentence": "___ refers to a spinning column of air and water over the sea.",
         "answer": "waterspout",
         "options": [
-          "portrait",
-          "canvas",
+          "whirlpool",
+          "meteor shower",
           "waterspout",
-          "volcano"
+          "bioluminescence"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-08",
         "conceptId": "art-natural-phenomena:rainbow",
-        "sentence": "The term for an arc of colours created when light passes through water drops is ___.",
+        "sentence": "___ refers to an arc of colours created when light passes through water drops.",
         "answer": "rainbow",
         "options": [
-          "palette",
+          "mirage",
           "rainbow",
-          "stalactite",
-          "landscape"
+          "meteor shower",
+          "halo"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-09",
         "conceptId": "art-natural-phenomena:halo",
-        "sentence": "The term for a ring of light seen around the sun or moon is ___.",
+        "sentence": "___ refers to a ring of light seen around the sun or moon.",
         "answer": "halo",
         "options": [
           "halo",
-          "stalagmite",
-          "still life",
-          "easel"
+          "rainbow",
+          "lightning",
+          "meteor shower"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-10",
         "conceptId": "art-natural-phenomena:lightning",
-        "sentence": "The term for a sudden electrical flash in the atmosphere is ___.",
+        "sentence": "___ refers to a sudden electrical flash in the atmosphere.",
         "answer": "lightning",
         "options": [
+          "halo",
           "horizon",
-          "mural",
-          "sketch",
+          "rainbow",
           "lightning"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6331,51 +6331,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-11",
         "conceptId": "art-natural-phenomena:avalanche",
-        "sentence": "The term for a large mass of snow moving rapidly downhill is ___.",
+        "sentence": "___ refers to a large mass of snow moving rapidly downhill.",
         "answer": "avalanche",
         "options": [
-          "sculpture",
-          "shade",
+          "lightning",
+          "whirlpool",
           "avalanche",
-          "reflection"
+          "glacier"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-12",
         "conceptId": "art-natural-phenomena:whirlpool",
-        "sentence": "The term for water moving rapidly in a circular motion is ___.",
+        "sentence": "___ refers to water moving rapidly in a circular motion.",
         "answer": "whirlpool",
         "options": [
-          "texture",
+          "avalanche",
           "whirlpool",
-          "shadow",
-          "collage"
+          "waterspout",
+          "bioluminescence"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-13",
         "conceptId": "art-natural-phenomena:glacier",
-        "sentence": "The term for a huge, slowly moving mass of ice is ___.",
+        "sentence": "___ refers to a huge, slowly moving mass of ice.",
         "answer": "glacier",
         "options": [
           "glacier",
-          "silhouette",
-          "installation",
-          "perspective"
+          "avalanche",
+          "whirlpool",
+          "volcano"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-14",
         "conceptId": "art-natural-phenomena:volcano",
-        "sentence": "The term for a mountain that can release lava and ash is ___.",
+        "sentence": "___ refers to a mountain that can release lava and ash.",
         "answer": "volcano",
         "options": [
-          "portrait",
-          "canvas",
-          "foreground",
+          "geyser",
+          "stalactite",
+          "stalagmite",
           "volcano"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6383,51 +6383,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-15",
         "conceptId": "art-natural-phenomena:stalactite",
-        "sentence": "The term for a mineral formation hanging from a cave roof is ___.",
+        "sentence": "___ refers to a mineral formation hanging from a cave roof.",
         "answer": "stalactite",
         "options": [
-          "palette",
-          "background",
+          "stalagmite",
+          "geyser",
           "stalactite",
-          "landscape"
+          "volcano"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-16",
         "conceptId": "art-natural-phenomena:stalagmite",
-        "sentence": "The term for a mineral formation growing from a cave floor is ___.",
+        "sentence": "___ refers to a mineral formation growing from a cave floor.",
         "answer": "stalagmite",
         "options": [
-          "exhibition",
+          "volcano",
           "stalagmite",
-          "still life",
-          "easel"
+          "stalactite",
+          "geyser"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-17",
         "conceptId": "art-natural-phenomena:horizon",
-        "sentence": "The term for the apparent line where the land or sea meets the sky is ___.",
+        "sentence": "___ refers to the apparent line where the land or sea meets the sky.",
         "answer": "horizon",
         "options": [
           "horizon",
-          "mural",
-          "sketch",
-          "gallery"
+          "lightning",
+          "aurora",
+          "halo"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-18",
         "conceptId": "art-natural-phenomena:reflection",
-        "sentence": "The term for an image produced by light bouncing from a surface is ___.",
+        "sentence": "___ refers to an image produced by light bouncing from a surface.",
         "answer": "reflection",
         "options": [
-          "sculpture",
-          "shade",
-          "curator",
+          "optical illusion",
+          "shadow",
+          "silhouette",
           "reflection"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6435,51 +6435,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-19",
         "conceptId": "art-natural-phenomena:shadow",
-        "sentence": "The term for a dark shape made when an object blocks light is ___.",
+        "sentence": "___ refers to a dark shape made when an object blocks light.",
         "answer": "shadow",
         "options": [
-          "texture",
-          "masterpiece",
+          "silhouette",
+          "optical illusion",
           "shadow",
-          "collage"
+          "reflection"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-20",
         "conceptId": "art-natural-phenomena:silhouette",
-        "sentence": "The term for a dark outline seen against a lighter background is ___.",
+        "sentence": "___ refers to a dark outline seen against a lighter background.",
         "answer": "silhouette",
         "options": [
-          "abstract art",
+          "reflection",
           "silhouette",
-          "installation",
-          "perspective"
+          "shadow",
+          "optical illusion"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-21",
         "conceptId": "art-natural-phenomena:portrait",
-        "sentence": "The term for an artwork representing a particular person is ___.",
+        "sentence": "___ refers to an artwork representing a particular person.",
         "answer": "portrait",
         "options": [
           "portrait",
-          "canvas",
-          "foreground",
-          "watercolour"
+          "engraving",
+          "landscape",
+          "ceramics"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-22",
         "conceptId": "art-natural-phenomena:landscape",
-        "sentence": "The term for an artwork showing natural scenery is ___.",
+        "sentence": "___ refers to an artwork showing natural scenery.",
         "answer": "landscape",
         "options": [
-          "palette",
-          "background",
-          "oil paint",
+          "portrait",
+          "still life",
+          "engraving",
           "landscape"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6487,51 +6487,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-23",
         "conceptId": "art-natural-phenomena:still life",
-        "sentence": "The term for an artwork showing arranged objects such as fruit or flowers is ___.",
+        "sentence": "___ refers to an artwork showing arranged objects such as fruit or flowers.",
         "answer": "still life",
         "options": [
-          "exhibition",
-          "ceramics",
+          "mural",
+          "portrait",
           "still life",
-          "easel"
+          "landscape"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-24",
         "conceptId": "art-natural-phenomena:mural",
-        "sentence": "The term for a large picture painted directly on a wall is ___.",
+        "sentence": "___ refers to a large picture painted directly on a wall.",
         "answer": "mural",
         "options": [
-          "engraving",
+          "landscape",
           "mural",
-          "sketch",
-          "gallery"
+          "still life",
+          "sculpture"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-25",
         "conceptId": "art-natural-phenomena:sculpture",
-        "sentence": "The term for a three-dimensional work of art is ___.",
+        "sentence": "___ refers to a three-dimensional work of art.",
         "answer": "sculpture",
         "options": [
           "sculpture",
-          "shade",
-          "curator",
-          "symmetry"
+          "mural",
+          "collage",
+          "still life"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-26",
         "conceptId": "art-natural-phenomena:collage",
-        "sentence": "The term for art made by attaching different materials to a surface is ___.",
+        "sentence": "___ refers to art made by attaching different materials to a surface.",
         "answer": "collage",
         "options": [
-          "texture",
-          "masterpiece",
-          "contrast",
+          "sculpture",
+          "installation",
+          "mural",
           "collage"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6539,51 +6539,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-27",
         "conceptId": "art-natural-phenomena:installation",
-        "sentence": "The term for an artwork designed for a particular space is ___.",
+        "sentence": "___ refers to an artwork designed for a particular space.",
         "answer": "installation",
         "options": [
-          "abstract art",
-          "composition",
+          "masterpiece",
+          "sculpture",
           "installation",
-          "perspective"
+          "collage"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-28",
         "conceptId": "art-natural-phenomena:canvas",
-        "sentence": "The term for strong cloth used as a surface for painting is ___.",
+        "sentence": "___ refers to strong cloth used as a surface for painting.",
         "answer": "canvas",
         "options": [
-          "pigment",
+          "oil paint",
           "canvas",
-          "foreground",
-          "watercolour"
+          "pigment",
+          "palette"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-29",
         "conceptId": "art-natural-phenomena:palette",
-        "sentence": "The term for a board used for mixing an artist’s colours is ___.",
+        "sentence": "___ refers to a board used for mixing an artist’s colours.",
         "answer": "palette",
         "options": [
           "palette",
-          "background",
-          "oil paint",
-          "optical illusion"
+          "canvas",
+          "easel",
+          "pigment"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-30",
         "conceptId": "art-natural-phenomena:easel",
-        "sentence": "The term for a stand that supports a picture while it is being painted is ___.",
+        "sentence": "___ refers to a stand that supports a picture while it is being painted.",
         "answer": "easel",
         "options": [
-          "exhibition",
-          "ceramics",
-          "aurora",
+          "palette",
+          "watercolour",
+          "canvas",
           "easel"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6591,51 +6591,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-31",
         "conceptId": "art-natural-phenomena:sketch",
-        "sentence": "The term for a quick drawing showing the main features is ___.",
+        "sentence": "___ refers to a quick drawing showing the main features.",
         "answer": "sketch",
         "options": [
-          "engraving",
-          "bioluminescence",
+          "shade",
+          "contrast",
           "sketch",
-          "gallery"
+          "composition"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-32",
         "conceptId": "art-natural-phenomena:shade",
-        "sentence": "The term for a particular form of a colour is ___.",
+        "sentence": "___ refers to a particular form of a colour.",
         "answer": "shade",
         "options": [
-          "eclipse",
+          "composition",
           "shade",
-          "curator",
-          "symmetry"
+          "sketch",
+          "texture"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-33",
         "conceptId": "art-natural-phenomena:texture",
-        "sentence": "The term for the visual or physical quality of a surface is ___.",
+        "sentence": "___ refers to the visual or physical quality of a surface.",
         "answer": "texture",
         "options": [
           "texture",
-          "masterpiece",
-          "contrast",
-          "mirage"
+          "shade",
+          "perspective",
+          "sketch"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-34",
         "conceptId": "art-natural-phenomena:perspective",
-        "sentence": "The term for a technique that creates an impression of depth is ___.",
+        "sentence": "___ refers to a technique that creates an impression of depth.",
         "answer": "perspective",
         "options": [
-          "abstract art",
-          "composition",
-          "geyser",
+          "texture",
+          "foreground",
+          "shade",
           "perspective"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6643,51 +6643,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-35",
         "conceptId": "art-natural-phenomena:foreground",
-        "sentence": "The term for the part of an image that appears nearest is ___.",
+        "sentence": "___ refers to the part of an image that appears nearest.",
         "answer": "foreground",
         "options": [
-          "pigment",
-          "meteor shower",
+          "background",
+          "texture",
           "foreground",
-          "watercolour"
+          "perspective"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-36",
         "conceptId": "art-natural-phenomena:background",
-        "sentence": "The term for the part of an image behind the main subject is ___.",
+        "sentence": "___ refers to the part of an image behind the main subject.",
         "answer": "background",
         "options": [
-          "waterspout",
+          "perspective",
           "background",
-          "oil paint",
-          "optical illusion"
+          "foreground",
+          "symmetry"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-37",
         "conceptId": "art-natural-phenomena:exhibition",
-        "sentence": "The term for a public display of works of art is ___.",
+        "sentence": "___ refers to a public display of works of art.",
         "answer": "exhibition",
         "options": [
           "exhibition",
-          "ceramics",
-          "aurora",
-          "rainbow"
+          "curator",
+          "gallery",
+          "background"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-38",
         "conceptId": "art-natural-phenomena:gallery",
-        "sentence": "The term for a building or room where art is displayed is ___.",
+        "sentence": "___ refers to a building or room where art is displayed.",
         "answer": "gallery",
         "options": [
-          "engraving",
-          "bioluminescence",
-          "halo",
+          "exhibition",
+          "curator",
+          "background",
           "gallery"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6695,51 +6695,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-39",
         "conceptId": "art-natural-phenomena:curator",
-        "sentence": "The term for a person responsible for a museum collection is ___.",
+        "sentence": "___ refers to a person responsible for a museum collection.",
         "answer": "curator",
         "options": [
-          "eclipse",
-          "lightning",
+          "exhibition",
+          "masterpiece",
           "curator",
-          "symmetry"
+          "gallery"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-40",
         "conceptId": "art-natural-phenomena:masterpiece",
-        "sentence": "The term for an artist’s exceptionally successful work is ___.",
+        "sentence": "___ refers to an artist’s exceptionally successful work.",
         "answer": "masterpiece",
         "options": [
-          "avalanche",
+          "collage",
           "masterpiece",
-          "contrast",
-          "mirage"
+          "installation",
+          "abstract art"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-41",
         "conceptId": "art-natural-phenomena:abstract art",
-        "sentence": "The term for art using shapes and colours rather than realistic images is ___.",
+        "sentence": "___ refers to art using shapes and colours rather than realistic images.",
         "answer": "abstract art",
         "options": [
           "abstract art",
-          "composition",
-          "geyser",
-          "whirlpool"
+          "masterpiece",
+          "ceramics",
+          "installation"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-42",
         "conceptId": "art-natural-phenomena:watercolour",
-        "sentence": "The term for paint mixed with water to create transparent colour is ___.",
+        "sentence": "___ refers to paint mixed with water to create transparent colour.",
         "answer": "watercolour",
         "options": [
-          "pigment",
-          "meteor shower",
-          "glacier",
+          "easel",
+          "oil paint",
+          "palette",
           "watercolour"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6747,51 +6747,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-43",
         "conceptId": "art-natural-phenomena:oil paint",
-        "sentence": "The term for slow-drying paint made with coloured pigments and oil is ___.",
+        "sentence": "___ refers to slow-drying paint made with coloured pigments and oil.",
         "answer": "oil paint",
         "options": [
-          "waterspout",
-          "volcano",
+          "pigment",
+          "easel",
           "oil paint",
-          "optical illusion"
+          "watercolour"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-44",
         "conceptId": "art-natural-phenomena:ceramics",
-        "sentence": "The term for objects made from clay and hardened by heat is ___.",
+        "sentence": "___ refers to objects made from clay and hardened by heat.",
         "answer": "ceramics",
         "options": [
-          "stalactite",
+          "masterpiece",
           "ceramics",
-          "aurora",
-          "rainbow"
+          "abstract art",
+          "engraving"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-45",
         "conceptId": "art-natural-phenomena:engraving",
-        "sentence": "The term for an image created by cutting a design into a hard surface is ___.",
+        "sentence": "___ refers to an image created by cutting a design into a hard surface.",
         "answer": "engraving",
         "options": [
           "engraving",
-          "bioluminescence",
-          "halo",
-          "stalagmite"
+          "ceramics",
+          "portrait",
+          "abstract art"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-46",
         "conceptId": "art-natural-phenomena:symmetry",
-        "sentence": "The term for balanced matching parts on opposite sides is ___.",
+        "sentence": "___ refers to balanced matching parts on opposite sides.",
         "answer": "symmetry",
         "options": [
-          "eclipse",
-          "lightning",
-          "horizon",
+          "background",
+          "contrast",
+          "foreground",
           "symmetry"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -6799,51 +6799,51 @@ export const QUIZZES = {
       {
         "id": "art-natural-phenomena-47",
         "conceptId": "art-natural-phenomena:contrast",
-        "sentence": "The term for a strong difference between visual elements is ___.",
+        "sentence": "___ refers to a strong difference between visual elements.",
         "answer": "contrast",
         "options": [
-          "avalanche",
-          "reflection",
+          "composition",
+          "background",
           "contrast",
-          "mirage"
+          "symmetry"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-48",
         "conceptId": "art-natural-phenomena:composition",
-        "sentence": "The term for the arrangement of elements within an artwork is ___.",
+        "sentence": "___ refers to the arrangement of elements within an artwork.",
         "answer": "composition",
         "options": [
-          "shadow",
+          "symmetry",
           "composition",
-          "geyser",
-          "whirlpool"
+          "contrast",
+          "sketch"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-49",
         "conceptId": "art-natural-phenomena:pigment",
-        "sentence": "The term for a substance that gives paint its colour is ___.",
+        "sentence": "___ refers to a substance that gives paint its colour.",
         "answer": "pigment",
         "options": [
           "pigment",
-          "meteor shower",
-          "glacier",
-          "silhouette"
+          "oil paint",
+          "canvas",
+          "watercolour"
         ],
         "hint": "Art & Unusual Phenomena"
       },
       {
         "id": "art-natural-phenomena-50",
         "conceptId": "art-natural-phenomena:optical illusion",
-        "sentence": "The term for an image that causes the eye to misinterpret reality is ___.",
+        "sentence": "___ refers to an image that causes the eye to misinterpret reality.",
         "answer": "optical illusion",
         "options": [
-          "waterspout",
-          "volcano",
-          "portrait",
+          "silhouette",
+          "reflection",
+          "shadow",
           "optical illusion"
         ],
         "hint": "Art & Unusual Phenomena"
@@ -7517,25 +7517,25 @@ export const QUIZZES = {
       {
         "id": "collocations-01",
         "conceptId": "collocations:break a habit",
-        "sentence": "The expression meaning “stop a repeated behaviour” is ___.",
+        "sentence": "To ___ means to stop a repeated behaviour.",
         "answer": "break a habit",
         "options": [
           "break a habit",
-          "make a discovery",
-          "take responsibility",
-          "harsh criticism"
+          "solve a problem",
+          "catch someone’s attention",
+          "conduct research"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-02",
         "conceptId": "collocations:catch someone’s attention",
-        "sentence": "The expression meaning “make somebody notice something” is ___.",
+        "sentence": "To ___ means to make somebody notice something.",
         "answer": "catch someone’s attention",
         "options": [
-          "meet a deadline",
-          "bright future",
-          "high percentage",
+          "break a habit",
+          "come to a conclusion",
+          "solve a problem",
           "catch someone’s attention"
         ],
         "hint": "Collocations"
@@ -7543,51 +7543,51 @@ export const QUIZZES = {
       {
         "id": "collocations-03",
         "conceptId": "collocations:come to a conclusion",
-        "sentence": "The expression meaning “form a final opinion after thinking” is ___.",
+        "sentence": "To ___ means to form a final opinion after thinking.",
         "answer": "come to a conclusion",
         "options": [
-          "common knowledge",
-          "major improvement",
+          "draw a conclusion",
+          "break a habit",
           "come to a conclusion",
-          "pay attention"
+          "catch someone’s attention"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-04",
         "conceptId": "collocations:draw a conclusion",
-        "sentence": "The expression meaning “decide what evidence means” is ___.",
+        "sentence": "To ___ means to decide what evidence means.",
         "answer": "draw a conclusion",
         "options": [
-          "rough idea",
+          "catch someone’s attention",
           "draw a conclusion",
-          "play a role",
-          "deep admiration"
+          "come to a conclusion",
+          "face a challenge"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-05",
         "conceptId": "collocations:face a challenge",
-        "sentence": "The expression meaning “deal directly with a difficult task” is ___.",
+        "sentence": "To ___ means to deal directly with a difficult task.",
         "answer": "face a challenge",
         "options": [
           "face a challenge",
-          "pose a danger",
-          "early days",
-          "serious concern"
+          "draw a conclusion",
+          "give an impression",
+          "come to a conclusion"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-06",
         "conceptId": "collocations:give an impression",
-        "sentence": "The expression meaning “cause a particular opinion” is ___.",
+        "sentence": "To ___ means to cause a particular opinion.",
         "answer": "give an impression",
         "options": [
-          "reach an agreement",
-          "exclusive rights",
-          "strong argument",
+          "face a challenge",
+          "have an impact",
+          "draw a conclusion",
           "give an impression"
         ],
         "hint": "Collocations"
@@ -7595,51 +7595,51 @@ export const QUIZZES = {
       {
         "id": "collocations-07",
         "conceptId": "collocations:have an impact",
-        "sentence": "The expression meaning “produce a noticeable effect” is ___.",
+        "sentence": "To ___ means to produce a noticeable effect.",
         "answer": "have an impact",
         "options": [
-          "great potential",
-          "valuable experience",
+          "make a discovery",
+          "face a challenge",
           "have an impact",
-          "raise awareness"
+          "give an impression"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-08",
         "conceptId": "collocations:make a discovery",
-        "sentence": "The expression meaning “find something previously unknown” is ___.",
+        "sentence": "To ___ means to find something previously unknown.",
         "answer": "make a discovery",
         "options": [
-          "wide range",
+          "give an impression",
           "make a discovery",
-          "take responsibility",
-          "harsh criticism"
+          "have an impact",
+          "meet a deadline"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-09",
         "conceptId": "collocations:meet a deadline",
-        "sentence": "The expression meaning “finish work by the required time” is ___.",
+        "sentence": "To ___ means to finish work by the required time.",
         "answer": "meet a deadline",
         "options": [
           "meet a deadline",
-          "bright future",
-          "high percentage",
-          "bitter disagreement"
+          "make a discovery",
+          "pay attention",
+          "have an impact"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-10",
         "conceptId": "collocations:pay attention",
-        "sentence": "The expression meaning “listen or watch carefully” is ___.",
+        "sentence": "To ___ means to listen or watch carefully.",
         "answer": "pay attention",
         "options": [
-          "common knowledge",
-          "major improvement",
-          "heavy rain",
+          "meet a deadline",
+          "play a role",
+          "make a discovery",
           "pay attention"
         ],
         "hint": "Collocations"
@@ -7647,51 +7647,51 @@ export const QUIZZES = {
       {
         "id": "collocations-11",
         "conceptId": "collocations:play a role",
-        "sentence": "The expression meaning “have a function in a situation” is ___.",
+        "sentence": "To ___ means to have a function in a situation.",
         "answer": "play a role",
         "options": [
-          "rough idea",
-          "strong wind",
+          "pose a danger",
+          "meet a deadline",
           "play a role",
-          "deep admiration"
+          "pay attention"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-12",
         "conceptId": "collocations:pose a danger",
-        "sentence": "The expression meaning “create a possible risk” is ___.",
+        "sentence": "To ___ means to create a possible risk.",
         "answer": "pose a danger",
         "options": [
-          "deep sleep",
+          "pay attention",
           "pose a danger",
-          "early days",
-          "serious concern"
+          "play a role",
+          "reach an agreement"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-13",
         "conceptId": "collocations:reach an agreement",
-        "sentence": "The expression meaning “successfully decide something together” is ___.",
+        "sentence": "To ___ means to successfully decide something together.",
         "answer": "reach an agreement",
         "options": [
           "reach an agreement",
-          "exclusive rights",
-          "strong argument",
-          "high demand"
+          "pose a danger",
+          "raise awareness",
+          "play a role"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-14",
         "conceptId": "collocations:raise awareness",
-        "sentence": "The expression meaning “increase public knowledge of an issue” is ___.",
+        "sentence": "To ___ means to increase public knowledge of an issue.",
         "answer": "raise awareness",
         "options": [
-          "great potential",
-          "valuable experience",
-          "close friend",
+          "reach an agreement",
+          "take responsibility",
+          "pose a danger",
           "raise awareness"
         ],
         "hint": "Collocations"
@@ -7699,51 +7699,51 @@ export const QUIZZES = {
       {
         "id": "collocations-15",
         "conceptId": "collocations:take responsibility",
-        "sentence": "The expression meaning “accept a duty or blame” is ___.",
+        "sentence": "To ___ means to accept a duty or blame.",
         "answer": "take responsibility",
         "options": [
-          "wide range",
-          "great success",
+          "bright future",
+          "reach an agreement",
           "take responsibility",
-          "harsh criticism"
+          "raise awareness"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-16",
         "conceptId": "collocations:bright future",
-        "sentence": "The expression meaning “a period ahead likely to be successful” is ___.",
+        "sentence": "___ describes a period ahead likely to be successful.",
         "answer": "bright future",
         "options": [
-          "serious problem",
+          "raise awareness",
           "bright future",
-          "high percentage",
-          "bitter disagreement"
+          "take responsibility",
+          "common knowledge"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-17",
         "conceptId": "collocations:common knowledge",
-        "sentence": "The expression meaning “information that most people know” is ___.",
+        "sentence": "___ describes information that most people know.",
         "answer": "common knowledge",
         "options": [
           "common knowledge",
-          "major improvement",
-          "heavy rain",
-          "quick response"
+          "bright future",
+          "deep admiration",
+          "take responsibility"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-18",
         "conceptId": "collocations:deep admiration",
-        "sentence": "The expression meaning “a very strong feeling of respect” is ___.",
+        "sentence": "___ describes a very strong feeling of respect.",
         "answer": "deep admiration",
         "options": [
-          "rough idea",
-          "strong wind",
-          "strong influence",
+          "common knowledge",
+          "early days",
+          "bright future",
           "deep admiration"
         ],
         "hint": "Collocations"
@@ -7751,51 +7751,51 @@ export const QUIZZES = {
       {
         "id": "collocations-19",
         "conceptId": "collocations:early days",
-        "sentence": "The expression meaning “the beginning period of a process” is ___.",
+        "sentence": "___ describes the beginning period of a process.",
         "answer": "early days",
         "options": [
-          "deep sleep",
-          "heavy traffic",
+          "exclusive rights",
+          "common knowledge",
           "early days",
-          "serious concern"
+          "deep admiration"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-20",
         "conceptId": "collocations:exclusive rights",
-        "sentence": "The expression meaning “permission belonging to only one person” is ___.",
+        "sentence": "___ describes permission belonging to only one person.",
         "answer": "exclusive rights",
         "options": [
-          "take action",
+          "deep admiration",
           "exclusive rights",
-          "strong argument",
-          "high demand"
+          "early days",
+          "great potential"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-21",
         "conceptId": "collocations:great potential",
-        "sentence": "The expression meaning “a strong possibility of future success” is ___.",
+        "sentence": "___ describes a strong possibility of future success.",
         "answer": "great potential",
         "options": [
           "great potential",
-          "valuable experience",
-          "close friend",
-          "keep a promise"
+          "exclusive rights",
+          "harsh criticism",
+          "early days"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-22",
         "conceptId": "collocations:harsh criticism",
-        "sentence": "The expression meaning “very severe negative judgment” is ___.",
+        "sentence": "___ describes very severe negative judgment.",
         "answer": "harsh criticism",
         "options": [
-          "wide range",
-          "great success",
-          "lose patience",
+          "great potential",
+          "high percentage",
+          "exclusive rights",
           "harsh criticism"
         ],
         "hint": "Collocations"
@@ -7803,51 +7803,51 @@ export const QUIZZES = {
       {
         "id": "collocations-23",
         "conceptId": "collocations:high percentage",
-        "sentence": "The expression meaning “a large proportion out of one hundred” is ___.",
+        "sentence": "___ describes a large proportion out of one hundred.",
         "answer": "high percentage",
         "options": [
-          "serious problem",
-          "save time",
+          "major improvement",
+          "great potential",
           "high percentage",
-          "bitter disagreement"
+          "harsh criticism"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-24",
         "conceptId": "collocations:major improvement",
-        "sentence": "The expression meaning “a significant change for the better” is ___.",
+        "sentence": "___ describes a significant change for the better.",
         "answer": "major improvement",
         "options": [
-          "waste money",
+          "harsh criticism",
           "major improvement",
-          "heavy rain",
-          "quick response"
+          "high percentage",
+          "rough idea"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-25",
         "conceptId": "collocations:rough idea",
-        "sentence": "The expression meaning “an approximate understanding” is ___.",
+        "sentence": "___ describes an approximate understanding.",
         "answer": "rough idea",
         "options": [
           "rough idea",
-          "strong wind",
-          "strong influence",
-          "gain experience"
+          "major improvement",
+          "serious concern",
+          "high percentage"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-26",
         "conceptId": "collocations:serious concern",
-        "sentence": "The expression meaning “an important reason for worry” is ___.",
+        "sentence": "___ describes an important reason for worry.",
         "answer": "serious concern",
         "options": [
-          "deep sleep",
-          "heavy traffic",
-          "hold a meeting",
+          "rough idea",
+          "strong argument",
+          "major improvement",
           "serious concern"
         ],
         "hint": "Collocations"
@@ -7855,51 +7855,51 @@ export const QUIZZES = {
       {
         "id": "collocations-27",
         "conceptId": "collocations:strong argument",
-        "sentence": "The expression meaning “a convincing reason supporting an opinion” is ___.",
+        "sentence": "___ describes a convincing reason supporting an opinion.",
         "answer": "strong argument",
         "options": [
-          "take action",
-          "deliver a speech",
+          "valuable experience",
+          "rough idea",
           "strong argument",
-          "high demand"
+          "serious concern"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-28",
         "conceptId": "collocations:valuable experience",
-        "sentence": "The expression meaning “useful knowledge gained through doing something” is ___.",
+        "sentence": "___ describes useful knowledge gained through doing something.",
         "answer": "valuable experience",
         "options": [
-          "conduct research",
+          "serious concern",
           "valuable experience",
-          "close friend",
-          "keep a promise"
+          "strong argument",
+          "wide range"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-29",
         "conceptId": "collocations:wide range",
-        "sentence": "The expression meaning “a large variety” is ___.",
+        "sentence": "___ describes a large variety.",
         "answer": "wide range",
         "options": [
           "wide range",
-          "great success",
-          "lose patience",
-          "solve a problem"
+          "valuable experience",
+          "bitter disagreement",
+          "strong argument"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-30",
         "conceptId": "collocations:bitter disagreement",
-        "sentence": "The expression meaning “an angry and lasting difference of opinion” is ___.",
+        "sentence": "___ describes an angry and lasting difference of opinion.",
         "answer": "bitter disagreement",
         "options": [
-          "serious problem",
-          "save time",
-          "break a habit",
+          "wide range",
+          "heavy rain",
+          "valuable experience",
           "bitter disagreement"
         ],
         "hint": "Collocations"
@@ -7907,51 +7907,51 @@ export const QUIZZES = {
       {
         "id": "collocations-31",
         "conceptId": "collocations:heavy rain",
-        "sentence": "The expression meaning “a large amount of rain” is ___.",
+        "sentence": "___ describes a large amount of rain.",
         "answer": "heavy rain",
         "options": [
-          "waste money",
-          "catch someone’s attention",
+          "strong wind",
+          "wide range",
           "heavy rain",
-          "quick response"
+          "bitter disagreement"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-32",
         "conceptId": "collocations:strong wind",
-        "sentence": "The expression meaning “air moving with considerable force” is ___.",
+        "sentence": "___ describes air moving with considerable force.",
         "answer": "strong wind",
         "options": [
-          "come to a conclusion",
+          "bitter disagreement",
           "strong wind",
-          "strong influence",
-          "gain experience"
+          "heavy rain",
+          "deep sleep"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-33",
         "conceptId": "collocations:deep sleep",
-        "sentence": "The expression meaning “a state of sleeping very soundly” is ___.",
+        "sentence": "___ describes a state of sleeping very soundly.",
         "answer": "deep sleep",
         "options": [
           "deep sleep",
-          "heavy traffic",
-          "hold a meeting",
-          "draw a conclusion"
+          "strong wind",
+          "high demand",
+          "heavy rain"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-34",
         "conceptId": "collocations:high demand",
-        "sentence": "The expression meaning “a strong desire to buy something” is ___.",
+        "sentence": "___ describes a strong desire to buy something.",
         "answer": "high demand",
         "options": [
-          "take action",
-          "deliver a speech",
-          "face a challenge",
+          "deep sleep",
+          "close friend",
+          "strong wind",
           "high demand"
         ],
         "hint": "Collocations"
@@ -7959,51 +7959,51 @@ export const QUIZZES = {
       {
         "id": "collocations-35",
         "conceptId": "collocations:close friend",
-        "sentence": "The expression meaning “a person you know and trust very well” is ___.",
+        "sentence": "___ describes a person you know and trust very well.",
         "answer": "close friend",
         "options": [
-          "conduct research",
-          "give an impression",
+          "great success",
+          "deep sleep",
           "close friend",
-          "keep a promise"
+          "high demand"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-36",
         "conceptId": "collocations:great success",
-        "sentence": "The expression meaning “an extremely positive result” is ___.",
+        "sentence": "___ describes an extremely positive result.",
         "answer": "great success",
         "options": [
-          "have an impact",
+          "high demand",
           "great success",
-          "lose patience",
-          "solve a problem"
+          "close friend",
+          "serious problem"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-37",
         "conceptId": "collocations:serious problem",
-        "sentence": "The expression meaning “a difficulty requiring careful attention” is ___.",
+        "sentence": "___ describes a difficulty requiring careful attention.",
         "answer": "serious problem",
         "options": [
           "serious problem",
-          "save time",
-          "break a habit",
-          "make a discovery"
+          "great success",
+          "quick response",
+          "close friend"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-38",
         "conceptId": "collocations:quick response",
-        "sentence": "The expression meaning “an answer given with little delay” is ___.",
+        "sentence": "___ describes an answer given with little delay.",
         "answer": "quick response",
         "options": [
-          "waste money",
-          "catch someone’s attention",
-          "meet a deadline",
+          "serious problem",
+          "strong influence",
+          "great success",
           "quick response"
         ],
         "hint": "Collocations"
@@ -8011,51 +8011,51 @@ export const QUIZZES = {
       {
         "id": "collocations-39",
         "conceptId": "collocations:strong influence",
-        "sentence": "The expression meaning “a powerful effect on behaviour or events” is ___.",
+        "sentence": "___ describes a powerful effect on behaviour or events.",
         "answer": "strong influence",
         "options": [
-          "come to a conclusion",
-          "pay attention",
+          "heavy traffic",
+          "serious problem",
           "strong influence",
-          "gain experience"
+          "quick response"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-40",
         "conceptId": "collocations:heavy traffic",
-        "sentence": "The expression meaning “a large number of vehicles on a road” is ___.",
+        "sentence": "___ describes a large number of vehicles on a road.",
         "answer": "heavy traffic",
         "options": [
-          "play a role",
+          "quick response",
           "heavy traffic",
-          "hold a meeting",
-          "draw a conclusion"
+          "strong influence",
+          "take action"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-41",
         "conceptId": "collocations:take action",
-        "sentence": "The expression meaning “begin doing something to solve a problem” is ___.",
+        "sentence": "To ___ means to begin doing something to solve a problem.",
         "answer": "take action",
         "options": [
           "take action",
-          "deliver a speech",
-          "face a challenge",
-          "pose a danger"
+          "heavy traffic",
+          "keep a promise",
+          "strong influence"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-42",
         "conceptId": "collocations:keep a promise",
-        "sentence": "The expression meaning “do what you assured someone you would do” is ___.",
+        "sentence": "To ___ means to do what you assured someone you would do.",
         "answer": "keep a promise",
         "options": [
-          "conduct research",
-          "give an impression",
-          "reach an agreement",
+          "take action",
+          "lose patience",
+          "heavy traffic",
           "keep a promise"
         ],
         "hint": "Collocations"
@@ -8063,51 +8063,51 @@ export const QUIZZES = {
       {
         "id": "collocations-43",
         "conceptId": "collocations:lose patience",
-        "sentence": "The expression meaning “become unable to wait calmly” is ___.",
+        "sentence": "To ___ means to become unable to wait calmly.",
         "answer": "lose patience",
         "options": [
-          "have an impact",
-          "raise awareness",
+          "save time",
+          "take action",
           "lose patience",
-          "solve a problem"
+          "keep a promise"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-44",
         "conceptId": "collocations:save time",
-        "sentence": "The expression meaning “avoid spending unnecessary minutes or hours” is ___.",
+        "sentence": "To ___ means to avoid spending unnecessary minutes or hours.",
         "answer": "save time",
         "options": [
-          "take responsibility",
+          "keep a promise",
           "save time",
-          "break a habit",
-          "make a discovery"
+          "lose patience",
+          "waste money"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-45",
         "conceptId": "collocations:waste money",
-        "sentence": "The expression meaning “spend funds without receiving value” is ___.",
+        "sentence": "To ___ means to spend funds without receiving value.",
         "answer": "waste money",
         "options": [
           "waste money",
-          "catch someone’s attention",
-          "meet a deadline",
-          "bright future"
+          "save time",
+          "gain experience",
+          "lose patience"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-46",
         "conceptId": "collocations:gain experience",
-        "sentence": "The expression meaning “develop knowledge through practical activity” is ___.",
+        "sentence": "To ___ means to develop knowledge through practical activity.",
         "answer": "gain experience",
         "options": [
-          "come to a conclusion",
-          "pay attention",
-          "common knowledge",
+          "waste money",
+          "hold a meeting",
+          "save time",
           "gain experience"
         ],
         "hint": "Collocations"
@@ -8115,51 +8115,51 @@ export const QUIZZES = {
       {
         "id": "collocations-47",
         "conceptId": "collocations:hold a meeting",
-        "sentence": "The expression meaning “organise a formal group discussion” is ___.",
+        "sentence": "To ___ means to organise a formal group discussion.",
         "answer": "hold a meeting",
         "options": [
-          "play a role",
-          "deep admiration",
+          "deliver a speech",
+          "waste money",
           "hold a meeting",
-          "draw a conclusion"
+          "gain experience"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-48",
         "conceptId": "collocations:deliver a speech",
-        "sentence": "The expression meaning “speak formally to an audience” is ___.",
+        "sentence": "To ___ means to speak formally to an audience.",
         "answer": "deliver a speech",
         "options": [
-          "early days",
+          "gain experience",
           "deliver a speech",
-          "face a challenge",
-          "pose a danger"
+          "hold a meeting",
+          "conduct research"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-49",
         "conceptId": "collocations:conduct research",
-        "sentence": "The expression meaning “carry out a careful investigation” is ___.",
+        "sentence": "To ___ means to carry out a careful investigation.",
         "answer": "conduct research",
         "options": [
           "conduct research",
-          "give an impression",
-          "reach an agreement",
-          "exclusive rights"
+          "deliver a speech",
+          "solve a problem",
+          "hold a meeting"
         ],
         "hint": "Collocations"
       },
       {
         "id": "collocations-50",
         "conceptId": "collocations:solve a problem",
-        "sentence": "The expression meaning “find an effective answer to a difficulty” is ___.",
+        "sentence": "To ___ means to find an effective answer to a difficulty.",
         "answer": "solve a problem",
         "options": [
-          "have an impact",
-          "raise awareness",
-          "great potential",
+          "conduct research",
+          "break a habit",
+          "deliver a speech",
           "solve a problem"
         ],
         "hint": "Collocations"
@@ -8175,25 +8175,25 @@ export const QUIZZES = {
       {
         "id": "film-01",
         "conceptId": "film:actor",
-        "sentence": "The term for a person who performs a character is ___.",
+        "sentence": "___ refers to a person who performs a character.",
         "answer": "actor",
         "options": [
           "actor",
-          "credits",
-          "flashback",
-          "plot"
+          "wardrobe",
+          "audition",
+          "visual effects"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-02",
         "conceptId": "film:audition",
-        "sentence": "The term for a performance used to select someone for a role is ___.",
+        "sentence": "___ refers to a performance used to select someone for a role.",
         "answer": "audition",
         "options": [
-          "director",
-          "genre",
-          "premiere",
+          "actor",
+          "cast",
+          "wardrobe",
           "audition"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8201,51 +8201,51 @@ export const QUIZZES = {
       {
         "id": "film-03",
         "conceptId": "film:cast",
-        "sentence": "The term for all the performers in a film is ___.",
+        "sentence": "___ refers to all the performers in a film.",
         "answer": "cast",
         "options": [
-          "location",
-          "producer",
+          "character",
+          "actor",
           "cast",
-          "documentary"
+          "audition"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-04",
         "conceptId": "film:character",
-        "sentence": "The term for a person represented in a story is ___.",
+        "sentence": "___ refers to a person represented in a story.",
         "answer": "character",
         "options": [
-          "prop",
+          "audition",
           "character",
-          "dub",
-          "make-up"
+          "cast",
+          "cinematography"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-05",
         "conceptId": "film:cinematography",
-        "sentence": "The term for the artistic work of filming images is ___.",
+        "sentence": "___ refers to the artistic work of filming images.",
         "answer": "cinematography",
         "options": [
           "cinematography",
-          "editing",
-          "montage",
-          "review"
+          "character",
+          "close-up",
+          "cast"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-06",
         "conceptId": "film:close-up",
-        "sentence": "The term for a shot showing a subject from very near is ___.",
+        "sentence": "___ refers to a shot showing a subject from very near.",
         "answer": "close-up",
         "options": [
-          "extra",
-          "narrator",
-          "role",
+          "cinematography",
+          "costume",
+          "character",
           "close-up"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8253,51 +8253,51 @@ export const QUIZZES = {
       {
         "id": "film-07",
         "conceptId": "film:costume",
-        "sentence": "The term for clothing worn by a performer is ___.",
+        "sentence": "___ refers to clothing worn by a performer.",
         "answer": "costume",
         "options": [
-          "opening scene",
-          "scene",
+          "credits",
+          "cinematography",
           "costume",
-          "feature film"
+          "close-up"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-08",
         "conceptId": "film:credits",
-        "sentence": "The term for the list of people who worked on a film is ___.",
+        "sentence": "___ refers to the list of people who worked on a film.",
         "answer": "credits",
         "options": [
-          "screenplay",
+          "close-up",
           "credits",
-          "flashback",
-          "plot"
+          "costume",
+          "director"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-09",
         "conceptId": "film:director",
-        "sentence": "The term for the person controlling the artistic production is ___.",
+        "sentence": "___ refers to the person controlling the artistic production.",
         "answer": "director",
         "options": [
           "director",
-          "genre",
-          "premiere",
-          "sequel"
+          "credits",
+          "documentary",
+          "costume"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-10",
         "conceptId": "film:documentary",
-        "sentence": "The term for a factual film about real people or events is ___.",
+        "sentence": "___ refers to a factual film about real people or events.",
         "answer": "documentary",
         "options": [
-          "location",
-          "producer",
-          "set",
+          "director",
+          "dub",
+          "credits",
           "documentary"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8305,51 +8305,51 @@ export const QUIZZES = {
       {
         "id": "film-11",
         "conceptId": "film:dub",
-        "sentence": "The term for replace the original speech with another language is ___.",
+        "sentence": "The studio will ___ the film by recording the dialogue in Spanish.",
         "answer": "dub",
         "options": [
-          "prop",
-          "soundtrack",
           "dub",
-          "make-up"
+          "edit",
+          "screen",
+          "review"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-12",
         "conceptId": "film:editing",
-        "sentence": "The term for selecting and joining recorded shots is ___.",
+        "sentence": "___ refers to selecting and joining recorded shots.",
         "answer": "editing",
         "options": [
-          "special effects",
+          "documentary",
           "editing",
-          "montage",
-          "review"
+          "dub",
+          "extra"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-13",
         "conceptId": "film:extra",
-        "sentence": "The term for a performer with a small background role is ___.",
+        "sentence": "___ refers to a performer with a small background role.",
         "answer": "extra",
         "options": [
           "extra",
-          "narrator",
-          "role",
-          "spoiler"
+          "editing",
+          "feature film",
+          "dub"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-14",
         "conceptId": "film:feature film",
-        "sentence": "The term for a full-length film made for cinema is ___.",
+        "sentence": "___ refers to a full-length film made for cinema.",
         "answer": "feature film",
         "options": [
-          "opening scene",
-          "scene",
-          "stunt",
+          "extra",
+          "flashback",
+          "editing",
           "feature film"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8357,51 +8357,51 @@ export const QUIZZES = {
       {
         "id": "film-15",
         "conceptId": "film:flashback",
-        "sentence": "The term for a scene showing an earlier time is ___.",
+        "sentence": "___ refers to a scene showing an earlier time.",
         "answer": "flashback",
         "options": [
-          "screenplay",
-          "subtitles",
+          "genre",
+          "extra",
           "flashback",
-          "plot"
+          "feature film"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-16",
         "conceptId": "film:genre",
-        "sentence": "The term for a category such as comedy, horror or drama is ___.",
+        "sentence": "___ refers to a category such as comedy, horror or drama.",
         "answer": "genre",
         "options": [
-          "trailer",
+          "feature film",
           "genre",
-          "premiere",
-          "sequel"
+          "flashback",
+          "location"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-17",
         "conceptId": "film:location",
-        "sentence": "The term for a real place where filming happens is ___.",
+        "sentence": "___ refers to a real place where filming happens.",
         "answer": "location",
         "options": [
           "location",
-          "producer",
-          "set",
-          "voice-over"
+          "genre",
+          "make-up",
+          "flashback"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-18",
         "conceptId": "film:make-up",
-        "sentence": "The term for cosmetics used to change a performer’s appearance is ___.",
+        "sentence": "___ refers to cosmetics used to change a performer’s appearance.",
         "answer": "make-up",
         "options": [
-          "prop",
-          "soundtrack",
-          "wide shot",
+          "location",
+          "montage",
+          "genre",
           "make-up"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8409,51 +8409,51 @@ export const QUIZZES = {
       {
         "id": "film-19",
         "conceptId": "film:montage",
-        "sentence": "The term for a sequence of short shots showing development is ___.",
+        "sentence": "___ refers to a sequence of short shots showing development.",
         "answer": "montage",
         "options": [
-          "special effects",
-          "box office",
+          "narrator",
+          "location",
           "montage",
-          "review"
+          "make-up"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-20",
         "conceptId": "film:narrator",
-        "sentence": "The term for a voice or person telling the story is ___.",
+        "sentence": "___ refers to a voice or person telling the story.",
         "answer": "narrator",
         "options": [
-          "cliffhanger",
+          "make-up",
           "narrator",
-          "role",
-          "spoiler"
+          "montage",
+          "opening scene"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-21",
         "conceptId": "film:opening scene",
-        "sentence": "The term for the first section of a film is ___.",
+        "sentence": "___ refers to the first section of a film.",
         "answer": "opening scene",
         "options": [
           "opening scene",
-          "scene",
-          "stunt",
-          "comedy"
+          "narrator",
+          "plot",
+          "montage"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-22",
         "conceptId": "film:plot",
-        "sentence": "The term for the connected events that form a story is ___.",
+        "sentence": "___ refers to the connected events that form a story.",
         "answer": "plot",
         "options": [
-          "screenplay",
-          "subtitles",
-          "horror film",
+          "opening scene",
+          "premiere",
+          "narrator",
           "plot"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8461,51 +8461,51 @@ export const QUIZZES = {
       {
         "id": "film-23",
         "conceptId": "film:premiere",
-        "sentence": "The term for the first public showing of a film is ___.",
+        "sentence": "___ refers to the first public showing of a film.",
         "answer": "premiere",
         "options": [
-          "trailer",
-          "lighting",
+          "producer",
+          "opening scene",
           "premiere",
-          "sequel"
+          "plot"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-24",
         "conceptId": "film:producer",
-        "sentence": "The term for the person managing money and organisation is ___.",
+        "sentence": "___ refers to the person managing money and organisation.",
         "answer": "producer",
         "options": [
-          "period drama",
+          "plot",
           "producer",
-          "set",
-          "voice-over"
+          "premiere",
+          "prop"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-25",
         "conceptId": "film:prop",
-        "sentence": "The term for an object used by an actor in a scene is ___.",
+        "sentence": "___ refers to an object used by an actor in a scene.",
         "answer": "prop",
         "options": [
           "prop",
-          "soundtrack",
-          "wide shot",
-          "remake"
+          "producer",
+          "review",
+          "premiere"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-26",
         "conceptId": "film:review",
-        "sentence": "The term for an evaluation of a film is ___.",
+        "sentence": "___ refers to an evaluation of a film.",
         "answer": "review",
         "options": [
-          "special effects",
-          "box office",
-          "screening",
+          "prop",
+          "role",
+          "producer",
           "review"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8513,51 +8513,51 @@ export const QUIZZES = {
       {
         "id": "film-27",
         "conceptId": "film:role",
-        "sentence": "The term for the character played by a performer is ___.",
+        "sentence": "___ refers to the character played by a performer.",
         "answer": "role",
         "options": [
-          "cliffhanger",
-          "supporting actor",
+          "scene",
+          "prop",
           "role",
-          "spoiler"
+          "review"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-28",
         "conceptId": "film:scene",
-        "sentence": "The term for one continuous section of dramatic action is ___.",
+        "sentence": "___ refers to one continuous section of dramatic action.",
         "answer": "scene",
         "options": [
-          "visual effects",
+          "review",
           "scene",
-          "stunt",
-          "comedy"
+          "role",
+          "screenplay"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-29",
         "conceptId": "film:screenplay",
-        "sentence": "The term for the written text for a film is ___.",
+        "sentence": "___ refers to the written text for a film.",
         "answer": "screenplay",
         "options": [
           "screenplay",
-          "subtitles",
-          "horror film",
-          "wardrobe"
+          "scene",
+          "sequel",
+          "role"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-30",
         "conceptId": "film:sequel",
-        "sentence": "The term for a film continuing an earlier story is ___.",
+        "sentence": "___ refers to a film continuing an earlier story.",
         "answer": "sequel",
         "options": [
-          "trailer",
-          "lighting",
-          "actor",
+          "screenplay",
+          "set",
+          "scene",
           "sequel"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8565,51 +8565,51 @@ export const QUIZZES = {
       {
         "id": "film-31",
         "conceptId": "film:set",
-        "sentence": "The term for the constructed place where a scene is filmed is ___.",
+        "sentence": "___ refers to the constructed place where a scene is filmed.",
         "answer": "set",
         "options": [
-          "period drama",
-          "audition",
+          "soundtrack",
+          "screenplay",
           "set",
-          "voice-over"
+          "sequel"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-32",
         "conceptId": "film:soundtrack",
-        "sentence": "The term for the music and recorded sound in a film is ___.",
+        "sentence": "___ refers to the music and recorded sound in a film.",
         "answer": "soundtrack",
         "options": [
-          "cast",
+          "sequel",
           "soundtrack",
-          "wide shot",
-          "remake"
+          "set",
+          "special effects"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-33",
         "conceptId": "film:special effects",
-        "sentence": "The term for artificial images or events created for a film is ___.",
+        "sentence": "___ refers to artificial images or events created for a film.",
         "answer": "special effects",
         "options": [
           "special effects",
-          "box office",
-          "screening",
-          "character"
+          "soundtrack",
+          "spoiler",
+          "set"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-34",
         "conceptId": "film:spoiler",
-        "sentence": "The term for information that reveals an important plot event is ___.",
+        "sentence": "___ refers to information that reveals an important plot event.",
         "answer": "spoiler",
         "options": [
-          "cliffhanger",
-          "supporting actor",
-          "cinematography",
+          "special effects",
+          "stunt",
+          "soundtrack",
           "spoiler"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8617,51 +8617,51 @@ export const QUIZZES = {
       {
         "id": "film-35",
         "conceptId": "film:stunt",
-        "sentence": "The term for a dangerous action performed for entertainment is ___.",
+        "sentence": "___ refers to a dangerous action performed for entertainment.",
         "answer": "stunt",
         "options": [
-          "visual effects",
-          "close-up",
+          "subtitles",
+          "special effects",
           "stunt",
-          "comedy"
+          "spoiler"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-36",
         "conceptId": "film:subtitles",
-        "sentence": "The term for written dialogue shown at the bottom of a screen is ___.",
+        "sentence": "___ refers to written dialogue shown at the bottom of a screen.",
         "answer": "subtitles",
         "options": [
-          "costume",
+          "spoiler",
           "subtitles",
-          "horror film",
-          "wardrobe"
+          "stunt",
+          "trailer"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-37",
         "conceptId": "film:trailer",
-        "sentence": "The term for a short advertisement for a future film is ___.",
+        "sentence": "___ refers to a short advertisement for a future film.",
         "answer": "trailer",
         "options": [
           "trailer",
-          "lighting",
-          "actor",
-          "credits"
+          "subtitles",
+          "voice-over",
+          "stunt"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-38",
         "conceptId": "film:voice-over",
-        "sentence": "The term for speech heard without seeing the speaker is ___.",
+        "sentence": "___ refers to speech heard without seeing the speaker.",
         "answer": "voice-over",
         "options": [
-          "period drama",
-          "audition",
-          "director",
+          "trailer",
+          "wide shot",
+          "subtitles",
           "voice-over"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8669,51 +8669,51 @@ export const QUIZZES = {
       {
         "id": "film-39",
         "conceptId": "film:wide shot",
-        "sentence": "The term for a shot showing a broad view of a setting is ___.",
+        "sentence": "___ refers to a shot showing a broad view of a setting.",
         "answer": "wide shot",
         "options": [
-          "cast",
-          "documentary",
+          "box office",
+          "trailer",
           "wide shot",
-          "remake"
+          "voice-over"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-40",
         "conceptId": "film:box office",
-        "sentence": "The term for the place or system where cinema tickets are sold is ___.",
+        "sentence": "___ refers to the place or system where cinema tickets are sold.",
         "answer": "box office",
         "options": [
-          "dub",
+          "voice-over",
           "box office",
-          "screening",
-          "character"
+          "wide shot",
+          "cliffhanger"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-41",
         "conceptId": "film:cliffhanger",
-        "sentence": "The term for an ending leaving an important question unresolved is ___.",
+        "sentence": "___ refers to an ending leaving an important question unresolved.",
         "answer": "cliffhanger",
         "options": [
           "cliffhanger",
-          "supporting actor",
-          "cinematography",
-          "editing"
+          "box office",
+          "comedy",
+          "wide shot"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-42",
         "conceptId": "film:comedy",
-        "sentence": "The term for a film intended to make people laugh is ___.",
+        "sentence": "___ refers to a film intended to make people laugh.",
         "answer": "comedy",
         "options": [
-          "visual effects",
-          "close-up",
-          "extra",
+          "cliffhanger",
+          "horror film",
+          "box office",
           "comedy"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8721,51 +8721,51 @@ export const QUIZZES = {
       {
         "id": "film-43",
         "conceptId": "film:horror film",
-        "sentence": "The term for a film intended to frighten viewers is ___.",
+        "sentence": "___ refers to a film intended to frighten viewers.",
         "answer": "horror film",
         "options": [
-          "costume",
-          "feature film",
+          "lighting",
+          "cliffhanger",
           "horror film",
-          "wardrobe"
+          "comedy"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-44",
         "conceptId": "film:lighting",
-        "sentence": "The term for the deliberate use of light in a scene is ___.",
+        "sentence": "___ refers to the deliberate use of light in a scene.",
         "answer": "lighting",
         "options": [
-          "flashback",
+          "comedy",
           "lighting",
-          "actor",
-          "credits"
+          "horror film",
+          "period drama"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-45",
         "conceptId": "film:period drama",
-        "sentence": "The term for a story set in a particular historical time is ___.",
+        "sentence": "___ refers to a story set in a particular historical time.",
         "answer": "period drama",
         "options": [
           "period drama",
-          "audition",
-          "director",
-          "genre"
+          "lighting",
+          "remake",
+          "horror film"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-46",
         "conceptId": "film:remake",
-        "sentence": "The term for a new version of an older film is ___.",
+        "sentence": "___ refers to a new version of an older film.",
         "answer": "remake",
         "options": [
-          "cast",
-          "documentary",
-          "location",
+          "period drama",
+          "screening",
+          "lighting",
           "remake"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8773,51 +8773,51 @@ export const QUIZZES = {
       {
         "id": "film-47",
         "conceptId": "film:screening",
-        "sentence": "The term for an occasion when a film is shown is ___.",
+        "sentence": "___ refers to an occasion when a film is shown.",
         "answer": "screening",
         "options": [
-          "dub",
-          "make-up",
+          "supporting actor",
+          "period drama",
           "screening",
-          "character"
+          "remake"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-48",
         "conceptId": "film:supporting actor",
-        "sentence": "The term for a performer in an important but secondary role is ___.",
+        "sentence": "___ refers to a performer in an important but secondary role.",
         "answer": "supporting actor",
         "options": [
-          "montage",
+          "remake",
           "supporting actor",
-          "cinematography",
-          "editing"
+          "screening",
+          "visual effects"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-49",
         "conceptId": "film:visual effects",
-        "sentence": "The term for digitally created or altered screen images is ___.",
+        "sentence": "___ refers to digitally created or altered screen images.",
         "answer": "visual effects",
         "options": [
           "visual effects",
-          "close-up",
-          "extra",
-          "narrator"
+          "supporting actor",
+          "wardrobe",
+          "screening"
         ],
         "hint": "Film & Visual Storytelling"
       },
       {
         "id": "film-50",
         "conceptId": "film:wardrobe",
-        "sentence": "The term for the collection of clothes used in a production is ___.",
+        "sentence": "___ refers to the collection of clothes used in a production.",
         "answer": "wardrobe",
         "options": [
-          "costume",
-          "feature film",
-          "opening scene",
+          "visual effects",
+          "actor",
+          "supporting actor",
           "wardrobe"
         ],
         "hint": "Film & Visual Storytelling"
@@ -8833,25 +8833,25 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-01",
         "conceptId": "negative-prefixes:unable",
-        "sentence": "The word meaning “not capable of doing something” is ___.",
+        "sentence": "___ means not capable of doing something.",
         "answer": "unable",
         "options": [
           "unable",
-          "unfair",
-          "unnecessary",
-          "inadequate"
+          "dissatisfied",
+          "unacceptable",
+          "disrespectful"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-02",
         "conceptId": "negative-prefixes:unacceptable",
-        "sentence": "The word meaning “not satisfactory or permitted” is ___.",
+        "sentence": "___ means not satisfactory or permitted.",
         "answer": "unacceptable",
         "options": [
-          "unfamiliar",
-          "unpleasant",
-          "inappropriate",
+          "unable",
+          "unaware",
+          "dissatisfied",
           "unacceptable"
         ],
         "hint": "Negative Prefixes"
@@ -8859,51 +8859,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-03",
         "conceptId": "negative-prefixes:unaware",
-        "sentence": "The word meaning “not knowing about something” is ___.",
+        "sentence": "___ means not knowing about something.",
         "answer": "unaware",
         "options": [
-          "unpopular",
-          "incomplete",
+          "uncertain",
+          "unable",
           "unaware",
-          "unfortunate"
+          "unacceptable"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-04",
         "conceptId": "negative-prefixes:uncertain",
-        "sentence": "The word meaning “not sure or confident” is ___.",
+        "sentence": "___ means not sure or confident.",
         "answer": "uncertain",
         "options": [
-          "inconvenient",
+          "unacceptable",
           "uncertain",
-          "unhealthy",
-          "unpredictable"
+          "unaware",
+          "uncomfortable"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-05",
         "conceptId": "negative-prefixes:uncomfortable",
-        "sentence": "The word meaning “not physically relaxed” is ___.",
+        "sentence": "___ means not physically relaxed.",
         "answer": "uncomfortable",
         "options": [
           "uncomfortable",
-          "unhelpful",
-          "unreasonable",
-          "indirect"
+          "uncertain",
+          "uncommon",
+          "unaware"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-06",
         "conceptId": "negative-prefixes:uncommon",
-        "sentence": "The word meaning “not frequently found” is ___.",
+        "sentence": "___ means not frequently found.",
         "answer": "uncommon",
         "options": [
-          "unimportant",
-          "unsuccessful",
-          "inexperienced",
+          "uncomfortable",
+          "unconscious",
+          "uncertain",
           "uncommon"
         ],
         "hint": "Negative Prefixes"
@@ -8911,51 +8911,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-07",
         "conceptId": "negative-prefixes:unconscious",
-        "sentence": "The word meaning “not awake or aware” is ___.",
+        "sentence": "___ means not awake or aware.",
         "answer": "unconscious",
         "options": [
-          "inaccurate",
-          "informal",
+          "unfair",
+          "uncomfortable",
           "unconscious",
-          "unlikely"
+          "uncommon"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-08",
         "conceptId": "negative-prefixes:unfair",
-        "sentence": "The word meaning “not treating people equally” is ___.",
+        "sentence": "___ means not treating people equally.",
         "answer": "unfair",
         "options": [
-          "insecure",
+          "uncommon",
           "unfair",
-          "unnecessary",
-          "inadequate"
+          "unconscious",
+          "unfamiliar"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-09",
         "conceptId": "negative-prefixes:unfamiliar",
-        "sentence": "The word meaning “not known or recognised” is ___.",
+        "sentence": "___ means not known or recognised.",
         "answer": "unfamiliar",
         "options": [
           "unfamiliar",
-          "unpleasant",
-          "inappropriate",
-          "insensitive"
+          "unfair",
+          "unfortunate",
+          "unconscious"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-10",
         "conceptId": "negative-prefixes:unfortunate",
-        "sentence": "The word meaning “having bad luck” is ___.",
+        "sentence": "___ means having bad luck.",
         "answer": "unfortunate",
         "options": [
-          "unpopular",
-          "incomplete",
-          "invisible",
+          "unfamiliar",
+          "unhealthy",
+          "unfair",
           "unfortunate"
         ],
         "hint": "Negative Prefixes"
@@ -8963,51 +8963,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-11",
         "conceptId": "negative-prefixes:unhealthy",
-        "sentence": "The word meaning “not good for physical well-being” is ___.",
+        "sentence": "___ means not good for physical well-being.",
         "answer": "unhealthy",
         "options": [
-          "inconvenient",
-          "impatient",
+          "unhelpful",
+          "unfamiliar",
           "unhealthy",
-          "unpredictable"
+          "unfortunate"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-12",
         "conceptId": "negative-prefixes:unhelpful",
-        "sentence": "The word meaning “not providing useful assistance” is ___.",
+        "sentence": "___ means not providing useful assistance.",
         "answer": "unhelpful",
         "options": [
-          "imperfect",
+          "unfortunate",
           "unhelpful",
-          "unreasonable",
-          "indirect"
+          "unhealthy",
+          "unimportant"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-13",
         "conceptId": "negative-prefixes:unimportant",
-        "sentence": "The word meaning “not having much significance” is ___.",
+        "sentence": "___ means not having much significance.",
         "answer": "unimportant",
         "options": [
           "unimportant",
-          "unsuccessful",
-          "inexperienced",
-          "impolite"
+          "unhelpful",
+          "unlikely",
+          "unhealthy"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-14",
         "conceptId": "negative-prefixes:unlikely",
-        "sentence": "The word meaning “not expected to happen” is ___.",
+        "sentence": "___ means not expected to happen.",
         "answer": "unlikely",
         "options": [
-          "inaccurate",
-          "informal",
-          "impossible",
+          "unimportant",
+          "unnecessary",
+          "unhelpful",
           "unlikely"
         ],
         "hint": "Negative Prefixes"
@@ -9015,51 +9015,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-15",
         "conceptId": "negative-prefixes:unnecessary",
-        "sentence": "The word meaning “not needed” is ___.",
+        "sentence": "___ means not needed.",
         "answer": "unnecessary",
         "options": [
-          "insecure",
-          "impractical",
+          "unpleasant",
+          "unimportant",
           "unnecessary",
-          "inadequate"
+          "unlikely"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-16",
         "conceptId": "negative-prefixes:unpleasant",
-        "sentence": "The word meaning “not enjoyable or agreeable” is ___.",
+        "sentence": "___ means not enjoyable or agreeable.",
         "answer": "unpleasant",
         "options": [
-          "immature",
+          "unlikely",
           "unpleasant",
-          "inappropriate",
-          "insensitive"
+          "unnecessary",
+          "unpopular"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-17",
         "conceptId": "negative-prefixes:unpopular",
-        "sentence": "The word meaning “not liked by many people” is ___.",
+        "sentence": "___ means not liked by many people.",
         "answer": "unpopular",
         "options": [
           "unpopular",
-          "incomplete",
-          "invisible",
-          "illegal"
+          "unpleasant",
+          "unpredictable",
+          "unnecessary"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-18",
         "conceptId": "negative-prefixes:unpredictable",
-        "sentence": "The word meaning “not possible to forecast reliably” is ___.",
+        "sentence": "___ means not possible to forecast reliably.",
         "answer": "unpredictable",
         "options": [
-          "inconvenient",
-          "impatient",
-          "illogical",
+          "unpopular",
+          "unreasonable",
+          "unpleasant",
           "unpredictable"
         ],
         "hint": "Negative Prefixes"
@@ -9067,51 +9067,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-19",
         "conceptId": "negative-prefixes:unreasonable",
-        "sentence": "The word meaning “not based on good judgment” is ___.",
+        "sentence": "___ means not based on good judgment.",
         "answer": "unreasonable",
         "options": [
-          "imperfect",
-          "illegible",
+          "unsuccessful",
+          "unpopular",
           "unreasonable",
-          "indirect"
+          "unpredictable"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-20",
         "conceptId": "negative-prefixes:unsuccessful",
-        "sentence": "The word meaning “not achieving the intended result” is ___.",
+        "sentence": "___ means not achieving the intended result.",
         "answer": "unsuccessful",
         "options": [
-          "irregular",
+          "unpredictable",
           "unsuccessful",
-          "inexperienced",
-          "impolite"
+          "unreasonable",
+          "inaccurate"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-21",
         "conceptId": "negative-prefixes:inaccurate",
-        "sentence": "The word meaning “not correct or exact” is ___.",
+        "sentence": "___ means not correct or exact.",
         "answer": "inaccurate",
         "options": [
           "inaccurate",
-          "informal",
-          "impossible",
-          "irrelevant"
+          "unsuccessful",
+          "inadequate",
+          "unreasonable"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-22",
         "conceptId": "negative-prefixes:inadequate",
-        "sentence": "The word meaning “not sufficient for a purpose” is ___.",
+        "sentence": "___ means not sufficient for a purpose.",
         "answer": "inadequate",
         "options": [
-          "insecure",
-          "impractical",
-          "irresponsible",
+          "inaccurate",
+          "inappropriate",
+          "unsuccessful",
           "inadequate"
         ],
         "hint": "Negative Prefixes"
@@ -9119,51 +9119,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-23",
         "conceptId": "negative-prefixes:inappropriate",
-        "sentence": "The word meaning “not suitable for a situation” is ___.",
+        "sentence": "___ means not suitable for a situation.",
         "answer": "inappropriate",
         "options": [
-          "immature",
-          "irreversible",
+          "incomplete",
+          "inaccurate",
           "inappropriate",
-          "insensitive"
+          "inadequate"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-24",
         "conceptId": "negative-prefixes:incomplete",
-        "sentence": "The word meaning “not containing every necessary part” is ___.",
+        "sentence": "___ means not containing every necessary part.",
         "answer": "incomplete",
         "options": [
-          "dishonest",
+          "inadequate",
           "incomplete",
-          "invisible",
-          "illegal"
+          "inappropriate",
+          "inconvenient"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-25",
         "conceptId": "negative-prefixes:inconvenient",
-        "sentence": "The word meaning “causing difficulty or trouble” is ___.",
+        "sentence": "___ means causing difficulty or trouble.",
         "answer": "inconvenient",
         "options": [
           "inconvenient",
-          "impatient",
-          "illogical",
-          "disloyal"
+          "incomplete",
+          "indirect",
+          "inappropriate"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-26",
         "conceptId": "negative-prefixes:indirect",
-        "sentence": "The word meaning “not following the shortest or clearest route” is ___.",
+        "sentence": "___ means not following the shortest or clearest route.",
         "answer": "indirect",
         "options": [
-          "imperfect",
-          "illegible",
-          "disobedient",
+          "inconvenient",
+          "inexperienced",
+          "incomplete",
           "indirect"
         ],
         "hint": "Negative Prefixes"
@@ -9171,51 +9171,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-27",
         "conceptId": "negative-prefixes:inexperienced",
-        "sentence": "The word meaning “lacking practical knowledge” is ___.",
+        "sentence": "___ means lacking practical knowledge.",
         "answer": "inexperienced",
         "options": [
-          "irregular",
-          "disorganised",
+          "informal",
+          "inconvenient",
           "inexperienced",
-          "impolite"
+          "indirect"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-28",
         "conceptId": "negative-prefixes:informal",
-        "sentence": "The word meaning “not following official or formal conventions” is ___.",
+        "sentence": "___ means not following official or formal conventions.",
         "answer": "informal",
         "options": [
-          "disrespectful",
+          "indirect",
           "informal",
-          "impossible",
-          "irrelevant"
+          "inexperienced",
+          "insecure"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-29",
         "conceptId": "negative-prefixes:insecure",
-        "sentence": "The word meaning “not confident or protected” is ___.",
+        "sentence": "___ means not confident or protected.",
         "answer": "insecure",
         "options": [
           "insecure",
-          "impractical",
-          "irresponsible",
-          "dissatisfied"
+          "informal",
+          "insensitive",
+          "inexperienced"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-30",
         "conceptId": "negative-prefixes:insensitive",
-        "sentence": "The word meaning “not considering other people’s feelings” is ___.",
+        "sentence": "___ means not considering other people’s feelings.",
         "answer": "insensitive",
         "options": [
-          "immature",
-          "irreversible",
-          "unable",
+          "insecure",
+          "invisible",
+          "informal",
           "insensitive"
         ],
         "hint": "Negative Prefixes"
@@ -9223,51 +9223,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-31",
         "conceptId": "negative-prefixes:invisible",
-        "sentence": "The word meaning “not able to be seen” is ___.",
+        "sentence": "___ means not able to be seen.",
         "answer": "invisible",
         "options": [
-          "dishonest",
-          "unacceptable",
+          "impatient",
+          "insecure",
           "invisible",
-          "illegal"
+          "insensitive"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-32",
         "conceptId": "negative-prefixes:impatient",
-        "sentence": "The word meaning “unable to wait calmly” is ___.",
+        "sentence": "___ means unable to wait calmly.",
         "answer": "impatient",
         "options": [
-          "unaware",
+          "insensitive",
           "impatient",
-          "illogical",
-          "disloyal"
+          "invisible",
+          "imperfect"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-33",
         "conceptId": "negative-prefixes:imperfect",
-        "sentence": "The word meaning “containing faults or weaknesses” is ___.",
+        "sentence": "___ means containing faults or weaknesses.",
         "answer": "imperfect",
         "options": [
           "imperfect",
-          "illegible",
-          "disobedient",
-          "uncertain"
+          "impatient",
+          "impolite",
+          "invisible"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-34",
         "conceptId": "negative-prefixes:impolite",
-        "sentence": "The word meaning “not showing good manners” is ___.",
+        "sentence": "___ means not showing good manners.",
         "answer": "impolite",
         "options": [
-          "irregular",
-          "disorganised",
-          "uncomfortable",
+          "imperfect",
+          "impossible",
+          "impatient",
           "impolite"
         ],
         "hint": "Negative Prefixes"
@@ -9275,51 +9275,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-35",
         "conceptId": "negative-prefixes:impossible",
-        "sentence": "The word meaning “not able to happen or be done” is ___.",
+        "sentence": "___ means not able to happen or be done.",
         "answer": "impossible",
         "options": [
-          "disrespectful",
-          "uncommon",
+          "impractical",
+          "imperfect",
           "impossible",
-          "irrelevant"
+          "impolite"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-36",
         "conceptId": "negative-prefixes:impractical",
-        "sentence": "The word meaning “not sensible or useful in real conditions” is ___.",
+        "sentence": "___ means not sensible or useful in real conditions.",
         "answer": "impractical",
         "options": [
-          "unconscious",
+          "impolite",
           "impractical",
-          "irresponsible",
-          "dissatisfied"
+          "impossible",
+          "immature"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-37",
         "conceptId": "negative-prefixes:immature",
-        "sentence": "The word meaning “not behaving with adult responsibility” is ___.",
+        "sentence": "___ means not behaving with adult responsibility.",
         "answer": "immature",
         "options": [
           "immature",
-          "irreversible",
-          "unable",
-          "unfair"
+          "impractical",
+          "illegal",
+          "impossible"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-38",
         "conceptId": "negative-prefixes:illegal",
-        "sentence": "The word meaning “forbidden by law” is ___.",
+        "sentence": "___ means forbidden by law.",
         "answer": "illegal",
         "options": [
-          "dishonest",
-          "unacceptable",
-          "unfamiliar",
+          "immature",
+          "illogical",
+          "impractical",
           "illegal"
         ],
         "hint": "Negative Prefixes"
@@ -9327,51 +9327,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-39",
         "conceptId": "negative-prefixes:illogical",
-        "sentence": "The word meaning “not following sensible reasoning” is ___.",
+        "sentence": "___ means not following sensible reasoning.",
         "answer": "illogical",
         "options": [
-          "unaware",
-          "unfortunate",
+          "illegible",
+          "immature",
           "illogical",
-          "disloyal"
+          "illegal"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-40",
         "conceptId": "negative-prefixes:illegible",
-        "sentence": "The word meaning “not clear enough to be read” is ___.",
+        "sentence": "___ means not clear enough to be read.",
         "answer": "illegible",
         "options": [
-          "unhealthy",
+          "illegal",
           "illegible",
-          "disobedient",
-          "uncertain"
+          "illogical",
+          "irregular"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-41",
         "conceptId": "negative-prefixes:irregular",
-        "sentence": "The word meaning “not following a consistent pattern” is ___.",
+        "sentence": "___ means not following a consistent pattern.",
         "answer": "irregular",
         "options": [
           "irregular",
-          "disorganised",
-          "uncomfortable",
-          "unhelpful"
+          "illegible",
+          "irrelevant",
+          "illogical"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-42",
         "conceptId": "negative-prefixes:irrelevant",
-        "sentence": "The word meaning “not connected with the subject” is ___.",
+        "sentence": "___ means not connected with the subject.",
         "answer": "irrelevant",
         "options": [
-          "disrespectful",
-          "uncommon",
-          "unimportant",
+          "irregular",
+          "irresponsible",
+          "illegible",
           "irrelevant"
         ],
         "hint": "Negative Prefixes"
@@ -9379,51 +9379,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-43",
         "conceptId": "negative-prefixes:irresponsible",
-        "sentence": "The word meaning “not behaving with proper care” is ___.",
+        "sentence": "___ means not behaving with proper care.",
         "answer": "irresponsible",
         "options": [
-          "unconscious",
-          "unlikely",
+          "irreversible",
+          "irregular",
           "irresponsible",
-          "dissatisfied"
+          "irrelevant"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-44",
         "conceptId": "negative-prefixes:irreversible",
-        "sentence": "The word meaning “not possible to change back” is ___.",
+        "sentence": "___ means not possible to change back.",
         "answer": "irreversible",
         "options": [
-          "unnecessary",
+          "irrelevant",
           "irreversible",
-          "unable",
-          "unfair"
+          "irresponsible",
+          "dishonest"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-45",
         "conceptId": "negative-prefixes:dishonest",
-        "sentence": "The word meaning “not truthful” is ___.",
+        "sentence": "___ means not truthful.",
         "answer": "dishonest",
         "options": [
           "dishonest",
-          "unacceptable",
-          "unfamiliar",
-          "unpleasant"
+          "irreversible",
+          "disloyal",
+          "irresponsible"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-46",
         "conceptId": "negative-prefixes:disloyal",
-        "sentence": "The word meaning “not faithful to a person or group” is ___.",
+        "sentence": "___ means not faithful to a person or group.",
         "answer": "disloyal",
         "options": [
-          "unaware",
-          "unfortunate",
-          "unpopular",
+          "dishonest",
+          "disobedient",
+          "irreversible",
           "disloyal"
         ],
         "hint": "Negative Prefixes"
@@ -9431,51 +9431,51 @@ export const QUIZZES = {
       {
         "id": "negative-prefixes-47",
         "conceptId": "negative-prefixes:disobedient",
-        "sentence": "The word meaning “refusing to follow rules or instructions” is ___.",
+        "sentence": "___ means refusing to follow rules or instructions.",
         "answer": "disobedient",
         "options": [
-          "unhealthy",
-          "unpredictable",
+          "disorganised",
+          "dishonest",
           "disobedient",
-          "uncertain"
+          "disloyal"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-48",
         "conceptId": "negative-prefixes:disorganised",
-        "sentence": "The word meaning “not arranged in an orderly way” is ___.",
+        "sentence": "___ means not arranged in an orderly way.",
         "answer": "disorganised",
         "options": [
-          "unreasonable",
+          "disloyal",
           "disorganised",
-          "uncomfortable",
-          "unhelpful"
+          "disobedient",
+          "disrespectful"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-49",
         "conceptId": "negative-prefixes:disrespectful",
-        "sentence": "The word meaning “not showing proper respect” is ___.",
+        "sentence": "___ means not showing proper respect.",
         "answer": "disrespectful",
         "options": [
           "disrespectful",
-          "uncommon",
-          "unimportant",
-          "unsuccessful"
+          "disorganised",
+          "dissatisfied",
+          "disobedient"
         ],
         "hint": "Negative Prefixes"
       },
       {
         "id": "negative-prefixes-50",
         "conceptId": "negative-prefixes:dissatisfied",
-        "sentence": "The word meaning “not pleased with a result or situation” is ___.",
+        "sentence": "___ means not pleased with a result or situation.",
         "answer": "dissatisfied",
         "options": [
-          "unconscious",
-          "unlikely",
-          "inaccurate",
+          "disrespectful",
+          "unable",
+          "disorganised",
           "dissatisfied"
         ],
         "hint": "Negative Prefixes"
@@ -10149,25 +10149,25 @@ export const QUIZZES = {
       {
         "id": "make-do-01",
         "conceptId": "make-do:make a decision",
-        "sentence": "The expression meaning “choose after considering the possibilities” is ___.",
+        "sentence": "To ___ means to choose after considering the possibilities.",
         "answer": "make a decision",
         "options": [
           "make a decision",
-          "make a complaint",
-          "make a phone call",
-          "make a speech"
+          "do the right thing",
+          "make a difference",
+          "do overtime"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-02",
         "conceptId": "make-do:make a difference",
-        "sentence": "The expression meaning “have an important positive effect” is ___.",
+        "sentence": "To ___ means to have an important positive effect.",
         "answer": "make a difference",
         "options": [
-          "make an appointment",
-          "make friends",
-          "make a list",
+          "make a decision",
+          "make a mistake",
+          "do the right thing",
           "make a difference"
         ],
         "hint": "Make & Do"
@@ -10175,51 +10175,51 @@ export const QUIZZES = {
       {
         "id": "make-do-03",
         "conceptId": "make-do:make a mistake",
-        "sentence": "The expression meaning “do something incorrectly” is ___.",
+        "sentence": "To ___ means to do something incorrectly.",
         "answer": "make a mistake",
         "options": [
-          "make a contribution",
-          "make money",
+          "make a promise",
+          "make a decision",
           "make a mistake",
-          "make an excuse"
+          "make a difference"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-04",
         "conceptId": "make-do:make a promise",
-        "sentence": "The expression meaning “give someone a firm assurance” is ___.",
+        "sentence": "To ___ means to give someone a firm assurance.",
         "answer": "make a promise",
         "options": [
-          "make room",
+          "make a difference",
           "make a promise",
-          "make a profit",
-          "make an impression"
+          "make a mistake",
+          "make a suggestion"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-05",
         "conceptId": "make-do:make a suggestion",
-        "sentence": "The expression meaning “offer an idea for consideration” is ___.",
+        "sentence": "To ___ means to offer an idea for consideration.",
         "answer": "make a suggestion",
         "options": [
           "make a suggestion",
-          "make a loss",
-          "make a discovery",
-          "do homework"
+          "make a promise",
+          "make an effort",
+          "make a mistake"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-06",
         "conceptId": "make-do:make an effort",
-        "sentence": "The expression meaning “try hard to achieve something” is ___.",
+        "sentence": "To ___ means to try hard to achieve something.",
         "answer": "make an effort",
         "options": [
-          "make a choice",
-          "make a prediction",
-          "do research",
+          "make a suggestion",
+          "make progress",
+          "make a promise",
           "make an effort"
         ],
         "hint": "Make & Do"
@@ -10227,51 +10227,51 @@ export const QUIZZES = {
       {
         "id": "make-do-07",
         "conceptId": "make-do:make progress",
-        "sentence": "The expression meaning “move closer to completing a goal” is ___.",
+        "sentence": "To ___ means to move closer to completing a goal.",
         "answer": "make progress",
         "options": [
-          "make a reservation",
-          "do business",
+          "make a complaint",
+          "make a suggestion",
           "make progress",
-          "make a plan"
+          "make an effort"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-08",
         "conceptId": "make-do:make a complaint",
-        "sentence": "The expression meaning “formally say that something is wrong” is ___.",
+        "sentence": "To ___ means to formally say that something is wrong.",
         "answer": "make a complaint",
         "options": [
-          "do exercise",
+          "make an effort",
           "make a complaint",
-          "make a phone call",
-          "make a speech"
+          "make progress",
+          "make an appointment"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-09",
         "conceptId": "make-do:make an appointment",
-        "sentence": "The expression meaning “arrange a particular time to meet” is ___.",
+        "sentence": "To ___ means to arrange a particular time to meet.",
         "answer": "make an appointment",
         "options": [
           "make an appointment",
-          "make friends",
-          "make a list",
-          "do someone a favour"
+          "make a complaint",
+          "make an excuse",
+          "make progress"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-10",
         "conceptId": "make-do:make an excuse",
-        "sentence": "The expression meaning “give a reason to avoid blame” is ___.",
+        "sentence": "To ___ means to give a reason to avoid blame.",
         "answer": "make an excuse",
         "options": [
-          "make a contribution",
-          "make money",
-          "do the shopping",
+          "make an appointment",
+          "make a profit",
+          "make a complaint",
           "make an excuse"
         ],
         "hint": "Make & Do"
@@ -10279,51 +10279,51 @@ export const QUIZZES = {
       {
         "id": "make-do-11",
         "conceptId": "make-do:make a profit",
-        "sentence": "The expression meaning “earn more money than was spent” is ___.",
+        "sentence": "To ___ means to earn more money than was spent.",
         "answer": "make a profit",
         "options": [
-          "make room",
-          "do the washing-up",
+          "make a loss",
+          "make an appointment",
           "make a profit",
-          "make an impression"
+          "make an excuse"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-12",
         "conceptId": "make-do:make a loss",
-        "sentence": "The expression meaning “spend more money than was earned” is ___.",
+        "sentence": "To ___ means to spend more money than was earned.",
         "answer": "make a loss",
         "options": [
-          "do your best",
+          "make an excuse",
           "make a loss",
-          "make a discovery",
-          "do homework"
+          "make a profit",
+          "make a choice"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-13",
         "conceptId": "make-do:make a choice",
-        "sentence": "The expression meaning “select one possibility” is ___.",
+        "sentence": "To ___ means to select one possibility.",
         "answer": "make a choice",
         "options": [
           "make a choice",
-          "make a prediction",
-          "do research",
-          "do damage"
+          "make a loss",
+          "make a plan",
+          "make a profit"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-14",
         "conceptId": "make-do:make a plan",
-        "sentence": "The expression meaning “decide in advance what to do” is ___.",
+        "sentence": "To ___ means to decide in advance what to do.",
         "answer": "make a plan",
         "options": [
-          "make a reservation",
-          "do business",
-          "do a course",
+          "make a choice",
+          "make a phone call",
+          "make a loss",
           "make a plan"
         ],
         "hint": "Make & Do"
@@ -10331,51 +10331,51 @@ export const QUIZZES = {
       {
         "id": "make-do-15",
         "conceptId": "make-do:make a phone call",
-        "sentence": "The expression meaning “contact someone by telephone” is ___.",
+        "sentence": "To ___ means to contact someone by telephone.",
         "answer": "make a phone call",
         "options": [
-          "do exercise",
-          "do an experiment",
+          "make friends",
+          "make a choice",
           "make a phone call",
-          "make a speech"
+          "make a plan"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-16",
         "conceptId": "make-do:make friends",
-        "sentence": "The expression meaning “develop friendly relationships” is ___.",
+        "sentence": "To ___ means to develop friendly relationships.",
         "answer": "make friends",
         "options": [
-          "do a job",
+          "make a plan",
           "make friends",
-          "make a list",
-          "do someone a favour"
+          "make a phone call",
+          "make a contribution"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-17",
         "conceptId": "make-do:make a contribution",
-        "sentence": "The expression meaning “give something that helps a shared effort” is ___.",
+        "sentence": "To ___ means to give something that helps a shared effort.",
         "answer": "make a contribution",
         "options": [
           "make a contribution",
-          "make money",
-          "do the shopping",
-          "do housework"
+          "make friends",
+          "make an impression",
+          "make a phone call"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-18",
         "conceptId": "make-do:make an impression",
-        "sentence": "The expression meaning “cause people to form a particular opinion” is ___.",
+        "sentence": "To ___ means to cause people to form a particular opinion.",
         "answer": "make an impression",
         "options": [
-          "make room",
-          "do the washing-up",
-          "do well",
+          "make a contribution",
+          "make a discovery",
+          "make friends",
           "make an impression"
         ],
         "hint": "Make & Do"
@@ -10383,51 +10383,51 @@ export const QUIZZES = {
       {
         "id": "make-do-19",
         "conceptId": "make-do:make a discovery",
-        "sentence": "The expression meaning “find something previously unknown” is ___.",
+        "sentence": "To ___ means to find something previously unknown.",
         "answer": "make a discovery",
         "options": [
-          "do your best",
-          "do badly",
+          "make a prediction",
+          "make a contribution",
           "make a discovery",
-          "do homework"
+          "make an impression"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-20",
         "conceptId": "make-do:make a prediction",
-        "sentence": "The expression meaning “say what you think will happen” is ___.",
+        "sentence": "To ___ means to say what you think will happen.",
         "answer": "make a prediction",
         "options": [
-          "do your duty",
+          "make an impression",
           "make a prediction",
-          "do research",
-          "do damage"
+          "make a discovery",
+          "make a reservation"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-21",
         "conceptId": "make-do:make a reservation",
-        "sentence": "The expression meaning “arrange for a place to be kept for you” is ___.",
+        "sentence": "To ___ means to arrange for a place to be kept for you.",
         "answer": "make a reservation",
         "options": [
           "make a reservation",
-          "do business",
-          "do a course",
-          "do a test"
+          "make a prediction",
+          "make a speech",
+          "make a discovery"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-22",
         "conceptId": "make-do:make a speech",
-        "sentence": "The expression meaning “speak formally to an audience” is ___.",
+        "sentence": "To ___ means to speak formally to an audience.",
         "answer": "make a speech",
         "options": [
-          "do exercise",
-          "do an experiment",
-          "do the cooking",
+          "make a reservation",
+          "make a list",
+          "make a prediction",
           "make a speech"
         ],
         "hint": "Make & Do"
@@ -10435,51 +10435,51 @@ export const QUIZZES = {
       {
         "id": "make-do-23",
         "conceptId": "make-do:make a list",
-        "sentence": "The expression meaning “write several related items in order” is ___.",
+        "sentence": "To ___ means to write several related items in order.",
         "answer": "make a list",
         "options": [
-          "do a job",
-          "do the cleaning",
+          "make money",
+          "make a reservation",
           "make a list",
-          "do someone a favour"
+          "make a speech"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-24",
         "conceptId": "make-do:make money",
-        "sentence": "The expression meaning “earn an income” is ___.",
+        "sentence": "To ___ means to earn an income.",
         "answer": "make money",
         "options": [
-          "do paperwork",
+          "make a speech",
           "make money",
-          "do the shopping",
-          "do housework"
+          "make a list",
+          "make room"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-25",
         "conceptId": "make-do:make room",
-        "sentence": "The expression meaning “create enough space for someone or something” is ___.",
+        "sentence": "To ___ means to create enough space for someone or something.",
         "answer": "make room",
         "options": [
           "make room",
-          "do the washing-up",
-          "do well",
-          "do a project"
+          "make money",
+          "do homework",
+          "make a list"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-26",
         "conceptId": "make-do:do homework",
-        "sentence": "The expression meaning “complete school work outside class” is ___.",
+        "sentence": "To ___ means to complete school work outside class.",
         "answer": "do homework",
         "options": [
-          "do your best",
-          "do badly",
-          "do your hair",
+          "make room",
+          "do research",
+          "make money",
           "do homework"
         ],
         "hint": "Make & Do"
@@ -10487,51 +10487,51 @@ export const QUIZZES = {
       {
         "id": "make-do-27",
         "conceptId": "make-do:do research",
-        "sentence": "The expression meaning “study a subject to discover information” is ___.",
+        "sentence": "To ___ means to study a subject to discover information.",
         "answer": "do research",
         "options": [
-          "do your duty",
-          "do nothing",
+          "do business",
+          "make room",
           "do research",
-          "do damage"
+          "do homework"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-28",
         "conceptId": "make-do:do business",
-        "sentence": "The expression meaning “buy, sell or work commercially” is ___.",
+        "sentence": "To ___ means to buy, sell or work commercially.",
         "answer": "do business",
         "options": [
-          "do overtime",
+          "do homework",
           "do business",
-          "do a course",
-          "do a test"
+          "do research",
+          "do exercise"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-29",
         "conceptId": "make-do:do exercise",
-        "sentence": "The expression meaning “perform physical activity” is ___.",
+        "sentence": "To ___ means to perform physical activity.",
         "answer": "do exercise",
         "options": [
           "do exercise",
-          "do an experiment",
-          "do the cooking",
-          "do the right thing"
+          "do business",
+          "do someone a favour",
+          "do research"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-30",
         "conceptId": "make-do:do someone a favour",
-        "sentence": "The expression meaning “help another person voluntarily” is ___.",
+        "sentence": "To ___ means to help another person voluntarily.",
         "answer": "do someone a favour",
         "options": [
-          "do a job",
-          "do the cleaning",
-          "make a decision",
+          "do exercise",
+          "do the shopping",
+          "do business",
           "do someone a favour"
         ],
         "hint": "Make & Do"
@@ -10539,51 +10539,51 @@ export const QUIZZES = {
       {
         "id": "make-do-31",
         "conceptId": "make-do:do the shopping",
-        "sentence": "The expression meaning “buy the things needed at home” is ___.",
+        "sentence": "To ___ means to buy the things needed at home.",
         "answer": "do the shopping",
         "options": [
-          "do paperwork",
-          "make a difference",
+          "do the washing-up",
+          "do exercise",
           "do the shopping",
-          "do housework"
+          "do someone a favour"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-32",
         "conceptId": "make-do:do the washing-up",
-        "sentence": "The expression meaning “clean plates and cooking equipment” is ___.",
+        "sentence": "To ___ means to clean plates and cooking equipment.",
         "answer": "do the washing-up",
         "options": [
-          "make a mistake",
+          "do someone a favour",
           "do the washing-up",
-          "do well",
-          "do a project"
+          "do the shopping",
+          "do your best"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-33",
         "conceptId": "make-do:do your best",
-        "sentence": "The expression meaning “try as hard as possible” is ___.",
+        "sentence": "To ___ means to try as hard as possible.",
         "answer": "do your best",
         "options": [
           "do your best",
-          "do badly",
-          "do your hair",
-          "make a promise"
+          "do the washing-up",
+          "do damage",
+          "do the shopping"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-34",
         "conceptId": "make-do:do damage",
-        "sentence": "The expression meaning “cause physical harm” is ___.",
+        "sentence": "To ___ means to cause physical harm.",
         "answer": "do damage",
         "options": [
-          "do your duty",
-          "do nothing",
-          "make a suggestion",
+          "do your best",
+          "do a course",
+          "do the washing-up",
           "do damage"
         ],
         "hint": "Make & Do"
@@ -10591,51 +10591,51 @@ export const QUIZZES = {
       {
         "id": "make-do-35",
         "conceptId": "make-do:do a course",
-        "sentence": "The expression meaning “study a planned series of lessons” is ___.",
+        "sentence": "To ___ means to study a planned series of lessons.",
         "answer": "do a course",
         "options": [
-          "do overtime",
-          "make an effort",
+          "do an experiment",
+          "do your best",
           "do a course",
-          "do a test"
+          "do damage"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-36",
         "conceptId": "make-do:do an experiment",
-        "sentence": "The expression meaning “carry out a scientific test” is ___.",
+        "sentence": "To ___ means to carry out a scientific test.",
         "answer": "do an experiment",
         "options": [
-          "make progress",
+          "do damage",
           "do an experiment",
-          "do the cooking",
-          "do the right thing"
+          "do a course",
+          "do a job"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-37",
         "conceptId": "make-do:do a job",
-        "sentence": "The expression meaning “perform a particular piece of work” is ___.",
+        "sentence": "To ___ means to perform a particular piece of work.",
         "answer": "do a job",
         "options": [
           "do a job",
-          "do the cleaning",
-          "make a decision",
-          "make a complaint"
+          "do an experiment",
+          "do housework",
+          "do a course"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-38",
         "conceptId": "make-do:do housework",
-        "sentence": "The expression meaning “complete cleaning and other home tasks” is ___.",
+        "sentence": "To ___ means to complete cleaning and other home tasks.",
         "answer": "do housework",
         "options": [
-          "do paperwork",
-          "make a difference",
-          "make an appointment",
+          "do a job",
+          "do well",
+          "do an experiment",
           "do housework"
         ],
         "hint": "Make & Do"
@@ -10643,51 +10643,51 @@ export const QUIZZES = {
       {
         "id": "make-do-39",
         "conceptId": "make-do:do well",
-        "sentence": "The expression meaning “achieve a successful result” is ___.",
+        "sentence": "To ___ means to achieve a successful result.",
         "answer": "do well",
         "options": [
-          "make a mistake",
-          "make an excuse",
+          "do badly",
+          "do a job",
           "do well",
-          "do a project"
+          "do housework"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-40",
         "conceptId": "make-do:do badly",
-        "sentence": "The expression meaning “achieve a poor result” is ___.",
+        "sentence": "To ___ means to achieve a poor result.",
         "answer": "do badly",
         "options": [
-          "make a profit",
+          "do housework",
           "do badly",
-          "do your hair",
-          "make a promise"
+          "do well",
+          "do your duty"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-41",
         "conceptId": "make-do:do your duty",
-        "sentence": "The expression meaning “perform what you are responsible for” is ___.",
+        "sentence": "To ___ means to perform what you are responsible for.",
         "answer": "do your duty",
         "options": [
           "do your duty",
-          "do nothing",
-          "make a suggestion",
-          "make a loss"
+          "do badly",
+          "do a test",
+          "do well"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-42",
         "conceptId": "make-do:do a test",
-        "sentence": "The expression meaning “complete an assessment” is ___.",
+        "sentence": "To ___ means to complete an assessment.",
         "answer": "do a test",
         "options": [
-          "do overtime",
-          "make an effort",
-          "make a choice",
+          "do your duty",
+          "do the cooking",
+          "do badly",
           "do a test"
         ],
         "hint": "Make & Do"
@@ -10695,51 +10695,51 @@ export const QUIZZES = {
       {
         "id": "make-do-43",
         "conceptId": "make-do:do the cooking",
-        "sentence": "The expression meaning “prepare food for a meal” is ___.",
+        "sentence": "To ___ means to prepare food for a meal.",
         "answer": "do the cooking",
         "options": [
-          "make progress",
-          "make a plan",
+          "do the cleaning",
+          "do your duty",
           "do the cooking",
-          "do the right thing"
+          "do a test"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-44",
         "conceptId": "make-do:do the cleaning",
-        "sentence": "The expression meaning “remove dirt from a place” is ___.",
+        "sentence": "To ___ means to remove dirt from a place.",
         "answer": "do the cleaning",
         "options": [
-          "make a phone call",
+          "do a test",
           "do the cleaning",
-          "make a decision",
-          "make a complaint"
+          "do the cooking",
+          "do paperwork"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-45",
         "conceptId": "make-do:do paperwork",
-        "sentence": "The expression meaning “complete administrative documents” is ___.",
+        "sentence": "To ___ means to complete administrative documents.",
         "answer": "do paperwork",
         "options": [
           "do paperwork",
-          "make a difference",
-          "make an appointment",
-          "make friends"
+          "do the cleaning",
+          "do a project",
+          "do the cooking"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-46",
         "conceptId": "make-do:do a project",
-        "sentence": "The expression meaning “complete an organised piece of work” is ___.",
+        "sentence": "To ___ means to complete an organised piece of work.",
         "answer": "do a project",
         "options": [
-          "make a mistake",
-          "make an excuse",
-          "make a contribution",
+          "do paperwork",
+          "do your hair",
+          "do the cleaning",
           "do a project"
         ],
         "hint": "Make & Do"
@@ -10747,51 +10747,51 @@ export const QUIZZES = {
       {
         "id": "make-do-47",
         "conceptId": "make-do:do your hair",
-        "sentence": "The expression meaning “arrange or style your hair” is ___.",
+        "sentence": "To ___ means to arrange or style your hair.",
         "answer": "do your hair",
         "options": [
-          "make a profit",
-          "make an impression",
+          "do nothing",
+          "do paperwork",
           "do your hair",
-          "make a promise"
+          "do a project"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-48",
         "conceptId": "make-do:do nothing",
-        "sentence": "The expression meaning “take no action” is ___.",
+        "sentence": "To ___ means to take no action.",
         "answer": "do nothing",
         "options": [
-          "make a discovery",
+          "do a project",
           "do nothing",
-          "make a suggestion",
-          "make a loss"
+          "do your hair",
+          "do overtime"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-49",
         "conceptId": "make-do:do overtime",
-        "sentence": "The expression meaning “work beyond normal hours” is ___.",
+        "sentence": "To ___ means to work beyond normal hours.",
         "answer": "do overtime",
         "options": [
           "do overtime",
-          "make an effort",
-          "make a choice",
-          "make a prediction"
+          "do nothing",
+          "do the right thing",
+          "do your hair"
         ],
         "hint": "Make & Do"
       },
       {
         "id": "make-do-50",
         "conceptId": "make-do:do the right thing",
-        "sentence": "The expression meaning “act in the morally correct way” is ___.",
+        "sentence": "To ___ means to act in the morally correct way.",
         "answer": "do the right thing",
         "options": [
-          "make progress",
-          "make a plan",
-          "make a reservation",
+          "do overtime",
+          "make a decision",
+          "do nothing",
           "do the right thing"
         ],
         "hint": "Make & Do"
@@ -10807,25 +10807,25 @@ export const QUIZZES = {
       {
         "id": "photography-01",
         "conceptId": "photography:aperture",
-        "sentence": "The term for the opening controlling how much light enters a camera is ___.",
+        "sentence": "___ refers to the opening controlling how much light enters a camera.",
         "answer": "aperture",
         "options": [
           "aperture",
-          "candid photograph",
-          "editing",
-          "golden hour"
+          "zoom lens",
+          "autofocus",
+          "wildlife photography"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-02",
         "conceptId": "photography:autofocus",
-        "sentence": "The term for a system that makes a camera focus automatically is ___.",
+        "sentence": "___ refers to a system that makes a camera focus automatically.",
         "answer": "autofocus",
         "options": [
-          "close-up",
-          "exposure",
-          "highlight",
+          "aperture",
+          "background",
+          "zoom lens",
           "autofocus"
         ],
         "hint": "Photography"
@@ -10833,51 +10833,51 @@ export const QUIZZES = {
       {
         "id": "photography-03",
         "conceptId": "photography:background",
-        "sentence": "The term for the area behind the main photographic subject is ___.",
+        "sentence": "___ refers to the area behind the main photographic subject.",
         "answer": "background",
         "options": [
-          "filter",
-          "image stabilisation",
+          "black-and-white",
+          "aperture",
           "background",
-          "composition"
+          "autofocus"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-04",
         "conceptId": "photography:black-and-white",
-        "sentence": "The term for a photographic style using tones without colour is ___.",
+        "sentence": "___ refers to a photographic style using tones without colour.",
         "answer": "black-and-white",
         "options": [
-          "landscape photograph",
+          "autofocus",
           "black-and-white",
-          "contrast",
-          "flash"
+          "background",
+          "blur"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-05",
         "conceptId": "photography:blur",
-        "sentence": "The term for a lack of sharp detail in an image is ___.",
+        "sentence": "___ refers to a lack of sharp detail in an image.",
         "answer": "blur",
         "options": [
           "blur",
-          "crop",
-          "focus",
-          "lens"
+          "black-and-white",
+          "brightness",
+          "background"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-06",
         "conceptId": "photography:brightness",
-        "sentence": "The term for the amount of light visible in an image is ___.",
+        "sentence": "___ refers to the amount of light visible in an image.",
         "answer": "brightness",
         "options": [
-          "depth of field",
-          "foreground",
-          "macro photography",
+          "blur",
+          "camera body",
+          "black-and-white",
           "brightness"
         ],
         "hint": "Photography"
@@ -10885,51 +10885,51 @@ export const QUIZZES = {
       {
         "id": "photography-07",
         "conceptId": "photography:camera body",
-        "sentence": "The term for the main part of a camera excluding the lens is ___.",
+        "sentence": "___ refers to the main part of a camera excluding the lens.",
         "answer": "camera body",
         "options": [
-          "frame",
-          "manual mode",
+          "candid photograph",
+          "blur",
           "camera body",
-          "digital zoom"
+          "brightness"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-08",
         "conceptId": "photography:candid photograph",
-        "sentence": "The term for an unposed picture taken naturally is ___.",
+        "sentence": "___ refers to an unposed picture taken naturally.",
         "answer": "candid photograph",
         "options": [
-          "memory card",
+          "brightness",
           "candid photograph",
-          "editing",
-          "golden hour"
+          "camera body",
+          "close-up"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-09",
         "conceptId": "photography:close-up",
-        "sentence": "The term for a photograph taken from a very short distance is ___.",
+        "sentence": "___ refers to a photograph taken from a very short distance.",
         "answer": "close-up",
         "options": [
           "close-up",
-          "exposure",
-          "highlight",
-          "negative"
+          "candid photograph",
+          "composition",
+          "camera body"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-10",
         "conceptId": "photography:composition",
-        "sentence": "The term for the arrangement of visual elements in a picture is ___.",
+        "sentence": "___ refers to the arrangement of visual elements in a picture.",
         "answer": "composition",
         "options": [
-          "filter",
-          "image stabilisation",
-          "panorama",
+          "close-up",
+          "contrast",
+          "candid photograph",
           "composition"
         ],
         "hint": "Photography"
@@ -10937,51 +10937,51 @@ export const QUIZZES = {
       {
         "id": "photography-11",
         "conceptId": "photography:contrast",
-        "sentence": "The term for the difference between light and dark areas is ___.",
+        "sentence": "___ refers to the difference between light and dark areas.",
         "answer": "contrast",
         "options": [
-          "landscape photograph",
-          "perspective",
+          "crop",
+          "close-up",
           "contrast",
-          "flash"
+          "composition"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-12",
         "conceptId": "photography:crop",
-        "sentence": "The term for remove the outer parts of an image is ___.",
+        "sentence": "Please ___ the image to remove the empty space around it.",
         "answer": "crop",
         "options": [
-          "pixel",
           "crop",
-          "focus",
-          "lens"
+          "resize",
+          "rotate",
+          "filter"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-13",
         "conceptId": "photography:depth of field",
-        "sentence": "The term for the distance range that appears acceptably sharp is ___.",
+        "sentence": "___ refers to the distance range that appears acceptably sharp.",
         "answer": "depth of field",
         "options": [
           "depth of field",
-          "foreground",
-          "macro photography",
-          "portrait"
+          "crop",
+          "digital zoom",
+          "contrast"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-14",
         "conceptId": "photography:digital zoom",
-        "sentence": "The term for software enlargement of part of an image is ___.",
+        "sentence": "___ refers to software enlargement of part of an image.",
         "answer": "digital zoom",
         "options": [
-          "frame",
-          "manual mode",
-          "print",
+          "depth of field",
+          "editing",
+          "crop",
           "digital zoom"
         ],
         "hint": "Photography"
@@ -10989,51 +10989,51 @@ export const QUIZZES = {
       {
         "id": "photography-15",
         "conceptId": "photography:editing",
-        "sentence": "The term for altering an image after it has been taken is ___.",
+        "sentence": "___ refers to altering an image after it has been taken.",
         "answer": "editing",
         "options": [
-          "memory card",
-          "reflection",
+          "exposure",
+          "depth of field",
           "editing",
-          "golden hour"
+          "digital zoom"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-16",
         "conceptId": "photography:exposure",
-        "sentence": "The term for the total amount of light reaching the camera sensor is ___.",
+        "sentence": "___ refers to the total amount of light reaching the camera sensor.",
         "answer": "exposure",
         "options": [
-          "resolution",
+          "digital zoom",
           "exposure",
-          "highlight",
-          "negative"
+          "editing",
+          "filter"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-17",
         "conceptId": "photography:filter",
-        "sentence": "The term for an accessory or effect changing captured light or colour is ___.",
+        "sentence": "___ refers to an accessory or effect changing captured light or colour.",
         "answer": "filter",
         "options": [
           "filter",
-          "image stabilisation",
-          "panorama",
-          "rule of thirds"
+          "exposure",
+          "flash",
+          "editing"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-18",
         "conceptId": "photography:flash",
-        "sentence": "The term for a brief artificial light used when taking a photograph is ___.",
+        "sentence": "___ refers to a brief artificial light used when taking a photograph.",
         "answer": "flash",
         "options": [
-          "landscape photograph",
-          "perspective",
-          "self-timer",
+          "filter",
+          "focus",
+          "exposure",
           "flash"
         ],
         "hint": "Photography"
@@ -11041,51 +11041,51 @@ export const QUIZZES = {
       {
         "id": "photography-19",
         "conceptId": "photography:focus",
-        "sentence": "The term for the state in which image details appear sharp is ___.",
+        "sentence": "___ refers to the state in which image details appear sharp.",
         "answer": "focus",
         "options": [
-          "pixel",
-          "sensor",
+          "foreground",
+          "filter",
           "focus",
-          "lens"
+          "flash"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-20",
         "conceptId": "photography:foreground",
-        "sentence": "The term for the area of a photograph nearest the viewer is ___.",
+        "sentence": "___ refers to the area of a photograph nearest the viewer.",
         "answer": "foreground",
         "options": [
-          "shadow",
+          "flash",
           "foreground",
-          "macro photography",
-          "portrait"
+          "focus",
+          "frame"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-21",
         "conceptId": "photography:frame",
-        "sentence": "The term for the edges and selected area of a photograph is ___.",
+        "sentence": "___ refers to the edges and selected area of a photograph.",
         "answer": "frame",
         "options": [
           "frame",
-          "manual mode",
-          "print",
-          "shutter"
+          "foreground",
+          "golden hour",
+          "focus"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-22",
         "conceptId": "photography:golden hour",
-        "sentence": "The term for the period after sunrise or before sunset with soft light is ___.",
+        "sentence": "___ refers to the period after sunrise or before sunset with soft light.",
         "answer": "golden hour",
         "options": [
-          "memory card",
-          "reflection",
-          "shutter speed",
+          "frame",
+          "highlight",
+          "foreground",
           "golden hour"
         ],
         "hint": "Photography"
@@ -11093,51 +11093,51 @@ export const QUIZZES = {
       {
         "id": "photography-23",
         "conceptId": "photography:highlight",
-        "sentence": "The term for a very bright area within an image is ___.",
+        "sentence": "___ refers to a very bright area within an image.",
         "answer": "highlight",
         "options": [
-          "resolution",
-          "silhouette",
+          "image stabilisation",
+          "frame",
           "highlight",
-          "negative"
+          "golden hour"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-24",
         "conceptId": "photography:image stabilisation",
-        "sentence": "The term for technology reducing blur caused by camera movement is ___.",
+        "sentence": "___ refers to technology reducing blur caused by camera movement.",
         "answer": "image stabilisation",
         "options": [
-          "snapshot",
+          "golden hour",
           "image stabilisation",
-          "panorama",
-          "rule of thirds"
+          "highlight",
+          "landscape photograph"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-25",
         "conceptId": "photography:landscape photograph",
-        "sentence": "The term for a picture showing a broad natural scene is ___.",
+        "sentence": "___ refers to a picture showing a broad natural scene.",
         "answer": "landscape photograph",
         "options": [
           "landscape photograph",
-          "perspective",
-          "self-timer",
-          "tripod"
+          "image stabilisation",
+          "lens",
+          "highlight"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-26",
         "conceptId": "photography:lens",
-        "sentence": "The term for the curved glass directing light into a camera is ___.",
+        "sentence": "___ refers to the curved glass directing light into a camera.",
         "answer": "lens",
         "options": [
-          "pixel",
-          "sensor",
-          "viewfinder",
+          "landscape photograph",
+          "macro photography",
+          "image stabilisation",
           "lens"
         ],
         "hint": "Photography"
@@ -11145,51 +11145,51 @@ export const QUIZZES = {
       {
         "id": "photography-27",
         "conceptId": "photography:macro photography",
-        "sentence": "The term for photography of very small subjects at close range is ___.",
+        "sentence": "___ refers to photography of very small subjects at close range.",
         "answer": "macro photography",
         "options": [
-          "shadow",
-          "wide-angle lens",
+          "manual mode",
+          "landscape photograph",
           "macro photography",
-          "portrait"
+          "lens"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-28",
         "conceptId": "photography:manual mode",
-        "sentence": "The term for a camera setting giving the photographer full control is ___.",
+        "sentence": "___ refers to a camera setting giving the photographer full control.",
         "answer": "manual mode",
         "options": [
-          "wildlife photography",
+          "lens",
           "manual mode",
-          "print",
-          "shutter"
+          "macro photography",
+          "memory card"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-29",
         "conceptId": "photography:memory card",
-        "sentence": "The term for a removable device storing digital photographs is ___.",
+        "sentence": "___ refers to a removable device storing digital photographs.",
         "answer": "memory card",
         "options": [
           "memory card",
-          "reflection",
-          "shutter speed",
-          "zoom lens"
+          "manual mode",
+          "negative",
+          "macro photography"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-30",
         "conceptId": "photography:negative",
-        "sentence": "The term for a reversed image traditionally used to produce prints is ___.",
+        "sentence": "___ refers to a reversed image traditionally used to produce prints.",
         "answer": "negative",
         "options": [
-          "resolution",
-          "silhouette",
-          "aperture",
+          "memory card",
+          "panorama",
+          "manual mode",
           "negative"
         ],
         "hint": "Photography"
@@ -11197,51 +11197,51 @@ export const QUIZZES = {
       {
         "id": "photography-31",
         "conceptId": "photography:panorama",
-        "sentence": "The term for a photograph showing an exceptionally wide view is ___.",
+        "sentence": "___ refers to a photograph showing an exceptionally wide view.",
         "answer": "panorama",
         "options": [
-          "snapshot",
-          "autofocus",
+          "perspective",
+          "memory card",
           "panorama",
-          "rule of thirds"
+          "negative"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-32",
         "conceptId": "photography:perspective",
-        "sentence": "The term for the apparent spatial relationship between objects is ___.",
+        "sentence": "___ refers to the apparent spatial relationship between objects.",
         "answer": "perspective",
         "options": [
-          "background",
+          "negative",
           "perspective",
-          "self-timer",
-          "tripod"
+          "panorama",
+          "pixel"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-33",
         "conceptId": "photography:pixel",
-        "sentence": "The term for the smallest coloured unit in a digital image is ___.",
+        "sentence": "___ refers to the smallest coloured unit in a digital image.",
         "answer": "pixel",
         "options": [
           "pixel",
-          "sensor",
-          "viewfinder",
-          "black-and-white"
+          "perspective",
+          "portrait",
+          "panorama"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-34",
         "conceptId": "photography:portrait",
-        "sentence": "The term for a photograph whose main subject is a person is ___.",
+        "sentence": "___ refers to a photograph whose main subject is a person.",
         "answer": "portrait",
         "options": [
-          "shadow",
-          "wide-angle lens",
-          "blur",
+          "pixel",
+          "print",
+          "perspective",
           "portrait"
         ],
         "hint": "Photography"
@@ -11249,51 +11249,51 @@ export const QUIZZES = {
       {
         "id": "photography-35",
         "conceptId": "photography:print",
-        "sentence": "The term for a physical copy of a photograph on paper is ___.",
+        "sentence": "___ refers to a physical copy of a photograph on paper.",
         "answer": "print",
         "options": [
-          "wildlife photography",
-          "brightness",
+          "reflection",
+          "pixel",
           "print",
-          "shutter"
+          "portrait"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-36",
         "conceptId": "photography:reflection",
-        "sentence": "The term for an image seen in water, glass or another shiny surface is ___.",
+        "sentence": "___ refers to an image seen in water, glass or another shiny surface.",
         "answer": "reflection",
         "options": [
-          "camera body",
+          "portrait",
           "reflection",
-          "shutter speed",
-          "zoom lens"
+          "print",
+          "resolution"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-37",
         "conceptId": "photography:resolution",
-        "sentence": "The term for the amount of detail contained in a digital image is ___.",
+        "sentence": "___ refers to the amount of detail contained in a digital image.",
         "answer": "resolution",
         "options": [
           "resolution",
-          "silhouette",
-          "aperture",
-          "candid photograph"
+          "reflection",
+          "rule of thirds",
+          "print"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-38",
         "conceptId": "photography:rule of thirds",
-        "sentence": "The term for a composition guide dividing an image into nine sections is ___.",
+        "sentence": "___ refers to a composition guide dividing an image into nine sections.",
         "answer": "rule of thirds",
         "options": [
-          "snapshot",
-          "autofocus",
-          "close-up",
+          "resolution",
+          "self-timer",
+          "reflection",
           "rule of thirds"
         ],
         "hint": "Photography"
@@ -11301,51 +11301,51 @@ export const QUIZZES = {
       {
         "id": "photography-39",
         "conceptId": "photography:self-timer",
-        "sentence": "The term for a camera setting delaying the moment a picture is taken is ___.",
+        "sentence": "___ refers to a camera setting delaying the moment a picture is taken.",
         "answer": "self-timer",
         "options": [
-          "background",
-          "composition",
+          "sensor",
+          "resolution",
           "self-timer",
-          "tripod"
+          "rule of thirds"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-40",
         "conceptId": "photography:sensor",
-        "sentence": "The term for the electronic surface recording light in a digital camera is ___.",
+        "sentence": "___ refers to the electronic surface recording light in a digital camera.",
         "answer": "sensor",
         "options": [
-          "contrast",
+          "rule of thirds",
           "sensor",
-          "viewfinder",
-          "black-and-white"
+          "self-timer",
+          "shadow"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-41",
         "conceptId": "photography:shadow",
-        "sentence": "The term for a dark area where light is blocked is ___.",
+        "sentence": "___ refers to a dark area where light is blocked.",
         "answer": "shadow",
         "options": [
           "shadow",
-          "wide-angle lens",
-          "blur",
-          "crop"
+          "sensor",
+          "shutter",
+          "self-timer"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-42",
         "conceptId": "photography:shutter",
-        "sentence": "The term for the mechanism controlling how long light enters a camera is ___.",
+        "sentence": "___ refers to the mechanism controlling how long light enters a camera.",
         "answer": "shutter",
         "options": [
-          "wildlife photography",
-          "brightness",
-          "depth of field",
+          "shadow",
+          "shutter speed",
+          "sensor",
           "shutter"
         ],
         "hint": "Photography"
@@ -11353,51 +11353,51 @@ export const QUIZZES = {
       {
         "id": "photography-43",
         "conceptId": "photography:shutter speed",
-        "sentence": "The term for the length of time a camera sensor is exposed is ___.",
+        "sentence": "___ refers to the length of time a camera sensor is exposed.",
         "answer": "shutter speed",
         "options": [
-          "camera body",
-          "digital zoom",
+          "silhouette",
+          "shadow",
           "shutter speed",
-          "zoom lens"
+          "shutter"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-44",
         "conceptId": "photography:silhouette",
-        "sentence": "The term for a dark subject photographed against a bright background is ___.",
+        "sentence": "___ refers to a dark subject photographed against a bright background.",
         "answer": "silhouette",
         "options": [
-          "editing",
+          "shutter",
           "silhouette",
-          "aperture",
-          "candid photograph"
+          "shutter speed",
+          "snapshot"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-45",
         "conceptId": "photography:snapshot",
-        "sentence": "The term for a quick informal photograph is ___.",
+        "sentence": "___ refers to a quick informal photograph.",
         "answer": "snapshot",
         "options": [
           "snapshot",
-          "autofocus",
-          "close-up",
-          "exposure"
+          "silhouette",
+          "tripod",
+          "shutter speed"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-46",
         "conceptId": "photography:tripod",
-        "sentence": "The term for a three-legged support used to keep a camera steady is ___.",
+        "sentence": "___ refers to a three-legged support used to keep a camera steady.",
         "answer": "tripod",
         "options": [
-          "background",
-          "composition",
-          "filter",
+          "snapshot",
+          "viewfinder",
+          "silhouette",
           "tripod"
         ],
         "hint": "Photography"
@@ -11405,51 +11405,51 @@ export const QUIZZES = {
       {
         "id": "photography-47",
         "conceptId": "photography:viewfinder",
-        "sentence": "The term for the part used to see and compose the future photograph is ___.",
+        "sentence": "___ refers to the part used to see and compose the future photograph.",
         "answer": "viewfinder",
         "options": [
-          "contrast",
-          "flash",
+          "wide-angle lens",
+          "snapshot",
           "viewfinder",
-          "black-and-white"
+          "tripod"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-48",
         "conceptId": "photography:wide-angle lens",
-        "sentence": "The term for a lens capturing a broader view than normal is ___.",
+        "sentence": "___ refers to a lens capturing a broader view than normal.",
         "answer": "wide-angle lens",
         "options": [
-          "focus",
+          "tripod",
           "wide-angle lens",
-          "blur",
-          "crop"
+          "viewfinder",
+          "wildlife photography"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-49",
         "conceptId": "photography:wildlife photography",
-        "sentence": "The term for photography whose subjects are animals in nature is ___.",
+        "sentence": "___ refers to photography whose subjects are animals in nature.",
         "answer": "wildlife photography",
         "options": [
           "wildlife photography",
-          "brightness",
-          "depth of field",
-          "foreground"
+          "wide-angle lens",
+          "zoom lens",
+          "viewfinder"
         ],
         "hint": "Photography"
       },
       {
         "id": "photography-50",
         "conceptId": "photography:zoom lens",
-        "sentence": "The term for a lens allowing different focal lengths is ___.",
+        "sentence": "___ refers to a lens allowing different focal lengths.",
         "answer": "zoom lens",
         "options": [
-          "camera body",
-          "digital zoom",
-          "frame",
+          "wildlife photography",
+          "aperture",
+          "wide-angle lens",
           "zoom lens"
         ],
         "hint": "Photography"
@@ -11465,25 +11465,25 @@ export const QUIZZES = {
       {
         "id": "celebrations-01",
         "conceptId": "celebrations:anniversary",
-        "sentence": "The term for the yearly date on which an important event happened is ___.",
+        "sentence": "___ refers to the yearly date on which an important event happened.",
         "answer": "anniversary",
         "options": [
           "anniversary",
-          "ceremony",
-          "farewell party",
-          "party favour"
+          "celebrant",
+          "banquet",
+          "occasion"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-02",
         "conceptId": "celebrations:banquet",
-        "sentence": "The term for a formal meal for many guests is ___.",
+        "sentence": "___ refers to a formal meal for many guests.",
         "answer": "banquet",
         "options": [
-          "champagne",
-          "festival",
-          "reception",
+          "anniversary",
+          "birthday",
+          "celebrant",
           "banquet"
         ],
         "hint": "Celebrations & Gifts"
@@ -11491,51 +11491,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-03",
         "conceptId": "celebrations:birthday",
-        "sentence": "The term for the annual celebration of someone’s birth is ___.",
+        "sentence": "___ refers to the annual celebration of someone’s birth.",
         "answer": "birthday",
         "options": [
-          "fireworks",
-          "retirement party",
+          "bride",
+          "anniversary",
           "birthday",
-          "confetti"
+          "banquet"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-04",
         "conceptId": "celebrations:bride",
-        "sentence": "The term for a woman on her wedding day is ___.",
+        "sentence": "___ refers to a woman on her wedding day.",
         "answer": "bride",
         "options": [
-          "speech",
+          "banquet",
           "bride",
-          "congratulations",
-          "gift voucher"
+          "birthday",
+          "bridesmaid"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-05",
         "conceptId": "celebrations:bridesmaid",
-        "sentence": "The term for a woman helping a bride during a wedding is ___.",
+        "sentence": "___ refers to a woman helping a bride during a wedding.",
         "answer": "bridesmaid",
         "options": [
           "bridesmaid",
-          "costume party",
-          "guest list",
-          "surprise party"
+          "bride",
+          "candle",
+          "birthday"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-06",
         "conceptId": "celebrations:candle",
-        "sentence": "The term for a stick of wax burned for light or decoration is ___.",
+        "sentence": "___ refers to a stick of wax burned for light or decoration.",
         "answer": "candle",
         "options": [
-          "decoration",
-          "invitation",
-          "toast",
+          "bridesmaid",
+          "card",
+          "bride",
           "candle"
         ],
         "hint": "Celebrations & Gifts"
@@ -11543,51 +11543,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-07",
         "conceptId": "celebrations:card",
-        "sentence": "The term for a folded message sent for a special occasion is ___.",
+        "sentence": "___ refers to a folded message sent for a special occasion.",
         "answer": "card",
         "options": [
-          "newlyweds",
-          "wedding",
+          "ceremony",
+          "bridesmaid",
           "card",
-          "engagement"
+          "candle"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-08",
         "conceptId": "celebrations:ceremony",
-        "sentence": "The term for a formal event marking an important occasion is ___.",
+        "sentence": "___ refers to a formal event marking an important occasion.",
         "answer": "ceremony",
         "options": [
-          "wrapping paper",
+          "candle",
           "ceremony",
-          "farewell party",
-          "party favour"
+          "card",
+          "champagne"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-09",
         "conceptId": "celebrations:champagne",
-        "sentence": "The term for a sparkling wine often used for a toast is ___.",
+        "sentence": "___ refers to a sparkling wine often used for a toast.",
         "answer": "champagne",
         "options": [
           "champagne",
-          "festival",
-          "reception",
-          "graduation"
+          "ceremony",
+          "confetti",
+          "card"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-10",
         "conceptId": "celebrations:confetti",
-        "sentence": "The term for small coloured pieces thrown during a celebration is ___.",
+        "sentence": "___ refers to small coloured pieces thrown during a celebration.",
         "answer": "confetti",
         "options": [
-          "fireworks",
-          "retirement party",
-          "housewarming",
+          "champagne",
+          "congratulations",
+          "ceremony",
           "confetti"
         ],
         "hint": "Celebrations & Gifts"
@@ -11595,51 +11595,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-11",
         "conceptId": "celebrations:congratulations",
-        "sentence": "The term for words expressing pleasure at someone’s success is ___.",
+        "sentence": "___ refers to words expressing pleasure at someone’s success.",
         "answer": "congratulations",
         "options": [
-          "speech",
-          "reunion",
+          "costume party",
+          "champagne",
           "congratulations",
-          "gift voucher"
+          "confetti"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-12",
         "conceptId": "celebrations:costume party",
-        "sentence": "The term for a party where guests wear special clothes is ___.",
+        "sentence": "___ refers to a party where guests wear special clothes.",
         "answer": "costume party",
         "options": [
-          "milestone",
+          "confetti",
           "costume party",
-          "guest list",
-          "surprise party"
+          "congratulations",
+          "decoration"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-13",
         "conceptId": "celebrations:decoration",
-        "sentence": "The term for an object making a place look festive is ___.",
+        "sentence": "___ refers to an object making a place look festive.",
         "answer": "decoration",
         "options": [
           "decoration",
-          "invitation",
-          "toast",
-          "souvenir"
+          "costume party",
+          "engagement",
+          "congratulations"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-14",
         "conceptId": "celebrations:engagement",
-        "sentence": "The term for an agreement between two people to marry is ___.",
+        "sentence": "___ refers to an agreement between two people to marry.",
         "answer": "engagement",
         "options": [
-          "newlyweds",
-          "wedding",
-          "bouquet",
+          "decoration",
+          "farewell party",
+          "costume party",
           "engagement"
         ],
         "hint": "Celebrations & Gifts"
@@ -11647,51 +11647,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-15",
         "conceptId": "celebrations:farewell party",
-        "sentence": "The term for an event held before someone leaves is ___.",
+        "sentence": "___ refers to an event held before someone leaves.",
         "answer": "farewell party",
         "options": [
-          "wrapping paper",
-          "balloon",
+          "festival",
+          "decoration",
           "farewell party",
-          "party favour"
+          "engagement"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-16",
         "conceptId": "celebrations:festival",
-        "sentence": "The term for a series of public cultural celebrations is ___.",
+        "sentence": "___ refers to a series of public cultural celebrations.",
         "answer": "festival",
         "options": [
-          "venue",
+          "engagement",
           "festival",
-          "reception",
-          "graduation"
+          "farewell party",
+          "fireworks"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-17",
         "conceptId": "celebrations:fireworks",
-        "sentence": "The term for explosive displays producing coloured light is ___.",
+        "sentence": "___ refers to explosive displays producing coloured light.",
         "answer": "fireworks",
         "options": [
           "fireworks",
-          "retirement party",
-          "housewarming",
-          "catering"
+          "festival",
+          "gift voucher",
+          "farewell party"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-18",
         "conceptId": "celebrations:gift voucher",
-        "sentence": "The term for a card that can be exchanged for goods is ___.",
+        "sentence": "___ refers to a card that can be exchanged for goods.",
         "answer": "gift voucher",
         "options": [
-          "speech",
-          "reunion",
-          "entertainment",
+          "fireworks",
+          "guest list",
+          "festival",
           "gift voucher"
         ],
         "hint": "Celebrations & Gifts"
@@ -11699,51 +11699,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-19",
         "conceptId": "celebrations:guest list",
-        "sentence": "The term for the names of people invited to an event is ___.",
+        "sentence": "___ refers to the names of people invited to an event.",
         "answer": "guest list",
         "options": [
-          "milestone",
-          "host",
+          "invitation",
+          "fireworks",
           "guest list",
-          "surprise party"
+          "gift voucher"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-20",
         "conceptId": "celebrations:invitation",
-        "sentence": "The term for a request asking someone to attend is ___.",
+        "sentence": "___ refers to a request asking someone to attend.",
         "answer": "invitation",
         "options": [
-          "guest of honour",
+          "gift voucher",
           "invitation",
-          "toast",
-          "souvenir"
+          "guest list",
+          "newlyweds"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-21",
         "conceptId": "celebrations:newlyweds",
-        "sentence": "The term for two people who have recently married is ___.",
+        "sentence": "___ refers to two people who have recently married.",
         "answer": "newlyweds",
         "options": [
           "newlyweds",
-          "wedding",
-          "bouquet",
-          "registry"
+          "invitation",
+          "party favour",
+          "guest list"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-22",
         "conceptId": "celebrations:party favour",
-        "sentence": "The term for a small gift given to a party guest is ___.",
+        "sentence": "___ refers to a small gift given to a party guest.",
         "answer": "party favour",
         "options": [
-          "wrapping paper",
-          "balloon",
-          "keepsake",
+          "newlyweds",
+          "reception",
+          "invitation",
           "party favour"
         ],
         "hint": "Celebrations & Gifts"
@@ -11751,51 +11751,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-23",
         "conceptId": "celebrations:reception",
-        "sentence": "The term for a social event following a formal ceremony is ___.",
+        "sentence": "___ refers to a social event following a formal ceremony.",
         "answer": "reception",
         "options": [
-          "venue",
-          "ribbon",
+          "retirement party",
+          "newlyweds",
           "reception",
-          "graduation"
+          "party favour"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-24",
         "conceptId": "celebrations:retirement party",
-        "sentence": "The term for a celebration for someone finishing their career is ___.",
+        "sentence": "___ refers to a celebration for someone finishing their career.",
         "answer": "retirement party",
         "options": [
-          "surprise gift",
+          "party favour",
           "retirement party",
-          "housewarming",
-          "catering"
+          "reception",
+          "speech"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-25",
         "conceptId": "celebrations:speech",
-        "sentence": "The term for formal words delivered to a group is ___.",
+        "sentence": "___ refers to formal words delivered to a group.",
         "answer": "speech",
         "options": [
           "speech",
-          "reunion",
-          "entertainment",
-          "charity gift"
+          "retirement party",
+          "surprise party",
+          "reception"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-26",
         "conceptId": "celebrations:surprise party",
-        "sentence": "The term for a celebration hidden from its main guest is ___.",
+        "sentence": "___ refers to a celebration hidden from its main guest.",
         "answer": "surprise party",
         "options": [
-          "milestone",
-          "host",
-          "handmade gift",
+          "speech",
+          "toast",
+          "retirement party",
           "surprise party"
         ],
         "hint": "Celebrations & Gifts"
@@ -11803,51 +11803,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-27",
         "conceptId": "celebrations:toast",
-        "sentence": "The term for a short speech followed by raising a drink is ___.",
+        "sentence": "___ refers to a short speech followed by raising a drink.",
         "answer": "toast",
         "options": [
-          "guest of honour",
-          "thoughtful gift",
+          "wedding",
+          "speech",
           "toast",
-          "souvenir"
+          "surprise party"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-28",
         "conceptId": "celebrations:wedding",
-        "sentence": "The term for a ceremony in which people get married is ___.",
+        "sentence": "___ refers to a ceremony in which people get married.",
         "answer": "wedding",
         "options": [
-          "occasion",
+          "surprise party",
           "wedding",
-          "bouquet",
-          "registry"
+          "toast",
+          "wrapping paper"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-29",
         "conceptId": "celebrations:wrapping paper",
-        "sentence": "The term for decorative paper covering a present is ___.",
+        "sentence": "___ refers to decorative paper covering a present.",
         "answer": "wrapping paper",
         "options": [
           "wrapping paper",
-          "balloon",
-          "keepsake",
-          "celebrant"
+          "wedding",
+          "graduation",
+          "toast"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-30",
         "conceptId": "celebrations:graduation",
-        "sentence": "The term for a ceremony marking completion of studies is ___.",
+        "sentence": "___ refers to a ceremony marking completion of studies.",
         "answer": "graduation",
         "options": [
-          "venue",
-          "ribbon",
-          "anniversary",
+          "wrapping paper",
+          "housewarming",
+          "wedding",
           "graduation"
         ],
         "hint": "Celebrations & Gifts"
@@ -11855,51 +11855,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-31",
         "conceptId": "celebrations:housewarming",
-        "sentence": "The term for a celebration held in a new home is ___.",
+        "sentence": "___ refers to a celebration held in a new home.",
         "answer": "housewarming",
         "options": [
-          "surprise gift",
-          "banquet",
+          "reunion",
+          "wrapping paper",
           "housewarming",
-          "catering"
+          "graduation"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-32",
         "conceptId": "celebrations:reunion",
-        "sentence": "The term for a meeting of people after a long separation is ___.",
+        "sentence": "___ refers to a meeting of people after a long separation.",
         "answer": "reunion",
         "options": [
-          "birthday",
+          "graduation",
           "reunion",
-          "entertainment",
-          "charity gift"
+          "housewarming",
+          "milestone"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-33",
         "conceptId": "celebrations:milestone",
-        "sentence": "The term for an important stage in someone’s life is ___.",
+        "sentence": "___ refers to an important stage in someone’s life.",
         "answer": "milestone",
         "options": [
           "milestone",
-          "host",
-          "handmade gift",
-          "bride"
+          "reunion",
+          "souvenir",
+          "housewarming"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-34",
         "conceptId": "celebrations:souvenir",
-        "sentence": "The term for an object kept as a reminder of an occasion is ___.",
+        "sentence": "___ refers to an object kept as a reminder of an occasion.",
         "answer": "souvenir",
         "options": [
-          "guest of honour",
-          "thoughtful gift",
-          "bridesmaid",
+          "milestone",
+          "bouquet",
+          "reunion",
           "souvenir"
         ],
         "hint": "Celebrations & Gifts"
@@ -11907,51 +11907,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-35",
         "conceptId": "celebrations:bouquet",
-        "sentence": "The term for an arranged bunch of flowers is ___.",
+        "sentence": "___ refers to an arranged bunch of flowers.",
         "answer": "bouquet",
         "options": [
-          "occasion",
-          "candle",
+          "balloon",
+          "milestone",
           "bouquet",
-          "registry"
+          "souvenir"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-36",
         "conceptId": "celebrations:balloon",
-        "sentence": "The term for an inflatable decoration filled with air or gas is ___.",
+        "sentence": "___ refers to an inflatable decoration filled with air or gas.",
         "answer": "balloon",
         "options": [
-          "card",
+          "souvenir",
           "balloon",
-          "keepsake",
-          "celebrant"
+          "bouquet",
+          "venue"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-37",
         "conceptId": "celebrations:venue",
-        "sentence": "The term for the place where an event is held is ___.",
+        "sentence": "___ refers to the place where an event is held.",
         "answer": "venue",
         "options": [
           "venue",
-          "ribbon",
-          "anniversary",
-          "ceremony"
+          "balloon",
+          "catering",
+          "bouquet"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-38",
         "conceptId": "celebrations:catering",
-        "sentence": "The term for the service of providing food for an event is ___.",
+        "sentence": "___ refers to the service of providing food for an event.",
         "answer": "catering",
         "options": [
-          "surprise gift",
-          "banquet",
-          "champagne",
+          "venue",
+          "entertainment",
+          "balloon",
           "catering"
         ],
         "hint": "Celebrations & Gifts"
@@ -11959,51 +11959,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-39",
         "conceptId": "celebrations:entertainment",
-        "sentence": "The term for music or activities provided for guests is ___.",
+        "sentence": "___ refers to music or activities provided for guests.",
         "answer": "entertainment",
         "options": [
-          "birthday",
-          "confetti",
+          "host",
+          "venue",
           "entertainment",
-          "charity gift"
+          "catering"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-40",
         "conceptId": "celebrations:host",
-        "sentence": "The term for the person organising or welcoming guests is ___.",
+        "sentence": "___ refers to the person organising or welcoming guests.",
         "answer": "host",
         "options": [
-          "congratulations",
+          "catering",
           "host",
-          "handmade gift",
-          "bride"
+          "entertainment",
+          "guest of honour"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-41",
         "conceptId": "celebrations:guest of honour",
-        "sentence": "The term for the person receiving special attention at an event is ___.",
+        "sentence": "___ refers to the person receiving special attention at an event.",
         "answer": "guest of honour",
         "options": [
           "guest of honour",
-          "thoughtful gift",
-          "bridesmaid",
-          "costume party"
+          "host",
+          "registry",
+          "entertainment"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-42",
         "conceptId": "celebrations:registry",
-        "sentence": "The term for a list of gifts a couple would like to receive is ___.",
+        "sentence": "___ refers to a list of gifts a couple would like to receive.",
         "answer": "registry",
         "options": [
-          "occasion",
-          "candle",
-          "decoration",
+          "guest of honour",
+          "keepsake",
+          "host",
           "registry"
         ],
         "hint": "Celebrations & Gifts"
@@ -12011,51 +12011,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-43",
         "conceptId": "celebrations:keepsake",
-        "sentence": "The term for a small object kept for sentimental reasons is ___.",
+        "sentence": "___ refers to a small object kept for sentimental reasons.",
         "answer": "keepsake",
         "options": [
-          "card",
-          "engagement",
+          "ribbon",
+          "guest of honour",
           "keepsake",
-          "celebrant"
+          "registry"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-44",
         "conceptId": "celebrations:ribbon",
-        "sentence": "The term for a narrow decorative strip used on a present is ___.",
+        "sentence": "___ refers to a narrow decorative strip used on a present.",
         "answer": "ribbon",
         "options": [
-          "farewell party",
+          "registry",
           "ribbon",
-          "anniversary",
-          "ceremony"
+          "keepsake",
+          "surprise gift"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-45",
         "conceptId": "celebrations:surprise gift",
-        "sentence": "The term for a present the receiver does not expect is ___.",
+        "sentence": "___ refers to a present the receiver does not expect.",
         "answer": "surprise gift",
         "options": [
           "surprise gift",
-          "banquet",
-          "champagne",
-          "festival"
+          "ribbon",
+          "charity gift",
+          "keepsake"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-46",
         "conceptId": "celebrations:charity gift",
-        "sentence": "The term for a donation made in another person’s name is ___.",
+        "sentence": "___ refers to a donation made in another person’s name.",
         "answer": "charity gift",
         "options": [
-          "birthday",
-          "confetti",
-          "fireworks",
+          "surprise gift",
+          "handmade gift",
+          "ribbon",
           "charity gift"
         ],
         "hint": "Celebrations & Gifts"
@@ -12063,51 +12063,51 @@ export const QUIZZES = {
       {
         "id": "celebrations-47",
         "conceptId": "celebrations:handmade gift",
-        "sentence": "The term for a present created personally rather than manufactured is ___.",
+        "sentence": "___ refers to a present created personally rather than manufactured.",
         "answer": "handmade gift",
         "options": [
-          "congratulations",
-          "gift voucher",
+          "thoughtful gift",
+          "surprise gift",
           "handmade gift",
-          "bride"
+          "charity gift"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-48",
         "conceptId": "celebrations:thoughtful gift",
-        "sentence": "The term for a present showing careful consideration is ___.",
+        "sentence": "___ refers to a present showing careful consideration.",
         "answer": "thoughtful gift",
         "options": [
-          "guest list",
+          "charity gift",
           "thoughtful gift",
-          "bridesmaid",
-          "costume party"
+          "handmade gift",
+          "occasion"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-49",
         "conceptId": "celebrations:occasion",
-        "sentence": "The term for a particular important event or time is ___.",
+        "sentence": "___ refers to a particular important event or time.",
         "answer": "occasion",
         "options": [
           "occasion",
-          "candle",
-          "decoration",
-          "invitation"
+          "thoughtful gift",
+          "celebrant",
+          "handmade gift"
         ],
         "hint": "Celebrations & Gifts"
       },
       {
         "id": "celebrations-50",
         "conceptId": "celebrations:celebrant",
-        "sentence": "The term for a person leading a ceremony is ___.",
+        "sentence": "___ refers to a person leading a ceremony.",
         "answer": "celebrant",
         "options": [
-          "card",
-          "engagement",
-          "newlyweds",
+          "occasion",
+          "anniversary",
+          "thoughtful gift",
           "celebrant"
         ],
         "hint": "Celebrations & Gifts"
@@ -12781,25 +12781,25 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-01",
         "conceptId": "food-phrasal-verbs:boil down",
-        "sentence": "The expression meaning “reduce a liquid by heating it” is ___.",
+        "sentence": "To ___ means to reduce a liquid by heating it.",
         "answer": "boil down",
         "options": [
           "boil down",
-          "eat out",
-          "pick at",
-          "wash down"
+          "throw together",
+          "chop up",
+          "set aside"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-02",
         "conceptId": "food-phrasal-verbs:chop up",
-        "sentence": "The expression meaning “cut food into small pieces” is ___.",
+        "sentence": "To ___ means to cut food into small pieces.",
         "answer": "chop up",
         "options": [
-          "finish off",
-          "polish off",
-          "whip up",
+          "boil down",
+          "cool down",
+          "throw together",
           "chop up"
         ],
         "hint": "Food Phrasal Verbs"
@@ -12807,51 +12807,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-03",
         "conceptId": "food-phrasal-verbs:cool down",
-        "sentence": "The expression meaning “become less hot” is ___.",
+        "sentence": "To ___ means to become less hot.",
         "answer": "cool down",
         "options": [
-          "pour in",
-          "wolf down",
+          "cut back on",
+          "boil down",
           "cool down",
-          "fry up"
+          "chop up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-04",
         "conceptId": "food-phrasal-verbs:cut back on",
-        "sentence": "The expression meaning “consume less of something” is ___.",
+        "sentence": "To ___ means to consume less of something.",
         "answer": "cut back on",
         "options": [
-          "use up",
+          "chop up",
           "cut back on",
-          "heat up",
-          "serve up"
+          "cool down",
+          "cut out"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-05",
         "conceptId": "food-phrasal-verbs:cut out",
-        "sentence": "The expression meaning “stop eating a particular food” is ___.",
+        "sentence": "To ___ means to stop eating a particular food.",
         "answer": "cut out",
         "options": [
           "cut out",
-          "live on",
-          "slice up",
-          "top up"
+          "cut back on",
+          "dig in",
+          "cool down"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-06",
         "conceptId": "food-phrasal-verbs:dig in",
-        "sentence": "The expression meaning “begin eating enthusiastically” is ___.",
+        "sentence": "To ___ means to begin eating enthusiastically.",
         "answer": "dig in",
         "options": [
-          "mix in",
-          "thaw out",
-          "take away",
+          "cut out",
+          "dish out",
+          "cut back on",
           "dig in"
         ],
         "hint": "Food Phrasal Verbs"
@@ -12859,51 +12859,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-07",
         "conceptId": "food-phrasal-verbs:dish out",
-        "sentence": "The expression meaning “serve food onto plates” is ___.",
+        "sentence": "To ___ means to serve food onto plates.",
         "answer": "dish out",
         "options": [
-          "warm up",
-          "stock up on",
+          "eat out",
+          "cut out",
           "dish out",
-          "pig out"
+          "dig in"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-08",
         "conceptId": "food-phrasal-verbs:eat out",
-        "sentence": "The expression meaning “have a meal in a restaurant” is ___.",
+        "sentence": "To ___ means to have a meal in a restaurant.",
         "answer": "eat out",
         "options": [
-          "spice up",
+          "dig in",
           "eat out",
-          "pick at",
-          "wash down"
+          "dish out",
+          "finish off"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-09",
         "conceptId": "food-phrasal-verbs:finish off",
-        "sentence": "The expression meaning “eat or use the final part” is ___.",
+        "sentence": "To ___ means to eat or use the final part.",
         "answer": "finish off",
         "options": [
           "finish off",
-          "polish off",
-          "whip up",
-          "soak up"
+          "eat out",
+          "fry up",
+          "dish out"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-10",
         "conceptId": "food-phrasal-verbs:fry up",
-        "sentence": "The expression meaning “cook several foods together in oil” is ___.",
+        "sentence": "To ___ means to cook several foods together in oil.",
         "answer": "fry up",
         "options": [
-          "pour in",
-          "wolf down",
-          "separate out",
+          "finish off",
+          "heat up",
+          "eat out",
           "fry up"
         ],
         "hint": "Food Phrasal Verbs"
@@ -12911,51 +12911,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-11",
         "conceptId": "food-phrasal-verbs:heat up",
-        "sentence": "The expression meaning “make food hotter” is ___.",
+        "sentence": "To ___ means to make food hotter.",
         "answer": "heat up",
         "options": [
-          "use up",
-          "roll out",
+          "live on",
+          "finish off",
           "heat up",
-          "serve up"
+          "fry up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-12",
         "conceptId": "food-phrasal-verbs:live on",
-        "sentence": "The expression meaning “eat mainly one type of food” is ___.",
+        "sentence": "To ___ means to eat mainly one type of food.",
         "answer": "live on",
         "options": [
-          "rinse off",
+          "fry up",
           "live on",
-          "slice up",
-          "top up"
+          "heat up",
+          "mix in"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-13",
         "conceptId": "food-phrasal-verbs:mix in",
-        "sentence": "The expression meaning “add an ingredient by combining it” is ___.",
+        "sentence": "To ___ means to add an ingredient by combining it.",
         "answer": "mix in",
         "options": [
           "mix in",
-          "thaw out",
-          "take away",
-          "pick out"
+          "live on",
+          "pig out",
+          "heat up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-14",
         "conceptId": "food-phrasal-verbs:pig out",
-        "sentence": "The expression meaning “eat an unusually large amount” is ___.",
+        "sentence": "To ___ means to eat an unusually large amount.",
         "answer": "pig out",
         "options": [
-          "warm up",
-          "stock up on",
-          "mash up",
+          "mix in",
+          "pick at",
+          "live on",
           "pig out"
         ],
         "hint": "Food Phrasal Verbs"
@@ -12963,51 +12963,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-15",
         "conceptId": "food-phrasal-verbs:pick at",
-        "sentence": "The expression meaning “eat only small amounts without enthusiasm” is ___.",
+        "sentence": "To ___ means to eat only small amounts without enthusiasm.",
         "answer": "pick at",
         "options": [
-          "spice up",
-          "leave out",
+          "polish off",
+          "mix in",
           "pick at",
-          "wash down"
+          "pig out"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-16",
         "conceptId": "food-phrasal-verbs:polish off",
-        "sentence": "The expression meaning “eat all of something quickly” is ___.",
+        "sentence": "To ___ means to eat all of something quickly.",
         "answer": "polish off",
         "options": [
-          "keep down",
+          "pig out",
           "polish off",
-          "whip up",
-          "soak up"
+          "pick at",
+          "pour in"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-17",
         "conceptId": "food-phrasal-verbs:pour in",
-        "sentence": "The expression meaning “add a liquid to a mixture” is ___.",
+        "sentence": "To ___ means to add a liquid to a mixture.",
         "answer": "pour in",
         "options": [
           "pour in",
-          "wolf down",
-          "separate out",
-          "go off"
+          "polish off",
+          "serve up",
+          "pick at"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-18",
         "conceptId": "food-phrasal-verbs:serve up",
-        "sentence": "The expression meaning “present food ready to eat” is ___.",
+        "sentence": "To ___ means to present food ready to eat.",
         "answer": "serve up",
         "options": [
-          "use up",
-          "roll out",
-          "give up",
+          "pour in",
+          "slice up",
+          "polish off",
           "serve up"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13015,51 +13015,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-19",
         "conceptId": "food-phrasal-verbs:slice up",
-        "sentence": "The expression meaning “cut food into thin flat pieces” is ___.",
+        "sentence": "To ___ means to cut food into thin flat pieces.",
         "answer": "slice up",
         "options": [
-          "rinse off",
-          "filter out",
+          "thaw out",
+          "pour in",
           "slice up",
-          "top up"
+          "serve up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-20",
         "conceptId": "food-phrasal-verbs:thaw out",
-        "sentence": "The expression meaning “allow frozen food to become unfrozen” is ___.",
+        "sentence": "To ___ means to allow frozen food to become unfrozen.",
         "answer": "thaw out",
         "options": [
-          "fill up on",
+          "serve up",
           "thaw out",
-          "take away",
-          "pick out"
+          "slice up",
+          "warm up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-21",
         "conceptId": "food-phrasal-verbs:warm up",
-        "sentence": "The expression meaning “make food pleasantly hot” is ___.",
+        "sentence": "To ___ means to make food pleasantly hot.",
         "answer": "warm up",
         "options": [
           "warm up",
-          "stock up on",
-          "mash up",
-          "cut into"
+          "thaw out",
+          "wash down",
+          "slice up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-22",
         "conceptId": "food-phrasal-verbs:wash down",
-        "sentence": "The expression meaning “drink something after or with food” is ___.",
+        "sentence": "To ___ means to drink something after or with food.",
         "answer": "wash down",
         "options": [
-          "spice up",
-          "leave out",
-          "crack open",
+          "warm up",
+          "whip up",
+          "thaw out",
           "wash down"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13067,51 +13067,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-23",
         "conceptId": "food-phrasal-verbs:whip up",
-        "sentence": "The expression meaning “prepare food very quickly” is ___.",
+        "sentence": "To ___ means to prepare food very quickly.",
         "answer": "whip up",
         "options": [
-          "keep down",
-          "come with",
+          "wolf down",
+          "warm up",
           "whip up",
-          "soak up"
+          "wash down"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-24",
         "conceptId": "food-phrasal-verbs:wolf down",
-        "sentence": "The expression meaning “eat something extremely quickly” is ___.",
+        "sentence": "To ___ means to eat something extremely quickly.",
         "answer": "wolf down",
         "options": [
-          "blend in",
+          "wash down",
           "wolf down",
-          "separate out",
-          "go off"
+          "whip up",
+          "use up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-25",
         "conceptId": "food-phrasal-verbs:use up",
-        "sentence": "The expression meaning “consume all that remains” is ___.",
+        "sentence": "To ___ means to consume all that remains.",
         "answer": "use up",
         "options": [
           "use up",
-          "roll out",
-          "give up",
-          "bake in"
+          "wolf down",
+          "top up",
+          "whip up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-26",
         "conceptId": "food-phrasal-verbs:top up",
-        "sentence": "The expression meaning “add more to fill a container” is ___.",
+        "sentence": "To ___ means to add more to fill a container.",
         "answer": "top up",
         "options": [
-          "rinse off",
-          "filter out",
-          "add in",
+          "use up",
+          "take away",
+          "wolf down",
           "top up"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13119,51 +13119,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-27",
         "conceptId": "food-phrasal-verbs:take away",
-        "sentence": "The expression meaning “buy prepared food to eat elsewhere” is ___.",
+        "sentence": "To ___ means to buy prepared food to eat elsewhere.",
         "answer": "take away",
         "options": [
-          "fill up on",
-          "bring to the boil",
+          "stock up on",
+          "use up",
           "take away",
-          "pick out"
+          "top up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-28",
         "conceptId": "food-phrasal-verbs:stock up on",
-        "sentence": "The expression meaning “buy a large supply for future use” is ___.",
+        "sentence": "To ___ means to buy a large supply for future use.",
         "answer": "stock up on",
         "options": [
-          "set aside",
+          "top up",
           "stock up on",
-          "mash up",
-          "cut into"
+          "take away",
+          "spice up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-29",
         "conceptId": "food-phrasal-verbs:spice up",
-        "sentence": "The expression meaning “make food more strongly flavoured” is ___.",
+        "sentence": "To ___ means to make food more strongly flavoured.",
         "answer": "spice up",
         "options": [
           "spice up",
-          "leave out",
-          "crack open",
-          "throw together"
+          "stock up on",
+          "soak up",
+          "take away"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-30",
         "conceptId": "food-phrasal-verbs:soak up",
-        "sentence": "The expression meaning “absorb a liquid” is ___.",
+        "sentence": "To ___ means to absorb a liquid.",
         "answer": "soak up",
         "options": [
-          "keep down",
-          "come with",
-          "boil down",
+          "spice up",
+          "separate out",
+          "stock up on",
           "soak up"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13171,51 +13171,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-31",
         "conceptId": "food-phrasal-verbs:separate out",
-        "sentence": "The expression meaning “remove one part from a mixture” is ___.",
+        "sentence": "To ___ means to remove one part from a mixture.",
         "answer": "separate out",
         "options": [
-          "blend in",
-          "chop up",
+          "roll out",
+          "spice up",
           "separate out",
-          "go off"
+          "soak up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-32",
         "conceptId": "food-phrasal-verbs:roll out",
-        "sentence": "The expression meaning “flatten dough with a rolling pin” is ___.",
+        "sentence": "To ___ means to flatten dough with a rolling pin.",
         "answer": "roll out",
         "options": [
-          "cool down",
+          "soak up",
           "roll out",
-          "give up",
-          "bake in"
+          "separate out",
+          "rinse off"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-33",
         "conceptId": "food-phrasal-verbs:rinse off",
-        "sentence": "The expression meaning “clean food quickly with water” is ___.",
+        "sentence": "To ___ means to clean food quickly with water.",
         "answer": "rinse off",
         "options": [
           "rinse off",
-          "filter out",
-          "add in",
-          "cut back on"
+          "roll out",
+          "pick out",
+          "separate out"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-34",
         "conceptId": "food-phrasal-verbs:pick out",
-        "sentence": "The expression meaning “remove selected items from food” is ___.",
+        "sentence": "To ___ means to remove selected items from food.",
         "answer": "pick out",
         "options": [
-          "fill up on",
-          "bring to the boil",
-          "cut out",
+          "rinse off",
+          "mash up",
+          "roll out",
           "pick out"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13223,51 +13223,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-35",
         "conceptId": "food-phrasal-verbs:mash up",
-        "sentence": "The expression meaning “crush food into a soft mass” is ___.",
+        "sentence": "To ___ means to crush food into a soft mass.",
         "answer": "mash up",
         "options": [
-          "set aside",
-          "dig in",
+          "leave out",
+          "rinse off",
           "mash up",
-          "cut into"
+          "pick out"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-36",
         "conceptId": "food-phrasal-verbs:leave out",
-        "sentence": "The expression meaning “not include a particular ingredient” is ___.",
+        "sentence": "To ___ means to completely stop eating a particular ingredient.",
         "answer": "leave out",
         "options": [
-          "dish out",
+          "pick out",
           "leave out",
-          "crack open",
-          "throw together"
+          "mash up",
+          "keep down"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-37",
         "conceptId": "food-phrasal-verbs:keep down",
-        "sentence": "The expression meaning “manage to retain food without vomiting” is ___.",
+        "sentence": "To ___ means to manage to retain food without vomiting.",
         "answer": "keep down",
         "options": [
           "keep down",
-          "come with",
-          "boil down",
-          "eat out"
+          "leave out",
+          "go off",
+          "mash up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-38",
         "conceptId": "food-phrasal-verbs:go off",
-        "sentence": "The expression meaning “become no longer fresh enough to eat” is ___.",
+        "sentence": "To ___ means to become no longer fresh enough to eat.",
         "answer": "go off",
         "options": [
-          "blend in",
-          "chop up",
-          "finish off",
+          "keep down",
+          "give up",
+          "leave out",
           "go off"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13275,51 +13275,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-39",
         "conceptId": "food-phrasal-verbs:give up",
-        "sentence": "The expression meaning “stop consuming a food or drink” is ___.",
+        "sentence": "To ___ means to stop consuming a food or drink.",
         "answer": "give up",
         "options": [
-          "cool down",
-          "fry up",
+          "filter out",
+          "keep down",
           "give up",
-          "bake in"
+          "go off"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-40",
         "conceptId": "food-phrasal-verbs:filter out",
-        "sentence": "The expression meaning “remove solid material from a liquid” is ___.",
+        "sentence": "To ___ means to remove solid material from a liquid.",
         "answer": "filter out",
         "options": [
-          "heat up",
+          "go off",
           "filter out",
-          "add in",
-          "cut back on"
+          "give up",
+          "fill up on"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-41",
         "conceptId": "food-phrasal-verbs:fill up on",
-        "sentence": "The expression meaning “eat enough of something to feel full” is ___.",
+        "sentence": "To ___ means to eat enough of something to feel full.",
         "answer": "fill up on",
         "options": [
           "fill up on",
-          "bring to the boil",
-          "cut out",
-          "live on"
+          "filter out",
+          "cut into",
+          "give up"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-42",
         "conceptId": "food-phrasal-verbs:cut into",
-        "sentence": "The expression meaning “divide food using a knife” is ___.",
+        "sentence": "To ___ means to divide food using a knife.",
         "answer": "cut into",
         "options": [
-          "set aside",
-          "dig in",
-          "mix in",
+          "fill up on",
+          "crack open",
+          "filter out",
           "cut into"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13327,51 +13327,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-43",
         "conceptId": "food-phrasal-verbs:crack open",
-        "sentence": "The expression meaning “break a shell or sealed container” is ___.",
+        "sentence": "To ___ means to break a shell or sealed container.",
         "answer": "crack open",
         "options": [
-          "dish out",
-          "pig out",
+          "come with",
+          "fill up on",
           "crack open",
-          "throw together"
+          "cut into"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-44",
         "conceptId": "food-phrasal-verbs:come with",
-        "sentence": "The expression meaning “be served together as part of a dish” is ___.",
+        "sentence": "To ___ means to be served together as part of a dish.",
         "answer": "come with",
         "options": [
-          "pick at",
+          "cut into",
           "come with",
-          "boil down",
-          "eat out"
+          "crack open",
+          "blend in"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-45",
         "conceptId": "food-phrasal-verbs:blend in",
-        "sentence": "The expression meaning “combine an ingredient until it cannot be distinguished” is ___.",
+        "sentence": "To ___ means to combine an ingredient until it cannot be distinguished.",
         "answer": "blend in",
         "options": [
           "blend in",
-          "chop up",
-          "finish off",
-          "polish off"
+          "come with",
+          "bake in",
+          "crack open"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-46",
         "conceptId": "food-phrasal-verbs:bake in",
-        "sentence": "The expression meaning “include an ingredient during baking” is ___.",
+        "sentence": "To ___ means to include an ingredient during baking.",
         "answer": "bake in",
         "options": [
-          "cool down",
-          "fry up",
-          "pour in",
+          "blend in",
+          "add in",
+          "come with",
           "bake in"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13379,51 +13379,51 @@ export const QUIZZES = {
       {
         "id": "food-phrasal-verbs-47",
         "conceptId": "food-phrasal-verbs:add in",
-        "sentence": "The expression meaning “put an extra ingredient into a mixture” is ___.",
+        "sentence": "To ___ means to put an extra ingredient into a mixture.",
         "answer": "add in",
         "options": [
-          "heat up",
-          "serve up",
+          "bring to the boil",
+          "blend in",
           "add in",
-          "cut back on"
+          "bake in"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-48",
         "conceptId": "food-phrasal-verbs:bring to the boil",
-        "sentence": "The expression meaning “heat a liquid until it bubbles” is ___.",
+        "sentence": "To ___ means to heat a liquid until it bubbles.",
         "answer": "bring to the boil",
         "options": [
-          "slice up",
+          "bake in",
           "bring to the boil",
-          "cut out",
-          "live on"
+          "add in",
+          "set aside"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-49",
         "conceptId": "food-phrasal-verbs:set aside",
-        "sentence": "The expression meaning “keep prepared food for use later” is ___.",
+        "sentence": "To ___ means to keep prepared food for use later.",
         "answer": "set aside",
         "options": [
           "set aside",
-          "dig in",
-          "mix in",
-          "thaw out"
+          "bring to the boil",
+          "throw together",
+          "add in"
         ],
         "hint": "Food Phrasal Verbs"
       },
       {
         "id": "food-phrasal-verbs-50",
         "conceptId": "food-phrasal-verbs:throw together",
-        "sentence": "The expression meaning “prepare a meal quickly from available ingredients” is ___.",
+        "sentence": "To ___ means to prepare a meal quickly from available ingredients.",
         "answer": "throw together",
         "options": [
-          "dish out",
-          "pig out",
-          "warm up",
+          "set aside",
+          "boil down",
+          "bring to the boil",
           "throw together"
         ],
         "hint": "Food Phrasal Verbs"
@@ -13439,25 +13439,25 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-01",
         "conceptId": "noun-suffixes:achievement",
-        "sentence": "The word meaning “something successfully completed after effort” is ___.",
+        "sentence": "___ means something successfully completed after effort.",
         "answer": "achievement",
         "options": [
           "achievement",
-          "arrangement",
-          "communication",
-          "difference"
+          "solution",
+          "agreement",
+          "responsibility"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-02",
         "conceptId": "noun-suffixes:agreement",
-        "sentence": "The word meaning “a shared decision or arrangement” is ___.",
+        "sentence": "___ means a shared decision or arrangement.",
         "answer": "agreement",
         "options": [
-          "attendance",
-          "competition",
-          "education",
+          "achievement",
+          "amazement",
+          "solution",
           "agreement"
         ],
         "hint": "Noun Suffixes"
@@ -13465,51 +13465,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-03",
         "conceptId": "noun-suffixes:amazement",
-        "sentence": "The word meaning “a feeling of great surprise” is ___.",
+        "sentence": "___ means a feeling of great surprise.",
         "answer": "amazement",
         "options": [
-          "confidence",
-          "employment",
+          "announcement",
+          "achievement",
           "amazement",
-          "awareness"
+          "agreement"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-04",
         "conceptId": "noun-suffixes:announcement",
-        "sentence": "The word meaning “a public or official statement” is ___.",
+        "sentence": "___ means a public or official statement.",
         "answer": "announcement",
         "options": [
-          "encouragement",
+          "agreement",
           "announcement",
-          "behaviour",
-          "connection"
+          "amazement",
+          "appearance"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-05",
         "conceptId": "noun-suffixes:appearance",
-        "sentence": "The word meaning “the way someone or something looks” is ___.",
+        "sentence": "___ means the way someone or something looks.",
         "answer": "appearance",
         "options": [
           "appearance",
-          "celebration",
-          "creativity",
-          "entertainment"
+          "announcement",
+          "application",
+          "amazement"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-06",
         "conceptId": "noun-suffixes:application",
-        "sentence": "The word meaning “a formal request for something” is ___.",
+        "sentence": "___ means a formal request for something.",
         "answer": "application",
         "options": [
-          "choice",
-          "decision",
-          "environment",
+          "appearance",
+          "argument",
+          "announcement",
           "application"
         ],
         "hint": "Noun Suffixes"
@@ -13517,51 +13517,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-07",
         "conceptId": "noun-suffixes:argument",
-        "sentence": "The word meaning “a disagreement involving opposing opinions” is ___.",
+        "sentence": "___ means a disagreement involving opposing opinions.",
         "answer": "argument",
         "options": [
-          "development",
-          "equipment",
+          "arrangement",
+          "appearance",
           "argument",
-          "collection"
+          "application"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-08",
         "conceptId": "noun-suffixes:arrangement",
-        "sentence": "The word meaning “a plan prepared in advance” is ___.",
+        "sentence": "___ means a plan prepared in advance.",
         "answer": "arrangement",
         "options": [
-          "excitement",
+          "application",
           "arrangement",
-          "communication",
-          "difference"
+          "argument",
+          "attendance"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-09",
         "conceptId": "noun-suffixes:attendance",
-        "sentence": "The word meaning “the fact of being present” is ___.",
+        "sentence": "___ means the fact of being present.",
         "answer": "attendance",
         "options": [
           "attendance",
-          "competition",
-          "education",
-          "explanation"
+          "arrangement",
+          "awareness",
+          "argument"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-10",
         "conceptId": "noun-suffixes:awareness",
-        "sentence": "The word meaning “knowledge that a situation exists” is ___.",
+        "sentence": "___ means knowledge that a situation exists.",
         "answer": "awareness",
         "options": [
-          "confidence",
-          "employment",
-          "friendship",
+          "attendance",
+          "behaviour",
+          "arrangement",
           "awareness"
         ],
         "hint": "Noun Suffixes"
@@ -13569,51 +13569,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-11",
         "conceptId": "noun-suffixes:behaviour",
-        "sentence": "The word meaning “the way a person acts” is ___.",
+        "sentence": "___ means the way a person acts.",
         "answer": "behaviour",
         "options": [
-          "encouragement",
-          "government",
+          "celebration",
+          "attendance",
           "behaviour",
-          "connection"
+          "awareness"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-12",
         "conceptId": "noun-suffixes:celebration",
-        "sentence": "The word meaning “an enjoyable event marking an occasion” is ___.",
+        "sentence": "___ means an enjoyable event marking an occasion.",
         "answer": "celebration",
         "options": [
-          "happiness",
+          "awareness",
           "celebration",
-          "creativity",
-          "entertainment"
+          "behaviour",
+          "choice"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-13",
         "conceptId": "noun-suffixes:choice",
-        "sentence": "The word meaning “an act of selecting between possibilities” is ___.",
+        "sentence": "___ means an act of selecting between possibilities.",
         "answer": "choice",
         "options": [
           "choice",
-          "decision",
-          "environment",
-          "improvement"
+          "celebration",
+          "collection",
+          "behaviour"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-14",
         "conceptId": "noun-suffixes:collection",
-        "sentence": "The word meaning “a group of related objects gathered together” is ___.",
+        "sentence": "___ means a group of related objects gathered together.",
         "answer": "collection",
         "options": [
-          "development",
-          "equipment",
-          "independence",
+          "choice",
+          "communication",
+          "celebration",
           "collection"
         ],
         "hint": "Noun Suffixes"
@@ -13621,51 +13621,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-15",
         "conceptId": "noun-suffixes:communication",
-        "sentence": "The word meaning “the exchange of information” is ___.",
+        "sentence": "___ means the exchange of information.",
         "answer": "communication",
         "options": [
-          "excitement",
-          "information",
+          "competition",
+          "choice",
           "communication",
-          "difference"
+          "collection"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-16",
         "conceptId": "noun-suffixes:competition",
-        "sentence": "The word meaning “an event in which people try to win” is ___.",
+        "sentence": "___ means an event in which people try to win.",
         "answer": "competition",
         "options": [
-          "instruction",
+          "collection",
           "competition",
-          "education",
-          "explanation"
+          "communication",
+          "confidence"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-17",
         "conceptId": "noun-suffixes:confidence",
-        "sentence": "The word meaning “belief in your own abilities” is ___.",
+        "sentence": "___ means belief in your own abilities.",
         "answer": "confidence",
         "options": [
           "confidence",
-          "employment",
-          "friendship",
-          "invention"
+          "competition",
+          "connection",
+          "communication"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-18",
         "conceptId": "noun-suffixes:connection",
-        "sentence": "The word meaning “a relationship or link between things” is ___.",
+        "sentence": "___ means a relationship or link between things.",
         "answer": "connection",
         "options": [
-          "encouragement",
-          "government",
-          "knowledge",
+          "confidence",
+          "creativity",
+          "competition",
           "connection"
         ],
         "hint": "Noun Suffixes"
@@ -13673,51 +13673,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-19",
         "conceptId": "noun-suffixes:creativity",
-        "sentence": "The word meaning “the ability to produce original ideas” is ___.",
+        "sentence": "___ means the ability to produce original ideas.",
         "answer": "creativity",
         "options": [
-          "happiness",
-          "leadership",
+          "decision",
+          "confidence",
           "creativity",
-          "entertainment"
+          "connection"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-20",
         "conceptId": "noun-suffixes:decision",
-        "sentence": "The word meaning “a choice made after consideration” is ___.",
+        "sentence": "___ means a choice made after consideration.",
         "answer": "decision",
         "options": [
-          "membership",
+          "connection",
           "decision",
-          "environment",
-          "improvement"
+          "creativity",
+          "development"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-21",
         "conceptId": "noun-suffixes:development",
-        "sentence": "The word meaning “a process of growth or improvement” is ___.",
+        "sentence": "___ means a process of growth or improvement.",
         "answer": "development",
         "options": [
           "development",
-          "equipment",
-          "independence",
-          "movement"
+          "decision",
+          "difference",
+          "creativity"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-22",
         "conceptId": "noun-suffixes:difference",
-        "sentence": "The word meaning “a way in which things are not the same” is ___.",
+        "sentence": "___ means a way in which things are not the same.",
         "answer": "difference",
         "options": [
-          "excitement",
-          "information",
-          "originality",
+          "development",
+          "education",
+          "decision",
           "difference"
         ],
         "hint": "Noun Suffixes"
@@ -13725,51 +13725,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-23",
         "conceptId": "noun-suffixes:education",
-        "sentence": "The word meaning “the process of teaching and learning” is ___.",
+        "sentence": "___ means the process of teaching and learning.",
         "answer": "education",
         "options": [
-          "instruction",
-          "performance",
+          "employment",
+          "development",
           "education",
-          "explanation"
+          "difference"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-24",
         "conceptId": "noun-suffixes:employment",
-        "sentence": "The word meaning “paid work” is ___.",
+        "sentence": "___ means paid work.",
         "answer": "employment",
         "options": [
-          "permission",
+          "difference",
           "employment",
-          "friendship",
-          "invention"
+          "education",
+          "encouragement"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-25",
         "conceptId": "noun-suffixes:encouragement",
-        "sentence": "The word meaning “support that gives someone confidence” is ___.",
+        "sentence": "___ means support that gives someone confidence.",
         "answer": "encouragement",
         "options": [
           "encouragement",
-          "government",
-          "knowledge",
-          "possibility"
+          "employment",
+          "entertainment",
+          "education"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-26",
         "conceptId": "noun-suffixes:entertainment",
-        "sentence": "The word meaning “activities designed to interest or amuse” is ___.",
+        "sentence": "___ means activities designed to interest or amuse.",
         "answer": "entertainment",
         "options": [
-          "happiness",
-          "leadership",
-          "preparation",
+          "encouragement",
+          "environment",
+          "employment",
           "entertainment"
         ],
         "hint": "Noun Suffixes"
@@ -13777,51 +13777,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-27",
         "conceptId": "noun-suffixes:environment",
-        "sentence": "The word meaning “the natural world or surrounding conditions” is ___.",
+        "sentence": "___ means the natural world or surrounding conditions.",
         "answer": "environment",
         "options": [
-          "membership",
-          "relationship",
+          "equipment",
+          "encouragement",
           "environment",
-          "improvement"
+          "entertainment"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-28",
         "conceptId": "noun-suffixes:equipment",
-        "sentence": "The word meaning “the tools needed for an activity” is ___.",
+        "sentence": "___ means the tools needed for an activity.",
         "answer": "equipment",
         "options": [
-          "responsibility",
+          "entertainment",
           "equipment",
-          "independence",
-          "movement"
+          "environment",
+          "excitement"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-29",
         "conceptId": "noun-suffixes:excitement",
-        "sentence": "The word meaning “a feeling of enthusiasm and eagerness” is ___.",
+        "sentence": "___ means a feeling of enthusiasm and eagerness.",
         "answer": "excitement",
         "options": [
           "excitement",
-          "information",
-          "originality",
-          "solution"
+          "equipment",
+          "explanation",
+          "environment"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-30",
         "conceptId": "noun-suffixes:explanation",
-        "sentence": "The word meaning “a statement making something clear” is ___.",
+        "sentence": "___ means a statement making something clear.",
         "answer": "explanation",
         "options": [
-          "instruction",
-          "performance",
-          "achievement",
+          "excitement",
+          "friendship",
+          "equipment",
           "explanation"
         ],
         "hint": "Noun Suffixes"
@@ -13829,51 +13829,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-31",
         "conceptId": "noun-suffixes:friendship",
-        "sentence": "The word meaning “a close relationship between friends” is ___.",
+        "sentence": "___ means a close relationship between friends.",
         "answer": "friendship",
         "options": [
-          "permission",
-          "agreement",
+          "government",
+          "excitement",
           "friendship",
-          "invention"
+          "explanation"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-32",
         "conceptId": "noun-suffixes:government",
-        "sentence": "The word meaning “the group that officially controls a country” is ___.",
+        "sentence": "___ means the group that officially controls a country.",
         "answer": "government",
         "options": [
-          "amazement",
+          "explanation",
           "government",
-          "knowledge",
-          "possibility"
+          "friendship",
+          "happiness"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-33",
         "conceptId": "noun-suffixes:happiness",
-        "sentence": "The word meaning “the state of feeling pleased” is ___.",
+        "sentence": "___ means the state of feeling pleased.",
         "answer": "happiness",
         "options": [
           "happiness",
-          "leadership",
-          "preparation",
-          "announcement"
+          "government",
+          "improvement",
+          "friendship"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-34",
         "conceptId": "noun-suffixes:improvement",
-        "sentence": "The word meaning “a change that makes something better” is ___.",
+        "sentence": "___ means a change that makes something better.",
         "answer": "improvement",
         "options": [
-          "membership",
-          "relationship",
-          "appearance",
+          "happiness",
+          "independence",
+          "government",
           "improvement"
         ],
         "hint": "Noun Suffixes"
@@ -13881,51 +13881,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-35",
         "conceptId": "noun-suffixes:independence",
-        "sentence": "The word meaning “freedom from another person’s control” is ___.",
+        "sentence": "___ means freedom from another person’s control.",
         "answer": "independence",
         "options": [
-          "responsibility",
-          "application",
+          "information",
+          "happiness",
           "independence",
-          "movement"
+          "improvement"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-36",
         "conceptId": "noun-suffixes:information",
-        "sentence": "The word meaning “facts communicated or learned” is ___.",
+        "sentence": "___ means facts communicated or learned.",
         "answer": "information",
         "options": [
-          "argument",
+          "improvement",
           "information",
-          "originality",
-          "solution"
+          "independence",
+          "instruction"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-37",
         "conceptId": "noun-suffixes:instruction",
-        "sentence": "The word meaning “a direction explaining what to do” is ___.",
+        "sentence": "___ means a direction explaining what to do.",
         "answer": "instruction",
         "options": [
           "instruction",
-          "performance",
-          "achievement",
-          "arrangement"
+          "information",
+          "invention",
+          "independence"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-38",
         "conceptId": "noun-suffixes:invention",
-        "sentence": "The word meaning “a newly created device or process” is ___.",
+        "sentence": "___ means a newly created device or process.",
         "answer": "invention",
         "options": [
-          "permission",
-          "agreement",
-          "attendance",
+          "instruction",
+          "knowledge",
+          "information",
           "invention"
         ],
         "hint": "Noun Suffixes"
@@ -13933,51 +13933,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-39",
         "conceptId": "noun-suffixes:knowledge",
-        "sentence": "The word meaning “information and understanding gained through learning” is ___.",
+        "sentence": "___ means information and understanding gained through learning.",
         "answer": "knowledge",
         "options": [
-          "amazement",
-          "awareness",
+          "leadership",
+          "instruction",
           "knowledge",
-          "possibility"
+          "invention"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-40",
         "conceptId": "noun-suffixes:leadership",
-        "sentence": "The word meaning “the ability to guide a group” is ___.",
+        "sentence": "___ means the ability to guide a group.",
         "answer": "leadership",
         "options": [
-          "behaviour",
+          "invention",
           "leadership",
-          "preparation",
-          "announcement"
+          "knowledge",
+          "membership"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-41",
         "conceptId": "noun-suffixes:membership",
-        "sentence": "The word meaning “the state of belonging to an organisation” is ___.",
+        "sentence": "___ means the state of belonging to an organisation.",
         "answer": "membership",
         "options": [
           "membership",
-          "relationship",
-          "appearance",
-          "celebration"
+          "leadership",
+          "movement",
+          "knowledge"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-42",
         "conceptId": "noun-suffixes:movement",
-        "sentence": "The word meaning “an act of changing position” is ___.",
+        "sentence": "___ means an act of changing position.",
         "answer": "movement",
         "options": [
-          "responsibility",
-          "application",
-          "choice",
+          "membership",
+          "originality",
+          "leadership",
           "movement"
         ],
         "hint": "Noun Suffixes"
@@ -13985,51 +13985,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-43",
         "conceptId": "noun-suffixes:originality",
-        "sentence": "The word meaning “the quality of being new and unusual” is ___.",
+        "sentence": "___ means the quality of being new and unusual.",
         "answer": "originality",
         "options": [
-          "argument",
-          "collection",
+          "performance",
+          "membership",
           "originality",
-          "solution"
+          "movement"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-44",
         "conceptId": "noun-suffixes:performance",
-        "sentence": "The word meaning “an act of presenting music, drama or another skill” is ___.",
+        "sentence": "___ means an act of presenting music, drama or another skill.",
         "answer": "performance",
         "options": [
-          "communication",
+          "movement",
           "performance",
-          "achievement",
-          "arrangement"
+          "originality",
+          "permission"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-45",
         "conceptId": "noun-suffixes:permission",
-        "sentence": "The word meaning “official approval to do something” is ___.",
+        "sentence": "___ means official approval to do something.",
         "answer": "permission",
         "options": [
           "permission",
-          "agreement",
-          "attendance",
-          "competition"
+          "performance",
+          "possibility",
+          "originality"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-46",
         "conceptId": "noun-suffixes:possibility",
-        "sentence": "The word meaning “something that may happen” is ___.",
+        "sentence": "___ means something that may happen.",
         "answer": "possibility",
         "options": [
-          "amazement",
-          "awareness",
-          "confidence",
+          "permission",
+          "preparation",
+          "performance",
           "possibility"
         ],
         "hint": "Noun Suffixes"
@@ -14037,51 +14037,51 @@ export const QUIZZES = {
       {
         "id": "noun-suffixes-47",
         "conceptId": "noun-suffixes:preparation",
-        "sentence": "The word meaning “work done to get ready” is ___.",
+        "sentence": "___ means work done to get ready.",
         "answer": "preparation",
         "options": [
-          "behaviour",
-          "connection",
+          "relationship",
+          "permission",
           "preparation",
-          "announcement"
+          "possibility"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-48",
         "conceptId": "noun-suffixes:relationship",
-        "sentence": "The word meaning “the way people or things are connected” is ___.",
+        "sentence": "___ means the way people or things are connected.",
         "answer": "relationship",
         "options": [
-          "creativity",
+          "possibility",
           "relationship",
-          "appearance",
-          "celebration"
+          "preparation",
+          "responsibility"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-49",
         "conceptId": "noun-suffixes:responsibility",
-        "sentence": "The word meaning “a duty to deal with something properly” is ___.",
+        "sentence": "___ means a duty to deal with something properly.",
         "answer": "responsibility",
         "options": [
           "responsibility",
-          "application",
-          "choice",
-          "decision"
+          "relationship",
+          "solution",
+          "preparation"
         ],
         "hint": "Noun Suffixes"
       },
       {
         "id": "noun-suffixes-50",
         "conceptId": "noun-suffixes:solution",
-        "sentence": "The word meaning “an answer to a problem” is ___.",
+        "sentence": "___ means an answer to a problem.",
         "answer": "solution",
         "options": [
-          "argument",
-          "collection",
-          "development",
+          "responsibility",
+          "achievement",
+          "relationship",
           "solution"
         ],
         "hint": "Noun Suffixes"
@@ -14755,25 +14755,25 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-01",
         "conceptId": "verb-patterns:agree to help",
-        "sentence": "The expression meaning “accept that you will assist” is ___.",
+        "sentence": "To ___ means to accept that you will assist.",
         "answer": "agree to help",
         "options": [
           "agree to help",
-          "fail to notice",
-          "prepare to speak",
-          "would like to join"
+          "think about studying",
+          "appear to know",
+          "object to changing"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-02",
         "conceptId": "verb-patterns:appear to know",
-        "sentence": "The expression meaning “seem to have information” is ___.",
+        "sentence": "To ___ means to seem to have information.",
         "answer": "appear to know",
         "options": [
-          "happen to find",
-          "pretend to understand",
-          "avoid wasting",
+          "agree to help",
+          "arrange to meet",
+          "think about studying",
           "appear to know"
         ],
         "hint": "Verb Patterns"
@@ -14781,51 +14781,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-03",
         "conceptId": "verb-patterns:arrange to meet",
-        "sentence": "The expression meaning “make plans for a meeting” is ___.",
+        "sentence": "To ___ means to make plans for a meeting.",
         "answer": "arrange to meet",
         "options": [
-          "promise to return",
-          "consider moving",
+          "attempt to solve",
+          "agree to help",
           "arrange to meet",
-          "hope to visit"
+          "appear to know"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-04",
         "conceptId": "verb-patterns:attempt to solve",
-        "sentence": "The expression meaning “try to find an answer” is ___.",
+        "sentence": "To ___ means to try to find an answer.",
         "answer": "attempt to solve",
         "options": [
-          "delay making",
+          "appear to know",
           "attempt to solve",
-          "learn to drive",
-          "refuse to answer"
+          "arrange to meet",
+          "choose to leave"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-05",
         "conceptId": "verb-patterns:choose to leave",
-        "sentence": "The expression meaning “decide that you will go” is ___.",
+        "sentence": "To ___ means to decide that you will go.",
         "answer": "choose to leave",
         "options": [
           "choose to leave",
-          "manage to finish",
-          "seem to work",
-          "deny taking"
+          "attempt to solve",
+          "decide to apply",
+          "arrange to meet"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-06",
         "conceptId": "verb-patterns:decide to apply",
-        "sentence": "The expression meaning “make a choice to submit a request” is ___.",
+        "sentence": "To ___ means to make a choice to submit a request.",
         "answer": "decide to apply",
         "options": [
-          "offer to carry",
-          "tend to worry",
-          "enjoy learning",
+          "choose to leave",
+          "expect to arrive",
+          "attempt to solve",
           "decide to apply"
         ],
         "hint": "Verb Patterns"
@@ -14833,51 +14833,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-07",
         "conceptId": "verb-patterns:expect to arrive",
-        "sentence": "The expression meaning “believe you will reach a place” is ___.",
+        "sentence": "To ___ means to believe you will reach a place.",
         "answer": "expect to arrive",
         "options": [
-          "want to improve",
-          "finish writing",
+          "fail to notice",
+          "choose to leave",
           "expect to arrive",
-          "plan to study"
+          "decide to apply"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-08",
         "conceptId": "verb-patterns:fail to notice",
-        "sentence": "The expression meaning “not manage to see or realise” is ___.",
+        "sentence": "To ___ means to overlook or not realise something.",
         "answer": "fail to notice",
         "options": [
-          "imagine living",
+          "decide to apply",
           "fail to notice",
-          "prepare to speak",
-          "would like to join"
+          "expect to arrive",
+          "happen to find"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-09",
         "conceptId": "verb-patterns:happen to find",
-        "sentence": "The expression meaning “discover something by chance” is ___.",
+        "sentence": "To ___ means to discover something by chance.",
         "answer": "happen to find",
         "options": [
           "happen to find",
-          "pretend to understand",
-          "avoid wasting",
-          "involve working"
+          "fail to notice",
+          "hope to visit",
+          "expect to arrive"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-10",
         "conceptId": "verb-patterns:hope to visit",
-        "sentence": "The expression meaning “want a future visit to happen” is ___.",
+        "sentence": "To ___ means to want a future visit to happen.",
         "answer": "hope to visit",
         "options": [
-          "promise to return",
-          "consider moving",
-          "keep trying",
+          "happen to find",
+          "learn to drive",
+          "fail to notice",
           "hope to visit"
         ],
         "hint": "Verb Patterns"
@@ -14885,51 +14885,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-11",
         "conceptId": "verb-patterns:learn to drive",
-        "sentence": "The expression meaning “develop the skill of controlling a car” is ___.",
+        "sentence": "To ___ means to develop the skill of controlling a car.",
         "answer": "learn to drive",
         "options": [
-          "delay making",
-          "mention seeing",
+          "manage to finish",
+          "happen to find",
           "learn to drive",
-          "refuse to answer"
+          "hope to visit"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-12",
         "conceptId": "verb-patterns:manage to finish",
-        "sentence": "The expression meaning “succeed in completing something” is ___.",
+        "sentence": "To ___ means to succeed in completing something.",
         "answer": "manage to finish",
         "options": [
-          "mind waiting",
+          "hope to visit",
           "manage to finish",
-          "seem to work",
-          "deny taking"
+          "learn to drive",
+          "offer to carry"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-13",
         "conceptId": "verb-patterns:offer to carry",
-        "sentence": "The expression meaning “volunteer to transport something” is ___.",
+        "sentence": "To ___ means to volunteer to transport something.",
         "answer": "offer to carry",
         "options": [
           "offer to carry",
-          "tend to worry",
-          "enjoy learning",
-          "miss talking"
+          "manage to finish",
+          "plan to study",
+          "learn to drive"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-14",
         "conceptId": "verb-patterns:plan to study",
-        "sentence": "The expression meaning “intend to learn in the future” is ___.",
+        "sentence": "To ___ means to intend to learn in the future.",
         "answer": "plan to study",
         "options": [
-          "want to improve",
-          "finish writing",
-          "practise speaking",
+          "offer to carry",
+          "prepare to speak",
+          "manage to finish",
           "plan to study"
         ],
         "hint": "Verb Patterns"
@@ -14937,51 +14937,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-15",
         "conceptId": "verb-patterns:prepare to speak",
-        "sentence": "The expression meaning “get ready to address people” is ___.",
+        "sentence": "To ___ means to get ready to address people.",
         "answer": "prepare to speak",
         "options": [
-          "imagine living",
-          "recommend visiting",
+          "pretend to understand",
+          "offer to carry",
           "prepare to speak",
-          "would like to join"
+          "plan to study"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-16",
         "conceptId": "verb-patterns:pretend to understand",
-        "sentence": "The expression meaning “act as if something is clear” is ___.",
+        "sentence": "To ___ means to act as if something is clear.",
         "answer": "pretend to understand",
         "options": [
-          "risk losing",
+          "plan to study",
           "pretend to understand",
-          "avoid wasting",
-          "involve working"
+          "prepare to speak",
+          "promise to return"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-17",
         "conceptId": "verb-patterns:promise to return",
-        "sentence": "The expression meaning “give assurance that you will come back” is ___.",
+        "sentence": "To ___ means to give assurance that you will come back.",
         "answer": "promise to return",
         "options": [
           "promise to return",
-          "consider moving",
-          "keep trying",
-          "suggest taking"
+          "pretend to understand",
+          "refuse to answer",
+          "prepare to speak"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-18",
         "conceptId": "verb-patterns:refuse to answer",
-        "sentence": "The expression meaning “say that you will not respond” is ___.",
+        "sentence": "To ___ means to say that you will not respond.",
         "answer": "refuse to answer",
         "options": [
-          "delay making",
-          "mention seeing",
-          "admit breaking",
+          "promise to return",
+          "seem to work",
+          "pretend to understand",
           "refuse to answer"
         ],
         "hint": "Verb Patterns"
@@ -14989,51 +14989,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-19",
         "conceptId": "verb-patterns:seem to work",
-        "sentence": "The expression meaning “appear to function” is ___.",
+        "sentence": "To ___ means to appear to function.",
         "answer": "seem to work",
         "options": [
-          "mind waiting",
-          "appreciate receiving",
+          "tend to worry",
+          "promise to return",
           "seem to work",
-          "deny taking"
+          "refuse to answer"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-20",
         "conceptId": "verb-patterns:tend to worry",
-        "sentence": "The expression meaning “usually become anxious” is ___.",
+        "sentence": "To ___ means to usually become anxious.",
         "answer": "tend to worry",
         "options": [
-          "can’t help laughing",
+          "refuse to answer",
           "tend to worry",
-          "enjoy learning",
-          "miss talking"
+          "seem to work",
+          "want to improve"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-21",
         "conceptId": "verb-patterns:want to improve",
-        "sentence": "The expression meaning “desire to become better” is ___.",
+        "sentence": "To ___ means to desire to become better.",
         "answer": "want to improve",
         "options": [
           "want to improve",
-          "finish writing",
-          "practise speaking",
-          "can’t stand waiting"
+          "tend to worry",
+          "would like to join",
+          "seem to work"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-22",
         "conceptId": "verb-patterns:would like to join",
-        "sentence": "The expression meaning “politely express a wish to participate” is ___.",
+        "sentence": "To ___ means to politely express a wish to participate.",
         "answer": "would like to join",
         "options": [
-          "imagine living",
-          "recommend visiting",
-          "feel like going",
+          "want to improve",
+          "avoid wasting",
+          "tend to worry",
           "would like to join"
         ],
         "hint": "Verb Patterns"
@@ -15041,51 +15041,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-23",
         "conceptId": "verb-patterns:avoid wasting",
-        "sentence": "The expression meaning “prevent unnecessary use” is ___.",
+        "sentence": "To ___ means to prevent unnecessary use.",
         "answer": "avoid wasting",
         "options": [
-          "risk losing",
-          "give up trying",
+          "consider moving",
+          "want to improve",
           "avoid wasting",
-          "involve working"
+          "would like to join"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-24",
         "conceptId": "verb-patterns:consider moving",
-        "sentence": "The expression meaning “think about changing where you live” is ___.",
+        "sentence": "To ___ means to think about changing where you live.",
         "answer": "consider moving",
         "options": [
-          "look forward to meeting",
+          "would like to join",
           "consider moving",
-          "keep trying",
-          "suggest taking"
+          "avoid wasting",
+          "delay making"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-25",
         "conceptId": "verb-patterns:delay making",
-        "sentence": "The expression meaning “postpone producing something” is ___.",
+        "sentence": "To ___ means to postpone producing something.",
         "answer": "delay making",
         "options": [
           "delay making",
-          "mention seeing",
-          "admit breaking",
-          "succeed in finding"
+          "consider moving",
+          "deny taking",
+          "avoid wasting"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-26",
         "conceptId": "verb-patterns:deny taking",
-        "sentence": "The expression meaning “say that you did not remove something” is ___.",
+        "sentence": "To ___ means to say that you did not remove something.",
         "answer": "deny taking",
         "options": [
-          "mind waiting",
-          "appreciate receiving",
-          "apologise for arriving",
+          "delay making",
+          "enjoy learning",
+          "consider moving",
           "deny taking"
         ],
         "hint": "Verb Patterns"
@@ -15093,51 +15093,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-27",
         "conceptId": "verb-patterns:enjoy learning",
-        "sentence": "The expression meaning “take pleasure in gaining knowledge” is ___.",
+        "sentence": "To ___ means to take pleasure in gaining knowledge.",
         "answer": "enjoy learning",
         "options": [
-          "can’t help laughing",
-          "insist on paying",
+          "finish writing",
+          "delay making",
           "enjoy learning",
-          "miss talking"
+          "deny taking"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-28",
         "conceptId": "verb-patterns:finish writing",
-        "sentence": "The expression meaning “complete the activity of creating text” is ___.",
+        "sentence": "To ___ means to complete the activity of creating text.",
         "answer": "finish writing",
         "options": [
-          "object to changing",
+          "deny taking",
           "finish writing",
-          "practise speaking",
-          "can’t stand waiting"
+          "enjoy learning",
+          "imagine living"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-29",
         "conceptId": "verb-patterns:imagine living",
-        "sentence": "The expression meaning “form a mental picture of residing somewhere” is ___.",
+        "sentence": "To ___ means to form a mental picture of residing somewhere.",
         "answer": "imagine living",
         "options": [
           "imagine living",
-          "recommend visiting",
-          "feel like going",
-          "think about studying"
+          "finish writing",
+          "involve working",
+          "enjoy learning"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-30",
         "conceptId": "verb-patterns:involve working",
-        "sentence": "The expression meaning “require doing a job or task” is ___.",
+        "sentence": "To ___ means to require doing a job or task.",
         "answer": "involve working",
         "options": [
-          "risk losing",
-          "give up trying",
-          "agree to help",
+          "imagine living",
+          "keep trying",
+          "finish writing",
           "involve working"
         ],
         "hint": "Verb Patterns"
@@ -15145,51 +15145,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-31",
         "conceptId": "verb-patterns:keep trying",
-        "sentence": "The expression meaning “continue making an effort” is ___.",
+        "sentence": "To ___ means to continue making an effort.",
         "answer": "keep trying",
         "options": [
-          "look forward to meeting",
-          "appear to know",
+          "mention seeing",
+          "imagine living",
           "keep trying",
-          "suggest taking"
+          "involve working"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-32",
         "conceptId": "verb-patterns:mention seeing",
-        "sentence": "The expression meaning “say briefly that you observed something” is ___.",
+        "sentence": "To ___ means to say briefly that you observed something.",
         "answer": "mention seeing",
         "options": [
-          "arrange to meet",
+          "involve working",
           "mention seeing",
-          "admit breaking",
-          "succeed in finding"
+          "keep trying",
+          "mind waiting"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-33",
         "conceptId": "verb-patterns:mind waiting",
-        "sentence": "The expression meaning “object to remaining until later” is ___.",
+        "sentence": "To ___ means to object to remaining until later.",
         "answer": "mind waiting",
         "options": [
           "mind waiting",
-          "appreciate receiving",
-          "apologise for arriving",
-          "attempt to solve"
+          "mention seeing",
+          "miss talking",
+          "keep trying"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-34",
         "conceptId": "verb-patterns:miss talking",
-        "sentence": "The expression meaning “feel unhappy because a conversation no longer happens” is ___.",
+        "sentence": "To ___ means to feel unhappy because a conversation no longer happens.",
         "answer": "miss talking",
         "options": [
-          "can’t help laughing",
-          "insist on paying",
-          "choose to leave",
+          "mind waiting",
+          "practise speaking",
+          "mention seeing",
           "miss talking"
         ],
         "hint": "Verb Patterns"
@@ -15197,51 +15197,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-35",
         "conceptId": "verb-patterns:practise speaking",
-        "sentence": "The expression meaning “repeatedly exercise oral language” is ___.",
+        "sentence": "To ___ means to repeatedly exercise oral language.",
         "answer": "practise speaking",
         "options": [
-          "object to changing",
-          "decide to apply",
+          "recommend visiting",
+          "mind waiting",
           "practise speaking",
-          "can’t stand waiting"
+          "miss talking"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-36",
         "conceptId": "verb-patterns:recommend visiting",
-        "sentence": "The expression meaning “advise someone to go to a place” is ___.",
+        "sentence": "To ___ means to advise someone to go to a place.",
         "answer": "recommend visiting",
         "options": [
-          "expect to arrive",
+          "miss talking",
           "recommend visiting",
-          "feel like going",
-          "think about studying"
+          "practise speaking",
+          "risk losing"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-37",
         "conceptId": "verb-patterns:risk losing",
-        "sentence": "The expression meaning “accept the possibility of no longer having something” is ___.",
+        "sentence": "To ___ means to accept the possibility of no longer having something.",
         "answer": "risk losing",
         "options": [
           "risk losing",
-          "give up trying",
-          "agree to help",
-          "fail to notice"
+          "recommend visiting",
+          "suggest taking",
+          "practise speaking"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-38",
         "conceptId": "verb-patterns:suggest taking",
-        "sentence": "The expression meaning “propose using or choosing something” is ___.",
+        "sentence": "To ___ means to propose using or choosing something.",
         "answer": "suggest taking",
         "options": [
-          "look forward to meeting",
-          "appear to know",
-          "happen to find",
+          "risk losing",
+          "admit breaking",
+          "recommend visiting",
           "suggest taking"
         ],
         "hint": "Verb Patterns"
@@ -15249,51 +15249,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-39",
         "conceptId": "verb-patterns:admit breaking",
-        "sentence": "The expression meaning “acknowledge that you damaged something” is ___.",
+        "sentence": "To ___ means to acknowledge that you damaged something.",
         "answer": "admit breaking",
         "options": [
-          "arrange to meet",
-          "hope to visit",
+          "appreciate receiving",
+          "risk losing",
           "admit breaking",
-          "succeed in finding"
+          "suggest taking"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-40",
         "conceptId": "verb-patterns:appreciate receiving",
-        "sentence": "The expression meaning “feel grateful for being given something” is ___.",
+        "sentence": "To ___ means to feel grateful for being given something.",
         "answer": "appreciate receiving",
         "options": [
-          "learn to drive",
+          "suggest taking",
           "appreciate receiving",
-          "apologise for arriving",
-          "attempt to solve"
+          "admit breaking",
+          "can’t help laughing"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-41",
         "conceptId": "verb-patterns:can’t help laughing",
-        "sentence": "The expression meaning “be unable to stop finding something funny” is ___.",
+        "sentence": "To ___ means to be unable to stop finding something funny.",
         "answer": "can’t help laughing",
         "options": [
           "can’t help laughing",
-          "insist on paying",
-          "choose to leave",
-          "manage to finish"
+          "appreciate receiving",
+          "can’t stand waiting",
+          "admit breaking"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-42",
         "conceptId": "verb-patterns:can’t stand waiting",
-        "sentence": "The expression meaning “strongly dislike remaining until later” is ___.",
+        "sentence": "To ___ means to strongly dislike remaining until later.",
         "answer": "can’t stand waiting",
         "options": [
-          "object to changing",
-          "decide to apply",
-          "offer to carry",
+          "can’t help laughing",
+          "feel like going",
+          "appreciate receiving",
           "can’t stand waiting"
         ],
         "hint": "Verb Patterns"
@@ -15301,51 +15301,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-43",
         "conceptId": "verb-patterns:feel like going",
-        "sentence": "The expression meaning “want to leave or visit” is ___.",
+        "sentence": "To ___ means to want to leave or visit.",
         "answer": "feel like going",
         "options": [
-          "expect to arrive",
-          "plan to study",
+          "give up trying",
+          "can’t help laughing",
           "feel like going",
-          "think about studying"
+          "can’t stand waiting"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-44",
         "conceptId": "verb-patterns:give up trying",
-        "sentence": "The expression meaning “stop making an effort” is ___.",
+        "sentence": "To ___ means to stop making an effort.",
         "answer": "give up trying",
         "options": [
-          "prepare to speak",
+          "can’t stand waiting",
           "give up trying",
-          "agree to help",
-          "fail to notice"
+          "feel like going",
+          "look forward to meeting"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-45",
         "conceptId": "verb-patterns:look forward to meeting",
-        "sentence": "The expression meaning “feel excited about a future encounter” is ___.",
+        "sentence": "To ___ means to feel excited about a future encounter.",
         "answer": "look forward to meeting",
         "options": [
           "look forward to meeting",
-          "appear to know",
-          "happen to find",
-          "pretend to understand"
+          "give up trying",
+          "succeed in finding",
+          "feel like going"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-46",
         "conceptId": "verb-patterns:succeed in finding",
-        "sentence": "The expression meaning “manage to discover something” is ___.",
+        "sentence": "To ___ means to manage to discover something.",
         "answer": "succeed in finding",
         "options": [
-          "arrange to meet",
-          "hope to visit",
-          "promise to return",
+          "look forward to meeting",
+          "apologise for arriving",
+          "give up trying",
           "succeed in finding"
         ],
         "hint": "Verb Patterns"
@@ -15353,51 +15353,51 @@ export const QUIZZES = {
       {
         "id": "verb-patterns-47",
         "conceptId": "verb-patterns:apologise for arriving",
-        "sentence": "The expression meaning “say sorry for reaching a place” is ___.",
+        "sentence": "To ___ means to say sorry for reaching a place.",
         "answer": "apologise for arriving",
         "options": [
-          "learn to drive",
-          "refuse to answer",
+          "insist on paying",
+          "look forward to meeting",
           "apologise for arriving",
-          "attempt to solve"
+          "succeed in finding"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-48",
         "conceptId": "verb-patterns:insist on paying",
-        "sentence": "The expression meaning “firmly demand to provide the money” is ___.",
+        "sentence": "To ___ means to firmly demand to provide the money.",
         "answer": "insist on paying",
         "options": [
-          "seem to work",
+          "succeed in finding",
           "insist on paying",
-          "choose to leave",
-          "manage to finish"
+          "apologise for arriving",
+          "object to changing"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-49",
         "conceptId": "verb-patterns:object to changing",
-        "sentence": "The expression meaning “express opposition to an alteration” is ___.",
+        "sentence": "To ___ means to express opposition to an alteration.",
         "answer": "object to changing",
         "options": [
           "object to changing",
-          "decide to apply",
-          "offer to carry",
-          "tend to worry"
+          "insist on paying",
+          "think about studying",
+          "apologise for arriving"
         ],
         "hint": "Verb Patterns"
       },
       {
         "id": "verb-patterns-50",
         "conceptId": "verb-patterns:think about studying",
-        "sentence": "The expression meaning “consider learning a subject” is ___.",
+        "sentence": "To ___ means to consider learning a subject.",
         "answer": "think about studying",
         "options": [
-          "expect to arrive",
-          "plan to study",
-          "want to improve",
+          "object to changing",
+          "agree to help",
+          "insist on paying",
           "think about studying"
         ],
         "hint": "Verb Patterns"
@@ -15413,25 +15413,25 @@ export const QUIZZES = {
       {
         "id": "fashion-01",
         "conceptId": "fashion:accessory",
-        "sentence": "The term for an extra item worn to complete an outfit is ___.",
+        "sentence": "___ refers to an extra item worn to complete an outfit.",
         "answer": "accessory",
         "options": [
           "accessory",
-          "designer",
-          "garment",
-          "pattern"
+          "breathable",
+          "bargain",
+          "waterproof"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-02",
         "conceptId": "fashion:bargain",
-        "sentence": "The term for a product sold at a particularly low price is ___.",
+        "sentence": "___ refers to a product sold at a particularly low price.",
         "answer": "bargain",
         "options": [
-          "discount",
-          "handbag",
-          "receipt",
+          "accessory",
+          "brand",
+          "breathable",
           "bargain"
         ],
         "hint": "Fashion & Shopping"
@@ -15439,51 +15439,51 @@ export const QUIZZES = {
       {
         "id": "fashion-03",
         "conceptId": "fashion:brand",
-        "sentence": "The term for a company name identifying its products is ___.",
+        "sentence": "___ refers to a company name identifying its products.",
         "answer": "brand",
         "options": [
-          "label",
-          "refund",
+          "changing room",
+          "accessory",
           "brand",
-          "dress code"
+          "bargain"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-04",
         "conceptId": "fashion:changing room",
-        "sentence": "The term for a private place where shoppers try on clothes is ___.",
+        "sentence": "___ refers to a private place where shoppers try on clothes.",
         "answer": "changing room",
         "options": [
-          "retailer",
+          "bargain",
           "changing room",
-          "fabric",
-          "leather"
+          "brand",
+          "checkout"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-05",
         "conceptId": "fashion:checkout",
-        "sentence": "The term for the place where a customer pays is ___.",
+        "sentence": "___ refers to the place where a customer pays.",
         "answer": "checkout",
         "options": [
           "checkout",
-          "fast fashion",
-          "linen",
-          "sale"
+          "changing room",
+          "cotton",
+          "brand"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-06",
         "conceptId": "fashion:cotton",
-        "sentence": "The term for a soft natural fibre from a plant is ___.",
+        "sentence": "___ refers to a soft natural fibre from a plant.",
         "answer": "cotton",
         "options": [
-          "fitting",
-          "loose-fitting",
-          "second-hand",
+          "checkout",
+          "denim",
+          "changing room",
           "cotton"
         ],
         "hint": "Fashion & Shopping"
@@ -15491,51 +15491,51 @@ export const QUIZZES = {
       {
         "id": "fashion-07",
         "conceptId": "fashion:denim",
-        "sentence": "The term for strong cotton fabric commonly used for jeans is ___.",
+        "sentence": "___ refers to strong cotton fabric commonly used for jeans.",
         "answer": "denim",
         "options": [
-          "outfit",
-          "silk",
+          "designer",
+          "checkout",
           "denim",
-          "formal wear"
+          "cotton"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-08",
         "conceptId": "fashion:designer",
-        "sentence": "The term for a person who creates clothing styles is ___.",
+        "sentence": "___ refers to a person who creates clothing styles.",
         "answer": "designer",
         "options": [
-          "size",
+          "cotton",
           "designer",
-          "garment",
-          "pattern"
+          "denim",
+          "discount"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-09",
         "conceptId": "fashion:discount",
-        "sentence": "The term for a reduction in the usual price is ___.",
+        "sentence": "___ refers to a reduction in the usual price.",
         "answer": "discount",
         "options": [
           "discount",
-          "handbag",
-          "receipt",
-          "sleeve"
+          "designer",
+          "dress code",
+          "denim"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-10",
         "conceptId": "fashion:dress code",
-        "sentence": "The term for rules about suitable clothing is ___.",
+        "sentence": "___ refers to rules about suitable clothing.",
         "answer": "dress code",
         "options": [
-          "label",
-          "refund",
-          "smart-casual",
+          "discount",
+          "fabric",
+          "designer",
           "dress code"
         ],
         "hint": "Fashion & Shopping"
@@ -15543,51 +15543,51 @@ export const QUIZZES = {
       {
         "id": "fashion-11",
         "conceptId": "fashion:fabric",
-        "sentence": "The term for material used for making clothes is ___.",
+        "sentence": "___ refers to material used for making clothes.",
         "answer": "fabric",
         "options": [
-          "retailer",
-          "sustainable fashion",
+          "fast fashion",
+          "discount",
           "fabric",
-          "leather"
+          "dress code"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-12",
         "conceptId": "fashion:fast fashion",
-        "sentence": "The term for cheap clothing produced rapidly for current trends is ___.",
+        "sentence": "___ refers to cheap clothing produced rapidly for current trends.",
         "answer": "fast fashion",
         "options": [
-          "tight-fitting",
+          "dress code",
           "fast fashion",
-          "linen",
-          "sale"
+          "fabric",
+          "fitting"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-13",
         "conceptId": "fashion:fitting",
-        "sentence": "The term for the process of checking whether clothing has the right size is ___.",
+        "sentence": "___ refers to the process of checking whether clothing has the right size.",
         "answer": "fitting",
         "options": [
           "fitting",
-          "loose-fitting",
-          "second-hand",
-          "trend"
+          "fast fashion",
+          "formal wear",
+          "fabric"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-14",
         "conceptId": "fashion:formal wear",
-        "sentence": "The term for clothing suitable for an official occasion is ___.",
+        "sentence": "___ refers to clothing suitable for an official occasion.",
         "answer": "formal wear",
         "options": [
-          "outfit",
-          "silk",
-          "uniform",
+          "fitting",
+          "garment",
+          "fast fashion",
           "formal wear"
         ],
         "hint": "Fashion & Shopping"
@@ -15595,51 +15595,51 @@ export const QUIZZES = {
       {
         "id": "fashion-15",
         "conceptId": "fashion:garment",
-        "sentence": "The term for a single item of clothing is ___.",
+        "sentence": "___ refers to a single item of clothing.",
         "answer": "garment",
         "options": [
-          "size",
-          "vintage",
+          "handbag",
+          "fitting",
           "garment",
-          "pattern"
+          "formal wear"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-16",
         "conceptId": "fashion:handbag",
-        "sentence": "The term for a small bag used for personal possessions is ___.",
+        "sentence": "___ refers to a small bag used for personal possessions.",
         "answer": "handbag",
         "options": [
-          "wool",
+          "formal wear",
           "handbag",
-          "receipt",
-          "sleeve"
+          "garment",
+          "label"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-17",
         "conceptId": "fashion:label",
-        "sentence": "The term for a piece showing size, care or brand information is ___.",
+        "sentence": "___ refers to a piece showing size, care or brand information.",
         "answer": "label",
         "options": [
           "label",
-          "refund",
-          "smart-casual",
-          "zip"
+          "handbag",
+          "leather",
+          "garment"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-18",
         "conceptId": "fashion:leather",
-        "sentence": "The term for material made from animal skin is ___.",
+        "sentence": "___ refers to material made from animal skin.",
         "answer": "leather",
         "options": [
-          "retailer",
-          "sustainable fashion",
-          "window display",
+          "label",
+          "linen",
+          "handbag",
           "leather"
         ],
         "hint": "Fashion & Shopping"
@@ -15647,51 +15647,51 @@ export const QUIZZES = {
       {
         "id": "fashion-19",
         "conceptId": "fashion:linen",
-        "sentence": "The term for light fabric made from the flax plant is ___.",
+        "sentence": "___ refers to light fabric made from the flax plant.",
         "answer": "linen",
         "options": [
-          "tight-fitting",
-          "online shopping",
+          "loose-fitting",
+          "label",
           "linen",
-          "sale"
+          "leather"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-20",
         "conceptId": "fashion:loose-fitting",
-        "sentence": "The term for describing clothing that does not fit tightly is ___.",
+        "sentence": "This shirt hangs away from the body because it is ___.",
         "answer": "loose-fitting",
         "options": [
-          "impulse purchase",
           "loose-fitting",
-          "second-hand",
-          "trend"
+          "tight-fitting",
+          "waterproof",
+          "sleeveless"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-21",
         "conceptId": "fashion:outfit",
-        "sentence": "The term for a set of clothes worn together is ___.",
+        "sentence": "___ refers to a set of clothes worn together.",
         "answer": "outfit",
         "options": [
           "outfit",
-          "silk",
-          "uniform",
-          "customer service"
+          "loose-fitting",
+          "pattern",
+          "linen"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-22",
         "conceptId": "fashion:pattern",
-        "sentence": "The term for a repeated decorative design on fabric is ___.",
+        "sentence": "___ refers to a repeated decorative design on fabric.",
         "answer": "pattern",
         "options": [
-          "size",
-          "vintage",
-          "ethical brand",
+          "outfit",
+          "receipt",
+          "loose-fitting",
           "pattern"
         ],
         "hint": "Fashion & Shopping"
@@ -15699,51 +15699,51 @@ export const QUIZZES = {
       {
         "id": "fashion-23",
         "conceptId": "fashion:receipt",
-        "sentence": "The term for proof that a customer paid for something is ___.",
+        "sentence": "___ refers to proof that a customer paid for something.",
         "answer": "receipt",
         "options": [
-          "wool",
-          "capsule wardrobe",
+          "refund",
+          "outfit",
           "receipt",
-          "sleeve"
+          "pattern"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-24",
         "conceptId": "fashion:refund",
-        "sentence": "The term for money returned after a product is taken back is ___.",
+        "sentence": "___ refers to money returned after a product is taken back.",
         "answer": "refund",
         "options": [
-          "fashion show",
+          "pattern",
           "refund",
-          "smart-casual",
-          "zip"
+          "receipt",
+          "retailer"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-25",
         "conceptId": "fashion:retailer",
-        "sentence": "The term for a business selling goods directly to customers is ___.",
+        "sentence": "___ refers to a business selling goods directly to customers.",
         "answer": "retailer",
         "options": [
           "retailer",
-          "sustainable fashion",
-          "window display",
-          "catwalk"
+          "refund",
+          "sale",
+          "receipt"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-26",
         "conceptId": "fashion:sale",
-        "sentence": "The term for a period when products are offered at reduced prices is ___.",
+        "sentence": "___ refers to a period when products are offered at reduced prices.",
         "answer": "sale",
         "options": [
-          "tight-fitting",
-          "online shopping",
-          "tailor",
+          "retailer",
+          "second-hand",
+          "refund",
           "sale"
         ],
         "hint": "Fashion & Shopping"
@@ -15751,51 +15751,51 @@ export const QUIZZES = {
       {
         "id": "fashion-27",
         "conceptId": "fashion:second-hand",
-        "sentence": "The term for previously owned by another person is ___.",
+        "sentence": "___ refers to previously owned by another person.",
         "answer": "second-hand",
         "options": [
-          "impulse purchase",
-          "alteration",
+          "silk",
+          "retailer",
           "second-hand",
-          "trend"
+          "sale"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-28",
         "conceptId": "fashion:silk",
-        "sentence": "The term for a smooth fine fabric produced by insects is ___.",
+        "sentence": "___ refers to a smooth fine fabric produced by insects.",
         "answer": "silk",
         "options": [
-          "waterproof",
+          "sale",
           "silk",
-          "uniform",
-          "customer service"
+          "second-hand",
+          "size"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-29",
         "conceptId": "fashion:size",
-        "sentence": "The term for a measurement category for clothing is ___.",
+        "sentence": "___ refers to a measurement category for clothing.",
         "answer": "size",
         "options": [
           "size",
-          "vintage",
-          "ethical brand",
-          "breathable"
+          "silk",
+          "sleeve",
+          "second-hand"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-30",
         "conceptId": "fashion:sleeve",
-        "sentence": "The term for the part of a garment covering an arm is ___.",
+        "sentence": "___ refers to the part of a garment covering an arm.",
         "answer": "sleeve",
         "options": [
-          "wool",
-          "capsule wardrobe",
-          "accessory",
+          "size",
+          "smart-casual",
+          "silk",
           "sleeve"
         ],
         "hint": "Fashion & Shopping"
@@ -15803,51 +15803,51 @@ export const QUIZZES = {
       {
         "id": "fashion-31",
         "conceptId": "fashion:smart-casual",
-        "sentence": "The term for neat clothing that is not completely formal is ___.",
+        "sentence": "___ refers to neat clothing that is not completely formal.",
         "answer": "smart-casual",
         "options": [
-          "fashion show",
-          "bargain",
+          "sustainable fashion",
+          "size",
           "smart-casual",
-          "zip"
+          "sleeve"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-32",
         "conceptId": "fashion:sustainable fashion",
-        "sentence": "The term for clothing produced with reduced environmental harm is ___.",
+        "sentence": "___ refers to clothing produced with reduced environmental harm.",
         "answer": "sustainable fashion",
         "options": [
-          "brand",
+          "sleeve",
           "sustainable fashion",
-          "window display",
-          "catwalk"
+          "smart-casual",
+          "tight-fitting"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-33",
         "conceptId": "fashion:tight-fitting",
-        "sentence": "The term for describing clothing fitting closely to the body is ___.",
+        "sentence": "These cycling shorts are ___ and follow the shape of the body.",
         "answer": "tight-fitting",
         "options": [
           "tight-fitting",
-          "online shopping",
-          "tailor",
-          "changing room"
+          "loose-fitting",
+          "waterproof",
+          "sleeveless"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-34",
         "conceptId": "fashion:trend",
-        "sentence": "The term for a style becoming popular at a particular time is ___.",
+        "sentence": "___ refers to a style becoming popular at a particular time.",
         "answer": "trend",
         "options": [
-          "impulse purchase",
-          "alteration",
-          "checkout",
+          "tight-fitting",
+          "uniform",
+          "sustainable fashion",
           "trend"
         ],
         "hint": "Fashion & Shopping"
@@ -15855,51 +15855,51 @@ export const QUIZZES = {
       {
         "id": "fashion-35",
         "conceptId": "fashion:uniform",
-        "sentence": "The term for standard clothing worn by members of a group is ___.",
+        "sentence": "___ refers to standard clothing worn by members of a group.",
         "answer": "uniform",
         "options": [
-          "waterproof",
-          "cotton",
+          "vintage",
+          "tight-fitting",
           "uniform",
-          "customer service"
+          "trend"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-36",
         "conceptId": "fashion:vintage",
-        "sentence": "The term for clothing representing a high-quality older style is ___.",
+        "sentence": "___ refers to clothing representing a high-quality older style.",
         "answer": "vintage",
         "options": [
-          "denim",
+          "trend",
           "vintage",
-          "ethical brand",
-          "breathable"
+          "uniform",
+          "wool"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-37",
         "conceptId": "fashion:wool",
-        "sentence": "The term for warm fibre obtained from animals such as sheep is ___.",
+        "sentence": "___ refers to warm fibre obtained from animals such as sheep.",
         "answer": "wool",
         "options": [
           "wool",
-          "capsule wardrobe",
-          "accessory",
-          "designer"
+          "vintage",
+          "zip",
+          "uniform"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-38",
         "conceptId": "fashion:zip",
-        "sentence": "The term for a fastening made from two rows of metal or plastic teeth is ___.",
+        "sentence": "___ refers to a fastening made from two rows of metal or plastic teeth.",
         "answer": "zip",
         "options": [
-          "fashion show",
-          "bargain",
-          "discount",
+          "wool",
+          "window display",
+          "vintage",
           "zip"
         ],
         "hint": "Fashion & Shopping"
@@ -15907,51 +15907,51 @@ export const QUIZZES = {
       {
         "id": "fashion-39",
         "conceptId": "fashion:window display",
-        "sentence": "The term for products arranged behind a shop’s front glass is ___.",
+        "sentence": "___ refers to products arranged behind a shop’s front glass.",
         "answer": "window display",
         "options": [
-          "brand",
-          "dress code",
+          "online shopping",
+          "wool",
           "window display",
-          "catwalk"
+          "zip"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-40",
         "conceptId": "fashion:online shopping",
-        "sentence": "The term for buying goods through the internet is ___.",
+        "sentence": "___ refers to buying goods through the internet.",
         "answer": "online shopping",
         "options": [
-          "fabric",
+          "zip",
           "online shopping",
-          "tailor",
-          "changing room"
+          "window display",
+          "impulse purchase"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-41",
         "conceptId": "fashion:impulse purchase",
-        "sentence": "The term for something bought without previous planning is ___.",
+        "sentence": "___ refers to something bought without previous planning.",
         "answer": "impulse purchase",
         "options": [
           "impulse purchase",
-          "alteration",
-          "checkout",
-          "fast fashion"
+          "online shopping",
+          "customer service",
+          "window display"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-42",
         "conceptId": "fashion:customer service",
-        "sentence": "The term for help a business provides to buyers is ___.",
+        "sentence": "___ refers to help a business provides to buyers.",
         "answer": "customer service",
         "options": [
-          "waterproof",
-          "cotton",
-          "fitting",
+          "impulse purchase",
+          "ethical brand",
+          "online shopping",
           "customer service"
         ],
         "hint": "Fashion & Shopping"
@@ -15959,51 +15959,51 @@ export const QUIZZES = {
       {
         "id": "fashion-43",
         "conceptId": "fashion:ethical brand",
-        "sentence": "The term for a company following responsible social practices is ___.",
+        "sentence": "___ refers to a company following responsible social practices.",
         "answer": "ethical brand",
         "options": [
-          "denim",
-          "formal wear",
+          "capsule wardrobe",
+          "impulse purchase",
           "ethical brand",
-          "breathable"
+          "customer service"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-44",
         "conceptId": "fashion:capsule wardrobe",
-        "sentence": "The term for a small collection of versatile clothing is ___.",
+        "sentence": "___ refers to a small collection of versatile clothing.",
         "answer": "capsule wardrobe",
         "options": [
-          "garment",
+          "customer service",
           "capsule wardrobe",
-          "accessory",
-          "designer"
+          "ethical brand",
+          "fashion show"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-45",
         "conceptId": "fashion:fashion show",
-        "sentence": "The term for an event where models present new designs is ___.",
+        "sentence": "___ refers to an event where models present new designs.",
         "answer": "fashion show",
         "options": [
           "fashion show",
-          "bargain",
-          "discount",
-          "handbag"
+          "capsule wardrobe",
+          "catwalk",
+          "ethical brand"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-46",
         "conceptId": "fashion:catwalk",
-        "sentence": "The term for the raised platform used by models is ___.",
+        "sentence": "___ refers to the raised platform used by models.",
         "answer": "catwalk",
         "options": [
-          "brand",
-          "dress code",
-          "label",
+          "fashion show",
+          "tailor",
+          "capsule wardrobe",
           "catwalk"
         ],
         "hint": "Fashion & Shopping"
@@ -16011,52 +16011,52 @@ export const QUIZZES = {
       {
         "id": "fashion-47",
         "conceptId": "fashion:tailor",
-        "sentence": "The term for a person making or altering fitted clothes is ___.",
+        "sentence": "___ refers to a person making or altering fitted clothes.",
         "answer": "tailor",
         "options": [
-          "fabric",
-          "leather",
+          "alteration",
+          "fashion show",
           "tailor",
-          "changing room"
+          "catwalk"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-48",
         "conceptId": "fashion:alteration",
-        "sentence": "The term for a change made to improve how clothing fits is ___.",
+        "sentence": "___ refers to a change made to improve how clothing fits.",
         "answer": "alteration",
         "options": [
-          "linen",
+          "catwalk",
           "alteration",
-          "checkout",
-          "fast fashion"
+          "tailor",
+          "waterproof"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-49",
         "conceptId": "fashion:waterproof",
-        "sentence": "The term for describing material that prevents water passing through is ___.",
+        "sentence": "The jacket keeps rain out because its material is ___.",
         "answer": "waterproof",
         "options": [
           "waterproof",
-          "cotton",
-          "fitting",
-          "loose-fitting"
+          "breathable",
+          "absorbent",
+          "delicate"
         ],
         "hint": "Fashion & Shopping"
       },
       {
         "id": "fashion-50",
         "conceptId": "fashion:breathable",
-        "sentence": "The term for describing fabric allowing air to pass through is ___.",
+        "sentence": "This sports shirt stays comfortable because the fabric is ___.",
         "answer": "breathable",
         "options": [
-          "denim",
-          "formal wear",
-          "outfit",
-          "breathable"
+          "waterproof",
+          "breathable",
+          "insulating",
+          "absorbent"
         ],
         "hint": "Fashion & Shopping"
       }
@@ -16071,25 +16071,25 @@ export const QUIZZES = {
       {
         "id": "environment-01",
         "conceptId": "environment:air pollution",
-        "sentence": "The term for harmful substances present in the atmosphere is ___.",
+        "sentence": "___ refers to harmful substances present in the atmosphere.",
         "answer": "air pollution",
         "options": [
           "air pollution",
-          "conservation",
-          "erosion",
-          "landfill"
+          "wetland",
+          "biodiversity",
+          "sea level"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-02",
         "conceptId": "environment:biodiversity",
-        "sentence": "The term for the variety of living species in an area is ___.",
+        "sentence": "___ refers to the variety of living species in an area.",
         "answer": "biodiversity",
         "options": [
-          "deforestation",
-          "extinction",
-          "litter",
+          "air pollution",
+          "carbon dioxide",
+          "wetland",
           "biodiversity"
         ],
         "hint": "The Environment"
@@ -16097,51 +16097,51 @@ export const QUIZZES = {
       {
         "id": "environment-03",
         "conceptId": "environment:carbon dioxide",
-        "sentence": "The term for a gas released by burning fossil fuels is ___.",
+        "sentence": "___ refers to a gas released by burning fossil fuels.",
         "answer": "carbon dioxide",
         "options": [
-          "flood",
-          "microplastic",
+          "carbon footprint",
+          "air pollution",
           "carbon dioxide",
-          "drought"
+          "biodiversity"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-04",
         "conceptId": "environment:carbon footprint",
-        "sentence": "The term for the total emissions caused by an activity or person is ___.",
+        "sentence": "___ refers to the total emissions caused by an activity or person.",
         "answer": "carbon footprint",
         "options": [
-          "natural resource",
+          "biodiversity",
           "carbon footprint",
-          "ecosystem",
-          "fossil fuel"
+          "carbon dioxide",
+          "climate"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-05",
         "conceptId": "environment:climate",
-        "sentence": "The term for the typical weather conditions of a region is ___.",
+        "sentence": "___ refers to the typical weather conditions of a region.",
         "answer": "climate",
         "options": [
           "climate",
-          "emission",
-          "global warming",
-          "noise pollution"
+          "carbon footprint",
+          "climate change",
+          "carbon dioxide"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-06",
         "conceptId": "environment:climate change",
-        "sentence": "The term for long-term alteration of global weather patterns is ___.",
+        "sentence": "___ refers to long-term alteration of global weather patterns.",
         "answer": "climate change",
         "options": [
-          "endangered species",
-          "green space",
-          "organic waste",
+          "climate",
+          "compost",
+          "carbon footprint",
           "climate change"
         ],
         "hint": "The Environment"
@@ -16149,51 +16149,51 @@ export const QUIZZES = {
       {
         "id": "environment-07",
         "conceptId": "environment:compost",
-        "sentence": "The term for decayed organic material used to improve soil is ___.",
+        "sentence": "___ refers to decayed organic material used to improve soil.",
         "answer": "compost",
         "options": [
-          "habitat",
-          "ozone layer",
+          "conservation",
+          "climate",
           "compost",
-          "energy efficiency"
+          "climate change"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-08",
         "conceptId": "environment:conservation",
-        "sentence": "The term for protection of nature and wildlife is ___.",
+        "sentence": "___ refers to protection of nature and wildlife.",
         "answer": "conservation",
         "options": [
-          "pollinator",
+          "climate change",
           "conservation",
-          "erosion",
-          "landfill"
+          "compost",
+          "deforestation"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-09",
         "conceptId": "environment:deforestation",
-        "sentence": "The term for large-scale removal of forests is ___.",
+        "sentence": "___ refers to large-scale removal of forests.",
         "answer": "deforestation",
         "options": [
           "deforestation",
-          "extinction",
-          "litter",
-          "public transport"
+          "conservation",
+          "drought",
+          "compost"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-10",
         "conceptId": "environment:drought",
-        "sentence": "The term for a long period with very little rain is ___.",
+        "sentence": "___ refers to a long period with very little rain.",
         "answer": "drought",
         "options": [
-          "flood",
-          "microplastic",
-          "recycling",
+          "deforestation",
+          "ecosystem",
+          "conservation",
           "drought"
         ],
         "hint": "The Environment"
@@ -16201,51 +16201,51 @@ export const QUIZZES = {
       {
         "id": "environment-11",
         "conceptId": "environment:ecosystem",
-        "sentence": "The term for living organisms and their physical environment together is ___.",
+        "sentence": "___ refers to living organisms and their physical environment together.",
         "answer": "ecosystem",
         "options": [
-          "natural resource",
-          "renewable energy",
+          "emission",
+          "deforestation",
           "ecosystem",
-          "fossil fuel"
+          "drought"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-12",
         "conceptId": "environment:emission",
-        "sentence": "The term for a substance released into the air is ___.",
+        "sentence": "___ refers to a substance released into the air.",
         "answer": "emission",
         "options": [
-          "reusable",
+          "drought",
           "emission",
-          "global warming",
-          "noise pollution"
+          "ecosystem",
+          "endangered species"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-13",
         "conceptId": "environment:endangered species",
-        "sentence": "The term for a type of animal or plant at risk of extinction is ___.",
+        "sentence": "___ refers to a type of animal or plant at risk of extinction.",
         "answer": "endangered species",
         "options": [
           "endangered species",
-          "green space",
-          "organic waste",
-          "single-use plastic"
+          "emission",
+          "energy efficiency",
+          "ecosystem"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-14",
         "conceptId": "environment:energy efficiency",
-        "sentence": "The term for using less energy to achieve the same result is ___.",
+        "sentence": "___ refers to using less energy to achieve the same result.",
         "answer": "energy efficiency",
         "options": [
-          "habitat",
-          "ozone layer",
-          "solar power",
+          "endangered species",
+          "erosion",
+          "emission",
           "energy efficiency"
         ],
         "hint": "The Environment"
@@ -16253,51 +16253,51 @@ export const QUIZZES = {
       {
         "id": "environment-15",
         "conceptId": "environment:erosion",
-        "sentence": "The term for gradual removal of soil or rock is ___.",
+        "sentence": "___ refers to gradual removal of soil or rock.",
         "answer": "erosion",
         "options": [
-          "pollinator",
-          "sustainable",
+          "extinction",
+          "endangered species",
           "erosion",
-          "landfill"
+          "energy efficiency"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-16",
         "conceptId": "environment:extinction",
-        "sentence": "The term for the permanent disappearance of a species is ___.",
+        "sentence": "___ refers to the permanent disappearance of a species.",
         "answer": "extinction",
         "options": [
-          "toxic waste",
+          "energy efficiency",
           "extinction",
-          "litter",
-          "public transport"
+          "erosion",
+          "flood"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-17",
         "conceptId": "environment:flood",
-        "sentence": "The term for water covering normally dry land is ___.",
+        "sentence": "___ refers to water covering normally dry land.",
         "answer": "flood",
         "options": [
           "flood",
-          "microplastic",
-          "recycling",
-          "urban garden"
+          "extinction",
+          "fossil fuel",
+          "erosion"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-18",
         "conceptId": "environment:fossil fuel",
-        "sentence": "The term for coal, oil or gas formed from ancient organisms is ___.",
+        "sentence": "___ refers to coal, oil or gas formed from ancient organisms.",
         "answer": "fossil fuel",
         "options": [
-          "natural resource",
-          "renewable energy",
-          "water pollution",
+          "flood",
+          "global warming",
+          "extinction",
           "fossil fuel"
         ],
         "hint": "The Environment"
@@ -16305,51 +16305,51 @@ export const QUIZZES = {
       {
         "id": "environment-19",
         "conceptId": "environment:global warming",
-        "sentence": "The term for the long-term rise in Earth’s average temperature is ___.",
+        "sentence": "___ refers to the long-term rise in Earth’s average temperature.",
         "answer": "global warming",
         "options": [
-          "reusable",
-          "wildlife reserve",
+          "green space",
+          "flood",
           "global warming",
-          "noise pollution"
+          "fossil fuel"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-20",
         "conceptId": "environment:green space",
-        "sentence": "The term for an area of grass, trees or plants in a town is ___.",
+        "sentence": "___ refers to an area of grass, trees or plants in a town.",
         "answer": "green space",
         "options": [
-          "wind power",
+          "fossil fuel",
           "green space",
-          "organic waste",
-          "single-use plastic"
+          "global warming",
+          "habitat"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-21",
         "conceptId": "environment:habitat",
-        "sentence": "The term for the natural home of a plant or animal is ___.",
+        "sentence": "___ refers to the natural home of a plant or animal.",
         "answer": "habitat",
         "options": [
           "habitat",
-          "ozone layer",
-          "solar power",
-          "zero waste"
+          "green space",
+          "landfill",
+          "global warming"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-22",
         "conceptId": "environment:landfill",
-        "sentence": "The term for a site where waste is buried is ___.",
+        "sentence": "___ refers to a site where waste is buried.",
         "answer": "landfill",
         "options": [
-          "pollinator",
-          "sustainable",
-          "acid rain",
+          "habitat",
+          "litter",
+          "green space",
           "landfill"
         ],
         "hint": "The Environment"
@@ -16357,51 +16357,51 @@ export const QUIZZES = {
       {
         "id": "environment-23",
         "conceptId": "environment:litter",
-        "sentence": "The term for rubbish left in a public place is ___.",
+        "sentence": "___ refers to rubbish left in a public place.",
         "answer": "litter",
         "options": [
-          "toxic waste",
-          "overfishing",
+          "microplastic",
+          "habitat",
           "litter",
-          "public transport"
+          "landfill"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-24",
         "conceptId": "environment:microplastic",
-        "sentence": "The term for a very small piece of plastic pollution is ___.",
+        "sentence": "___ refers to a very small piece of plastic pollution.",
         "answer": "microplastic",
         "options": [
-          "desertification",
+          "landfill",
           "microplastic",
-          "recycling",
-          "urban garden"
+          "litter",
+          "natural resource"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-25",
         "conceptId": "environment:natural resource",
-        "sentence": "The term for a useful material occurring in nature is ___.",
+        "sentence": "___ refers to a useful material occurring in nature.",
         "answer": "natural resource",
         "options": [
           "natural resource",
-          "renewable energy",
-          "water pollution",
-          "food miles"
+          "microplastic",
+          "noise pollution",
+          "litter"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-26",
         "conceptId": "environment:noise pollution",
-        "sentence": "The term for harmful or disturbing levels of sound is ___.",
+        "sentence": "___ refers to harmful or disturbing levels of sound.",
         "answer": "noise pollution",
         "options": [
-          "reusable",
-          "wildlife reserve",
-          "heatwave",
+          "natural resource",
+          "organic waste",
+          "microplastic",
           "noise pollution"
         ],
         "hint": "The Environment"
@@ -16409,51 +16409,51 @@ export const QUIZZES = {
       {
         "id": "environment-27",
         "conceptId": "environment:organic waste",
-        "sentence": "The term for material from plants or animals that can decay is ___.",
+        "sentence": "___ refers to material from plants or animals that can decay.",
         "answer": "organic waste",
         "options": [
-          "wind power",
-          "rainforest",
+          "ozone layer",
+          "natural resource",
           "organic waste",
-          "single-use plastic"
+          "noise pollution"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-28",
         "conceptId": "environment:ozone layer",
-        "sentence": "The term for atmospheric region protecting Earth from ultraviolet light is ___.",
+        "sentence": "___ refers to atmospheric region protecting Earth from ultraviolet light.",
         "answer": "ozone layer",
         "options": [
-          "sea level",
+          "noise pollution",
           "ozone layer",
-          "solar power",
-          "zero waste"
+          "organic waste",
+          "pollinator"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-29",
         "conceptId": "environment:pollinator",
-        "sentence": "The term for an animal moving pollen between flowers is ___.",
+        "sentence": "___ refers to an animal moving pollen between flowers.",
         "answer": "pollinator",
         "options": [
           "pollinator",
-          "sustainable",
-          "acid rain",
-          "wetland"
+          "ozone layer",
+          "public transport",
+          "organic waste"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-30",
         "conceptId": "environment:public transport",
-        "sentence": "The term for shared travel systems such as buses and trains is ___.",
+        "sentence": "___ refers to shared travel systems such as buses and trains.",
         "answer": "public transport",
         "options": [
-          "toxic waste",
-          "overfishing",
-          "air pollution",
+          "pollinator",
+          "recycling",
+          "ozone layer",
           "public transport"
         ],
         "hint": "The Environment"
@@ -16461,51 +16461,51 @@ export const QUIZZES = {
       {
         "id": "environment-31",
         "conceptId": "environment:recycling",
-        "sentence": "The term for processing waste so it can be used again is ___.",
+        "sentence": "___ refers to processing waste so it can be used again.",
         "answer": "recycling",
         "options": [
-          "desertification",
-          "biodiversity",
+          "renewable energy",
+          "pollinator",
           "recycling",
-          "urban garden"
+          "public transport"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-32",
         "conceptId": "environment:renewable energy",
-        "sentence": "The term for power from sources that naturally replace themselves is ___.",
+        "sentence": "___ refers to power from sources that naturally replace themselves.",
         "answer": "renewable energy",
         "options": [
-          "carbon dioxide",
+          "public transport",
           "renewable energy",
-          "water pollution",
-          "food miles"
+          "recycling",
+          "reusable"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-33",
         "conceptId": "environment:reusable",
-        "sentence": "The term for describing something designed to be used many times is ___.",
+        "sentence": "Unlike a disposable cup, this bottle is ___.",
         "answer": "reusable",
         "options": [
           "reusable",
-          "wildlife reserve",
-          "heatwave",
-          "carbon footprint"
+          "recyclable",
+          "biodegradable",
+          "disposable"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-34",
         "conceptId": "environment:single-use plastic",
-        "sentence": "The term for plastic intended to be used only once is ___.",
+        "sentence": "___ refers to plastic intended to be used only once.",
         "answer": "single-use plastic",
         "options": [
-          "wind power",
-          "rainforest",
-          "climate",
+          "reusable",
+          "solar power",
+          "renewable energy",
           "single-use plastic"
         ],
         "hint": "The Environment"
@@ -16513,51 +16513,51 @@ export const QUIZZES = {
       {
         "id": "environment-35",
         "conceptId": "environment:solar power",
-        "sentence": "The term for energy obtained from sunlight is ___.",
+        "sentence": "___ refers to energy obtained from sunlight.",
         "answer": "solar power",
         "options": [
-          "sea level",
-          "climate change",
+          "sustainable",
+          "reusable",
           "solar power",
-          "zero waste"
+          "single-use plastic"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-36",
         "conceptId": "environment:sustainable",
-        "sentence": "The term for able to continue without exhausting natural resources is ___.",
+        "sentence": "A system that can continue without exhausting natural resources is ___.",
         "answer": "sustainable",
         "options": [
-          "compost",
           "sustainable",
-          "acid rain",
-          "wetland"
+          "temporary",
+          "wasteful",
+          "harmful"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-37",
         "conceptId": "environment:toxic waste",
-        "sentence": "The term for discarded material that can poison living things is ___.",
+        "sentence": "___ refers to discarded material that can poison living things.",
         "answer": "toxic waste",
         "options": [
           "toxic waste",
-          "overfishing",
-          "air pollution",
-          "conservation"
+          "sustainable",
+          "urban garden",
+          "solar power"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-38",
         "conceptId": "environment:urban garden",
-        "sentence": "The term for a food-growing or green area within a town is ___.",
+        "sentence": "___ refers to a food-growing or green area within a town.",
         "answer": "urban garden",
         "options": [
-          "desertification",
-          "biodiversity",
-          "deforestation",
+          "toxic waste",
+          "water pollution",
+          "sustainable",
           "urban garden"
         ],
         "hint": "The Environment"
@@ -16565,51 +16565,51 @@ export const QUIZZES = {
       {
         "id": "environment-39",
         "conceptId": "environment:water pollution",
-        "sentence": "The term for harmful substances contaminating water is ___.",
+        "sentence": "___ refers to harmful substances contaminating water.",
         "answer": "water pollution",
         "options": [
-          "carbon dioxide",
-          "drought",
+          "wildlife reserve",
+          "toxic waste",
           "water pollution",
-          "food miles"
+          "urban garden"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-40",
         "conceptId": "environment:wildlife reserve",
-        "sentence": "The term for a protected area for wild plants and animals is ___.",
+        "sentence": "___ refers to a protected area for wild plants and animals.",
         "answer": "wildlife reserve",
         "options": [
-          "ecosystem",
+          "urban garden",
           "wildlife reserve",
-          "heatwave",
-          "carbon footprint"
+          "water pollution",
+          "wind power"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-41",
         "conceptId": "environment:wind power",
-        "sentence": "The term for energy produced by moving air is ___.",
+        "sentence": "___ refers to energy produced by moving air.",
         "answer": "wind power",
         "options": [
           "wind power",
-          "rainforest",
-          "climate",
-          "emission"
+          "wildlife reserve",
+          "zero waste",
+          "water pollution"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-42",
         "conceptId": "environment:zero waste",
-        "sentence": "The term for an approach aiming to send no rubbish to landfill is ___.",
+        "sentence": "___ refers to an approach aiming to send no rubbish to landfill.",
         "answer": "zero waste",
         "options": [
-          "sea level",
-          "climate change",
-          "endangered species",
+          "wind power",
+          "acid rain",
+          "wildlife reserve",
           "zero waste"
         ],
         "hint": "The Environment"
@@ -16617,51 +16617,51 @@ export const QUIZZES = {
       {
         "id": "environment-43",
         "conceptId": "environment:acid rain",
-        "sentence": "The term for rain made harmful by atmospheric pollution is ___.",
+        "sentence": "___ refers to rain made harmful by atmospheric pollution.",
         "answer": "acid rain",
         "options": [
-          "compost",
-          "energy efficiency",
+          "overfishing",
+          "wind power",
           "acid rain",
-          "wetland"
+          "zero waste"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-44",
         "conceptId": "environment:overfishing",
-        "sentence": "The term for catching fish faster than populations can recover is ___.",
+        "sentence": "___ refers to catching fish faster than populations can recover.",
         "answer": "overfishing",
         "options": [
-          "erosion",
+          "zero waste",
           "overfishing",
-          "air pollution",
-          "conservation"
+          "acid rain",
+          "desertification"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-45",
         "conceptId": "environment:desertification",
-        "sentence": "The term for productive land becoming dry and barren is ___.",
+        "sentence": "___ refers to productive land becoming dry and barren.",
         "answer": "desertification",
         "options": [
           "desertification",
-          "biodiversity",
-          "deforestation",
-          "extinction"
+          "overfishing",
+          "food miles",
+          "acid rain"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-46",
         "conceptId": "environment:food miles",
-        "sentence": "The term for the distance food travels before reaching consumers is ___.",
+        "sentence": "___ refers to the distance food travels before reaching consumers.",
         "answer": "food miles",
         "options": [
-          "carbon dioxide",
-          "drought",
-          "flood",
+          "desertification",
+          "heatwave",
+          "overfishing",
           "food miles"
         ],
         "hint": "The Environment"
@@ -16669,51 +16669,51 @@ export const QUIZZES = {
       {
         "id": "environment-47",
         "conceptId": "environment:heatwave",
-        "sentence": "The term for an extended period of unusually hot weather is ___.",
+        "sentence": "___ refers to an extended period of unusually hot weather.",
         "answer": "heatwave",
         "options": [
-          "ecosystem",
-          "fossil fuel",
+          "rainforest",
+          "desertification",
           "heatwave",
-          "carbon footprint"
+          "food miles"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-48",
         "conceptId": "environment:rainforest",
-        "sentence": "The term for a dense forest receiving very high rainfall is ___.",
+        "sentence": "___ refers to a dense forest receiving very high rainfall.",
         "answer": "rainforest",
         "options": [
-          "global warming",
+          "food miles",
           "rainforest",
-          "climate",
-          "emission"
+          "heatwave",
+          "sea level"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-49",
         "conceptId": "environment:sea level",
-        "sentence": "The term for the average height of the ocean’s surface is ___.",
+        "sentence": "___ refers to the average height of the ocean’s surface.",
         "answer": "sea level",
         "options": [
           "sea level",
-          "climate change",
-          "endangered species",
-          "green space"
+          "rainforest",
+          "wetland",
+          "heatwave"
         ],
         "hint": "The Environment"
       },
       {
         "id": "environment-50",
         "conceptId": "environment:wetland",
-        "sentence": "The term for land permanently or seasonally covered by water is ___.",
+        "sentence": "___ refers to land permanently or seasonally covered by water.",
         "answer": "wetland",
         "options": [
-          "compost",
-          "energy efficiency",
-          "habitat",
+          "sea level",
+          "air pollution",
+          "rainforest",
           "wetland"
         ],
         "hint": "The Environment"
@@ -17387,25 +17387,25 @@ export const QUIZZES = {
       {
         "id": "compound-words-01",
         "conceptId": "compound-words:airport",
-        "sentence": "The word meaning “a place where aircraft arrive and depart” is ___.",
+        "sentence": "___ means a place where aircraft arrive and depart.",
         "answer": "airport",
         "options": [
           "airport",
-          "cupboard",
-          "greenhouse",
-          "lifetime"
+          "well-known",
+          "background",
+          "handmade"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-02",
         "conceptId": "compound-words:background",
-        "sentence": "The word meaning “the area behind the main subject” is ___.",
+        "sentence": "___ means the area behind the main subject.",
         "answer": "background",
         "options": [
-          "daylight",
-          "haircut",
-          "moonlight",
+          "airport",
+          "bedroom",
+          "well-known",
           "background"
         ],
         "hint": "Compound Words"
@@ -17413,51 +17413,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-03",
         "conceptId": "compound-words:bedroom",
-        "sentence": "The word meaning “a room used mainly for sleeping” is ___.",
+        "sentence": "___ means a room used mainly for sleeping.",
         "answer": "bedroom",
         "options": [
-          "headache",
-          "newspaper",
+          "bookshop",
+          "airport",
           "bedroom",
-          "doorway"
+          "background"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-04",
         "conceptId": "compound-words:bookshop",
-        "sentence": "The word meaning “a store that sells books” is ___.",
+        "sentence": "___ means a store that sells books.",
         "answer": "bookshop",
         "options": [
-          "nightlife",
+          "background",
           "bookshop",
-          "earthquake",
-          "headphones"
+          "bedroom",
+          "breakdown"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-05",
         "conceptId": "compound-words:breakdown",
-        "sentence": "The word meaning “a failure of a machine or system” is ___.",
+        "sentence": "___ means a failure of a machine or system.",
         "answer": "breakdown",
         "options": [
           "breakdown",
-          "eyewitness",
-          "homework",
-          "notebook"
+          "bookshop",
+          "breakfast",
+          "bedroom"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-06",
         "conceptId": "compound-words:breakfast",
-        "sentence": "The word meaning “the first meal of the day” is ___.",
+        "sentence": "___ means the first meal of the day.",
         "answer": "breakfast",
         "options": [
-          "firework",
-          "keyboard",
-          "online",
+          "breakdown",
+          "classroom",
+          "bookshop",
           "breakfast"
         ],
         "hint": "Compound Words"
@@ -17465,51 +17465,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-07",
         "conceptId": "compound-words:classroom",
-        "sentence": "The word meaning “a room where lessons take place” is ___.",
+        "sentence": "___ means a room where lessons take place.",
         "answer": "classroom",
         "options": [
-          "laptop",
-          "password",
+          "cupboard",
+          "breakdown",
           "classroom",
-          "football"
+          "breakfast"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-08",
         "conceptId": "compound-words:cupboard",
-        "sentence": "The word meaning “a storage space with shelves and doors” is ___.",
+        "sentence": "___ means a storage space with shelves and doors.",
         "answer": "cupboard",
         "options": [
-          "raincoat",
+          "breakfast",
           "cupboard",
-          "greenhouse",
-          "lifetime"
+          "classroom",
+          "daylight"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-09",
         "conceptId": "compound-words:daylight",
-        "sentence": "The word meaning “natural light during the day” is ___.",
+        "sentence": "___ means natural light during the day.",
         "answer": "daylight",
         "options": [
           "daylight",
-          "haircut",
-          "moonlight",
-          "rainfall"
+          "cupboard",
+          "doorway",
+          "classroom"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-10",
         "conceptId": "compound-words:doorway",
-        "sentence": "The word meaning “the opening where a door is fitted” is ___.",
+        "sentence": "___ means the opening where a door is fitted.",
         "answer": "doorway",
         "options": [
-          "headache",
-          "newspaper",
-          "seaside",
+          "daylight",
+          "earthquake",
+          "cupboard",
           "doorway"
         ],
         "hint": "Compound Words"
@@ -17517,51 +17517,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-11",
         "conceptId": "compound-words:earthquake",
-        "sentence": "The word meaning “a sudden movement of the ground” is ___.",
+        "sentence": "___ means a sudden movement of the ground.",
         "answer": "earthquake",
         "options": [
-          "nightlife",
-          "smartphone",
+          "eyewitness",
+          "daylight",
           "earthquake",
-          "headphones"
+          "doorway"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-12",
         "conceptId": "compound-words:eyewitness",
-        "sentence": "The word meaning “a person who directly sees an event” is ___.",
+        "sentence": "___ means a person who directly sees an event.",
         "answer": "eyewitness",
         "options": [
-          "snowfall",
+          "doorway",
           "eyewitness",
-          "homework",
-          "notebook"
+          "earthquake",
+          "firework"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-13",
         "conceptId": "compound-words:firework",
-        "sentence": "The word meaning “an explosive device producing coloured light” is ___.",
+        "sentence": "___ means an explosive device producing coloured light.",
         "answer": "firework",
         "options": [
           "firework",
-          "keyboard",
-          "online",
-          "sunlight"
+          "eyewitness",
+          "football",
+          "earthquake"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-14",
         "conceptId": "compound-words:football",
-        "sentence": "The word meaning “a sport played by kicking a round ball” is ___.",
+        "sentence": "___ means a sport played by kicking a round ball.",
         "answer": "football",
         "options": [
-          "laptop",
-          "password",
-          "sunrise",
+          "firework",
+          "greenhouse",
+          "eyewitness",
           "football"
         ],
         "hint": "Compound Words"
@@ -17569,51 +17569,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-15",
         "conceptId": "compound-words:greenhouse",
-        "sentence": "The word meaning “a glass building used for growing plants” is ___.",
+        "sentence": "___ means a glass building used for growing plants.",
         "answer": "greenhouse",
         "options": [
-          "raincoat",
-          "sunset",
+          "haircut",
+          "firework",
           "greenhouse",
-          "lifetime"
+          "football"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-16",
         "conceptId": "compound-words:haircut",
-        "sentence": "The word meaning “the style produced by cutting hair” is ___.",
+        "sentence": "___ means the style produced by cutting hair.",
         "answer": "haircut",
         "options": [
-          "teaspoon",
+          "football",
           "haircut",
-          "moonlight",
-          "rainfall"
+          "greenhouse",
+          "headache"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-17",
         "conceptId": "compound-words:headache",
-        "sentence": "The word meaning “pain felt in the head” is ___.",
+        "sentence": "___ means pain felt in the head.",
         "answer": "headache",
         "options": [
           "headache",
-          "newspaper",
-          "seaside",
-          "toothbrush"
+          "haircut",
+          "headphones",
+          "greenhouse"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-18",
         "conceptId": "compound-words:headphones",
-        "sentence": "The word meaning “equipment worn over the ears for listening” is ___.",
+        "sentence": "___ means equipment worn over the ears for listening.",
         "answer": "headphones",
         "options": [
-          "nightlife",
-          "smartphone",
-          "traffic jam",
+          "headache",
+          "homework",
+          "haircut",
           "headphones"
         ],
         "hint": "Compound Words"
@@ -17621,51 +17621,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-19",
         "conceptId": "compound-words:homework",
-        "sentence": "The word meaning “school work completed outside class” is ___.",
+        "sentence": "___ means school work completed outside class.",
         "answer": "homework",
         "options": [
-          "snowfall",
-          "underground",
+          "keyboard",
+          "headache",
           "homework",
-          "notebook"
+          "headphones"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-20",
         "conceptId": "compound-words:keyboard",
-        "sentence": "The word meaning “a set of keys used to type on a computer” is ___.",
+        "sentence": "___ means a set of keys used to type on a computer.",
         "answer": "keyboard",
         "options": [
-          "underwater",
+          "headphones",
           "keyboard",
-          "online",
-          "sunlight"
+          "homework",
+          "laptop"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-21",
         "conceptId": "compound-words:laptop",
-        "sentence": "The word meaning “a portable computer” is ___.",
+        "sentence": "___ means a portable computer.",
         "answer": "laptop",
         "options": [
           "laptop",
-          "password",
-          "sunrise",
-          "website"
+          "keyboard",
+          "lifetime",
+          "homework"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-22",
         "conceptId": "compound-words:lifetime",
-        "sentence": "The word meaning “the period for which a person lives” is ___.",
+        "sentence": "___ means the period for which a person lives.",
         "answer": "lifetime",
         "options": [
-          "raincoat",
-          "sunset",
-          "weekend",
+          "laptop",
+          "moonlight",
+          "keyboard",
           "lifetime"
         ],
         "hint": "Compound Words"
@@ -17673,51 +17673,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-23",
         "conceptId": "compound-words:moonlight",
-        "sentence": "The word meaning “light reaching Earth from the moon” is ___.",
+        "sentence": "___ means light reaching Earth from the moon.",
         "answer": "moonlight",
         "options": [
-          "teaspoon",
-          "wheelchair",
+          "newspaper",
+          "laptop",
           "moonlight",
-          "rainfall"
+          "lifetime"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-24",
         "conceptId": "compound-words:newspaper",
-        "sentence": "The word meaning “printed pages containing news” is ___.",
+        "sentence": "___ means printed pages containing news.",
         "answer": "newspaper",
         "options": [
-          "wildlife",
+          "lifetime",
           "newspaper",
-          "seaside",
-          "toothbrush"
+          "moonlight",
+          "nightlife"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-25",
         "conceptId": "compound-words:nightlife",
-        "sentence": "The word meaning “entertainment available during the evening” is ___.",
+        "sentence": "___ means entertainment available during the evening.",
         "answer": "nightlife",
         "options": [
           "nightlife",
-          "smartphone",
-          "traffic jam",
-          "windmill"
+          "newspaper",
+          "notebook",
+          "moonlight"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-26",
         "conceptId": "compound-words:notebook",
-        "sentence": "The word meaning “a small book used for writing notes” is ___.",
+        "sentence": "___ means a small book used for writing notes.",
         "answer": "notebook",
         "options": [
-          "snowfall",
-          "underground",
-          "workplace",
+          "nightlife",
+          "online",
+          "newspaper",
           "notebook"
         ],
         "hint": "Compound Words"
@@ -17725,51 +17725,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-27",
         "conceptId": "compound-words:online",
-        "sentence": "The word meaning “connected through the internet” is ___.",
+        "sentence": "___ means connected through the internet.",
         "answer": "online",
         "options": [
-          "underwater",
-          "worldwide",
+          "password",
+          "nightlife",
           "online",
-          "sunlight"
+          "notebook"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-28",
         "conceptId": "compound-words:password",
-        "sentence": "The word meaning “a secret word used to access a system” is ___.",
+        "sentence": "___ means a secret word used to access a system.",
         "answer": "password",
         "options": [
-          "handmade",
+          "notebook",
           "password",
-          "sunrise",
-          "website"
+          "online",
+          "raincoat"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-29",
         "conceptId": "compound-words:raincoat",
-        "sentence": "The word meaning “a waterproof coat” is ___.",
+        "sentence": "___ means a waterproof coat.",
         "answer": "raincoat",
         "options": [
           "raincoat",
-          "sunset",
-          "weekend",
-          "well-known"
+          "password",
+          "rainfall",
+          "online"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-30",
         "conceptId": "compound-words:rainfall",
-        "sentence": "The word meaning “the amount of rain received” is ___.",
+        "sentence": "___ means the amount of rain received.",
         "answer": "rainfall",
         "options": [
-          "teaspoon",
-          "wheelchair",
-          "airport",
+          "raincoat",
+          "seaside",
+          "password",
           "rainfall"
         ],
         "hint": "Compound Words"
@@ -17777,51 +17777,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-31",
         "conceptId": "compound-words:seaside",
-        "sentence": "The word meaning “an area beside the sea” is ___.",
+        "sentence": "___ means an area beside the sea.",
         "answer": "seaside",
         "options": [
-          "wildlife",
-          "background",
+          "smartphone",
+          "raincoat",
           "seaside",
-          "toothbrush"
+          "rainfall"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-32",
         "conceptId": "compound-words:smartphone",
-        "sentence": "The word meaning “a mobile phone with advanced computer functions” is ___.",
+        "sentence": "___ means a mobile phone with advanced computer functions.",
         "answer": "smartphone",
         "options": [
-          "bedroom",
+          "rainfall",
           "smartphone",
-          "traffic jam",
-          "windmill"
+          "seaside",
+          "snowfall"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-33",
         "conceptId": "compound-words:snowfall",
-        "sentence": "The word meaning “the amount of snow falling in a place” is ___.",
+        "sentence": "___ means the amount of snow falling in a place.",
         "answer": "snowfall",
         "options": [
           "snowfall",
-          "underground",
-          "workplace",
-          "bookshop"
+          "smartphone",
+          "sunlight",
+          "seaside"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-34",
         "conceptId": "compound-words:sunlight",
-        "sentence": "The word meaning “natural light coming from the sun” is ___.",
+        "sentence": "___ means natural light coming from the sun.",
         "answer": "sunlight",
         "options": [
-          "underwater",
-          "worldwide",
-          "breakdown",
+          "snowfall",
+          "sunrise",
+          "smartphone",
           "sunlight"
         ],
         "hint": "Compound Words"
@@ -17829,51 +17829,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-35",
         "conceptId": "compound-words:sunrise",
-        "sentence": "The word meaning “the time when the sun first appears” is ___.",
+        "sentence": "___ means the time when the sun first appears.",
         "answer": "sunrise",
         "options": [
-          "handmade",
-          "breakfast",
+          "sunset",
+          "snowfall",
           "sunrise",
-          "website"
+          "sunlight"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-36",
         "conceptId": "compound-words:sunset",
-        "sentence": "The word meaning “the time when the sun disappears below the horizon” is ___.",
+        "sentence": "___ means the time when the sun disappears below the horizon.",
         "answer": "sunset",
         "options": [
-          "classroom",
+          "sunlight",
           "sunset",
-          "weekend",
-          "well-known"
+          "sunrise",
+          "teaspoon"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-37",
         "conceptId": "compound-words:teaspoon",
-        "sentence": "The word meaning “a small spoon used for drinks or measurements” is ___.",
+        "sentence": "___ means a small spoon used for drinks or measurements.",
         "answer": "teaspoon",
         "options": [
           "teaspoon",
-          "wheelchair",
-          "airport",
-          "cupboard"
+          "sunset",
+          "toothbrush",
+          "sunrise"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-38",
         "conceptId": "compound-words:toothbrush",
-        "sentence": "The word meaning “a small brush used for cleaning teeth” is ___.",
+        "sentence": "___ means a small brush used for cleaning teeth.",
         "answer": "toothbrush",
         "options": [
-          "wildlife",
-          "background",
-          "daylight",
+          "teaspoon",
+          "traffic jam",
+          "sunset",
           "toothbrush"
         ],
         "hint": "Compound Words"
@@ -17881,51 +17881,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-39",
         "conceptId": "compound-words:traffic jam",
-        "sentence": "The word meaning “a line of vehicles moving very slowly” is ___.",
+        "sentence": "___ means a line of vehicles moving very slowly.",
         "answer": "traffic jam",
         "options": [
-          "bedroom",
-          "doorway",
+          "underground",
+          "teaspoon",
           "traffic jam",
-          "windmill"
+          "toothbrush"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-40",
         "conceptId": "compound-words:underground",
-        "sentence": "The word meaning “a railway system running below a city” is ___.",
+        "sentence": "___ means a railway system running below a city.",
         "answer": "underground",
         "options": [
-          "earthquake",
+          "toothbrush",
           "underground",
-          "workplace",
-          "bookshop"
+          "traffic jam",
+          "underwater"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-41",
         "conceptId": "compound-words:underwater",
-        "sentence": "The word meaning “located below the surface of water” is ___.",
+        "sentence": "___ means located below the surface of water.",
         "answer": "underwater",
         "options": [
           "underwater",
-          "worldwide",
-          "breakdown",
-          "eyewitness"
+          "underground",
+          "website",
+          "traffic jam"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-42",
         "conceptId": "compound-words:website",
-        "sentence": "The word meaning “a collection of connected pages on the internet” is ___.",
+        "sentence": "___ means a collection of connected pages on the internet.",
         "answer": "website",
         "options": [
-          "handmade",
-          "breakfast",
-          "firework",
+          "underwater",
+          "weekend",
+          "underground",
           "website"
         ],
         "hint": "Compound Words"
@@ -17933,51 +17933,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-43",
         "conceptId": "compound-words:weekend",
-        "sentence": "The word meaning “Saturday and Sunday considered together” is ___.",
+        "sentence": "___ means Saturday and Sunday considered together.",
         "answer": "weekend",
         "options": [
-          "classroom",
-          "football",
+          "wheelchair",
+          "underwater",
           "weekend",
-          "well-known"
+          "website"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-44",
         "conceptId": "compound-words:wheelchair",
-        "sentence": "The word meaning “a chair with wheels for someone unable to walk” is ___.",
+        "sentence": "___ means a chair with wheels for someone unable to walk.",
         "answer": "wheelchair",
         "options": [
-          "greenhouse",
+          "website",
           "wheelchair",
-          "airport",
-          "cupboard"
+          "weekend",
+          "wildlife"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-45",
         "conceptId": "compound-words:wildlife",
-        "sentence": "The word meaning “animals and plants living naturally” is ___.",
+        "sentence": "___ means animals and plants living naturally.",
         "answer": "wildlife",
         "options": [
           "wildlife",
-          "background",
-          "daylight",
-          "haircut"
+          "wheelchair",
+          "windmill",
+          "weekend"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-46",
         "conceptId": "compound-words:windmill",
-        "sentence": "The word meaning “a building whose blades are turned by wind” is ___.",
+        "sentence": "___ means a building whose blades are turned by wind.",
         "answer": "windmill",
         "options": [
-          "bedroom",
-          "doorway",
-          "headache",
+          "wildlife",
+          "workplace",
+          "wheelchair",
           "windmill"
         ],
         "hint": "Compound Words"
@@ -17985,51 +17985,51 @@ export const QUIZZES = {
       {
         "id": "compound-words-47",
         "conceptId": "compound-words:workplace",
-        "sentence": "The word meaning “a location where people do their jobs” is ___.",
+        "sentence": "___ means a location where people do their jobs.",
         "answer": "workplace",
         "options": [
-          "earthquake",
-          "headphones",
+          "worldwide",
+          "wildlife",
           "workplace",
-          "bookshop"
+          "windmill"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-48",
         "conceptId": "compound-words:worldwide",
-        "sentence": "The word meaning “existing or happening throughout the world” is ___.",
+        "sentence": "___ means existing or happening throughout the world.",
         "answer": "worldwide",
         "options": [
-          "homework",
+          "windmill",
           "worldwide",
-          "breakdown",
-          "eyewitness"
+          "workplace",
+          "handmade"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-49",
         "conceptId": "compound-words:handmade",
-        "sentence": "The word meaning “created by hand rather than a machine” is ___.",
+        "sentence": "___ means created by hand rather than a machine.",
         "answer": "handmade",
         "options": [
           "handmade",
-          "breakfast",
-          "firework",
-          "keyboard"
+          "worldwide",
+          "well-known",
+          "workplace"
         ],
         "hint": "Compound Words"
       },
       {
         "id": "compound-words-50",
         "conceptId": "compound-words:well-known",
-        "sentence": "The word meaning “recognised by many people” is ___.",
+        "sentence": "___ means recognised by many people.",
         "answer": "well-known",
         "options": [
-          "classroom",
-          "football",
-          "laptop",
+          "handmade",
+          "airport",
+          "worldwide",
           "well-known"
         ],
         "hint": "Compound Words"
@@ -18045,25 +18045,25 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-01",
         "conceptId": "adjective-suffixes:acceptable",
-        "sentence": "The word meaning “considered satisfactory or suitable” is ___.",
+        "sentence": "___ means considered satisfactory or suitable.",
         "answer": "acceptable",
         "options": [
           "acceptable",
-          "comfortable",
-          "enjoyable",
-          "helpful"
+          "wonderful",
+          "accessible",
+          "windy"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-02",
         "conceptId": "adjective-suffixes:accessible",
-        "sentence": "The word meaning “easy to enter, reach or use” is ___.",
+        "sentence": "___ means easy to enter, reach or use.",
         "answer": "accessible",
         "options": [
-          "confident",
-          "environmental",
-          "historic",
+          "acceptable",
+          "adventurous",
+          "wonderful",
           "accessible"
         ],
         "hint": "Adjective Suffixes"
@@ -18071,51 +18071,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-03",
         "conceptId": "adjective-suffixes:adventurous",
-        "sentence": "The word meaning “willing to try exciting or risky activities” is ___.",
+        "sentence": "___ means willing to try exciting or risky activities.",
         "answer": "adventurous",
         "options": [
-          "famous",
-          "hopeful",
+          "ambitious",
+          "acceptable",
           "adventurous",
-          "convenient"
+          "accessible"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-04",
         "conceptId": "adjective-suffixes:ambitious",
-        "sentence": "The word meaning “strongly determined to succeed” is ___.",
+        "sentence": "___ means strongly determined to succeed.",
         "answer": "ambitious",
         "options": [
-          "imaginative",
+          "accessible",
           "ambitious",
-          "creative",
-          "fashionable"
+          "adventurous",
+          "attractive"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-05",
         "conceptId": "adjective-suffixes:attractive",
-        "sentence": "The word meaning “pleasant or interesting to look at” is ___.",
+        "sentence": "___ means pleasant or interesting to look at.",
         "answer": "attractive",
         "options": [
           "attractive",
-          "dangerous",
-          "flexible",
-          "impressive"
+          "ambitious",
+          "careful",
+          "adventurous"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-06",
         "conceptId": "adjective-suffixes:careful",
-        "sentence": "The word meaning “giving close attention to avoid mistakes” is ___.",
+        "sentence": "___ means giving close attention to avoid mistakes.",
         "answer": "careful",
         "options": [
-          "effective",
-          "generous",
-          "independent",
+          "attractive",
+          "colourful",
+          "ambitious",
           "careful"
         ],
         "hint": "Adjective Suffixes"
@@ -18123,51 +18123,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-07",
         "conceptId": "adjective-suffixes:colourful",
-        "sentence": "The word meaning “containing many bright colours” is ___.",
+        "sentence": "___ means containing many bright colours.",
         "answer": "colourful",
         "options": [
-          "harmful",
-          "informative",
+          "comfortable",
+          "attractive",
           "colourful",
-          "efficient"
+          "careful"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-08",
         "conceptId": "adjective-suffixes:comfortable",
-        "sentence": "The word meaning “providing physical ease and relaxation” is ___.",
+        "sentence": "___ means providing physical ease and relaxation.",
         "answer": "comfortable",
         "options": [
-          "memorable",
+          "careful",
           "comfortable",
-          "enjoyable",
-          "helpful"
+          "colourful",
+          "confident"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-09",
         "conceptId": "adjective-suffixes:confident",
-        "sentence": "The word meaning “sure of your own ability” is ___.",
+        "sentence": "___ means sure of your own ability.",
         "answer": "confident",
         "options": [
           "confident",
-          "environmental",
-          "historic",
-          "natural"
+          "comfortable",
+          "convenient",
+          "colourful"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-10",
         "conceptId": "adjective-suffixes:convenient",
-        "sentence": "The word meaning “easy to use and suitable for your needs” is ___.",
+        "sentence": "___ means easy to use and suitable for your needs.",
         "answer": "convenient",
         "options": [
-          "famous",
-          "hopeful",
-          "peaceful",
+          "confident",
+          "creative",
+          "comfortable",
           "convenient"
         ],
         "hint": "Adjective Suffixes"
@@ -18175,51 +18175,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-11",
         "conceptId": "adjective-suffixes:creative",
-        "sentence": "The word meaning “able to produce original ideas” is ___.",
+        "sentence": "___ means able to produce original ideas.",
         "answer": "creative",
         "options": [
-          "imaginative",
-          "powerful",
+          "dangerous",
+          "confident",
           "creative",
-          "fashionable"
+          "convenient"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-12",
         "conceptId": "adjective-suffixes:dangerous",
-        "sentence": "The word meaning “likely to cause harm” is ___.",
+        "sentence": "___ means likely to cause harm.",
         "answer": "dangerous",
         "options": [
-          "practical",
+          "convenient",
           "dangerous",
-          "flexible",
-          "impressive"
+          "creative",
+          "effective"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-13",
         "conceptId": "adjective-suffixes:effective",
-        "sentence": "The word meaning “producing the intended result” is ___.",
+        "sentence": "___ means producing the intended result.",
         "answer": "effective",
         "options": [
           "effective",
-          "generous",
-          "independent",
-          "professional"
+          "dangerous",
+          "efficient",
+          "creative"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-14",
         "conceptId": "adjective-suffixes:efficient",
-        "sentence": "The word meaning “working well without wasting resources” is ___.",
+        "sentence": "___ means working well without wasting resources.",
         "answer": "efficient",
         "options": [
-          "harmful",
-          "informative",
-          "recognisable",
+          "effective",
+          "enjoyable",
+          "dangerous",
           "efficient"
         ],
         "hint": "Adjective Suffixes"
@@ -18227,51 +18227,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-15",
         "conceptId": "adjective-suffixes:enjoyable",
-        "sentence": "The word meaning “giving pleasure” is ___.",
+        "sentence": "___ means giving pleasure.",
         "answer": "enjoyable",
         "options": [
-          "memorable",
-          "reliable",
+          "environmental",
+          "effective",
           "enjoyable",
-          "helpful"
+          "efficient"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-16",
         "conceptId": "adjective-suffixes:environmental",
-        "sentence": "The word meaning “connected with the natural world” is ___.",
+        "sentence": "___ means connected with the natural world.",
         "answer": "environmental",
         "options": [
-          "responsible",
+          "efficient",
           "environmental",
-          "historic",
-          "natural"
+          "enjoyable",
+          "famous"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-17",
         "conceptId": "adjective-suffixes:famous",
-        "sentence": "The word meaning “known by many people” is ___.",
+        "sentence": "___ means known by many people.",
         "answer": "famous",
         "options": [
           "famous",
-          "hopeful",
-          "peaceful",
-          "reversible"
+          "environmental",
+          "fashionable",
+          "enjoyable"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-18",
         "conceptId": "adjective-suffixes:fashionable",
-        "sentence": "The word meaning “following a currently popular style” is ___.",
+        "sentence": "___ means following a currently popular style.",
         "answer": "fashionable",
         "options": [
-          "imaginative",
-          "powerful",
-          "sleepy",
+          "famous",
+          "flexible",
+          "environmental",
           "fashionable"
         ],
         "hint": "Adjective Suffixes"
@@ -18279,51 +18279,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-19",
         "conceptId": "adjective-suffixes:flexible",
-        "sentence": "The word meaning “able to bend or adapt easily” is ___.",
+        "sentence": "___ means able to bend or adapt easily.",
         "answer": "flexible",
         "options": [
-          "practical",
-          "stormy",
+          "generous",
+          "famous",
           "flexible",
-          "impressive"
+          "fashionable"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-20",
         "conceptId": "adjective-suffixes:generous",
-        "sentence": "The word meaning “willing to give more than expected” is ___.",
+        "sentence": "___ means willing to give more than expected.",
         "answer": "generous",
         "options": [
-          "successful",
+          "fashionable",
           "generous",
-          "independent",
-          "professional"
+          "flexible",
+          "harmful"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-21",
         "conceptId": "adjective-suffixes:harmful",
-        "sentence": "The word meaning “causing damage” is ___.",
+        "sentence": "___ means causing damage.",
         "answer": "harmful",
         "options": [
           "harmful",
-          "informative",
-          "recognisable",
-          "sustainable"
+          "generous",
+          "helpful",
+          "flexible"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-22",
         "conceptId": "adjective-suffixes:helpful",
-        "sentence": "The word meaning “providing useful assistance” is ___.",
+        "sentence": "___ means providing useful assistance.",
         "answer": "helpful",
         "options": [
-          "memorable",
-          "reliable",
-          "thoughtful",
+          "harmful",
+          "historic",
+          "generous",
           "helpful"
         ],
         "hint": "Adjective Suffixes"
@@ -18331,51 +18331,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-23",
         "conceptId": "adjective-suffixes:historic",
-        "sentence": "The word meaning “important in history” is ___.",
+        "sentence": "___ means important in history.",
         "answer": "historic",
         "options": [
-          "responsible",
-          "traditional",
+          "hopeful",
+          "harmful",
           "historic",
-          "natural"
+          "helpful"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-24",
         "conceptId": "adjective-suffixes:hopeful",
-        "sentence": "The word meaning “feeling positive about the future” is ___.",
+        "sentence": "___ means feeling positive about the future.",
         "answer": "hopeful",
         "options": [
-          "tricky",
+          "helpful",
           "hopeful",
-          "peaceful",
-          "reversible"
+          "historic",
+          "imaginative"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-25",
         "conceptId": "adjective-suffixes:imaginative",
-        "sentence": "The word meaning “showing original and creative thought” is ___.",
+        "sentence": "___ means showing original and creative thought.",
         "answer": "imaginative",
         "options": [
           "imaginative",
-          "powerful",
-          "sleepy",
-          "unforgettable"
+          "hopeful",
+          "impressive",
+          "historic"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-26",
         "conceptId": "adjective-suffixes:impressive",
-        "sentence": "The word meaning “causing admiration” is ___.",
+        "sentence": "___ means causing admiration.",
         "answer": "impressive",
         "options": [
-          "practical",
-          "stormy",
-          "valuable",
+          "imaginative",
+          "independent",
+          "hopeful",
           "impressive"
         ],
         "hint": "Adjective Suffixes"
@@ -18383,51 +18383,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-27",
         "conceptId": "adjective-suffixes:independent",
-        "sentence": "The word meaning “not controlled by another person” is ___.",
+        "sentence": "___ means not controlled by another person.",
         "answer": "independent",
         "options": [
-          "successful",
-          "visible",
+          "informative",
+          "imaginative",
           "independent",
-          "professional"
+          "impressive"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-28",
         "conceptId": "adjective-suffixes:informative",
-        "sentence": "The word meaning “providing useful facts” is ___.",
+        "sentence": "___ means providing useful facts.",
         "answer": "informative",
         "options": [
-          "windy",
+          "impressive",
           "informative",
-          "recognisable",
-          "sustainable"
+          "independent",
+          "memorable"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-29",
         "conceptId": "adjective-suffixes:memorable",
-        "sentence": "The word meaning “likely to be remembered” is ___.",
+        "sentence": "___ means likely to be remembered.",
         "answer": "memorable",
         "options": [
           "memorable",
-          "reliable",
-          "thoughtful",
-          "wonderful"
+          "informative",
+          "natural",
+          "independent"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-30",
         "conceptId": "adjective-suffixes:natural",
-        "sentence": "The word meaning “existing without human creation” is ___.",
+        "sentence": "___ means existing without human creation.",
         "answer": "natural",
         "options": [
-          "responsible",
-          "traditional",
-          "acceptable",
+          "memorable",
+          "peaceful",
+          "informative",
           "natural"
         ],
         "hint": "Adjective Suffixes"
@@ -18435,51 +18435,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-31",
         "conceptId": "adjective-suffixes:peaceful",
-        "sentence": "The word meaning “calm and free from disturbance” is ___.",
+        "sentence": "___ means calm and free from disturbance.",
         "answer": "peaceful",
         "options": [
-          "tricky",
-          "accessible",
+          "powerful",
+          "memorable",
           "peaceful",
-          "reversible"
+          "natural"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-32",
         "conceptId": "adjective-suffixes:powerful",
-        "sentence": "The word meaning “having great strength or influence” is ___.",
+        "sentence": "___ means having great strength or influence.",
         "answer": "powerful",
         "options": [
-          "adventurous",
+          "natural",
           "powerful",
-          "sleepy",
-          "unforgettable"
+          "peaceful",
+          "practical"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-33",
         "conceptId": "adjective-suffixes:practical",
-        "sentence": "The word meaning “suitable for real use” is ___.",
+        "sentence": "___ means suitable for real use.",
         "answer": "practical",
         "options": [
           "practical",
-          "stormy",
-          "valuable",
-          "ambitious"
+          "powerful",
+          "professional",
+          "peaceful"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-34",
         "conceptId": "adjective-suffixes:professional",
-        "sentence": "The word meaning “showing the skill expected in paid work” is ___.",
+        "sentence": "___ means showing the skill expected in paid work.",
         "answer": "professional",
         "options": [
-          "successful",
-          "visible",
-          "attractive",
+          "practical",
+          "recognisable",
+          "powerful",
           "professional"
         ],
         "hint": "Adjective Suffixes"
@@ -18487,51 +18487,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-35",
         "conceptId": "adjective-suffixes:recognisable",
-        "sentence": "The word meaning “easy to identify” is ___.",
+        "sentence": "___ means easy to identify.",
         "answer": "recognisable",
         "options": [
-          "windy",
-          "careful",
+          "reliable",
+          "practical",
           "recognisable",
-          "sustainable"
+          "professional"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-36",
         "conceptId": "adjective-suffixes:reliable",
-        "sentence": "The word meaning “consistently good and dependable” is ___.",
+        "sentence": "___ means consistently good and dependable.",
         "answer": "reliable",
         "options": [
-          "colourful",
+          "professional",
           "reliable",
-          "thoughtful",
-          "wonderful"
+          "recognisable",
+          "responsible"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-37",
         "conceptId": "adjective-suffixes:responsible",
-        "sentence": "The word meaning “showing good judgment and care” is ___.",
+        "sentence": "___ means showing good judgment and care.",
         "answer": "responsible",
         "options": [
           "responsible",
-          "traditional",
-          "acceptable",
-          "comfortable"
+          "reliable",
+          "reversible",
+          "recognisable"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-38",
         "conceptId": "adjective-suffixes:reversible",
-        "sentence": "The word meaning “able to be changed back” is ___.",
+        "sentence": "___ means able to be changed back.",
         "answer": "reversible",
         "options": [
-          "tricky",
-          "accessible",
-          "confident",
+          "responsible",
+          "sleepy",
+          "reliable",
           "reversible"
         ],
         "hint": "Adjective Suffixes"
@@ -18539,103 +18539,103 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-39",
         "conceptId": "adjective-suffixes:sleepy",
-        "sentence": "The word meaning “feeling ready to sleep” is ___.",
+        "sentence": "___ means feeling ready to sleep.",
         "answer": "sleepy",
         "options": [
-          "adventurous",
-          "convenient",
+          "stormy",
+          "responsible",
           "sleepy",
-          "unforgettable"
+          "reversible"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-40",
         "conceptId": "adjective-suffixes:stormy",
-        "sentence": "The word meaning “having strong winds and rain” is ___.",
+        "sentence": "___ means having strong winds and rain.",
         "answer": "stormy",
         "options": [
-          "creative",
+          "reversible",
           "stormy",
-          "valuable",
-          "ambitious"
+          "sleepy",
+          "successful"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-41",
         "conceptId": "adjective-suffixes:successful",
-        "sentence": "The word meaning “achieving the desired result” is ___.",
+        "sentence": "___ means achieving the desired result.",
         "answer": "successful",
         "options": [
           "successful",
-          "visible",
-          "attractive",
-          "dangerous"
+          "stormy",
+          "sustainable",
+          "sleepy"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-42",
         "conceptId": "adjective-suffixes:sustainable",
-        "sentence": "The word meaning “able to continue without exhausting resources” is ___.",
+        "sentence": "A farming method that protects resources for future generations is ___.",
         "answer": "sustainable",
         "options": [
-          "windy",
-          "careful",
-          "effective",
-          "sustainable"
+          "sustainable",
+          "temporary",
+          "wasteful",
+          "harmful"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-43",
         "conceptId": "adjective-suffixes:thoughtful",
-        "sentence": "The word meaning “showing care for other people” is ___.",
+        "sentence": "___ means showing care for other people.",
         "answer": "thoughtful",
         "options": [
-          "colourful",
-          "efficient",
+          "traditional",
+          "successful",
           "thoughtful",
-          "wonderful"
+          "sustainable"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-44",
         "conceptId": "adjective-suffixes:traditional",
-        "sentence": "The word meaning “following long-established customs” is ___.",
+        "sentence": "___ means following long-established customs.",
         "answer": "traditional",
         "options": [
-          "enjoyable",
+          "sustainable",
           "traditional",
-          "acceptable",
-          "comfortable"
+          "thoughtful",
+          "tricky"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-45",
         "conceptId": "adjective-suffixes:tricky",
-        "sentence": "The word meaning “requiring care or skill” is ___.",
+        "sentence": "___ means requiring care or skill.",
         "answer": "tricky",
         "options": [
           "tricky",
-          "accessible",
-          "confident",
-          "environmental"
+          "traditional",
+          "unforgettable",
+          "thoughtful"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-46",
         "conceptId": "adjective-suffixes:unforgettable",
-        "sentence": "The word meaning “impossible to forget” is ___.",
+        "sentence": "___ means impossible to forget.",
         "answer": "unforgettable",
         "options": [
-          "adventurous",
-          "convenient",
-          "famous",
+          "tricky",
+          "valuable",
+          "traditional",
           "unforgettable"
         ],
         "hint": "Adjective Suffixes"
@@ -18643,51 +18643,51 @@ export const QUIZZES = {
       {
         "id": "adjective-suffixes-47",
         "conceptId": "adjective-suffixes:valuable",
-        "sentence": "The word meaning “worth a great deal or very useful” is ___.",
+        "sentence": "___ means worth a great deal or very useful.",
         "answer": "valuable",
         "options": [
-          "creative",
-          "fashionable",
+          "visible",
+          "tricky",
           "valuable",
-          "ambitious"
+          "unforgettable"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-48",
         "conceptId": "adjective-suffixes:visible",
-        "sentence": "The word meaning “able to be seen” is ___.",
+        "sentence": "___ means able to be seen.",
         "answer": "visible",
         "options": [
-          "flexible",
+          "unforgettable",
           "visible",
-          "attractive",
-          "dangerous"
+          "valuable",
+          "windy"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-49",
         "conceptId": "adjective-suffixes:windy",
-        "sentence": "The word meaning “having a lot of moving air” is ___.",
+        "sentence": "___ means having a lot of moving air.",
         "answer": "windy",
         "options": [
           "windy",
-          "careful",
-          "effective",
-          "generous"
+          "visible",
+          "wonderful",
+          "valuable"
         ],
         "hint": "Adjective Suffixes"
       },
       {
         "id": "adjective-suffixes-50",
         "conceptId": "adjective-suffixes:wonderful",
-        "sentence": "The word meaning “extremely good or enjoyable” is ___.",
+        "sentence": "___ means extremely good or enjoyable.",
         "answer": "wonderful",
         "options": [
-          "colourful",
-          "efficient",
-          "harmful",
+          "windy",
+          "acceptable",
+          "visible",
           "wonderful"
         ],
         "hint": "Adjective Suffixes"
@@ -18703,25 +18703,25 @@ export const QUIZZES = {
       {
         "id": "fundraising-01",
         "conceptId": "fundraising:beneficiary",
-        "sentence": "The term for a person or group receiving help is ___.",
+        "sentence": "___ refers to a person or group receiving help.",
         "answer": "beneficiary",
         "options": [
           "beneficiary",
-          "donor",
-          "volunteer",
-          "garage sale"
+          "transparency",
+          "campaign",
+          "thank-you letter"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-02",
         "conceptId": "fundraising:campaign",
-        "sentence": "The term for an organised effort to achieve a goal is ___.",
+        "sentence": "___ refers to an organised effort to achieve a goal.",
         "answer": "campaign",
         "options": [
-          "entry fee",
-          "auction",
-          "pledge",
+          "beneficiary",
+          "charity",
+          "transparency",
           "campaign"
         ],
         "hint": "Fundraising & Events"
@@ -18729,51 +18729,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-03",
         "conceptId": "fundraising:charity",
-        "sentence": "The term for an organisation helping people or causes is ___.",
+        "sentence": "___ refers to an organisation helping people or causes.",
         "answer": "charity",
         "options": [
-          "bake sale",
-          "prize draw",
+          "collection box",
+          "beneficiary",
           "charity",
-          "fundraising target"
+          "campaign"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-04",
         "conceptId": "fundraising:collection box",
-        "sentence": "The term for a container used to gather donations is ___.",
+        "sentence": "___ refers to a container used to gather donations.",
         "answer": "collection box",
         "options": [
-          "silent auction",
+          "campaign",
           "collection box",
-          "grant",
-          "benefit concert"
+          "charity",
+          "corporate sponsor"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-05",
         "conceptId": "fundraising:corporate sponsor",
-        "sentence": "The term for a company financially supporting an event is ___.",
+        "sentence": "___ refers to a company financially supporting an event.",
         "answer": "corporate sponsor",
         "options": [
           "corporate sponsor",
-          "raffle",
-          "charity run",
-          "awareness"
+          "collection box",
+          "crowdfunding",
+          "charity"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-06",
         "conceptId": "fundraising:crowdfunding",
-        "sentence": "The term for raising small amounts from many people online is ___.",
+        "sentence": "___ refers to raising small amounts from many people online.",
         "answer": "crowdfunding",
         "options": [
-          "sponsor",
-          "donation page",
-          "cause",
+          "corporate sponsor",
+          "donation",
+          "collection box",
           "crowdfunding"
         ],
         "hint": "Fundraising & Events"
@@ -18781,51 +18781,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-07",
         "conceptId": "fundraising:donation",
-        "sentence": "The term for money or goods given to help is ___.",
+        "sentence": "___ refers to money or goods given to help.",
         "answer": "donation",
         "options": [
-          "fundraising dinner",
-          "community group",
+          "donor",
+          "corporate sponsor",
           "donation",
-          "sponsorship form"
+          "crowdfunding"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-08",
         "conceptId": "fundraising:donor",
-        "sentence": "The term for a person who gives money or goods is ___.",
+        "sentence": "___ refers to a person who gives money or goods.",
         "answer": "donor",
         "options": [
-          "expenses",
+          "crowdfunding",
           "donor",
-          "volunteer",
-          "garage sale"
+          "donation",
+          "entry fee"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-09",
         "conceptId": "fundraising:entry fee",
-        "sentence": "The term for money paid to take part in an event is ___.",
+        "sentence": "___ refers to money paid to take part in an event.",
         "answer": "entry fee",
         "options": [
           "entry fee",
-          "auction",
-          "pledge",
-          "fundraiser"
+          "donor",
+          "fundraising target",
+          "donation"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-10",
         "conceptId": "fundraising:fundraising target",
-        "sentence": "The term for the total amount a campaign hopes to collect is ___.",
+        "sentence": "___ refers to the total amount a campaign hopes to collect.",
         "answer": "fundraising target",
         "options": [
-          "bake sale",
-          "prize draw",
-          "goal",
+          "entry fee",
+          "grant",
+          "donor",
           "fundraising target"
         ],
         "hint": "Fundraising & Events"
@@ -18833,51 +18833,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-11",
         "conceptId": "fundraising:grant",
-        "sentence": "The term for money officially awarded for a purpose is ___.",
+        "sentence": "___ refers to money officially awarded for a purpose.",
         "answer": "grant",
         "options": [
-          "silent auction",
-          "impact",
+          "raffle",
+          "entry fee",
           "grant",
-          "benefit concert"
+          "fundraising target"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-12",
         "conceptId": "fundraising:raffle",
-        "sentence": "The term for a competition using numbered tickets and random prizes is ___.",
+        "sentence": "___ refers to a competition using numbered tickets and random prizes.",
         "answer": "raffle",
         "options": [
-          "non-profit",
+          "fundraising target",
           "raffle",
-          "charity run",
-          "awareness"
+          "grant",
+          "sponsor"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-13",
         "conceptId": "fundraising:sponsor",
-        "sentence": "The term for a person or business providing financial support is ___.",
+        "sentence": "___ refers to a person or business providing financial support.",
         "answer": "sponsor",
         "options": [
           "sponsor",
-          "donation page",
-          "cause",
-          "outreach"
+          "raffle",
+          "sponsorship form",
+          "grant"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-14",
         "conceptId": "fundraising:sponsorship form",
-        "sentence": "The term for a document recording promised donations is ___.",
+        "sentence": "___ refers to a document recording promised donations.",
         "answer": "sponsorship form",
         "options": [
-          "fundraising dinner",
-          "community group",
-          "proceeds",
+          "sponsor",
+          "volunteer",
+          "raffle",
           "sponsorship form"
         ],
         "hint": "Fundraising & Events"
@@ -18885,51 +18885,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-15",
         "conceptId": "fundraising:volunteer",
-        "sentence": "The term for a person working without payment is ___.",
+        "sentence": "___ refers to a person working without payment.",
         "answer": "volunteer",
         "options": [
-          "expenses",
-          "publicity",
+          "auction",
+          "sponsor",
           "volunteer",
-          "garage sale"
+          "sponsorship form"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-16",
         "conceptId": "fundraising:auction",
-        "sentence": "The term for a sale where people compete by offering higher prices is ___.",
+        "sentence": "___ refers to a sale where people compete by offering higher prices.",
         "answer": "auction",
         "options": [
-          "registration",
+          "sponsorship form",
           "auction",
-          "pledge",
-          "fundraiser"
+          "volunteer",
+          "bake sale"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-17",
         "conceptId": "fundraising:bake sale",
-        "sentence": "The term for an event selling homemade food for a cause is ___.",
+        "sentence": "___ refers to an event selling homemade food for a cause.",
         "answer": "bake sale",
         "options": [
           "bake sale",
-          "prize draw",
-          "goal",
-          "supporter"
+          "auction",
+          "benefit concert",
+          "volunteer"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-18",
         "conceptId": "fundraising:benefit concert",
-        "sentence": "The term for a musical event raising money is ___.",
+        "sentence": "___ refers to a musical event raising money.",
         "answer": "benefit concert",
         "options": [
-          "silent auction",
-          "impact",
-          "ticket sales",
+          "bake sale",
+          "charity run",
+          "auction",
           "benefit concert"
         ],
         "hint": "Fundraising & Events"
@@ -18937,51 +18937,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-19",
         "conceptId": "fundraising:charity run",
-        "sentence": "The term for a sponsored race supporting a cause is ___.",
+        "sentence": "___ refers to a sponsored race supporting a cause.",
         "answer": "charity run",
         "options": [
-          "non-profit",
-          "volunteer coordinator",
+          "donation page",
+          "bake sale",
           "charity run",
-          "awareness"
+          "benefit concert"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-20",
         "conceptId": "fundraising:donation page",
-        "sentence": "The term for a website where supporters give money is ___.",
+        "sentence": "___ refers to a website where supporters give money.",
         "answer": "donation page",
         "options": [
-          "matching donation",
+          "benefit concert",
           "donation page",
-          "cause",
-          "outreach"
+          "charity run",
+          "fundraising dinner"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-21",
         "conceptId": "fundraising:fundraising dinner",
-        "sentence": "The term for a paid meal organised to support a cause is ___.",
+        "sentence": "___ refers to a paid meal organised to support a cause.",
         "answer": "fundraising dinner",
         "options": [
           "fundraising dinner",
-          "community group",
-          "proceeds",
-          "monthly giving"
+          "donation page",
+          "garage sale",
+          "charity run"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-22",
         "conceptId": "fundraising:garage sale",
-        "sentence": "The term for a sale of used possessions, often for charity is ___.",
+        "sentence": "___ refers to a sale of used possessions, often for charity.",
         "answer": "garage sale",
         "options": [
-          "expenses",
-          "publicity",
-          "fundraising total",
+          "fundraising dinner",
+          "pledge",
+          "donation page",
           "garage sale"
         ],
         "hint": "Fundraising & Events"
@@ -18989,51 +18989,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-23",
         "conceptId": "fundraising:pledge",
-        "sentence": "The term for a formal promise to give money is ___.",
+        "sentence": "___ refers to a formal promise to give money.",
         "answer": "pledge",
         "options": [
-          "registration",
-          "charity partner",
+          "prize draw",
+          "fundraising dinner",
           "pledge",
-          "fundraiser"
+          "garage sale"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-24",
         "conceptId": "fundraising:prize draw",
-        "sentence": "The term for a competition whose winner is chosen randomly is ___.",
+        "sentence": "___ refers to a competition whose winner is chosen randomly.",
         "answer": "prize draw",
         "options": [
-          "collection point",
+          "garage sale",
           "prize draw",
-          "goal",
-          "supporter"
+          "pledge",
+          "silent auction"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-25",
         "conceptId": "fundraising:silent auction",
-        "sentence": "The term for an auction using written rather than spoken bids is ___.",
+        "sentence": "___ refers to an auction using written rather than spoken bids.",
         "answer": "silent auction",
         "options": [
           "silent auction",
-          "impact",
-          "ticket sales",
-          "emergency appeal"
+          "prize draw",
+          "awareness",
+          "pledge"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-26",
         "conceptId": "fundraising:awareness",
-        "sentence": "The term for public knowledge of an issue is ___.",
+        "sentence": "___ refers to public knowledge of an issue.",
         "answer": "awareness",
         "options": [
-          "non-profit",
-          "volunteer coordinator",
-          "in-kind donation",
+          "silent auction",
+          "cause",
+          "prize draw",
           "awareness"
         ],
         "hint": "Fundraising & Events"
@@ -19041,51 +19041,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-27",
         "conceptId": "fundraising:cause",
-        "sentence": "The term for a social problem or organisation receiving support is ___.",
+        "sentence": "___ refers to a social problem or organisation receiving support.",
         "answer": "cause",
         "options": [
-          "matching donation",
-          "promotional poster",
+          "community group",
+          "silent auction",
           "cause",
-          "outreach"
+          "awareness"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-28",
         "conceptId": "fundraising:community group",
-        "sentence": "The term for local people organised around a shared purpose is ___.",
+        "sentence": "___ refers to local people organised around a shared purpose.",
         "answer": "community group",
         "options": [
-          "thank-you letter",
+          "awareness",
           "community group",
-          "proceeds",
-          "monthly giving"
+          "cause",
+          "expenses"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-29",
         "conceptId": "fundraising:expenses",
-        "sentence": "The term for costs paid while organising an activity is ___.",
+        "sentence": "___ refers to costs paid while organising an activity.",
         "answer": "expenses",
         "options": [
           "expenses",
-          "publicity",
-          "fundraising total",
-          "transparency"
+          "community group",
+          "fundraiser",
+          "cause"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-30",
         "conceptId": "fundraising:fundraiser",
-        "sentence": "The term for a person or event that collects money is ___.",
+        "sentence": "___ refers to a person or event that collects money.",
         "answer": "fundraiser",
         "options": [
-          "registration",
-          "charity partner",
-          "beneficiary",
+          "expenses",
+          "goal",
+          "community group",
           "fundraiser"
         ],
         "hint": "Fundraising & Events"
@@ -19093,51 +19093,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-31",
         "conceptId": "fundraising:goal",
-        "sentence": "The term for the result a campaign aims to achieve is ___.",
+        "sentence": "___ refers to the result a campaign aims to achieve.",
         "answer": "goal",
         "options": [
-          "collection point",
-          "campaign",
+          "impact",
+          "expenses",
           "goal",
-          "supporter"
+          "fundraiser"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-32",
         "conceptId": "fundraising:impact",
-        "sentence": "The term for the measurable effect of charitable work is ___.",
+        "sentence": "___ refers to the measurable effect of charitable work.",
         "answer": "impact",
         "options": [
-          "charity",
+          "fundraiser",
           "impact",
-          "ticket sales",
-          "emergency appeal"
+          "goal",
+          "non-profit"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-33",
         "conceptId": "fundraising:non-profit",
-        "sentence": "The term for an organisation not operating for private profit is ___.",
+        "sentence": "___ refers to an organisation not operating for private profit.",
         "answer": "non-profit",
         "options": [
           "non-profit",
-          "volunteer coordinator",
-          "in-kind donation",
-          "collection box"
+          "impact",
+          "outreach",
+          "goal"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-34",
         "conceptId": "fundraising:outreach",
-        "sentence": "The term for work connecting services with people needing them is ___.",
+        "sentence": "___ refers to work connecting services with people needing them.",
         "answer": "outreach",
         "options": [
-          "matching donation",
-          "promotional poster",
-          "corporate sponsor",
+          "non-profit",
+          "proceeds",
+          "impact",
           "outreach"
         ],
         "hint": "Fundraising & Events"
@@ -19145,51 +19145,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-35",
         "conceptId": "fundraising:proceeds",
-        "sentence": "The term for money remaining after event costs are paid is ___.",
+        "sentence": "___ refers to money remaining after event costs are paid.",
         "answer": "proceeds",
         "options": [
-          "thank-you letter",
-          "crowdfunding",
+          "publicity",
+          "non-profit",
           "proceeds",
-          "monthly giving"
+          "outreach"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-36",
         "conceptId": "fundraising:publicity",
-        "sentence": "The term for public attention given to an event is ___.",
+        "sentence": "___ refers to public attention given to an event.",
         "answer": "publicity",
         "options": [
-          "donation",
+          "outreach",
           "publicity",
-          "fundraising total",
-          "transparency"
+          "proceeds",
+          "registration"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-37",
         "conceptId": "fundraising:registration",
-        "sentence": "The term for the process of officially joining an event is ___.",
+        "sentence": "___ refers to the process of officially joining an event.",
         "answer": "registration",
         "options": [
           "registration",
-          "charity partner",
-          "beneficiary",
-          "donor"
+          "publicity",
+          "supporter",
+          "proceeds"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-38",
         "conceptId": "fundraising:supporter",
-        "sentence": "The term for someone who helps a campaign or organisation is ___.",
+        "sentence": "___ refers to someone who helps a campaign or organisation.",
         "answer": "supporter",
         "options": [
-          "collection point",
-          "campaign",
-          "entry fee",
+          "registration",
+          "ticket sales",
+          "publicity",
           "supporter"
         ],
         "hint": "Fundraising & Events"
@@ -19197,51 +19197,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-39",
         "conceptId": "fundraising:ticket sales",
-        "sentence": "The term for money collected by selling event admission is ___.",
+        "sentence": "___ refers to money collected by selling event admission.",
         "answer": "ticket sales",
         "options": [
-          "charity",
-          "fundraising target",
+          "volunteer coordinator",
+          "registration",
           "ticket sales",
-          "emergency appeal"
+          "supporter"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-40",
         "conceptId": "fundraising:volunteer coordinator",
-        "sentence": "The term for the person organising unpaid helpers is ___.",
+        "sentence": "___ refers to the person organising unpaid helpers.",
         "answer": "volunteer coordinator",
         "options": [
-          "grant",
+          "supporter",
           "volunteer coordinator",
-          "in-kind donation",
-          "collection box"
+          "ticket sales",
+          "matching donation"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-41",
         "conceptId": "fundraising:matching donation",
-        "sentence": "The term for a gift equalled by another donor is ___.",
+        "sentence": "___ refers to a gift equalled by another donor.",
         "answer": "matching donation",
         "options": [
           "matching donation",
-          "promotional poster",
-          "corporate sponsor",
-          "raffle"
+          "volunteer coordinator",
+          "monthly giving",
+          "ticket sales"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-42",
         "conceptId": "fundraising:monthly giving",
-        "sentence": "The term for a regular donation made every month is ___.",
+        "sentence": "___ refers to a regular donation made every month.",
         "answer": "monthly giving",
         "options": [
-          "thank-you letter",
-          "crowdfunding",
-          "sponsor",
+          "matching donation",
+          "fundraising total",
+          "volunteer coordinator",
           "monthly giving"
         ],
         "hint": "Fundraising & Events"
@@ -19249,51 +19249,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-43",
         "conceptId": "fundraising:fundraising total",
-        "sentence": "The term for the complete amount collected is ___.",
+        "sentence": "___ refers to the complete amount collected.",
         "answer": "fundraising total",
         "options": [
-          "donation",
-          "sponsorship form",
+          "charity partner",
+          "matching donation",
           "fundraising total",
-          "transparency"
+          "monthly giving"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-44",
         "conceptId": "fundraising:charity partner",
-        "sentence": "The term for an organisation cooperating with a campaign is ___.",
+        "sentence": "___ refers to an organisation cooperating with a campaign.",
         "answer": "charity partner",
         "options": [
-          "volunteer",
+          "monthly giving",
           "charity partner",
-          "beneficiary",
-          "donor"
+          "fundraising total",
+          "collection point"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-45",
         "conceptId": "fundraising:collection point",
-        "sentence": "The term for a place where donated items are received is ___.",
+        "sentence": "___ refers to a place where donated items are received.",
         "answer": "collection point",
         "options": [
           "collection point",
-          "campaign",
-          "entry fee",
-          "auction"
+          "charity partner",
+          "emergency appeal",
+          "fundraising total"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-46",
         "conceptId": "fundraising:emergency appeal",
-        "sentence": "The term for an urgent request for donations is ___.",
+        "sentence": "___ refers to an urgent request for donations.",
         "answer": "emergency appeal",
         "options": [
-          "charity",
-          "fundraising target",
-          "bake sale",
+          "collection point",
+          "in-kind donation",
+          "charity partner",
           "emergency appeal"
         ],
         "hint": "Fundraising & Events"
@@ -19301,51 +19301,51 @@ export const QUIZZES = {
       {
         "id": "fundraising-47",
         "conceptId": "fundraising:in-kind donation",
-        "sentence": "The term for goods or services given instead of money is ___.",
+        "sentence": "___ refers to goods or services given instead of money.",
         "answer": "in-kind donation",
         "options": [
-          "grant",
-          "benefit concert",
+          "promotional poster",
+          "collection point",
           "in-kind donation",
-          "collection box"
+          "emergency appeal"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-48",
         "conceptId": "fundraising:promotional poster",
-        "sentence": "The term for a printed notice advertising an event is ___.",
+        "sentence": "___ refers to a printed notice advertising an event.",
         "answer": "promotional poster",
         "options": [
-          "charity run",
+          "emergency appeal",
           "promotional poster",
-          "corporate sponsor",
-          "raffle"
+          "in-kind donation",
+          "thank-you letter"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-49",
         "conceptId": "fundraising:thank-you letter",
-        "sentence": "The term for a message expressing gratitude to a donor is ___.",
+        "sentence": "___ refers to a message expressing gratitude to a donor.",
         "answer": "thank-you letter",
         "options": [
           "thank-you letter",
-          "crowdfunding",
-          "sponsor",
-          "donation page"
+          "promotional poster",
+          "transparency",
+          "in-kind donation"
         ],
         "hint": "Fundraising & Events"
       },
       {
         "id": "fundraising-50",
         "conceptId": "fundraising:transparency",
-        "sentence": "The term for clear reporting of how donated money is used is ___.",
+        "sentence": "___ refers to clear reporting of how donated money is used.",
         "answer": "transparency",
         "options": [
-          "donation",
-          "sponsorship form",
-          "fundraising dinner",
+          "thank-you letter",
+          "beneficiary",
+          "promotional poster",
           "transparency"
         ],
         "hint": "Fundraising & Events"
@@ -20019,25 +20019,25 @@ export const QUIZZES = {
       {
         "id": "green-technology-01",
         "conceptId": "green-technology:biodegradable",
-        "sentence": "The term for able to break down naturally without lasting pollution is ___.",
+        "sentence": "Packaging that breaks down naturally without lasting pollution is ___.",
         "answer": "biodegradable",
         "options": [
           "biodegradable",
-          "energy-efficient appliance",
-          "rechargeable battery",
-          "wind turbine"
+          "recyclable",
+          "reusable",
+          "waterproof"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-02",
         "conceptId": "green-technology:biofuel",
-        "sentence": "The term for fuel produced from recently living material is ___.",
+        "sentence": "___ refers to fuel produced from recently living material.",
         "answer": "biofuel",
         "options": [
-          "geothermal energy",
-          "recycled material",
-          "zero-emission vehicle",
+          "biodegradable",
+          "carbon capture",
+          "carbon calculator",
           "biofuel"
         ],
         "hint": "Green Technology"
@@ -20045,51 +20045,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-03",
         "conceptId": "green-technology:carbon capture",
-        "sentence": "The term for technology collecting carbon dioxide before release is ___.",
+        "sentence": "___ refers to technology collecting carbon dioxide before release.",
         "answer": "carbon capture",
         "options": [
-          "smart grid",
-          "greywater system",
+          "charging station",
+          "biodegradable",
           "carbon capture",
-          "green building"
+          "biofuel"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-04",
         "conceptId": "green-technology:charging station",
-        "sentence": "The term for a place supplying electricity to a vehicle is ___.",
+        "sentence": "___ refers to a place supplying electricity to a vehicle.",
         "answer": "charging station",
         "options": [
-          "rainwater harvesting",
+          "biofuel",
           "charging station",
-          "heat pump",
-          "smart meter"
+          "carbon capture",
+          "clean energy"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-05",
         "conceptId": "green-technology:clean energy",
-        "sentence": "The term for power produced with little pollution is ___.",
+        "sentence": "___ refers to power produced with little pollution.",
         "answer": "clean energy",
         "options": [
           "clean energy",
-          "home insulation",
-          "solar panel",
-          "composting toilet"
+          "charging station",
+          "electric vehicle",
+          "carbon capture"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-06",
         "conceptId": "green-technology:electric vehicle",
-        "sentence": "The term for a vehicle powered by an electric motor is ___.",
+        "sentence": "___ refers to a vehicle powered by an electric motor.",
         "answer": "electric vehicle",
         "options": [
-          "hydroelectric power",
-          "solar farm",
-          "passive house",
+          "clean energy",
+          "energy monitor",
+          "charging station",
           "electric vehicle"
         ],
         "hint": "Green Technology"
@@ -20097,51 +20097,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-07",
         "conceptId": "green-technology:energy monitor",
-        "sentence": "The term for a device measuring power use is ___.",
+        "sentence": "___ refers to a device measuring power use.",
         "answer": "energy monitor",
         "options": [
-          "tidal power",
-          "green roof",
+          "energy-efficient appliance",
+          "clean energy",
           "energy monitor",
-          "LED bulb"
+          "electric vehicle"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-08",
         "conceptId": "green-technology:energy-efficient appliance",
-        "sentence": "The term for a machine performing its task with less power is ___.",
+        "sentence": "___ refers to a machine performing its task with less power.",
         "answer": "energy-efficient appliance",
         "options": [
-          "vertical farm",
+          "electric vehicle",
           "energy-efficient appliance",
-          "rechargeable battery",
-          "wind turbine"
+          "energy monitor",
+          "geothermal energy"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-09",
         "conceptId": "green-technology:geothermal energy",
-        "sentence": "The term for heat obtained from below Earth’s surface is ___.",
+        "sentence": "___ refers to heat obtained from below Earth’s surface.",
         "answer": "geothermal energy",
         "options": [
           "geothermal energy",
-          "recycled material",
-          "zero-emission vehicle",
-          "drip irrigation"
+          "energy-efficient appliance",
+          "green building",
+          "energy monitor"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-10",
         "conceptId": "green-technology:green building",
-        "sentence": "The term for a structure designed to reduce environmental harm is ___.",
+        "sentence": "___ refers to a structure designed to reduce environmental harm.",
         "answer": "green building",
         "options": [
-          "smart grid",
-          "greywater system",
-          "precision agriculture",
+          "geothermal energy",
+          "heat pump",
+          "energy-efficient appliance",
           "green building"
         ],
         "hint": "Green Technology"
@@ -20149,51 +20149,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-11",
         "conceptId": "green-technology:heat pump",
-        "sentence": "The term for a device transferring heat into or out of a building is ___.",
+        "sentence": "___ refers to a device transferring heat into or out of a building.",
         "answer": "heat pump",
         "options": [
-          "rainwater harvesting",
-          "plant-based plastic",
+          "home insulation",
+          "geothermal energy",
           "heat pump",
-          "smart meter"
+          "green building"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-12",
         "conceptId": "green-technology:home insulation",
-        "sentence": "The term for material reducing heat loss from a house is ___.",
+        "sentence": "___ refers to material reducing heat loss from a house.",
         "answer": "home insulation",
         "options": [
-          "reusable packaging",
+          "green building",
           "home insulation",
-          "solar panel",
-          "composting toilet"
+          "heat pump",
+          "hydroelectric power"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-13",
         "conceptId": "green-technology:hydroelectric power",
-        "sentence": "The term for electricity produced by moving water is ___.",
+        "sentence": "___ refers to electricity produced by moving water.",
         "answer": "hydroelectric power",
         "options": [
           "hydroelectric power",
-          "solar farm",
-          "passive house",
-          "water-saving showerhead"
+          "home insulation",
+          "LED bulb",
+          "heat pump"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-14",
         "conceptId": "green-technology:led bulb",
-        "sentence": "The term for a low-energy electronic light is ___.",
+        "sentence": "___ refers to a low-energy electronic light.",
         "answer": "LED bulb",
         "options": [
-          "tidal power",
-          "green roof",
-          "motion sensor",
+          "hydroelectric power",
+          "rechargeable battery",
+          "home insulation",
           "LED bulb"
         ],
         "hint": "Green Technology"
@@ -20201,51 +20201,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-15",
         "conceptId": "green-technology:rechargeable battery",
-        "sentence": "The term for a power cell designed to be filled with energy again is ___.",
+        "sentence": "___ refers to a power cell designed to be filled with energy again.",
         "answer": "rechargeable battery",
         "options": [
-          "vertical farm",
-          "programmable thermostat",
+          "recycled material",
+          "hydroelectric power",
           "rechargeable battery",
-          "wind turbine"
+          "LED bulb"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-16",
         "conceptId": "green-technology:recycled material",
-        "sentence": "The term for substance recovered from previous waste is ___.",
+        "sentence": "___ refers to substance recovered from previous waste.",
         "answer": "recycled material",
         "options": [
-          "district heating",
+          "LED bulb",
           "recycled material",
-          "zero-emission vehicle",
-          "drip irrigation"
+          "rechargeable battery",
+          "smart grid"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-17",
         "conceptId": "green-technology:smart grid",
-        "sentence": "The term for an electricity network using digital control is ___.",
+        "sentence": "___ refers to an electricity network using digital control.",
         "answer": "smart grid",
         "options": [
           "smart grid",
-          "greywater system",
-          "precision agriculture",
-          "electric heat pump"
+          "recycled material",
+          "smart meter",
+          "rechargeable battery"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-18",
         "conceptId": "green-technology:smart meter",
-        "sentence": "The term for a device automatically reporting energy consumption is ___.",
+        "sentence": "___ refers to a device automatically reporting energy consumption.",
         "answer": "smart meter",
         "options": [
-          "rainwater harvesting",
-          "plant-based plastic",
-          "anaerobic digester",
+          "smart grid",
+          "solar panel",
+          "recycled material",
           "smart meter"
         ],
         "hint": "Green Technology"
@@ -20253,51 +20253,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-19",
         "conceptId": "green-technology:solar panel",
-        "sentence": "The term for a device converting sunlight into useful energy is ___.",
+        "sentence": "___ refers to a device converting sunlight into useful energy.",
         "answer": "solar panel",
         "options": [
-          "reusable packaging",
-          "green hydrogen",
+          "solar farm",
+          "smart grid",
           "solar panel",
-          "composting toilet"
+          "smart meter"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-20",
         "conceptId": "green-technology:solar farm",
-        "sentence": "The term for a large site containing many solar panels is ___.",
+        "sentence": "___ refers to a large site containing many solar panels.",
         "answer": "solar farm",
         "options": [
-          "fuel cell",
+          "smart meter",
           "solar farm",
-          "passive house",
-          "water-saving showerhead"
+          "solar panel",
+          "tidal power"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-21",
         "conceptId": "green-technology:tidal power",
-        "sentence": "The term for energy generated by the movement of ocean tides is ___.",
+        "sentence": "___ refers to energy generated by the movement of ocean tides.",
         "answer": "tidal power",
         "options": [
           "tidal power",
-          "green roof",
-          "motion sensor",
-          "thermal storage"
+          "solar farm",
+          "wind turbine",
+          "solar panel"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-22",
         "conceptId": "green-technology:wind turbine",
-        "sentence": "The term for a machine generating electricity from moving air is ___.",
+        "sentence": "___ refers to a machine generating electricity from moving air.",
         "answer": "wind turbine",
         "options": [
-          "vertical farm",
-          "programmable thermostat",
-          "microgrid",
+          "tidal power",
+          "zero-emission vehicle",
+          "solar farm",
           "wind turbine"
         ],
         "hint": "Green Technology"
@@ -20305,51 +20305,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-23",
         "conceptId": "green-technology:zero-emission vehicle",
-        "sentence": "The term for transport producing no exhaust pollution while used is ___.",
+        "sentence": "___ refers to transport producing no exhaust pollution while used.",
         "answer": "zero-emission vehicle",
         "options": [
-          "district heating",
-          "wave energy",
+          "greywater system",
+          "tidal power",
           "zero-emission vehicle",
-          "drip irrigation"
+          "wind turbine"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-24",
         "conceptId": "green-technology:greywater system",
-        "sentence": "The term for technology reusing water from sinks or showers is ___.",
+        "sentence": "___ refers to technology reusing water from sinks or showers.",
         "answer": "greywater system",
         "options": [
-          "building automation",
+          "wind turbine",
           "greywater system",
-          "precision agriculture",
-          "electric heat pump"
+          "zero-emission vehicle",
+          "rainwater harvesting"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-25",
         "conceptId": "green-technology:rainwater harvesting",
-        "sentence": "The term for collecting rain for later use is ___.",
+        "sentence": "___ refers to collecting rain for later use.",
         "answer": "rainwater harvesting",
         "options": [
           "rainwater harvesting",
-          "plant-based plastic",
-          "anaerobic digester",
-          "low-flow tap"
+          "greywater system",
+          "composting toilet",
+          "zero-emission vehicle"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-26",
         "conceptId": "green-technology:composting toilet",
-        "sentence": "The term for a toilet treating waste without a sewer system is ___.",
+        "sentence": "___ refers to a toilet treating waste without a sewer system.",
         "answer": "composting toilet",
         "options": [
-          "reusable packaging",
-          "green hydrogen",
-          "repairable design",
+          "rainwater harvesting",
+          "passive house",
+          "greywater system",
           "composting toilet"
         ],
         "hint": "Green Technology"
@@ -20357,51 +20357,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-27",
         "conceptId": "green-technology:passive house",
-        "sentence": "The term for a building needing very little heating or cooling is ___.",
+        "sentence": "___ refers to a building needing very little heating or cooling.",
         "answer": "passive house",
         "options": [
-          "fuel cell",
-          "modular product",
+          "green roof",
+          "rainwater harvesting",
           "passive house",
-          "water-saving showerhead"
+          "composting toilet"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-28",
         "conceptId": "green-technology:green roof",
-        "sentence": "The term for a building roof covered with living plants is ___.",
+        "sentence": "___ refers to a building roof covered with living plants.",
         "answer": "green roof",
         "options": [
-          "environmental sensor",
+          "composting toilet",
           "green roof",
-          "motion sensor",
-          "thermal storage"
+          "passive house",
+          "vertical farm"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-29",
         "conceptId": "green-technology:vertical farm",
-        "sentence": "The term for a system growing crops in stacked indoor layers is ___.",
+        "sentence": "___ refers to a system growing crops in stacked indoor layers.",
         "answer": "vertical farm",
         "options": [
           "vertical farm",
-          "programmable thermostat",
-          "microgrid",
-          "carbon calculator"
+          "green roof",
+          "drip irrigation",
+          "passive house"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-30",
         "conceptId": "green-technology:drip irrigation",
-        "sentence": "The term for watering crops slowly at their roots is ___.",
+        "sentence": "___ refers to watering crops slowly at their roots.",
         "answer": "drip irrigation",
         "options": [
-          "district heating",
-          "wave energy",
-          "biodegradable",
+          "vertical farm",
+          "precision agriculture",
+          "green roof",
           "drip irrigation"
         ],
         "hint": "Green Technology"
@@ -20409,51 +20409,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-31",
         "conceptId": "green-technology:precision agriculture",
-        "sentence": "The term for technology applying farm resources only where needed is ___.",
+        "sentence": "___ refers to technology applying farm resources only where needed.",
         "answer": "precision agriculture",
         "options": [
-          "building automation",
-          "biofuel",
+          "plant-based plastic",
+          "vertical farm",
           "precision agriculture",
-          "electric heat pump"
+          "drip irrigation"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-32",
         "conceptId": "green-technology:plant-based plastic",
-        "sentence": "The term for plastic produced partly from renewable plant material is ___.",
+        "sentence": "___ refers to plastic produced partly from renewable plant material.",
         "answer": "plant-based plastic",
         "options": [
-          "carbon capture",
+          "drip irrigation",
           "plant-based plastic",
-          "anaerobic digester",
-          "low-flow tap"
+          "precision agriculture",
+          "reusable packaging"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-33",
         "conceptId": "green-technology:reusable packaging",
-        "sentence": "The term for containers designed for repeated use is ___.",
+        "sentence": "___ refers to containers designed for repeated use.",
         "answer": "reusable packaging",
         "options": [
           "reusable packaging",
-          "green hydrogen",
-          "repairable design",
-          "charging station"
+          "plant-based plastic",
+          "water-saving showerhead",
+          "precision agriculture"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-34",
         "conceptId": "green-technology:water-saving showerhead",
-        "sentence": "The term for a fitting reducing water used while washing is ___.",
+        "sentence": "___ refers to a fitting reducing water used while washing.",
         "answer": "water-saving showerhead",
         "options": [
-          "fuel cell",
-          "modular product",
-          "clean energy",
+          "reusable packaging",
+          "motion sensor",
+          "plant-based plastic",
           "water-saving showerhead"
         ],
         "hint": "Green Technology"
@@ -20461,51 +20461,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-35",
         "conceptId": "green-technology:motion sensor",
-        "sentence": "The term for a device activating equipment when movement is detected is ___.",
+        "sentence": "___ refers to a device activating equipment when movement is detected.",
         "answer": "motion sensor",
         "options": [
-          "environmental sensor",
-          "electric vehicle",
+          "programmable thermostat",
+          "reusable packaging",
           "motion sensor",
-          "thermal storage"
+          "water-saving showerhead"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-36",
         "conceptId": "green-technology:programmable thermostat",
-        "sentence": "The term for a controller changing temperature on a schedule is ___.",
+        "sentence": "___ refers to a controller changing temperature on a schedule.",
         "answer": "programmable thermostat",
         "options": [
-          "energy monitor",
+          "water-saving showerhead",
           "programmable thermostat",
-          "microgrid",
-          "carbon calculator"
+          "motion sensor",
+          "district heating"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-37",
         "conceptId": "green-technology:district heating",
-        "sentence": "The term for one central system heating many buildings is ___.",
+        "sentence": "___ refers to one central system heating many buildings.",
         "answer": "district heating",
         "options": [
           "district heating",
-          "wave energy",
-          "biodegradable",
-          "energy-efficient appliance"
+          "programmable thermostat",
+          "electric heat pump",
+          "motion sensor"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-38",
         "conceptId": "green-technology:electric heat pump",
-        "sentence": "The term for electrical equipment moving rather than creating heat is ___.",
+        "sentence": "___ refers to electrical equipment moving rather than creating heat.",
         "answer": "electric heat pump",
         "options": [
-          "building automation",
-          "biofuel",
-          "geothermal energy",
+          "district heating",
+          "anaerobic digester",
+          "programmable thermostat",
           "electric heat pump"
         ],
         "hint": "Green Technology"
@@ -20513,51 +20513,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-39",
         "conceptId": "green-technology:anaerobic digester",
-        "sentence": "The term for a system turning organic waste into gas is ___.",
+        "sentence": "___ refers to a system turning organic waste into gas.",
         "answer": "anaerobic digester",
         "options": [
-          "carbon capture",
-          "green building",
+          "green hydrogen",
+          "district heating",
           "anaerobic digester",
-          "low-flow tap"
+          "electric heat pump"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-40",
         "conceptId": "green-technology:green hydrogen",
-        "sentence": "The term for hydrogen produced using renewable electricity is ___.",
+        "sentence": "___ refers to hydrogen produced using renewable electricity.",
         "answer": "green hydrogen",
         "options": [
-          "heat pump",
+          "electric heat pump",
           "green hydrogen",
-          "repairable design",
-          "charging station"
+          "anaerobic digester",
+          "fuel cell"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-41",
         "conceptId": "green-technology:fuel cell",
-        "sentence": "The term for a device generating electricity through a chemical reaction is ___.",
+        "sentence": "___ refers to a device generating electricity through a chemical reaction.",
         "answer": "fuel cell",
         "options": [
           "fuel cell",
-          "modular product",
-          "clean energy",
-          "home insulation"
+          "green hydrogen",
+          "thermal storage",
+          "anaerobic digester"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-42",
         "conceptId": "green-technology:thermal storage",
-        "sentence": "The term for technology keeping heat or cold for later is ___.",
+        "sentence": "___ refers to technology keeping heat or cold for later.",
         "answer": "thermal storage",
         "options": [
-          "environmental sensor",
-          "electric vehicle",
-          "hydroelectric power",
+          "fuel cell",
+          "microgrid",
+          "green hydrogen",
           "thermal storage"
         ],
         "hint": "Green Technology"
@@ -20565,51 +20565,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-43",
         "conceptId": "green-technology:microgrid",
-        "sentence": "The term for a small local electricity network is ___.",
+        "sentence": "___ refers to a small local electricity network.",
         "answer": "microgrid",
         "options": [
-          "energy monitor",
-          "LED bulb",
+          "wave energy",
+          "fuel cell",
           "microgrid",
-          "carbon calculator"
+          "thermal storage"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-44",
         "conceptId": "green-technology:wave energy",
-        "sentence": "The term for power captured from ocean surface movement is ___.",
+        "sentence": "___ refers to power captured from ocean surface movement.",
         "answer": "wave energy",
         "options": [
-          "rechargeable battery",
+          "thermal storage",
           "wave energy",
-          "biodegradable",
-          "energy-efficient appliance"
+          "microgrid",
+          "building automation"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-45",
         "conceptId": "green-technology:building automation",
-        "sentence": "The term for digital control of lighting, heating and ventilation is ___.",
+        "sentence": "___ refers to digital control of lighting, heating and ventilation.",
         "answer": "building automation",
         "options": [
           "building automation",
-          "biofuel",
-          "geothermal energy",
-          "recycled material"
+          "wave energy",
+          "low-flow tap",
+          "microgrid"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-46",
         "conceptId": "green-technology:low-flow tap",
-        "sentence": "The term for a fitting reducing water flow is ___.",
+        "sentence": "___ refers to a fitting reducing water flow.",
         "answer": "low-flow tap",
         "options": [
-          "carbon capture",
-          "green building",
-          "smart grid",
+          "building automation",
+          "repairable design",
+          "wave energy",
           "low-flow tap"
         ],
         "hint": "Green Technology"
@@ -20617,51 +20617,51 @@ export const QUIZZES = {
       {
         "id": "green-technology-47",
         "conceptId": "green-technology:repairable design",
-        "sentence": "The term for a product structure allowing damaged parts to be replaced is ___.",
+        "sentence": "___ refers to a product structure allowing damaged parts to be replaced.",
         "answer": "repairable design",
         "options": [
-          "heat pump",
-          "smart meter",
+          "modular product",
+          "building automation",
           "repairable design",
-          "charging station"
+          "low-flow tap"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-48",
         "conceptId": "green-technology:modular product",
-        "sentence": "The term for an item built from sections that can be changed separately is ___.",
+        "sentence": "___ refers to an item built from sections that can be changed separately.",
         "answer": "modular product",
         "options": [
-          "solar panel",
+          "low-flow tap",
           "modular product",
-          "clean energy",
-          "home insulation"
+          "repairable design",
+          "environmental sensor"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-49",
         "conceptId": "green-technology:environmental sensor",
-        "sentence": "The term for a device measuring conditions such as pollution is ___.",
+        "sentence": "___ refers to a device measuring conditions such as pollution.",
         "answer": "environmental sensor",
         "options": [
           "environmental sensor",
-          "electric vehicle",
-          "hydroelectric power",
-          "solar farm"
+          "modular product",
+          "carbon calculator",
+          "repairable design"
         ],
         "hint": "Green Technology"
       },
       {
         "id": "green-technology-50",
         "conceptId": "green-technology:carbon calculator",
-        "sentence": "The term for a tool estimating greenhouse-gas emissions is ___.",
+        "sentence": "___ refers to a tool estimating greenhouse-gas emissions.",
         "answer": "carbon calculator",
         "options": [
-          "energy monitor",
-          "LED bulb",
-          "tidal power",
+          "environmental sensor",
+          "biodegradable",
+          "modular product",
           "carbon calculator"
         ],
         "hint": "Green Technology"
@@ -20677,25 +20677,25 @@ export const QUIZZES = {
       {
         "id": "confused-words-01",
         "conceptId": "confused-words:accept",
-        "sentence": "The word meaning “agree to receive or approve something” is ___.",
+        "sentence": "___ means agree to receive or approve something.",
         "answer": "accept",
         "options": [
           "accept",
-          "lend",
-          "economic",
-          "less"
+          "whether",
+          "except",
+          "weather"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-02",
         "conceptId": "confused-words:except",
-        "sentence": "The word meaning “not including a particular person or thing” is ___.",
+        "sentence": "___ means not including a particular person or thing.",
         "answer": "except",
         "options": [
-          "bring",
-          "economical",
-          "hear",
+          "accept",
+          "advice",
+          "whether",
           "except"
         ],
         "hint": "Easily Confused Words"
@@ -20703,51 +20703,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-03",
         "conceptId": "confused-words:advice",
-        "sentence": "The word meaning “a noun meaning a helpful recommendation” is ___.",
+        "sentence": "___ means a noun meaning a helpful recommendation.",
         "answer": "advice",
         "options": [
-          "ensure",
-          "listen",
+          "advise",
+          "accept",
           "advice",
-          "take"
+          "except"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-04",
         "conceptId": "confused-words:advise",
-        "sentence": "The word meaning “a verb meaning to recommend an action” is ___.",
+        "sentence": "___ means a verb meaning to recommend an action.",
         "answer": "advise",
         "options": [
-          "historic",
+          "except",
           "advise",
-          "complement",
-          "insure"
+          "advice",
+          "affect"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-05",
         "conceptId": "confused-words:affect",
-        "sentence": "The word meaning “a verb meaning to influence something” is ___.",
+        "sentence": "___ means a verb meaning to influence something.",
         "answer": "affect",
         "options": [
           "affect",
-          "compliment",
-          "farther",
-          "historical"
+          "advise",
+          "effect",
+          "advice"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-06",
         "conceptId": "confused-words:effect",
-        "sentence": "The word meaning “a noun meaning the result of a change” is ___.",
+        "sentence": "___ means a noun meaning the result of a change.",
         "answer": "effect",
         "options": [
-          "desert",
-          "further",
-          "lay",
+          "affect",
+          "borrow",
+          "advise",
           "effect"
         ],
         "hint": "Easily Confused Words"
@@ -20755,51 +20755,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-07",
         "conceptId": "confused-words:borrow",
-        "sentence": "The word meaning “receive something temporarily from its owner” is ___.",
+        "sentence": "___ means receive something temporarily from its owner.",
         "answer": "borrow",
         "options": [
-          "fewer",
-          "lie",
+          "lend",
+          "affect",
           "borrow",
-          "dessert"
+          "effect"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-08",
         "conceptId": "confused-words:lend",
-        "sentence": "The word meaning “give something temporarily to another person” is ___.",
+        "sentence": "___ means give something temporarily to another person.",
         "answer": "lend",
         "options": [
-          "loose",
+          "effect",
           "lend",
-          "economic",
-          "less"
+          "borrow",
+          "bring"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-09",
         "conceptId": "confused-words:bring",
-        "sentence": "The word meaning “carry something toward the speaker” is ___.",
+        "sentence": "___ means carry something toward the speaker.",
         "answer": "bring",
         "options": [
           "bring",
-          "economical",
-          "hear",
-          "lose"
+          "lend",
+          "take",
+          "borrow"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-10",
         "conceptId": "confused-words:take",
-        "sentence": "The word meaning “carry something away from the speaker” is ___.",
+        "sentence": "___ means carry something away from the speaker.",
         "answer": "take",
         "options": [
-          "ensure",
-          "listen",
-          "personal",
+          "bring",
+          "complement",
+          "lend",
           "take"
         ],
         "hint": "Easily Confused Words"
@@ -20807,51 +20807,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-11",
         "conceptId": "confused-words:complement",
-        "sentence": "The word meaning “make something else seem better or complete” is ___.",
+        "sentence": "___ means make something else seem better or complete.",
         "answer": "complement",
         "options": [
-          "historic",
-          "personnel",
+          "compliment",
+          "bring",
           "complement",
-          "insure"
+          "take"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-12",
         "conceptId": "confused-words:compliment",
-        "sentence": "The word meaning “a polite expression of praise” is ___.",
+        "sentence": "___ means a polite expression of praise.",
         "answer": "compliment",
         "options": [
-          "practical",
+          "take",
           "compliment",
-          "farther",
-          "historical"
+          "complement",
+          "desert"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-13",
         "conceptId": "confused-words:desert",
-        "sentence": "The word meaning “a dry region with very little rain” is ___.",
+        "sentence": "___ means a dry region with very little rain.",
         "answer": "desert",
         "options": [
           "desert",
-          "further",
-          "lay",
-          "practicable"
+          "compliment",
+          "dessert",
+          "complement"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-14",
         "conceptId": "confused-words:dessert",
-        "sentence": "The word meaning “sweet food eaten after a meal” is ___.",
+        "sentence": "___ means sweet food eaten after a meal.",
         "answer": "dessert",
         "options": [
-          "fewer",
-          "lie",
-          "principal",
+          "desert",
+          "economic",
+          "compliment",
           "dessert"
         ],
         "hint": "Easily Confused Words"
@@ -20859,51 +20859,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-15",
         "conceptId": "confused-words:economic",
-        "sentence": "The word meaning “connected with a country’s economy” is ___.",
+        "sentence": "___ means connected with a country’s economy.",
         "answer": "economic",
         "options": [
-          "loose",
-          "principle",
+          "economical",
+          "desert",
           "economic",
-          "less"
+          "dessert"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-16",
         "conceptId": "confused-words:economical",
-        "sentence": "The word meaning “using money or resources carefully” is ___.",
+        "sentence": "___ means using money or resources carefully.",
         "answer": "economical",
         "options": [
-          "quiet",
+          "dessert",
           "economical",
-          "hear",
-          "lose"
+          "economic",
+          "ensure"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-17",
         "conceptId": "confused-words:ensure",
-        "sentence": "The word meaning “make certain that something happens” is ___.",
+        "sentence": "___ means make certain that something happens.",
         "answer": "ensure",
         "options": [
           "ensure",
-          "listen",
-          "personal",
-          "quite"
+          "economical",
+          "insure",
+          "economic"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-18",
         "conceptId": "confused-words:insure",
-        "sentence": "The word meaning “provide financial protection against loss” is ___.",
+        "sentence": "___ means provide financial protection against loss.",
         "answer": "insure",
         "options": [
-          "historic",
-          "personnel",
-          "raise",
+          "ensure",
+          "farther",
+          "economical",
           "insure"
         ],
         "hint": "Easily Confused Words"
@@ -20911,51 +20911,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-19",
         "conceptId": "confused-words:farther",
-        "sentence": "The word meaning “at a greater physical distance” is ___.",
+        "sentence": "___ means at a greater physical distance.",
         "answer": "farther",
         "options": [
-          "practical",
-          "rise",
+          "further",
+          "ensure",
           "farther",
-          "historical"
+          "insure"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-20",
         "conceptId": "confused-words:further",
-        "sentence": "The word meaning “to a greater degree or additional extent” is ___.",
+        "sentence": "___ means to a greater degree or additional extent.",
         "answer": "further",
         "options": [
-          "remember",
+          "insure",
           "further",
-          "lay",
-          "practicable"
+          "farther",
+          "fewer"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-21",
         "conceptId": "confused-words:fewer",
-        "sentence": "The word meaning “a smaller number of countable things” is ___.",
+        "sentence": "___ means a smaller number of countable things.",
         "answer": "fewer",
         "options": [
           "fewer",
-          "lie",
-          "principal",
-          "remind"
+          "further",
+          "less",
+          "farther"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-22",
         "conceptId": "confused-words:less",
-        "sentence": "The word meaning “a smaller amount of something uncountable” is ___.",
+        "sentence": "___ means a smaller amount of something uncountable.",
         "answer": "less",
         "options": [
-          "loose",
-          "principle",
-          "sensible",
+          "fewer",
+          "hear",
+          "further",
           "less"
         ],
         "hint": "Easily Confused Words"
@@ -20963,51 +20963,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-23",
         "conceptId": "confused-words:hear",
-        "sentence": "The word meaning “notice a sound with your ears” is ___.",
+        "sentence": "___ means notice a sound with your ears.",
         "answer": "hear",
         "options": [
-          "quiet",
-          "sensitive",
+          "listen",
+          "fewer",
           "hear",
-          "lose"
+          "less"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-24",
         "conceptId": "confused-words:listen",
-        "sentence": "The word meaning “pay deliberate attention to a sound” is ___.",
+        "sentence": "___ means pay deliberate attention to a sound.",
         "answer": "listen",
         "options": [
-          "stationary",
+          "less",
           "listen",
-          "personal",
-          "quite"
+          "hear",
+          "historic"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-25",
         "conceptId": "confused-words:historic",
-        "sentence": "The word meaning “important in history” is ___.",
+        "sentence": "___ means important in history.",
         "answer": "historic",
         "options": [
           "historic",
-          "personnel",
-          "raise",
-          "stationery"
+          "listen",
+          "historical",
+          "hear"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-26",
         "conceptId": "confused-words:historical",
-        "sentence": "The word meaning “connected generally with the past” is ___.",
+        "sentence": "___ means connected generally with the past.",
         "answer": "historical",
         "options": [
-          "practical",
-          "rise",
-          "than",
+          "historic",
+          "lay",
+          "listen",
           "historical"
         ],
         "hint": "Easily Confused Words"
@@ -21015,51 +21015,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-27",
         "conceptId": "confused-words:lay",
-        "sentence": "The word meaning “put something down in a position” is ___.",
+        "sentence": "___ means put something down in a position.",
         "answer": "lay",
         "options": [
-          "remember",
-          "then",
+          "lie",
+          "historic",
           "lay",
-          "practicable"
+          "historical"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-28",
         "conceptId": "confused-words:lie",
-        "sentence": "The word meaning “rest in a horizontal position” is ___.",
+        "sentence": "___ means rest in a horizontal position.",
         "answer": "lie",
         "options": [
-          "weather",
+          "historical",
           "lie",
-          "principal",
-          "remind"
+          "lay",
+          "loose"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-29",
         "conceptId": "confused-words:loose",
-        "sentence": "The word meaning “not firmly fixed or fitting tightly” is ___.",
+        "sentence": "___ means not firmly fixed or fitting tightly.",
         "answer": "loose",
         "options": [
           "loose",
-          "principle",
-          "sensible",
-          "whether"
+          "lie",
+          "lose",
+          "lay"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-30",
         "conceptId": "confused-words:lose",
-        "sentence": "The word meaning “stop having something” is ___.",
+        "sentence": "___ means stop having something.",
         "answer": "lose",
         "options": [
-          "quiet",
-          "sensitive",
-          "accept",
+          "loose",
+          "personal",
+          "lie",
           "lose"
         ],
         "hint": "Easily Confused Words"
@@ -21067,51 +21067,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-31",
         "conceptId": "confused-words:personal",
-        "sentence": "The word meaning “belonging or relating to one individual” is ___.",
+        "sentence": "___ means belonging or relating to one individual.",
         "answer": "personal",
         "options": [
-          "stationary",
-          "except",
+          "personnel",
+          "loose",
           "personal",
-          "quite"
+          "lose"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-32",
         "conceptId": "confused-words:personnel",
-        "sentence": "The word meaning “the employees of an organisation” is ___.",
+        "sentence": "___ means the employees of an organisation.",
         "answer": "personnel",
         "options": [
-          "advice",
+          "lose",
           "personnel",
-          "raise",
-          "stationery"
+          "personal",
+          "practical"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-33",
         "conceptId": "confused-words:practical",
-        "sentence": "The word meaning “useful and suitable for real situations” is ___.",
+        "sentence": "___ means useful and suitable for real situations.",
         "answer": "practical",
         "options": [
           "practical",
-          "rise",
-          "than",
-          "advise"
+          "personnel",
+          "practicable",
+          "personal"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-34",
         "conceptId": "confused-words:practicable",
-        "sentence": "The word meaning “capable of being done successfully” is ___.",
+        "sentence": "___ means capable of being done successfully.",
         "answer": "practicable",
         "options": [
-          "remember",
-          "then",
-          "affect",
+          "practical",
+          "principal",
+          "personnel",
           "practicable"
         ],
         "hint": "Easily Confused Words"
@@ -21119,51 +21119,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-35",
         "conceptId": "confused-words:principal",
-        "sentence": "The word meaning “the most important person or thing” is ___.",
+        "sentence": "___ means the most important person or thing.",
         "answer": "principal",
         "options": [
-          "weather",
-          "effect",
+          "principle",
+          "practical",
           "principal",
-          "remind"
+          "practicable"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-36",
         "conceptId": "confused-words:principle",
-        "sentence": "The word meaning “a basic rule or belief” is ___.",
+        "sentence": "___ means a basic rule or belief.",
         "answer": "principle",
         "options": [
-          "borrow",
+          "practicable",
           "principle",
-          "sensible",
-          "whether"
+          "principal",
+          "quiet"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-37",
         "conceptId": "confused-words:quiet",
-        "sentence": "The word meaning “making little or no noise” is ___.",
+        "sentence": "___ means making little or no noise.",
         "answer": "quiet",
         "options": [
           "quiet",
-          "sensitive",
-          "accept",
-          "lend"
+          "principle",
+          "quite",
+          "principal"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-38",
         "conceptId": "confused-words:quite",
-        "sentence": "The word meaning “to a considerable degree” is ___.",
+        "sentence": "___ means to a considerable degree.",
         "answer": "quite",
         "options": [
-          "stationary",
-          "except",
-          "bring",
+          "quiet",
+          "raise",
+          "principle",
           "quite"
         ],
         "hint": "Easily Confused Words"
@@ -21171,51 +21171,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-39",
         "conceptId": "confused-words:raise",
-        "sentence": "The word meaning “move something to a higher position” is ___.",
+        "sentence": "___ means move something to a higher position.",
         "answer": "raise",
         "options": [
-          "advice",
-          "take",
+          "rise",
+          "quiet",
           "raise",
-          "stationery"
+          "quite"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-40",
         "conceptId": "confused-words:rise",
-        "sentence": "The word meaning “move upward without a direct object” is ___.",
+        "sentence": "___ means move upward without a direct object.",
         "answer": "rise",
         "options": [
-          "complement",
+          "quite",
           "rise",
-          "than",
-          "advise"
+          "raise",
+          "remember"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-41",
         "conceptId": "confused-words:remember",
-        "sentence": "The word meaning “keep or bring a fact back to your mind” is ___.",
+        "sentence": "___ means keep or bring a fact back to your mind.",
         "answer": "remember",
         "options": [
           "remember",
-          "then",
-          "affect",
-          "compliment"
+          "rise",
+          "remind",
+          "raise"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-42",
         "conceptId": "confused-words:remind",
-        "sentence": "The word meaning “cause someone else to remember” is ___.",
+        "sentence": "___ means cause someone else to remember.",
         "answer": "remind",
         "options": [
-          "weather",
-          "effect",
-          "desert",
+          "remember",
+          "sensible",
+          "rise",
           "remind"
         ],
         "hint": "Easily Confused Words"
@@ -21223,51 +21223,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-43",
         "conceptId": "confused-words:sensible",
-        "sentence": "The word meaning “showing good judgment” is ___.",
+        "sentence": "___ means showing good judgment.",
         "answer": "sensible",
         "options": [
-          "borrow",
-          "dessert",
+          "sensitive",
+          "remember",
           "sensible",
-          "whether"
+          "remind"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-44",
         "conceptId": "confused-words:sensitive",
-        "sentence": "The word meaning “easily affected emotionally or physically” is ___.",
+        "sentence": "___ means easily affected emotionally or physically.",
         "answer": "sensitive",
         "options": [
-          "economic",
+          "remind",
           "sensitive",
-          "accept",
-          "lend"
+          "sensible",
+          "stationary"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-45",
         "conceptId": "confused-words:stationary",
-        "sentence": "The word meaning “not moving” is ___.",
+        "sentence": "___ means not moving.",
         "answer": "stationary",
         "options": [
           "stationary",
-          "except",
-          "bring",
-          "economical"
+          "sensitive",
+          "stationery",
+          "sensible"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-46",
         "conceptId": "confused-words:stationery",
-        "sentence": "The word meaning “paper and other writing materials” is ___.",
+        "sentence": "___ means paper and other writing materials.",
         "answer": "stationery",
         "options": [
-          "advice",
-          "take",
-          "ensure",
+          "stationary",
+          "than",
+          "sensitive",
           "stationery"
         ],
         "hint": "Easily Confused Words"
@@ -21275,51 +21275,51 @@ export const QUIZZES = {
       {
         "id": "confused-words-47",
         "conceptId": "confused-words:than",
-        "sentence": "The word meaning “a word used when making comparisons” is ___.",
+        "sentence": "___ means a word used when making comparisons.",
         "answer": "than",
         "options": [
-          "complement",
-          "insure",
+          "then",
+          "stationary",
           "than",
-          "advise"
+          "stationery"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-48",
         "conceptId": "confused-words:then",
-        "sentence": "The word meaning “at that time or next in order” is ___.",
+        "sentence": "___ means at that time or next in order.",
         "answer": "then",
         "options": [
-          "farther",
+          "stationery",
           "then",
-          "affect",
-          "compliment"
+          "than",
+          "weather"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-49",
         "conceptId": "confused-words:weather",
-        "sentence": "The word meaning “the atmospheric conditions at a time” is ___.",
+        "sentence": "___ means the atmospheric conditions at a time.",
         "answer": "weather",
         "options": [
           "weather",
-          "effect",
-          "desert",
-          "further"
+          "then",
+          "whether",
+          "than"
         ],
         "hint": "Easily Confused Words"
       },
       {
         "id": "confused-words-50",
         "conceptId": "confused-words:whether",
-        "sentence": "The word meaning “a word introducing alternatives” is ___.",
+        "sentence": "___ means a word introducing alternatives.",
         "answer": "whether",
         "options": [
-          "borrow",
-          "dessert",
-          "fewer",
+          "weather",
+          "accept",
+          "then",
           "whether"
         ],
         "hint": "Easily Confused Words"
@@ -21993,25 +21993,25 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-01",
         "conceptId": "adjective-collocations:absolutely certain",
-        "sentence": "The expression meaning “completely sure” is ___.",
+        "sentence": "Being ___ means being completely sure.",
         "answer": "absolutely certain",
         "options": [
           "absolutely certain",
-          "closely associated",
-          "entirely possible",
-          "highly successful"
+          "internationally famous",
+          "absolutely delighted",
+          "socially acceptable"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-02",
         "conceptId": "adjective-collocations:absolutely delighted",
-        "sentence": "The expression meaning “extremely pleased” is ___.",
+        "sentence": "Being ___ means being extremely pleased.",
         "answer": "absolutely delighted",
         "options": [
-          "closely linked",
-          "extremely difficult",
-          "incredibly useful",
+          "absolutely certain",
+          "absolutely essential",
+          "internationally famous",
           "absolutely delighted"
         ],
         "hint": "Adjective Collocations"
@@ -22019,51 +22019,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-03",
         "conceptId": "adjective-collocations:absolutely essential",
-        "sentence": "The expression meaning “completely necessary” is ___.",
+        "sentence": "Being ___ means being completely necessary.",
         "answer": "absolutely essential",
         "options": [
-          "fairly common",
-          "perfectly clear",
+          "badly damaged",
+          "absolutely certain",
           "absolutely essential",
-          "completely different"
+          "absolutely delighted"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-04",
         "conceptId": "adjective-collocations:badly damaged",
-        "sentence": "The expression meaning “seriously physically harmed” is ___.",
+        "sentence": "Being ___ means being seriously physically harmed.",
         "answer": "badly damaged",
         "options": [
-          "reasonably priced",
+          "absolutely delighted",
           "badly damaged",
-          "deeply concerned",
-          "fully aware"
+          "absolutely essential",
+          "badly injured"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-05",
         "conceptId": "adjective-collocations:badly injured",
-        "sentence": "The expression meaning “hurt in a serious way” is ___.",
+        "sentence": "Being ___ means being hurt in a serious way.",
         "answer": "badly injured",
         "options": [
           "badly injured",
-          "deeply disappointed",
-          "fully prepared",
-          "seriously ill"
+          "badly damaged",
+          "bitterly disappointed",
+          "absolutely essential"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-06",
         "conceptId": "adjective-collocations:bitterly disappointed",
-        "sentence": "The expression meaning “extremely unhappy about a result” is ___.",
+        "sentence": "Being ___ means being extremely unhappy about a result.",
         "answer": "bitterly disappointed",
         "options": [
-          "deeply grateful",
-          "highly effective",
-          "strongly opposed",
+          "badly injured",
+          "blissfully unaware",
+          "badly damaged",
           "bitterly disappointed"
         ],
         "hint": "Adjective Collocations"
@@ -22071,51 +22071,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-07",
         "conceptId": "adjective-collocations:blissfully unaware",
-        "sentence": "The expression meaning “happily knowing nothing about a problem” is ___.",
+        "sentence": "Being ___ means being happily knowing nothing about a problem.",
         "answer": "blissfully unaware",
         "options": [
-          "highly likely",
-          "strongly recommended",
+          "closely associated",
+          "badly injured",
           "blissfully unaware",
-          "deeply moved"
+          "bitterly disappointed"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-08",
         "conceptId": "adjective-collocations:closely associated",
-        "sentence": "The expression meaning “connected by a strong relationship” is ___.",
+        "sentence": "Being ___ means being connected by a strong relationship.",
         "answer": "closely associated",
         "options": [
-          "thoroughly enjoyable",
+          "bitterly disappointed",
           "closely associated",
-          "entirely possible",
-          "highly successful"
+          "blissfully unaware",
+          "closely linked"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-09",
         "conceptId": "adjective-collocations:closely linked",
-        "sentence": "The expression meaning “joined by an important connection” is ___.",
+        "sentence": "Being ___ means being joined by an important connection.",
         "answer": "closely linked",
         "options": [
           "closely linked",
-          "extremely difficult",
-          "incredibly useful",
-          "totally unacceptable"
+          "closely associated",
+          "completely different",
+          "blissfully unaware"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-10",
         "conceptId": "adjective-collocations:completely different",
-        "sentence": "The expression meaning “having no meaningful similarity” is ___.",
+        "sentence": "Being ___ means being having no meaningful similarity.",
         "answer": "completely different",
         "options": [
-          "fairly common",
-          "perfectly clear",
-          "utterly impossible",
+          "closely linked",
+          "deeply concerned",
+          "closely associated",
           "completely different"
         ],
         "hint": "Adjective Collocations"
@@ -22123,51 +22123,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-11",
         "conceptId": "adjective-collocations:deeply concerned",
-        "sentence": "The expression meaning “very worried” is ___.",
+        "sentence": "Being ___ means being very worried.",
         "answer": "deeply concerned",
         "options": [
-          "reasonably priced",
-          "widely available",
+          "deeply disappointed",
+          "closely linked",
           "deeply concerned",
-          "fully aware"
+          "completely different"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-12",
         "conceptId": "adjective-collocations:deeply disappointed",
-        "sentence": "The expression meaning “very unhappy about what happened” is ___.",
+        "sentence": "Being ___ means being very unhappy about what happened.",
         "answer": "deeply disappointed",
         "options": [
-          "widely believed",
+          "completely different",
           "deeply disappointed",
-          "fully prepared",
-          "seriously ill"
+          "deeply concerned",
+          "deeply grateful"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-13",
         "conceptId": "adjective-collocations:deeply grateful",
-        "sentence": "The expression meaning “feeling strong appreciation” is ___.",
+        "sentence": "Being ___ means being feeling strong appreciation.",
         "answer": "deeply grateful",
         "options": [
           "deeply grateful",
-          "highly effective",
-          "strongly opposed",
-          "widely recognised"
+          "deeply disappointed",
+          "deeply moved",
+          "deeply concerned"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-14",
         "conceptId": "adjective-collocations:deeply moved",
-        "sentence": "The expression meaning “emotionally affected in a strong way” is ___.",
+        "sentence": "Being ___ means being emotionally affected in a strong way.",
         "answer": "deeply moved",
         "options": [
-          "highly likely",
-          "strongly recommended",
-          "vitally important",
+          "deeply grateful",
+          "entirely possible",
+          "deeply disappointed",
           "deeply moved"
         ],
         "hint": "Adjective Collocations"
@@ -22175,51 +22175,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-15",
         "conceptId": "adjective-collocations:entirely possible",
-        "sentence": "The expression meaning “fully capable of happening” is ___.",
+        "sentence": "Being ___ means being fully capable of happening.",
         "answer": "entirely possible",
         "options": [
-          "thoroughly enjoyable",
-          "perfectly normal",
+          "extremely difficult",
+          "deeply grateful",
           "entirely possible",
-          "highly successful"
+          "deeply moved"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-16",
         "conceptId": "adjective-collocations:extremely difficult",
-        "sentence": "The expression meaning “very hard to do” is ___.",
+        "sentence": "Being ___ means being very hard to do.",
         "answer": "extremely difficult",
         "options": [
-          "completely satisfied",
+          "deeply moved",
           "extremely difficult",
-          "incredibly useful",
-          "totally unacceptable"
+          "entirely possible",
+          "fairly common"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-17",
         "conceptId": "adjective-collocations:fairly common",
-        "sentence": "The expression meaning “happening quite often” is ___.",
+        "sentence": "Being ___ means being happening quite often.",
         "answer": "fairly common",
         "options": [
           "fairly common",
-          "perfectly clear",
-          "utterly impossible",
-          "deeply ashamed"
+          "extremely difficult",
+          "fully aware",
+          "entirely possible"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-18",
         "conceptId": "adjective-collocations:fully aware",
-        "sentence": "The expression meaning “knowing all the relevant facts” is ___.",
+        "sentence": "Being ___ means being knowing all the relevant facts.",
         "answer": "fully aware",
         "options": [
-          "reasonably priced",
-          "widely available",
-          "highly competitive",
+          "fairly common",
+          "fully prepared",
+          "extremely difficult",
           "fully aware"
         ],
         "hint": "Adjective Collocations"
@@ -22227,51 +22227,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-19",
         "conceptId": "adjective-collocations:fully prepared",
-        "sentence": "The expression meaning “completely ready” is ___.",
+        "sentence": "Being ___ means being completely ready.",
         "answer": "fully prepared",
         "options": [
-          "widely believed",
-          "remarkably similar",
+          "highly effective",
+          "fairly common",
           "fully prepared",
-          "seriously ill"
+          "fully aware"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-20",
         "conceptId": "adjective-collocations:highly effective",
-        "sentence": "The expression meaning “working extremely well” is ___.",
+        "sentence": "Being ___ means being working extremely well.",
         "answer": "highly effective",
         "options": [
-          "particularly useful",
+          "fully aware",
           "highly effective",
-          "strongly opposed",
-          "widely recognised"
+          "fully prepared",
+          "highly likely"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-21",
         "conceptId": "adjective-collocations:highly likely",
-        "sentence": "The expression meaning “very probable” is ___.",
+        "sentence": "Being ___ means being very probable.",
         "answer": "highly likely",
         "options": [
           "highly likely",
-          "strongly recommended",
-          "vitally important",
-          "increasingly popular"
+          "highly effective",
+          "highly successful",
+          "fully prepared"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-22",
         "conceptId": "adjective-collocations:highly successful",
-        "sentence": "The expression meaning “achieving excellent results” is ___.",
+        "sentence": "Being ___ means being achieving excellent results.",
         "answer": "highly successful",
         "options": [
-          "thoroughly enjoyable",
-          "perfectly normal",
-          "painfully obvious",
+          "highly likely",
+          "incredibly useful",
+          "highly effective",
           "highly successful"
         ],
         "hint": "Adjective Collocations"
@@ -22279,51 +22279,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-23",
         "conceptId": "adjective-collocations:incredibly useful",
-        "sentence": "The expression meaning “helpful to a surprising degree” is ___.",
+        "sentence": "Being ___ means being helpful to a surprising degree.",
         "answer": "incredibly useful",
         "options": [
-          "completely satisfied",
-          "genuinely surprised",
+          "perfectly clear",
+          "highly likely",
           "incredibly useful",
-          "totally unacceptable"
+          "highly successful"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-24",
         "conceptId": "adjective-collocations:perfectly clear",
-        "sentence": "The expression meaning “completely easy to understand” is ___.",
+        "sentence": "Being ___ means being completely easy to understand.",
         "answer": "perfectly clear",
         "options": [
-          "financially independent",
+          "highly successful",
           "perfectly clear",
-          "utterly impossible",
-          "deeply ashamed"
+          "incredibly useful",
+          "reasonably priced"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-25",
         "conceptId": "adjective-collocations:reasonably priced",
-        "sentence": "The expression meaning “not costing too much” is ___.",
+        "sentence": "Being ___ means being not costing too much.",
         "answer": "reasonably priced",
         "options": [
           "reasonably priced",
-          "widely available",
-          "highly competitive",
-          "environmentally friendly"
+          "perfectly clear",
+          "seriously ill",
+          "incredibly useful"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-26",
         "conceptId": "adjective-collocations:seriously ill",
-        "sentence": "The expression meaning “in very poor health” is ___.",
+        "sentence": "Being ___ means being in very poor health.",
         "answer": "seriously ill",
         "options": [
-          "widely believed",
-          "remarkably similar",
-          "technically possible",
+          "reasonably priced",
+          "strongly opposed",
+          "perfectly clear",
           "seriously ill"
         ],
         "hint": "Adjective Collocations"
@@ -22331,51 +22331,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-27",
         "conceptId": "adjective-collocations:strongly opposed",
-        "sentence": "The expression meaning “firmly against something” is ___.",
+        "sentence": "Being ___ means being firmly against something.",
         "answer": "strongly opposed",
         "options": [
-          "particularly useful",
-          "physically demanding",
+          "strongly recommended",
+          "reasonably priced",
           "strongly opposed",
-          "widely recognised"
+          "seriously ill"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-28",
         "conceptId": "adjective-collocations:strongly recommended",
-        "sentence": "The expression meaning “advised with great confidence” is ___.",
+        "sentence": "Being ___ means being advised with great confidence.",
         "answer": "strongly recommended",
         "options": [
-          "socially acceptable",
+          "seriously ill",
           "strongly recommended",
-          "vitally important",
-          "increasingly popular"
+          "strongly opposed",
+          "thoroughly enjoyable"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-29",
         "conceptId": "adjective-collocations:thoroughly enjoyable",
-        "sentence": "The expression meaning “pleasant from beginning to end” is ___.",
+        "sentence": "Being ___ means being pleasant from beginning to end.",
         "answer": "thoroughly enjoyable",
         "options": [
           "thoroughly enjoyable",
-          "perfectly normal",
-          "painfully obvious",
-          "internationally famous"
+          "strongly recommended",
+          "totally unacceptable",
+          "strongly opposed"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-30",
         "conceptId": "adjective-collocations:totally unacceptable",
-        "sentence": "The expression meaning “not permitted in any way” is ___.",
+        "sentence": "Being ___ means being not permitted in any way.",
         "answer": "totally unacceptable",
         "options": [
-          "completely satisfied",
-          "genuinely surprised",
-          "absolutely certain",
+          "thoroughly enjoyable",
+          "utterly impossible",
+          "strongly recommended",
           "totally unacceptable"
         ],
         "hint": "Adjective Collocations"
@@ -22383,51 +22383,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-31",
         "conceptId": "adjective-collocations:utterly impossible",
-        "sentence": "The expression meaning “completely unable to happen” is ___.",
+        "sentence": "Being ___ means being completely unable to happen.",
         "answer": "utterly impossible",
         "options": [
-          "financially independent",
-          "absolutely delighted",
+          "widely available",
+          "thoroughly enjoyable",
           "utterly impossible",
-          "deeply ashamed"
+          "totally unacceptable"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-32",
         "conceptId": "adjective-collocations:widely available",
-        "sentence": "The expression meaning “obtainable in many places” is ___.",
+        "sentence": "Being ___ means being obtainable in many places.",
         "answer": "widely available",
         "options": [
-          "absolutely essential",
+          "totally unacceptable",
           "widely available",
-          "highly competitive",
-          "environmentally friendly"
+          "utterly impossible",
+          "widely believed"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-33",
         "conceptId": "adjective-collocations:widely believed",
-        "sentence": "The expression meaning “accepted as true by many people” is ___.",
+        "sentence": "Being ___ means being accepted as true by many people.",
         "answer": "widely believed",
         "options": [
           "widely believed",
-          "remarkably similar",
-          "technically possible",
-          "badly damaged"
+          "widely available",
+          "widely recognised",
+          "utterly impossible"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-34",
         "conceptId": "adjective-collocations:widely recognised",
-        "sentence": "The expression meaning “known and accepted by many people” is ___.",
+        "sentence": "Being ___ means being known and accepted by many people.",
         "answer": "widely recognised",
         "options": [
-          "particularly useful",
-          "physically demanding",
-          "badly injured",
+          "widely believed",
+          "vitally important",
+          "widely available",
           "widely recognised"
         ],
         "hint": "Adjective Collocations"
@@ -22435,51 +22435,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-35",
         "conceptId": "adjective-collocations:vitally important",
-        "sentence": "The expression meaning “absolutely necessary” is ___.",
+        "sentence": "Being ___ means being absolutely necessary.",
         "answer": "vitally important",
         "options": [
-          "socially acceptable",
-          "bitterly disappointed",
+          "perfectly normal",
+          "widely believed",
           "vitally important",
-          "increasingly popular"
+          "widely recognised"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-36",
         "conceptId": "adjective-collocations:perfectly normal",
-        "sentence": "The expression meaning “not unusual in any way” is ___.",
+        "sentence": "Being ___ means being not unusual in any way.",
         "answer": "perfectly normal",
         "options": [
-          "blissfully unaware",
+          "widely recognised",
           "perfectly normal",
-          "painfully obvious",
-          "internationally famous"
+          "vitally important",
+          "completely satisfied"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-37",
         "conceptId": "adjective-collocations:completely satisfied",
-        "sentence": "The expression meaning “pleased in every respect” is ___.",
+        "sentence": "Being ___ means being pleased in every respect.",
         "answer": "completely satisfied",
         "options": [
           "completely satisfied",
-          "genuinely surprised",
-          "absolutely certain",
-          "closely associated"
+          "perfectly normal",
+          "deeply ashamed",
+          "vitally important"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-38",
         "conceptId": "adjective-collocations:deeply ashamed",
-        "sentence": "The expression meaning “feeling very strong embarrassment or guilt” is ___.",
+        "sentence": "Being ___ means being feeling very strong embarrassment or guilt.",
         "answer": "deeply ashamed",
         "options": [
-          "financially independent",
-          "absolutely delighted",
-          "closely linked",
+          "completely satisfied",
+          "highly competitive",
+          "perfectly normal",
           "deeply ashamed"
         ],
         "hint": "Adjective Collocations"
@@ -22487,51 +22487,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-39",
         "conceptId": "adjective-collocations:highly competitive",
-        "sentence": "The expression meaning “strongly motivated to defeat others” is ___.",
+        "sentence": "Being ___ means being strongly motivated to defeat others.",
         "answer": "highly competitive",
         "options": [
-          "absolutely essential",
-          "completely different",
+          "remarkably similar",
+          "completely satisfied",
           "highly competitive",
-          "environmentally friendly"
+          "deeply ashamed"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-40",
         "conceptId": "adjective-collocations:remarkably similar",
-        "sentence": "The expression meaning “alike to a surprising degree” is ___.",
+        "sentence": "Being ___ means being alike to a surprising degree.",
         "answer": "remarkably similar",
         "options": [
-          "deeply concerned",
+          "deeply ashamed",
           "remarkably similar",
-          "technically possible",
-          "badly damaged"
+          "highly competitive",
+          "particularly useful"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-41",
         "conceptId": "adjective-collocations:particularly useful",
-        "sentence": "The expression meaning “especially helpful” is ___.",
+        "sentence": "Being ___ means being especially helpful.",
         "answer": "particularly useful",
         "options": [
           "particularly useful",
-          "physically demanding",
-          "badly injured",
-          "deeply disappointed"
+          "remarkably similar",
+          "increasingly popular",
+          "highly competitive"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-42",
         "conceptId": "adjective-collocations:increasingly popular",
-        "sentence": "The expression meaning “liked by more people over time” is ___.",
+        "sentence": "Being ___ means being liked by more people over time.",
         "answer": "increasingly popular",
         "options": [
-          "socially acceptable",
-          "bitterly disappointed",
-          "deeply grateful",
+          "particularly useful",
+          "painfully obvious",
+          "remarkably similar",
           "increasingly popular"
         ],
         "hint": "Adjective Collocations"
@@ -22539,51 +22539,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-43",
         "conceptId": "adjective-collocations:painfully obvious",
-        "sentence": "The expression meaning “unpleasantly easy to notice” is ___.",
+        "sentence": "Being ___ means being unpleasantly easy to notice.",
         "answer": "painfully obvious",
         "options": [
-          "blissfully unaware",
-          "deeply moved",
+          "genuinely surprised",
+          "particularly useful",
           "painfully obvious",
-          "internationally famous"
+          "increasingly popular"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-44",
         "conceptId": "adjective-collocations:genuinely surprised",
-        "sentence": "The expression meaning “truly not expecting what happened” is ___.",
+        "sentence": "Being ___ means being truly not expecting what happened.",
         "answer": "genuinely surprised",
         "options": [
-          "entirely possible",
+          "increasingly popular",
           "genuinely surprised",
-          "absolutely certain",
-          "closely associated"
+          "painfully obvious",
+          "financially independent"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-45",
         "conceptId": "adjective-collocations:financially independent",
-        "sentence": "The expression meaning “not needing another person’s money” is ___.",
+        "sentence": "Being ___ means being not needing another person’s money.",
         "answer": "financially independent",
         "options": [
           "financially independent",
-          "absolutely delighted",
-          "closely linked",
-          "extremely difficult"
+          "genuinely surprised",
+          "environmentally friendly",
+          "painfully obvious"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-46",
         "conceptId": "adjective-collocations:environmentally friendly",
-        "sentence": "The expression meaning “causing little harm to nature” is ___.",
+        "sentence": "Being ___ means being causing little harm to nature.",
         "answer": "environmentally friendly",
         "options": [
-          "absolutely essential",
-          "completely different",
-          "fairly common",
+          "financially independent",
+          "technically possible",
+          "genuinely surprised",
           "environmentally friendly"
         ],
         "hint": "Adjective Collocations"
@@ -22591,51 +22591,51 @@ export const QUIZZES = {
       {
         "id": "adjective-collocations-47",
         "conceptId": "adjective-collocations:technically possible",
-        "sentence": "The expression meaning “able to be done with existing technology” is ___.",
+        "sentence": "Being ___ means being able to be done with existing technology.",
         "answer": "technically possible",
         "options": [
-          "deeply concerned",
-          "fully aware",
+          "physically demanding",
+          "financially independent",
           "technically possible",
-          "badly damaged"
+          "environmentally friendly"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-48",
         "conceptId": "adjective-collocations:physically demanding",
-        "sentence": "The expression meaning “requiring considerable bodily effort” is ___.",
+        "sentence": "Being ___ means being requiring considerable bodily effort.",
         "answer": "physically demanding",
         "options": [
-          "fully prepared",
+          "environmentally friendly",
           "physically demanding",
-          "badly injured",
-          "deeply disappointed"
+          "technically possible",
+          "socially acceptable"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-49",
         "conceptId": "adjective-collocations:socially acceptable",
-        "sentence": "The expression meaning “approved by most people in society” is ___.",
+        "sentence": "Being ___ means being approved by most people in society.",
         "answer": "socially acceptable",
         "options": [
           "socially acceptable",
-          "bitterly disappointed",
-          "deeply grateful",
-          "highly effective"
+          "physically demanding",
+          "internationally famous",
+          "technically possible"
         ],
         "hint": "Adjective Collocations"
       },
       {
         "id": "adjective-collocations-50",
         "conceptId": "adjective-collocations:internationally famous",
-        "sentence": "The expression meaning “known by people in many countries” is ___.",
+        "sentence": "Being ___ means being known by people in many countries.",
         "answer": "internationally famous",
         "options": [
-          "blissfully unaware",
-          "deeply moved",
-          "highly likely",
+          "socially acceptable",
+          "absolutely certain",
+          "physically demanding",
           "internationally famous"
         ],
         "hint": "Adjective Collocations"
@@ -22651,25 +22651,25 @@ export const QUIZZES = {
       {
         "id": "communication-01",
         "conceptId": "communication:accent",
-        "sentence": "The term for a particular way of pronouncing a language is ___.",
+        "sentence": "___ refers to a particular way of pronouncing a language.",
         "answer": "accent",
         "options": [
           "accent",
-          "conversation",
-          "feedback",
-          "notification"
+          "interpretation",
+          "body language",
+          "symbol"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-02",
         "conceptId": "communication:body language",
-        "sentence": "The term for communication through physical movement and posture is ___.",
+        "sentence": "___ refers to communication through physical movement and posture.",
         "answer": "body language",
         "options": [
-          "debate",
-          "gesture",
-          "podcast",
+          "accent",
+          "caption",
+          "interpretation",
           "body language"
         ],
         "hint": "Communication & Culture"
@@ -22677,51 +22677,51 @@ export const QUIZZES = {
       {
         "id": "communication-03",
         "conceptId": "communication:caption",
-        "sentence": "The term for short text explaining an image is ___.",
+        "sentence": "___ refers to short text explaining an image.",
         "answer": "caption",
         "options": [
-          "greeting",
-          "post",
+          "chat",
+          "accent",
           "caption",
-          "dialect"
+          "body language"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-04",
         "conceptId": "communication:chat",
-        "sentence": "The term for an informal conversation is ___.",
+        "sentence": "___ refers to an informal conversation.",
         "answer": "chat",
         "options": [
-          "presentation",
+          "body language",
           "chat",
-          "direct message",
-          "intonation"
+          "caption",
+          "clarification"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-05",
         "conceptId": "communication:clarification",
-        "sentence": "The term for an explanation making something easier to understand is ___.",
+        "sentence": "___ refers to an explanation making something easier to understand.",
         "answer": "clarification",
         "options": [
           "clarification",
-          "emoji",
-          "interview",
-          "pronunciation"
+          "chat",
+          "comment",
+          "caption"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-06",
         "conceptId": "communication:comment",
-        "sentence": "The term for a written or spoken opinion is ___.",
+        "sentence": "___ refers to a written or spoken opinion.",
         "answer": "comment",
         "options": [
-          "eye contact",
-          "listener",
-          "public speaking",
+          "clarification",
+          "communication barrier",
+          "chat",
           "comment"
         ],
         "hint": "Communication & Culture"
@@ -22729,51 +22729,51 @@ export const QUIZZES = {
       {
         "id": "communication-07",
         "conceptId": "communication:communication barrier",
-        "sentence": "The term for something preventing clear understanding is ___.",
+        "sentence": "___ refers to something preventing clear understanding.",
         "answer": "communication barrier",
         "options": [
-          "misunderstanding",
-          "questionnaire",
+          "conversation",
+          "clarification",
           "communication barrier",
-          "facial expression"
+          "comment"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-08",
         "conceptId": "communication:conversation",
-        "sentence": "The term for informal spoken exchange between people is ___.",
+        "sentence": "___ refers to informal spoken exchange between people.",
         "answer": "conversation",
         "options": [
-          "reply",
+          "comment",
           "conversation",
-          "feedback",
-          "notification"
+          "communication barrier",
+          "debate"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-09",
         "conceptId": "communication:debate",
-        "sentence": "The term for formal discussion presenting opposing views is ___.",
+        "sentence": "___ refers to formal discussion presenting opposing views.",
         "answer": "debate",
         "options": [
           "debate",
-          "gesture",
-          "podcast",
-          "sign language"
+          "conversation",
+          "dialect",
+          "communication barrier"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-10",
         "conceptId": "communication:dialect",
-        "sentence": "The term for a regional or social form of a language is ___.",
+        "sentence": "___ refers to a regional or social form of a language.",
         "answer": "dialect",
         "options": [
-          "greeting",
-          "post",
-          "speaker",
+          "debate",
+          "direct message",
+          "conversation",
           "dialect"
         ],
         "hint": "Communication & Culture"
@@ -22781,51 +22781,51 @@ export const QUIZZES = {
       {
         "id": "communication-11",
         "conceptId": "communication:direct message",
-        "sentence": "The term for a private message sent on a social platform is ___.",
+        "sentence": "___ refers to a private message sent on a social platform.",
         "answer": "direct message",
         "options": [
-          "presentation",
-          "speech",
+          "emoji",
+          "debate",
           "direct message",
-          "intonation"
+          "dialect"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-12",
         "conceptId": "communication:emoji",
-        "sentence": "The term for a small digital image expressing an idea or emotion is ___.",
+        "sentence": "___ refers to a small digital image expressing an idea or emotion.",
         "answer": "emoji",
         "options": [
-          "status update",
+          "dialect",
           "emoji",
-          "interview",
-          "pronunciation"
+          "direct message",
+          "eye contact"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-13",
         "conceptId": "communication:eye contact",
-        "sentence": "The term for looking directly at another person’s eyes is ___.",
+        "sentence": "___ refers to looking directly at another person’s eyes.",
         "answer": "eye contact",
         "options": [
           "eye contact",
-          "listener",
-          "public speaking",
-          "subtitle"
+          "emoji",
+          "facial expression",
+          "direct message"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-14",
         "conceptId": "communication:facial expression",
-        "sentence": "The term for a look showing a person’s emotion is ___.",
+        "sentence": "___ refers to a look showing a person’s emotion.",
         "answer": "facial expression",
         "options": [
-          "misunderstanding",
-          "questionnaire",
-          "tone of voice",
+          "eye contact",
+          "feedback",
+          "emoji",
           "facial expression"
         ],
         "hint": "Communication & Culture"
@@ -22833,51 +22833,51 @@ export const QUIZZES = {
       {
         "id": "communication-15",
         "conceptId": "communication:feedback",
-        "sentence": "The term for comments intended to help improvement is ___.",
+        "sentence": "___ refers to comments intended to help improvement.",
         "answer": "feedback",
         "options": [
-          "reply",
-          "translation",
+          "gesture",
+          "eye contact",
           "feedback",
-          "notification"
+          "facial expression"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-16",
         "conceptId": "communication:gesture",
-        "sentence": "The term for a hand or body movement communicating meaning is ___.",
+        "sentence": "___ refers to a hand or body movement communicating meaning.",
         "answer": "gesture",
         "options": [
-          "video call",
+          "facial expression",
           "gesture",
-          "podcast",
-          "sign language"
+          "feedback",
+          "greeting"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-17",
         "conceptId": "communication:greeting",
-        "sentence": "The term for words or actions used when meeting someone is ___.",
+        "sentence": "___ refers to words or actions used when meeting someone.",
         "answer": "greeting",
         "options": [
           "greeting",
-          "post",
-          "speaker",
-          "voice message"
+          "gesture",
+          "intonation",
+          "feedback"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-18",
         "conceptId": "communication:intonation",
-        "sentence": "The term for the rise and fall of the voice while speaking is ___.",
+        "sentence": "___ refers to the rise and fall of the voice while speaking.",
         "answer": "intonation",
         "options": [
-          "presentation",
-          "speech",
-          "friendship",
+          "greeting",
+          "interview",
+          "gesture",
           "intonation"
         ],
         "hint": "Communication & Culture"
@@ -22885,51 +22885,51 @@ export const QUIZZES = {
       {
         "id": "communication-19",
         "conceptId": "communication:interview",
-        "sentence": "The term for a conversation in which questions are asked is ___.",
+        "sentence": "___ refers to a conversation in which questions are asked.",
         "answer": "interview",
         "options": [
-          "status update",
-          "trust",
+          "listener",
+          "greeting",
           "interview",
-          "pronunciation"
+          "intonation"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-20",
         "conceptId": "communication:listener",
-        "sentence": "The term for a person paying attention to speech or sound is ___.",
+        "sentence": "___ refers to a person paying attention to speech or sound.",
         "answer": "listener",
         "options": [
-          "custom",
+          "intonation",
           "listener",
-          "public speaking",
-          "subtitle"
+          "interview",
+          "misunderstanding"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-21",
         "conceptId": "communication:misunderstanding",
-        "sentence": "The term for a failure to interpret something correctly is ___.",
+        "sentence": "___ refers to a failure to interpret something correctly.",
         "answer": "misunderstanding",
         "options": [
           "misunderstanding",
-          "questionnaire",
-          "tone of voice",
-          "tradition"
+          "listener",
+          "notification",
+          "interview"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-22",
         "conceptId": "communication:notification",
-        "sentence": "The term for an automatic message announcing new activity is ___.",
+        "sentence": "___ refers to an automatic message announcing new activity.",
         "answer": "notification",
         "options": [
-          "reply",
-          "translation",
-          "identity",
+          "misunderstanding",
+          "podcast",
+          "listener",
           "notification"
         ],
         "hint": "Communication & Culture"
@@ -22937,51 +22937,51 @@ export const QUIZZES = {
       {
         "id": "communication-23",
         "conceptId": "communication:podcast",
-        "sentence": "The term for a digital audio programme available online is ___.",
+        "sentence": "___ refers to a digital audio programme available online.",
         "answer": "podcast",
         "options": [
-          "video call",
-          "stereotype",
+          "post",
+          "misunderstanding",
           "podcast",
-          "sign language"
+          "notification"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-24",
         "conceptId": "communication:post",
-        "sentence": "The term for content published on a social platform is ___.",
+        "sentence": "___ refers to content published on a social platform.",
         "answer": "post",
         "options": [
-          "etiquette",
+          "notification",
           "post",
-          "speaker",
-          "voice message"
+          "podcast",
+          "presentation"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-25",
         "conceptId": "communication:presentation",
-        "sentence": "The term for an organised talk given to an audience is ___.",
+        "sentence": "___ refers to an organised talk given to an audience.",
         "answer": "presentation",
         "options": [
           "presentation",
-          "speech",
-          "friendship",
-          "multicultural"
+          "post",
+          "pronunciation",
+          "podcast"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-26",
         "conceptId": "communication:pronunciation",
-        "sentence": "The term for the way a word is spoken is ___.",
+        "sentence": "___ refers to the way a word is spoken.",
         "answer": "pronunciation",
         "options": [
-          "status update",
-          "trust",
-          "community",
+          "presentation",
+          "public speaking",
+          "post",
           "pronunciation"
         ],
         "hint": "Communication & Culture"
@@ -22989,51 +22989,51 @@ export const QUIZZES = {
       {
         "id": "communication-27",
         "conceptId": "communication:public speaking",
-        "sentence": "The term for talking formally to an audience is ___.",
+        "sentence": "___ refers to talking formally to an audience.",
         "answer": "public speaking",
         "options": [
-          "custom",
-          "generation",
+          "questionnaire",
+          "presentation",
           "public speaking",
-          "subtitle"
+          "pronunciation"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-28",
         "conceptId": "communication:questionnaire",
-        "sentence": "The term for a written set of questions for collecting information is ___.",
+        "sentence": "___ refers to a written set of questions for collecting information.",
         "answer": "questionnaire",
         "options": [
-          "symbol",
+          "pronunciation",
           "questionnaire",
-          "tone of voice",
-          "tradition"
+          "public speaking",
+          "reply"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-29",
         "conceptId": "communication:reply",
-        "sentence": "The term for an answer to a message or question is ___.",
+        "sentence": "___ refers to an answer to a message or question.",
         "answer": "reply",
         "options": [
           "reply",
-          "translation",
-          "identity",
-          "interpretation"
+          "questionnaire",
+          "sign language",
+          "public speaking"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-30",
         "conceptId": "communication:sign language",
-        "sentence": "The term for communication using hand shapes and movement is ___.",
+        "sentence": "___ refers to communication using hand shapes and movement.",
         "answer": "sign language",
         "options": [
-          "video call",
-          "stereotype",
-          "accent",
+          "reply",
+          "speaker",
+          "questionnaire",
           "sign language"
         ],
         "hint": "Communication & Culture"
@@ -23041,51 +23041,51 @@ export const QUIZZES = {
       {
         "id": "communication-31",
         "conceptId": "communication:speaker",
-        "sentence": "The term for a person addressing others is ___.",
+        "sentence": "___ refers to a person addressing others.",
         "answer": "speaker",
         "options": [
-          "etiquette",
-          "body language",
+          "speech",
+          "reply",
           "speaker",
-          "voice message"
+          "sign language"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-32",
         "conceptId": "communication:speech",
-        "sentence": "The term for a formal spoken presentation is ___.",
+        "sentence": "___ refers to a formal spoken presentation.",
         "answer": "speech",
         "options": [
-          "caption",
+          "sign language",
           "speech",
-          "friendship",
-          "multicultural"
+          "speaker",
+          "status update"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-33",
         "conceptId": "communication:status update",
-        "sentence": "The term for a short online message about current activity is ___.",
+        "sentence": "___ refers to a short online message about current activity.",
         "answer": "status update",
         "options": [
           "status update",
-          "trust",
-          "community",
-          "chat"
+          "speech",
+          "subtitle",
+          "speaker"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-34",
         "conceptId": "communication:subtitle",
-        "sentence": "The term for written dialogue displayed on a screen is ___.",
+        "sentence": "___ refers to written dialogue displayed on a screen.",
         "answer": "subtitle",
         "options": [
-          "custom",
-          "generation",
-          "clarification",
+          "status update",
+          "tone of voice",
+          "speech",
           "subtitle"
         ],
         "hint": "Communication & Culture"
@@ -23093,51 +23093,51 @@ export const QUIZZES = {
       {
         "id": "communication-35",
         "conceptId": "communication:tone of voice",
-        "sentence": "The term for the vocal quality showing attitude or emotion is ___.",
+        "sentence": "___ refers to the vocal quality showing attitude or emotion.",
         "answer": "tone of voice",
         "options": [
-          "symbol",
-          "comment",
+          "translation",
+          "status update",
           "tone of voice",
-          "tradition"
+          "subtitle"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-36",
         "conceptId": "communication:translation",
-        "sentence": "The term for text or speech changed into another language is ___.",
+        "sentence": "___ refers to text or speech changed into another language.",
         "answer": "translation",
         "options": [
-          "communication barrier",
+          "subtitle",
           "translation",
-          "identity",
-          "interpretation"
+          "tone of voice",
+          "video call"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-37",
         "conceptId": "communication:video call",
-        "sentence": "The term for a live conversation using sound and moving images is ___.",
+        "sentence": "___ refers to a live conversation using sound and moving images.",
         "answer": "video call",
         "options": [
           "video call",
-          "stereotype",
-          "accent",
-          "conversation"
+          "translation",
+          "voice message",
+          "tone of voice"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-38",
         "conceptId": "communication:voice message",
-        "sentence": "The term for a recorded spoken message is ___.",
+        "sentence": "___ refers to a recorded spoken message.",
         "answer": "voice message",
         "options": [
-          "etiquette",
-          "body language",
-          "debate",
+          "video call",
+          "friendship",
+          "translation",
           "voice message"
         ],
         "hint": "Communication & Culture"
@@ -23145,51 +23145,51 @@ export const QUIZZES = {
       {
         "id": "communication-39",
         "conceptId": "communication:friendship",
-        "sentence": "The term for a close relationship between friends is ___.",
+        "sentence": "___ refers to a close relationship between friends.",
         "answer": "friendship",
         "options": [
-          "caption",
-          "dialect",
+          "trust",
+          "video call",
           "friendship",
-          "multicultural"
+          "voice message"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-40",
         "conceptId": "communication:trust",
-        "sentence": "The term for belief that another person is honest and reliable is ___.",
+        "sentence": "___ refers to belief that another person is honest and reliable.",
         "answer": "trust",
         "options": [
-          "direct message",
+          "voice message",
           "trust",
-          "community",
-          "chat"
+          "friendship",
+          "custom"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-41",
         "conceptId": "communication:custom",
-        "sentence": "The term for a traditional way of behaving is ___.",
+        "sentence": "___ refers to a traditional way of behaving.",
         "answer": "custom",
         "options": [
           "custom",
-          "generation",
-          "clarification",
-          "emoji"
+          "trust",
+          "tradition",
+          "friendship"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-42",
         "conceptId": "communication:tradition",
-        "sentence": "The term for a belief or practice continued over generations is ___.",
+        "sentence": "___ refers to a belief or practice continued over generations.",
         "answer": "tradition",
         "options": [
-          "symbol",
-          "comment",
-          "eye contact",
+          "custom",
+          "identity",
+          "trust",
           "tradition"
         ],
         "hint": "Communication & Culture"
@@ -23197,51 +23197,51 @@ export const QUIZZES = {
       {
         "id": "communication-43",
         "conceptId": "communication:identity",
-        "sentence": "The term for the qualities defining a person or group is ___.",
+        "sentence": "___ refers to the qualities defining a person or group.",
         "answer": "identity",
         "options": [
-          "communication barrier",
-          "facial expression",
+          "stereotype",
+          "custom",
           "identity",
-          "interpretation"
+          "tradition"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-44",
         "conceptId": "communication:stereotype",
-        "sentence": "The term for an oversimplified fixed idea about a group is ___.",
+        "sentence": "___ refers to an oversimplified fixed idea about a group.",
         "answer": "stereotype",
         "options": [
-          "feedback",
+          "tradition",
           "stereotype",
-          "accent",
-          "conversation"
+          "identity",
+          "etiquette"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-45",
         "conceptId": "communication:etiquette",
-        "sentence": "The term for accepted rules of polite behaviour is ___.",
+        "sentence": "___ refers to accepted rules of polite behaviour.",
         "answer": "etiquette",
         "options": [
           "etiquette",
-          "body language",
-          "debate",
-          "gesture"
+          "stereotype",
+          "multicultural",
+          "identity"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-46",
         "conceptId": "communication:multicultural",
-        "sentence": "The term for including people or traditions from several cultures is ___.",
+        "sentence": "___ refers to including people or traditions from several cultures.",
         "answer": "multicultural",
         "options": [
-          "caption",
-          "dialect",
-          "greeting",
+          "etiquette",
+          "community",
+          "stereotype",
           "multicultural"
         ],
         "hint": "Communication & Culture"
@@ -23249,51 +23249,51 @@ export const QUIZZES = {
       {
         "id": "communication-47",
         "conceptId": "communication:community",
-        "sentence": "The term for people connected by place or shared interests is ___.",
+        "sentence": "___ refers to people connected by place or shared interests.",
         "answer": "community",
         "options": [
-          "direct message",
-          "intonation",
+          "generation",
+          "etiquette",
           "community",
-          "chat"
+          "multicultural"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-48",
         "conceptId": "communication:generation",
-        "sentence": "The term for people born during a similar period is ___.",
+        "sentence": "___ refers to people born during a similar period.",
         "answer": "generation",
         "options": [
-          "interview",
+          "multicultural",
           "generation",
-          "clarification",
-          "emoji"
+          "community",
+          "symbol"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-49",
         "conceptId": "communication:symbol",
-        "sentence": "The term for an image or object representing an idea is ___.",
+        "sentence": "___ refers to an image or object representing an idea.",
         "answer": "symbol",
         "options": [
           "symbol",
-          "comment",
-          "eye contact",
-          "listener"
+          "generation",
+          "interpretation",
+          "community"
         ],
         "hint": "Communication & Culture"
       },
       {
         "id": "communication-50",
         "conceptId": "communication:interpretation",
-        "sentence": "The term for a particular understanding of meaning is ___.",
+        "sentence": "___ refers to a particular understanding of meaning.",
         "answer": "interpretation",
         "options": [
-          "communication barrier",
-          "facial expression",
-          "misunderstanding",
+          "symbol",
+          "accent",
+          "generation",
           "interpretation"
         ],
         "hint": "Communication & Culture"
@@ -23307,654 +23307,654 @@ export const QUIZZES = {
     "kind": "focused",
     "questions": [
       {
-        "sentence": "The modal expression for this situation is ___: a rule makes protective headwear obligatory.",
-        "answer": "must wear a helmet",
-        "options": [
-          "must wear a helmet",
-          "would help me",
-          "would rather stay home",
-          "might not attend"
-        ],
         "id": "modal-verbs-01",
-        "conceptId": "modal-verbs:concept-01",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-01",
+        "sentence": "Cyclists ___ wear a helmet on this track.",
+        "answer": "must",
+        "options": [
+          "must",
+          "might",
+          "could",
+          "would"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a polite request asks permission to use equipment.",
-        "answer": "could borrow the camera",
-        "options": [
-          "can speak three languages",
-          "had better leave now",
-          "need to recharge the battery",
-          "could borrow the camera"
-        ],
         "id": "modal-verbs-02",
-        "conceptId": "modal-verbs:concept-02",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-02",
+        "sentence": "___ I borrow your camera for the project?",
+        "answer": "Could",
+        "options": [
+          "Could",
+          "Must",
+          "Need",
+          "Should have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: available evidence leads to a strong positive deduction.",
-        "answer": "must be at home",
-        "options": [
-          "be able to finish",
-          "mustn’t touch the artwork",
-          "must be at home",
-          "could swim at five"
-        ],
         "id": "modal-verbs-03",
-        "conceptId": "modal-verbs:concept-03",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-03",
+        "sentence": "The lights are on, so Maya ___ be at home.",
+        "answer": "must",
+        "options": [
+          "must",
+          "can't",
+          "shouldn't",
+          "would"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: known facts make an identity impossible.",
-        "answer": "can’t be Leo",
-        "options": [
-          "don’t need to book",
-          "can’t be Leo",
-          "shouldn’t waste water",
-          "may not know the answer"
-        ],
         "id": "modal-verbs-04",
-        "conceptId": "modal-verbs:concept-04",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-04",
+        "sentence": "That ___ be Leo; he is travelling abroad.",
+        "answer": "can't",
+        "options": [
+          "can't",
+          "must",
+          "should",
+          "has to"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a future visit is possible but uncertain.",
-        "answer": "might visit the exhibition",
-        "options": [
-          "might visit the exhibition",
-          "ought to apologise",
-          "must finish by Friday",
-          "was able to solve it"
-        ],
         "id": "modal-verbs-05",
-        "conceptId": "modal-verbs:concept-05",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-05",
+        "sentence": "We ___ visit the exhibition tomorrow if we finish early.",
+        "answer": "might",
+        "options": [
+          "might",
+          "must",
+          "need",
+          "ought to"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a rule prohibits taking food inside.",
-        "answer": "mustn’t bring food",
-        "options": [
-          "have to show identification",
-          "can use the library",
-          "couldn’t understand the accent",
-          "mustn’t bring food"
-        ],
         "id": "modal-verbs-06",
-        "conceptId": "modal-verbs:concept-06",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-06",
+        "sentence": "Visitors ___ bring food into the laboratory.",
+        "answer": "mustn't",
+        "options": [
+          "mustn't",
+          "don't have to",
+          "couldn't",
+          "might not"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: submission today is optional rather than forbidden.",
-        "answer": "don’t have to submit today",
-        "options": [
-          "could you repeat that",
-          "may I come in",
-          "don’t have to submit today",
-          "needn’t print the form"
-        ],
         "id": "modal-verbs-07",
-        "conceptId": "modal-verbs:concept-07",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-07",
+        "sentence": "You ___ submit the form today; Friday is also fine.",
+        "answer": "don't have to",
+        "options": [
+          "don't have to",
+          "mustn't",
+          "can't",
+          "shouldn't"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: checking conditions is sensible advice.",
-        "answer": "should check the weather",
-        "options": [
-          "can I ask a question",
-          "should check the weather",
-          "must have forgotten",
-          "shall we start"
-        ],
         "id": "modal-verbs-08",
-        "conceptId": "modal-verbs:concept-08",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-08",
+        "sentence": "You ___ check the weather before hiking.",
+        "answer": "should",
+        "options": [
+          "should",
+          "may",
+          "can't",
+          "mustn't"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a delay is a realistic possibility.",
-        "answer": "may arrive late",
-        "options": [
-          "may arrive late",
-          "can’t have seen the message",
-          "will you close the window",
-          "should take a break"
-        ],
         "id": "modal-verbs-09",
-        "conceptId": "modal-verbs:concept-09",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-09",
+        "sentence": "The train ___ arrive late because of the storm.",
+        "answer": "may",
+        "options": [
+          "may",
+          "must",
+          "shouldn't",
+          "has to"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a polite request asks someone for assistance.",
-        "answer": "would help me",
-        "options": [
-          "might have taken the bus",
-          "would you mind waiting",
-          "ought not to drive",
-          "would help me"
-        ],
         "id": "modal-verbs-10",
-        "conceptId": "modal-verbs:concept-10",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-10",
+        "sentence": "___ you mind helping me move this table?",
+        "answer": "Would",
+        "options": [
+          "Would",
+          "Must",
+          "Should",
+          "Need"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: someone has a present ability with languages.",
-        "answer": "can speak three languages",
-        "options": [
-          "should be arriving soon",
-          "have got to hurry",
-          "can speak three languages",
-          "should have called earlier"
-        ],
         "id": "modal-verbs-11",
-        "conceptId": "modal-verbs:concept-11",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-11",
+        "sentence": "Sofia ___ speak three languages fluently.",
+        "answer": "can",
+        "options": [
+          "can",
+          "must",
+          "should",
+          "may have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: someone had a general ability in childhood.",
-        "answer": "could swim at five",
-        "options": [
-          "would always visit",
-          "could swim at five",
-          "could have won",
-          "must be joking"
-        ],
         "id": "modal-verbs-12",
-        "conceptId": "modal-verbs:concept-12",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-12",
+        "sentence": "Omar ___ swim before he started primary school.",
+        "answer": "could",
+        "options": [
+          "could",
+          "can",
+          "must",
+          "should"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: advice recommends avoiding unnecessary water use.",
-        "answer": "shouldn’t waste water",
-        "options": [
-          "shouldn’t waste water",
-          "would rather stay home",
-          "can’t be serious",
-          "used to be able to run"
-        ],
         "id": "modal-verbs-13",
-        "conceptId": "modal-verbs:concept-13",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-13",
+        "sentence": "We ___ waste clean water when supplies are limited.",
+        "answer": "shouldn't",
+        "options": [
+          "shouldn't",
+          "don't have to",
+          "might not",
+          "couldn't"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: the morally appropriate action is saying sorry.",
-        "answer": "ought to apologise",
-        "options": [
-          "had better leave now",
-          "might not attend",
-          "might be working",
-          "ought to apologise"
-        ],
         "id": "modal-verbs-14",
-        "conceptId": "modal-verbs:concept-14",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-14",
+        "sentence": "You ___ apologise for breaking her camera.",
+        "answer": "ought to",
+        "options": [
+          "ought to",
+          "may",
+          "can",
+          "would"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: an external rule requires proof of identity.",
-        "answer": "have to show identification",
-        "options": [
-          "need to recharge the battery",
-          "must have been waiting",
-          "have to show identification",
-          "be able to finish"
-        ],
         "id": "modal-verbs-15",
-        "conceptId": "modal-verbs:concept-15",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-15",
+        "sentence": "All guests ___ show identification at reception.",
+        "answer": "have to",
+        "options": [
+          "have to",
+          "might",
+          "could",
+          "would rather"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: printing a document is unnecessary.",
-        "answer": "needn’t print the form",
-        "options": [
-          "can’t have been sleeping",
-          "needn’t print the form",
-          "may not know the answer",
-          "mustn’t touch the artwork"
-        ],
         "id": "modal-verbs-16",
-        "conceptId": "modal-verbs:concept-16",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-16",
+        "sentence": "You ___ print the form; a digital copy is accepted.",
+        "answer": "needn't",
+        "options": [
+          "needn't",
+          "mustn't",
+          "can't",
+          "shouldn't"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: evidence supports a strong deduction about the past.",
-        "answer": "must have forgotten",
-        "options": [
-          "must have forgotten",
-          "must finish by Friday",
-          "don’t need to book",
-          "must wear a helmet"
-        ],
         "id": "modal-verbs-17",
-        "conceptId": "modal-verbs:concept-17",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-17",
+        "sentence": "Daniel isn't answering; he ___ forgotten about the meeting.",
+        "answer": "must have",
+        "options": [
+          "must have",
+          "should have",
+          "can't have",
+          "would have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a past event is logically impossible.",
-        "answer": "can’t have seen the message",
-        "options": [
-          "can use the library",
-          "was able to solve it",
-          "could borrow the camera",
-          "can’t have seen the message"
-        ],
         "id": "modal-verbs-18",
-        "conceptId": "modal-verbs:concept-18",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-18",
+        "sentence": "Nora replied immediately, so she ___ missed the message.",
+        "answer": "can't have",
+        "options": [
+          "can't have",
+          "must have",
+          "should have",
+          "would have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: one possible past explanation involves bus travel.",
-        "answer": "might have taken the bus",
-        "options": [
-          "couldn’t understand the accent",
-          "must be at home",
-          "might have taken the bus",
-          "could you repeat that"
-        ],
         "id": "modal-verbs-19",
-        "conceptId": "modal-verbs:concept-19",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-19",
+        "sentence": "Leo arrived after us; he ___ taken a later bus.",
+        "answer": "might have",
+        "options": [
+          "might have",
+          "must",
+          "should",
+          "can't"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: criticism concerns a call that did not happen.",
-        "answer": "should have called earlier",
-        "options": [
-          "can’t be Leo",
-          "should have called earlier",
-          "shall we start",
-          "may I come in"
-        ],
         "id": "modal-verbs-20",
-        "conceptId": "modal-verbs:concept-20",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-20",
+        "sentence": "You ___ called earlier; we were worried about you.",
+        "answer": "should have",
+        "options": [
+          "should have",
+          "might have",
+          "must have",
+          "couldn't have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a past victory was possible but did not happen.",
-        "answer": "could have won",
-        "options": [
-          "could have won",
-          "will you close the window",
-          "can I ask a question",
-          "might visit the exhibition"
-        ],
         "id": "modal-verbs-21",
-        "conceptId": "modal-verbs:concept-21",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-21",
+        "sentence": "With a stronger final answer, Maya ___ won the competition.",
+        "answer": "could have",
+        "options": [
+          "could have",
+          "must have",
+          "should",
+          "will have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: someone prefers remaining at home.",
-        "answer": "would rather stay home",
-        "options": [
-          "would you mind waiting",
-          "should take a break",
-          "mustn’t bring food",
-          "would rather stay home"
-        ],
         "id": "modal-verbs-22",
-        "conceptId": "modal-verbs:concept-22",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-22",
+        "sentence": "I ___ stay home than go out in this weather.",
+        "answer": "would rather",
+        "options": [
+          "would rather",
+          "had better",
+          "ought to",
+          "used to"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: strong advice recommends immediate departure.",
-        "answer": "had better leave now",
-        "options": [
-          "ought not to drive",
-          "don’t have to submit today",
-          "had better leave now",
-          "should be arriving soon"
-        ],
         "id": "modal-verbs-23",
-        "conceptId": "modal-verbs:concept-23",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-23",
+        "sentence": "The last bus leaves in five minutes; we ___ go now.",
+        "answer": "had better",
+        "options": [
+          "had better",
+          "would rather",
+          "used to",
+          "might have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: future ability concerns completing a task.",
-        "answer": "be able to finish",
-        "options": [
-          "should check the weather",
-          "be able to finish",
-          "must be joking",
-          "have got to hurry"
-        ],
         "id": "modal-verbs-24",
-        "conceptId": "modal-verbs:concept-24",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-24",
+        "sentence": "After more practice, you will ___ finish the route alone.",
+        "answer": "be able to",
+        "options": [
+          "be able to",
+          "can",
+          "could",
+          "have to"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: it is possible that someone lacks information.",
-        "answer": "may not know the answer",
-        "options": [
-          "may not know the answer",
-          "can’t be serious",
-          "would always visit",
-          "may arrive late"
-        ],
         "id": "modal-verbs-25",
-        "conceptId": "modal-verbs:concept-25",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-25",
+        "sentence": "Emma ___ know the answer, so give her time to check.",
+        "answer": "may not",
+        "options": [
+          "may not",
+          "mustn't",
+          "can't have",
+          "shouldn't have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a deadline creates a strong obligation.",
-        "answer": "must finish by Friday",
-        "options": [
-          "might not attend",
-          "used to be able to run",
-          "would help me",
-          "must finish by Friday"
-        ],
         "id": "modal-verbs-26",
-        "conceptId": "modal-verbs:concept-26",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-26",
+        "sentence": "Every team ___ finish the project by Friday.",
+        "answer": "must",
+        "options": [
+          "must",
+          "might",
+          "could",
+          "would"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: permission allows access to a place.",
-        "answer": "can use the library",
-        "options": [
-          "might be working",
-          "can speak three languages",
-          "can use the library",
-          "need to recharge the battery"
-        ],
         "id": "modal-verbs-27",
-        "conceptId": "modal-verbs:concept-27",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-27",
+        "sentence": "Students ___ use the library after class.",
+        "answer": "can",
+        "options": [
+          "can",
+          "must",
+          "should have",
+          "need"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a polite request asks for words again.",
-        "answer": "could you repeat that",
-        "options": [
-          "could swim at five",
-          "could you repeat that",
-          "mustn’t touch the artwork",
-          "must have been waiting"
-        ],
         "id": "modal-verbs-28",
-        "conceptId": "modal-verbs:concept-28",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-28",
+        "sentence": "___ you repeat the final sentence, please?",
+        "answer": "Could",
+        "options": [
+          "Could",
+          "Must",
+          "Need",
+          "Should have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a speaker suggests beginning together.",
-        "answer": "shall we start",
-        "options": [
-          "shall we start",
-          "don’t need to book",
-          "can’t have been sleeping",
-          "shouldn’t waste water"
-        ],
         "id": "modal-verbs-29",
-        "conceptId": "modal-verbs:concept-29",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-29",
+        "sentence": "___ we start with the easiest question?",
+        "answer": "Shall",
+        "options": [
+          "Shall",
+          "Must",
+          "Need",
+          "Would have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a request asks someone to shut something.",
-        "answer": "will you close the window",
-        "options": [
-          "was able to solve it",
-          "must wear a helmet",
-          "ought to apologise",
-          "will you close the window"
-        ],
         "id": "modal-verbs-30",
-        "conceptId": "modal-verbs:concept-30",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-30",
+        "sentence": "___ you close the window before you leave?",
+        "answer": "Will",
+        "options": [
+          "Will",
+          "Must",
+          "Shall",
+          "Need"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a very polite request asks for patience.",
-        "answer": "would you mind waiting",
-        "options": [
-          "could borrow the camera",
-          "have to show identification",
-          "would you mind waiting",
-          "couldn’t understand the accent"
-        ],
         "id": "modal-verbs-31",
-        "conceptId": "modal-verbs:concept-31",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-31",
+        "sentence": "___ you mind waiting outside for a moment?",
+        "answer": "Would",
+        "options": [
+          "Would",
+          "Should",
+          "Must",
+          "Need"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: an expected arrival is likely in the near future.",
-        "answer": "should be arriving soon",
-        "options": [
-          "needn’t print the form",
-          "should be arriving soon",
-          "may I come in",
-          "must be at home"
-        ],
         "id": "modal-verbs-32",
-        "conceptId": "modal-verbs:concept-32",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-32",
+        "sentence": "The performers ___ be arriving soon; the show starts at eight.",
+        "answer": "should",
+        "options": [
+          "should",
+          "mustn't",
+          "can't have",
+          "would rather"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: evidence makes humorous intent almost certain.",
-        "answer": "must be joking",
-        "options": [
-          "must be joking",
-          "can I ask a question",
-          "can’t be Leo",
-          "must have forgotten"
-        ],
         "id": "modal-verbs-33",
-        "conceptId": "modal-verbs:concept-33",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-33",
+        "sentence": "You ___ be joking; nobody would paint the classroom purple.",
+        "answer": "must",
+        "options": [
+          "must",
+          "should",
+          "might not",
+          "would"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a statement seems impossible to believe sincerely.",
-        "answer": "can’t be serious",
-        "options": [
-          "should take a break",
-          "might visit the exhibition",
-          "can’t have seen the message",
-          "can’t be serious"
-        ],
         "id": "modal-verbs-34",
-        "conceptId": "modal-verbs:concept-34",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-34",
+        "sentence": "He ___ be serious; his explanation contradicts every known fact.",
+        "answer": "can't",
+        "options": [
+          "can't",
+          "must",
+          "should",
+          "has to"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: absence is a possible future outcome.",
-        "answer": "might not attend",
-        "options": [
-          "mustn’t bring food",
-          "might have taken the bus",
-          "might not attend",
-          "ought not to drive"
-        ],
         "id": "modal-verbs-35",
-        "conceptId": "modal-verbs:concept-35",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-35",
+        "sentence": "Grace ___ attend the picnic if she still feels ill tomorrow.",
+        "answer": "might not",
+        "options": [
+          "might not",
+          "mustn't",
+          "doesn't have to",
+          "can't have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a low battery creates a necessity.",
-        "answer": "need to recharge the battery",
-        "options": [
-          "should have called earlier",
-          "need to recharge the battery",
-          "have got to hurry",
-          "don’t have to submit today"
-        ],
         "id": "modal-verbs-36",
-        "conceptId": "modal-verbs:concept-36",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-36",
+        "sentence": "The battery is almost empty, so we ___ recharge it.",
+        "answer": "need to",
+        "options": [
+          "need to",
+          "might",
+          "would rather",
+          "used to"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a museum rule strictly prohibits contact.",
-        "answer": "mustn’t touch the artwork",
-        "options": [
-          "mustn’t touch the artwork",
-          "would always visit",
-          "should check the weather",
-          "could have won"
-        ],
         "id": "modal-verbs-37",
-        "conceptId": "modal-verbs:concept-37",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-37",
+        "sentence": "Museum visitors ___ touch the artwork.",
+        "answer": "mustn't",
+        "options": [
+          "mustn't",
+          "don't need to",
+          "couldn't",
+          "might not"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: making a reservation is unnecessary.",
-        "answer": "don’t need to book",
-        "options": [
-          "used to be able to run",
-          "may arrive late",
-          "would rather stay home",
-          "don’t need to book"
-        ],
         "id": "modal-verbs-38",
-        "conceptId": "modal-verbs:concept-38",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-38",
+        "sentence": "You ___ book a seat; entry is free and unrestricted.",
+        "answer": "don't need to",
+        "options": [
+          "don't need to",
+          "mustn't",
+          "can't",
+          "shouldn't have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: someone succeeded in one particular past situation.",
-        "answer": "was able to solve it",
-        "options": [
-          "would help me",
-          "had better leave now",
-          "was able to solve it",
-          "might be working"
-        ],
         "id": "modal-verbs-39",
-        "conceptId": "modal-verbs:concept-39",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-39",
+        "sentence": "Although the puzzle was difficult, Ben ___ solve it in the end.",
+        "answer": "was able to",
+        "options": [
+          "was able to",
+          "could",
+          "must",
+          "should"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: someone lacked a past ability to comprehend speech.",
-        "answer": "couldn’t understand the accent",
-        "options": [
-          "be able to finish",
-          "couldn’t understand the accent",
-          "must have been waiting",
-          "can speak three languages"
-        ],
         "id": "modal-verbs-40",
-        "conceptId": "modal-verbs:concept-40",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-40",
+        "sentence": "I ___ understand the guide because the microphone was broken.",
+        "answer": "couldn't",
+        "options": [
+          "couldn't",
+          "mustn't",
+          "shouldn't",
+          "wouldn't have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a formal request asks permission to enter.",
-        "answer": "may I come in",
-        "options": [
-          "may I come in",
-          "can’t have been sleeping",
-          "could swim at five",
-          "may not know the answer"
-        ],
         "id": "modal-verbs-41",
-        "conceptId": "modal-verbs:concept-41",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-41",
+        "sentence": "___ I come in, please?",
+        "answer": "May",
+        "options": [
+          "May",
+          "Should",
+          "Must",
+          "Would"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: an informal request asks permission to speak.",
-        "answer": "can I ask a question",
-        "options": [
-          "must wear a helmet",
-          "shouldn’t waste water",
-          "must finish by Friday",
-          "can I ask a question"
-        ],
         "id": "modal-verbs-42",
-        "conceptId": "modal-verbs:concept-42",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-42",
+        "sentence": "___ I ask you a quick question?",
+        "answer": "Can",
+        "options": [
+          "Can",
+          "Must",
+          "Need",
+          "Shall"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: advice recommends resting for a short time.",
-        "answer": "should take a break",
-        "options": [
-          "ought to apologise",
-          "can use the library",
-          "should take a break",
-          "could borrow the camera"
-        ],
         "id": "modal-verbs-43",
-        "conceptId": "modal-verbs:concept-43",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-43",
+        "sentence": "You look exhausted; you ___ take a short break.",
+        "answer": "should",
+        "options": [
+          "should",
+          "may have",
+          "can't",
+          "mustn't"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: advice recommends avoiding driving.",
-        "answer": "ought not to drive",
-        "options": [
-          "could you repeat that",
-          "ought not to drive",
-          "must be at home",
-          "have to show identification"
-        ],
         "id": "modal-verbs-44",
-        "conceptId": "modal-verbs:concept-44",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-44",
+        "sentence": "You ___ drive until the doctor confirms that you are well enough.",
+        "answer": "ought not to",
+        "options": [
+          "ought not to",
+          "don't have to",
+          "might not",
+          "couldn't have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: the situation creates an urgent necessity.",
-        "answer": "have got to hurry",
-        "options": [
-          "have got to hurry",
-          "can’t be Leo",
-          "needn’t print the form",
-          "shall we start"
-        ],
         "id": "modal-verbs-45",
-        "conceptId": "modal-verbs:concept-45",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-45",
+        "sentence": "The doors are about to close—we ___ hurry.",
+        "answer": "have got to",
+        "options": [
+          "have got to",
+          "used to",
+          "would rather",
+          "might have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a repeated characteristic action happened in the past.",
-        "answer": "would always visit",
-        "options": [
-          "might visit the exhibition",
-          "must have forgotten",
-          "will you close the window",
-          "would always visit"
-        ],
         "id": "modal-verbs-46",
-        "conceptId": "modal-verbs:concept-46",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-46",
+        "sentence": "Every summer, my grandparents ___ visit us for two weeks.",
+        "answer": "would",
+        "options": [
+          "would",
+          "will",
+          "might have",
+          "had"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: a past ability no longer exists.",
-        "answer": "used to be able to run",
-        "options": [
-          "can’t have seen the message",
-          "would you mind waiting",
-          "used to be able to run",
-          "mustn’t bring food"
-        ],
         "id": "modal-verbs-47",
-        "conceptId": "modal-verbs:concept-47",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-47",
+        "sentence": "Before her injury, she ___ run for hours without stopping.",
+        "answer": "used to be able to",
+        "options": [
+          "used to be able to",
+          "is able to",
+          "will be able to",
+          "has been able to"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: an uncertain deduction concerns an action happening now.",
-        "answer": "might be working",
-        "options": [
-          "should be arriving soon",
-          "might be working",
-          "don’t have to submit today",
-          "might have taken the bus"
-        ],
         "id": "modal-verbs-48",
-        "conceptId": "modal-verbs:concept-48",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-48",
+        "sentence": "The office is quiet, but Daniel ___ working in the back room.",
+        "answer": "might be",
+        "options": [
+          "might be",
+          "must have",
+          "can't be",
+          "should have"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: evidence supports a deduction about a continuing past action.",
-        "answer": "must have been waiting",
-        "options": [
-          "must have been waiting",
-          "should check the weather",
-          "should have called earlier",
-          "must be joking"
-        ],
         "id": "modal-verbs-49",
-        "conceptId": "modal-verbs:concept-49",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-49",
+        "sentence": "Their clothes were soaked; they ___ waiting in the rain.",
+        "answer": "must have been",
+        "options": [
+          "must have been",
+          "might be",
+          "can't have",
+          "should be"
+        ],
+        "hint": "Modal verbs"
       },
       {
-        "sentence": "The modal expression for this situation is ___: evidence makes a continuing past action impossible.",
-        "answer": "can’t have been sleeping",
-        "options": [
-          "may arrive late",
-          "could have won",
-          "can’t be serious",
-          "can’t have been sleeping"
-        ],
         "id": "modal-verbs-50",
-        "conceptId": "modal-verbs:concept-50",
-        "hint": "Modal Verbs"
+        "conceptId": "modal-verbs:explicit-50",
+        "sentence": "The bed is untouched, so Emma ___ sleeping here last night.",
+        "answer": "can't have been",
+        "options": [
+          "can't have been",
+          "must have been",
+          "should have been",
+          "might be"
+        ],
+        "hint": "Modal verbs"
       }
     ]
   }

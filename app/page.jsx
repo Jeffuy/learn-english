@@ -172,8 +172,11 @@ export default function Home() {
         setCurrentTeam(savedGame.currentTeam ?? 0);
         setSelectedNumber(savedGame.selectedNumber ?? null);
         setOutcomes(savedGame.outcomes ?? {});
-        setSelectedOption(savedGame.selectedOption ?? null);
-        setAnswerResult(savedGame.answerResult ?? null);
+        const restoredAnswerResult = savedGame.answerResult ?? null;
+        setSelectedOption(
+          restoredAnswerResult === null ? null : (savedGame.selectedOption ?? null),
+        );
+        setAnswerResult(restoredAnswerResult);
         setEliminatedOption(savedGame.eliminatedOption ?? null);
       }
       setHydrated(true);
@@ -326,8 +329,10 @@ export default function Home() {
     setPhase("question");
   }
 
-  function checkChoiceAnswer() {
-    setAnswerResult(selectedOption === activeQuestion.answer);
+  function chooseChoiceAnswer(option) {
+    if (answerResult !== null || timedOut) return;
+    setSelectedOption(option);
+    setAnswerResult(option === activeQuestion.answer);
   }
 
   function buyElimination() {
@@ -755,7 +760,7 @@ export default function Home() {
                       <button
                         key={option}
                         disabled={answerResult !== null}
-                        onClick={() => setSelectedOption(option)}
+                        onClick={() => chooseChoiceAnswer(option)}
                         className={resultClass}
                       >
                         <span>{String.fromCharCode(65 + index)}</span>{option}
@@ -763,15 +768,7 @@ export default function Home() {
                     );
                   })}
                 </div>
-                {answerResult === null ? (
-                  <button
-                    className="submit-answer"
-                    disabled={!selectedOption}
-                    onClick={checkChoiceAnswer}
-                  >
-                    Lock in answer
-                  </button>
-                ) : (
+                {answerResult !== null && (
                   <div className={`answer-feedback ${answerResult ? "correct" : "incorrect"}`}>
                     <div>
                       <strong>{answerResult ? "✓ Correct!" : "× Not quite"}</strong>

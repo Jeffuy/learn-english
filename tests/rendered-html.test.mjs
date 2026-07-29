@@ -21,6 +21,8 @@ test("Word Rally keeps its core classroom game flow", async () => {
   assert.match(page, /localStorage\.setItem/);
   assert.match(page, /Restart game/);
   assert.match(page, /answer-feedback/);
+  assert.match(page, /chooseChoiceAnswer\(option\)/);
+  assert.doesNotMatch(page, /Lock in answer/);
   assert.match(page, /createQuestionDeck/);
   assert.match(page, /uniqueQuestions/);
   assert.match(page, /savedGameHasValidDeck/);

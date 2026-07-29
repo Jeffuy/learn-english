@@ -1,10 +1,11 @@
 function makeQuestions(unitId, rows) {
-  return rows.map(([sentence, answer, options, hint], index) => ({
+  return rows.map(([sentence, answer, options, hint, context], index) => ({
     id: `${unitId}-${String(index + 1).padStart(2, "0")}`,
     sentence,
     answer,
     options,
     hint,
+    context,
   }));
 }
 
@@ -380,16 +381,16 @@ const unit7Questions = makeQuestions("unit7", [
 ]);
 
 const unit8Questions = makeQuestions("unit8", [
-  ["Bees are ___ associated with healthy ecosystems.", "closely", ["closely", "completely", "deeply", "widely"], "Adverb + adjective collocations"],
-  ["The two species are ___ different in appearance.", "completely", ["closely", "completely", "highly", "fully"], "Adverb + adjective collocations"],
-  ["Farmers are ___ concerned about falling bee numbers.", "deeply", ["widely", "fully", "deeply", "closely"], "Adverb + adjective collocations"],
-  ["The guide was ___ aware of the risks.", "fully", ["deeply", "fully", "widely", "completely"], "Adverb + adjective collocations"],
-  ["This simple method is highly ___.", "effective", ["affected", "effective", "aware", "associated"], "Adverb + adjective collocations"],
-  ["It is ___ believed that bees communicate through movement.", "widely", ["fully", "deeply", "widely", "closely"], "Adverb + adjective collocations"],
-  ["The class found the talk incredibly ___.", "interesting", ["interested", "interesting", "effective", "aware"], "Adverb + adjective collocations"],
-  ["Pollinators are ___ important for food production.", "vitally", ["completely", "vitally", "closely", "fully"], "Adverb + adjective collocations"],
-  ["The two traditions are closely ___.", "linked", ["divided", "linked", "affected", "awake"], "Adverb + adjective collocations"],
-  ["The harvest was badly ___ by the dry weather.", "affected", ["effective", "affected", "aware", "associated"], "Adverb + adjective collocations"],
+  ["Bees are ___ associated with healthy ecosystems.", "closely", ["closely", "completely", "deeply", "widely"], "Adverb + adjective collocations", "Choose the collocation that expresses a strong connection between bees and healthy ecosystems."],
+  ["The two species are ___ different in appearance.", "completely", ["closely", "completely", "highly", "fully"], "Adverb + adjective collocations", "The species have no visual similarities at all."],
+  ["Farmers are ___ concerned about falling bee numbers.", "deeply", ["widely", "fully", "deeply", "closely"], "Adverb + adjective collocations", "The farmers are very worried, not just slightly concerned."],
+  ["The guide was ___ aware of the risks.", "fully", ["deeply", "fully", "widely", "completely"], "Adverb + adjective collocations", "The guide understood all of the risks."],
+  ["This simple method is highly ___.", "effective", ["affected", "effective", "aware", "associated"], "Adverb + adjective collocations", "The method works very well."],
+  ["It is ___ believed that bees communicate through movement.", "widely", ["fully", "deeply", "widely", "closely"], "Adverb + adjective collocations", "Many people accept this idea as true."],
+  ["The class found the talk incredibly ___.", "interesting", ["interested", "interesting", "effective", "aware"], "Adverb + adjective collocations", "The talk held the students' attention from beginning to end."],
+  ["Pollinators are ___ important for food production.", "vitally", ["completely", "vitally", "closely", "fully"], "Adverb + adjective collocations", "Pollinators are essential for producing food."],
+  ["The two traditions are closely ___.", "linked", ["divided", "linked", "affected", "awake"], "Adverb + adjective collocations", "There is a strong connection between the two traditions."],
+  ["The harvest was badly ___ by the dry weather.", "affected", ["effective", "affected", "aware", "associated"], "Adverb + adjective collocations", "The dry weather caused serious harm to the harvest."],
   ["The museum is fully ___ to wheelchair users.", "accessible", ["accessent", "accessible", "accessy", "accessant"], "Adjective suffixes"],
   ["She felt ___ about speaking to the large audience.", "confident", ["confidable", "confident", "confidency", "confidey"], "Adjective suffixes"],
   ["Online messages are quick and ___.", "convenient", ["convenable", "convenient", "conveny", "convenant"], "Adjective suffixes"],
@@ -429,56 +430,56 @@ const unit8Questions = makeQuestions("unit8", [
   ["The costume was decorated ___ hand.", "by", ["with", "by", "from", "at"], "Clothes and culture"],
   ["Spending time outdoors can improve mental ___.", "well-being", ["well-being", "costume", "message", "species"], "Time outdoors"],
   ["The walkers were advised to stay on the marked ___.", "path", ["path", "nectar", "outfit", "emoji"], "Time outdoors"],
-  ["The park is ___ used by families at weekends.", "widely", ["deeply", "widely", "completely", "closely"], "Adverb + adjective collocations"],
+  ["The park is ___ used by families at weekends.", "widely", ["deeply", "widely", "completely", "closely"], "Adverb + adjective collocations", "Many different families use the park at weekends."],
 ]);
 
 export const QUIZZES = {
   unit1: {
-    name: "Unit 1: Blue",
+    name: "Art, Travel & Natural Wonders",
     description: "Present tenses, phrasal verbs, art & unusual phenomena",
-    icon: "1",
+    icon: "🎨",
     questions: unit1Questions,
   },
   unit2: {
-    name: "Unit 2: Orange",
+    name: "Film, Childhood & Traditions",
     description: "Past tenses, collocations, film & negative prefixes",
-    icon: "2",
+    icon: "🎬",
     questions: unit2Questions,
   },
   unit3: {
-    name: "Unit 3: White",
+    name: "Photography, Honesty & Adventure",
     description: "Future forms, make/do, photography & celebrations",
-    icon: "3",
+    icon: "📷",
     questions: unit3Questions,
   },
   unit4: {
-    name: "Unit 4: Pink",
+    name: "Food, Feelings & Festivals",
     description: "Reported speech, food phrasal verbs & noun suffixes",
-    icon: "4",
+    icon: "🎉",
     questions: unit4Questions,
   },
   unit5: {
-    name: "Unit 5: Black",
+    name: "Fashion, Coffee & the Environment",
     description: "Conditionals, verb patterns, fashion & the environment",
-    icon: "5",
+    icon: "☕",
     questions: unit5Questions,
   },
   unit6: {
-    name: "Unit 6: Red",
+    name: "Spice, Celebrations & Fundraising",
     description: "Comparatives, compounds, adjective suffixes & fundraising",
-    icon: "6",
+    icon: "🌶️",
     questions: unit6Questions,
   },
   unit7: {
-    name: "Unit 7: Green",
+    name: "Sustainability, Business & Stories",
     description: "Relative clauses, green technology & confused words",
-    icon: "7",
+    icon: "🌱",
     questions: unit7Questions,
   },
   unit8: {
-    name: "Unit 8: Yellow",
+    name: "Communication, Culture & Nature",
     description: "Passive forms, adjective collocations & communication",
-    icon: "8",
+    icon: "🐝",
     questions: unit8Questions,
   },
 };

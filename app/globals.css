@@ -756,6 +756,14 @@ input:focus-visible {
   margin: 25px 0 12px;
 }
 
+.question-context {
+  max-width: 680px;
+  margin: 0 auto 14px;
+  color: var(--muted);
+  font-size: clamp(15px, 2vw, 18px);
+  line-height: 1.5;
+}
+
 .question-card > h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(31px, 5vw, 51px);

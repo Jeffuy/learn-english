@@ -33,14 +33,14 @@ test("the book provides eight complete and valid unit quizzes", () => {
   assert.deepEqual(
     entries.map(([, quiz]) => quiz.name),
     [
-      "Unit 1: Blue",
-      "Unit 2: Orange",
-      "Unit 3: White",
-      "Unit 4: Pink",
-      "Unit 5: Black",
-      "Unit 6: Red",
-      "Unit 7: Green",
-      "Unit 8: Yellow",
+      "Art, Travel & Natural Wonders",
+      "Film, Childhood & Traditions",
+      "Photography, Honesty & Adventure",
+      "Food, Feelings & Festivals",
+      "Fashion, Coffee & the Environment",
+      "Spice, Celebrations & Fundraising",
+      "Sustainability, Business & Stories",
+      "Communication, Culture & Nature",
     ],
   );
 
@@ -64,4 +64,13 @@ test("the book provides eight complete and valid unit quizzes", () => {
   assert.equal(allQuestions.length, 400);
   assert.equal(new Set(allQuestions.map(({ id }) => id)).size, 400);
   assert.equal(new Set(allQuestions.map(({ sentence }) => sentence)).size, 400);
+});
+
+test("ambiguous collocation questions include an explanatory context", () => {
+  const collocationQuestions = Object.values(QUIZZES)
+    .flatMap((quiz) => quiz.questions)
+    .filter(({ hint }) => hint === "Adverb + adjective collocations");
+
+  assert.equal(collocationQuestions.length, 11);
+  assert.ok(collocationQuestions.every(({ context }) => context?.length > 20));
 });

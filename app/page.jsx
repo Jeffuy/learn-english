@@ -450,6 +450,9 @@ export default function Home() {
           <div className="question-card">
             <span className="question-hint">{activeQuestion.hint}</span>
             <p className="question-label">Complete the sentence</p>
+            {activeQuestion.context && (
+              <p className="question-context">{activeQuestion.context}</p>
+            )}
             <h1>{activeQuestion.sentence}</h1>
 
             {!answerMode && (

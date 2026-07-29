@@ -2,7 +2,7 @@
 
 The app contains eight quizzes based on the eight units of *B2 First Formula Course Book*. Each quiz has 50 original multiple-choice questions. The examples are not copied from the book, and every question stays within the language and themes introduced in its unit.
 
-## Unit 1: Blue
+## Art, Travel & Natural Wonders
 
 - Phrasal verbs
 - Phrases with prepositions
@@ -13,7 +13,7 @@ The app contains eight quizzes based on the eight units of *B2 First Formula Cou
 - Art, colour and La Casa Azul
 - Routines, media and travel preferences
 
-## Unit 2: Orange
+## Film, Childhood & Traditions
 
 - Verb + noun collocations
 - Negative prefixes
@@ -24,7 +24,7 @@ The app contains eight quizzes based on the eight units of *B2 First Formula Cou
 - Childhood beliefs
 - Pumpkin spice and gifts
 
-## Unit 3: White
+## Photography, Honesty & Adventure
 
 - Phrases with `make` and `do`
 - Photography phrasal verbs
@@ -35,7 +35,7 @@ The app contains eight quizzes based on the eight units of *B2 First Formula Cou
 - Thrill sports
 - Parties, plans and gifts
 
-## Unit 4: Pink
+## Food, Feelings & Festivals
 
 - Food phrasal verbs
 - Noun suffixes
@@ -46,7 +46,7 @@ The app contains eight quizzes based on the eight units of *B2 First Formula Cou
 - Colour and gender
 - Optimism and festival reviews
 
-## Unit 5: Black
+## Fashion, Coffee & the Environment
 
 - Adjective + noun collocations
 - Verb patterns
@@ -58,7 +58,7 @@ The app contains eight quizzes based on the eight units of *B2 First Formula Cou
 - Black Friday
 - Air pollution and night-time visibility
 
-## Unit 6: Red
+## Spice, Celebrations & Fundraising
 
 - Compound words
 - Adjective suffixes
@@ -69,7 +69,7 @@ The app contains eight quizzes based on the eight units of *B2 First Formula Cou
 - Anger and seeing red
 - Fundraising
 
-## Unit 7: Green
+## Sustainability, Business & Stories
 
 - Phrasal verbs
 - Easily confused words
@@ -81,7 +81,7 @@ The app contains eight quizzes based on the eight units of *B2 First Formula Cou
 - Green spaces
 - Story dilemmas
 
-## Unit 8: Yellow
+## Communication, Culture & Nature
 
 - Adverb + adjective collocations
 - Adjective suffixes

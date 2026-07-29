@@ -560,7 +560,17 @@ export default function Home() {
                   </button>
                 </div>
                 <div className="quiz-search">
+                  <svg
+                    aria-hidden="true"
+                    viewBox="0 0 24 24"
+                    width="18"
+                    height="18"
+                  >
+                    <circle cx="11" cy="11" r="6.5" />
+                    <path d="m16 16 4 4" />
+                  </svg>
                   <input
+                    className="quiz-search-input"
                     type="search"
                     value={quizSearch}
                     onChange={(event) => setQuizSearch(event.target.value)}
@@ -569,11 +579,12 @@ export default function Home() {
                   />
                   {quizSearch && (
                     <button
+                      className="quiz-search-clear"
                       type="button"
                       onClick={() => setQuizSearch("")}
                       aria-label="Clear quiz search"
                     >
-                      Clear
+                      ×
                     </button>
                   )}
                 </div>

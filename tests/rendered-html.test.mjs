@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { QUIZZES } from "../app/quiz-bank.js";
+import { CHAMULLERO_QUESTIONS } from "../app/chamullero/questions.js";
 
 test("Word Rally keeps its core classroom game flow", async () => {
   const [page, layout, packageJson] = await Promise.all([
@@ -267,4 +268,31 @@ test("the game never shows long meta-question prefixes", () => {
         ),
     ),
   );
+});
+
+test("the secret Uruguayan slang quiz contains fifty complete questions", async () => {
+  const [secretPage, mainPage] = await Promise.all([
+    readFile(new URL("../app/chamullero/page.jsx", import.meta.url), "utf8"),
+    readFile(new URL("../app/page.jsx", import.meta.url), "utf8"),
+  ]);
+
+  assert.equal(CHAMULLERO_QUESTIONS.length, 50);
+  assert.equal(
+    new Set(CHAMULLERO_QUESTIONS.map(({ term }) => term)).size,
+    50,
+  );
+  assert.ok(
+    CHAMULLERO_QUESTIONS.every(
+      ({ answer, emoji, options }) =>
+        emoji.length > 0 &&
+        options.length === 4 &&
+        new Set(options).size === 4 &&
+        options.includes(answer),
+    ),
+  );
+  assert.match(secretPage, /El Chamullero/);
+  assert.match(secretPage, /chamullero-secret-quiz-v1/);
+  assert.match(secretPage, /¿Qué significa en esta frase\?/);
+  assert.doesNotMatch(mainPage, /chamullero/i);
+  assert.ok(!Object.hasOwn(QUIZZES, "chamullero"));
 });

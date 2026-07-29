@@ -145,4 +145,6 @@ The app contains eight mixed quizzes based on *B2 First Formula Course Book*, pl
 - Optional answer timer: off, 15, 30, 45 or 60 seconds
 - The teacher can pause and resume the timer
 - A timed-out question is marked incorrect and reveals the correct answer
+- Questions always use four-option multiple choice
+- A team with at least 5 points can spend 5 points to remove one wrong option
 - Game progress, timer state and remaining time are saved automatically

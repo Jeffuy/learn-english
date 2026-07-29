@@ -13,8 +13,10 @@ test("Word Rally keeps its core classroom game flow", async () => {
   assert.match(page, /Ready, set,/);
   assert.match(page, /Create your teams/);
   assert.match(page, /Start the game/);
-  assert.match(page, /Pick an answer/);
-  assert.match(page, /Say it aloud/);
+  assert.match(page, /Choose the missing word/);
+  assert.doesNotMatch(page, /Say it aloud/);
+  assert.match(page, /Remove one wrong answer/);
+  assert.match(page, /buyElimination/);
   assert.match(page, /localStorage\.setItem/);
   assert.match(page, /Restart game/);
   assert.match(page, /answer-feedback/);

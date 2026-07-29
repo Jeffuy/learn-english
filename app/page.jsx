@@ -100,10 +100,9 @@ export default function Home() {
   const [currentTeam, setCurrentTeam] = useState(0);
   const [selectedNumber, setSelectedNumber] = useState(null);
   const [outcomes, setOutcomes] = useState({});
-  const [answerMode, setAnswerMode] = useState(null);
   const [selectedOption, setSelectedOption] = useState(null);
   const [answerResult, setAnswerResult] = useState(null);
-  const [showAnswer, setShowAnswer] = useState(false);
+  const [eliminatedOption, setEliminatedOption] = useState(null);
 
   const quiz = QUIZZES[selectedQuiz];
   const activeQuestionId = selectedNumber ? questionDeck[selectedNumber - 1] : null;
@@ -113,6 +112,11 @@ export default function Home() {
 
   const answeredCount = Object.keys(outcomes).length;
   const remaining = questionCount - answeredCount;
+  const canBuyElimination =
+    (teams[currentTeam]?.score ?? 0) >= 5 &&
+    !eliminatedOption &&
+    answerResult === null &&
+    !timedOut;
   const winnerScore = Math.max(...teams.map((team) => team.score), 0);
   const winners = teams.filter((team) => team.score === winnerScore);
 
@@ -161,10 +165,9 @@ export default function Home() {
         setCurrentTeam(savedGame.currentTeam ?? 0);
         setSelectedNumber(savedGame.selectedNumber ?? null);
         setOutcomes(savedGame.outcomes ?? {});
-        setAnswerMode(savedGame.answerMode ?? null);
         setSelectedOption(savedGame.selectedOption ?? null);
         setAnswerResult(savedGame.answerResult ?? null);
-        setShowAnswer(savedGame.showAnswer ?? false);
+        setEliminatedOption(savedGame.eliminatedOption ?? null);
       }
       setHydrated(true);
     });
@@ -195,10 +198,9 @@ export default function Home() {
         currentTeam,
         selectedNumber,
         outcomes,
-        answerMode,
         selectedOption,
         answerResult,
-        showAnswer,
+        eliminatedOption,
       }),
     );
   }, [
@@ -217,10 +219,9 @@ export default function Home() {
     currentTeam,
     selectedNumber,
     outcomes,
-    answerMode,
     selectedOption,
     answerResult,
-    showAnswer,
+    eliminatedOption,
   ]);
 
   useEffect(() => {
@@ -230,8 +231,7 @@ export default function Home() {
       timeLeft > 0 &&
       !timerPaused &&
       !timedOut &&
-      answerResult === null &&
-      !showAnswer;
+      answerResult === null;
 
     if (!timerIsRunning) return undefined;
 
@@ -240,7 +240,6 @@ export default function Home() {
         const next = Math.max(0, current - 1);
         if (next === 0) {
           setTimedOut(true);
-          setAnswerMode("timeout");
           setOutcomes((currentOutcomes) =>
             selectedNumber
               ? { ...currentOutcomes, [selectedNumber]: false }
@@ -256,7 +255,6 @@ export default function Home() {
     answerResult,
     phase,
     selectedNumber,
-    showAnswer,
     timedOut,
     timeLeft,
     timerPaused,
@@ -301,10 +299,9 @@ export default function Home() {
     setOutcomes({});
     setCurrentTeam(0);
     setSelectedNumber(null);
-    setAnswerMode(null);
     setSelectedOption(null);
     setAnswerResult(null);
-    setShowAnswer(false);
+    setEliminatedOption(null);
     setTimeLeft(timerSeconds);
     setTimerPaused(false);
     setTimedOut(false);
@@ -313,10 +310,9 @@ export default function Home() {
 
   function openQuestion(number) {
     setSelectedNumber(number);
-    setAnswerMode(null);
     setSelectedOption(null);
     setAnswerResult(null);
-    setShowAnswer(false);
+    setEliminatedOption(null);
     setTimeLeft(timerSeconds);
     setTimerPaused(false);
     setTimedOut(false);
@@ -327,8 +323,28 @@ export default function Home() {
     setAnswerResult(selectedOption === activeQuestion.answer);
   }
 
+  function buyElimination() {
+    if (!canBuyElimination) return;
+
+    const wrongOptions = activeQuestion.options.filter(
+      (option) =>
+        option !== activeQuestion.answer && option !== selectedOption,
+    );
+    const optionToRemove =
+      wrongOptions[((selectedNumber ?? 1) - 1) % wrongOptions.length];
+
+    setTeams((current) =>
+      current.map((team, index) =>
+        index === currentTeam
+          ? { ...team, score: team.score - 5 }
+          : team,
+      ),
+    );
+    setEliminatedOption(optionToRemove);
+  }
+
   function finishTurn(correct) {
-    const points = answerMode === "speak" ? 20 : 10;
+    const points = 10;
     if (correct) {
       setTeams((current) =>
         current.map((team, index) =>
@@ -369,10 +385,9 @@ export default function Home() {
     setOutcomes({});
     setCurrentTeam(0);
     setSelectedNumber(null);
-    setAnswerMode(null);
     setSelectedOption(null);
     setAnswerResult(null);
-    setShowAnswer(false);
+    setEliminatedOption(null);
     setTimeLeft(0);
     setTimerPaused(false);
     setTimedOut(false);
@@ -581,8 +596,8 @@ export default function Home() {
               ))}
             </div>
             <div className="score-key">
-              <span><b>+10</b> Pick an answer</span>
-              <span><b>+20</b> Say it aloud</span>
+              <span><b>+10</b> Correct answer</span>
+              <span><b>−5</b> Remove one wrong answer</span>
             </div>
           </aside>
 
@@ -629,7 +644,7 @@ export default function Home() {
             {timerSeconds > 0 && (
               <div className={`question-timer ${timeLeft <= 5 ? "urgent" : ""}`}>
                 <strong>{timeLeft}s</strong>
-                {!timedOut && answerResult === null && !showAnswer && (
+                {!timedOut && answerResult === null && (
                   <button
                     type="button"
                     onClick={() => setTimerPaused((paused) => !paused)}
@@ -650,25 +665,7 @@ export default function Home() {
             )}
             <h1>{activeQuestion.sentence}</h1>
 
-            {!answerMode && (
-              <div className="mode-picker">
-                <p>How would you like to answer?</p>
-                <div>
-                  <button className="mode-button choice-mode" onClick={() => setAnswerMode("choice")}>
-                    <span className="mode-icon">A</span>
-                    <span><strong>Pick an answer</strong><small>Choose from 4 options</small></span>
-                    <b>+10 pts</b>
-                  </button>
-                  <button className="mode-button speak-mode" onClick={() => setAnswerMode("speak")}>
-                    <span className="mode-icon">◉</span>
-                    <span><strong>Say it aloud</strong><small>Tell your teacher</small></span>
-                    <b>+20 pts</b>
-                  </button>
-                </div>
-              </div>
-            )}
-
-            {answerMode === "timeout" && (
+            {timedOut && (
               <div className="timeout-panel">
                 <span>Time&apos;s up</span>
                 <h2>This question is marked incorrect.</h2>
@@ -677,14 +674,30 @@ export default function Home() {
               </div>
             )}
 
-            {answerMode === "choice" && (
+            {!timedOut && (
               <div className="answer-area">
                 <div className="answer-header">
                   <p>Choose the missing word</p>
                   <span>Worth 10 points</span>
                 </div>
+                <div className="elimination-help">
+                  <button
+                    type="button"
+                    disabled={!canBuyElimination}
+                    onClick={buyElimination}
+                  >
+                    {eliminatedOption
+                      ? "One wrong answer removed"
+                      : "Remove one wrong answer · −5 pts"}
+                  </button>
+                  {!eliminatedOption && (teams[currentTeam]?.score ?? 0) < 5 && (
+                    <small>Your team needs at least 5 points.</small>
+                  )}
+                </div>
                 <div className="answer-options">
-                  {activeQuestion.options.map((option, index) => {
+                  {activeQuestion.options
+                    .filter((option) => option !== eliminatedOption)
+                    .map((option, index) => {
                     const isSelected = selectedOption === option;
                     const isCorrectAnswer = option === activeQuestion.answer;
                     const resultClass =
@@ -727,28 +740,6 @@ export default function Home() {
                       </span>
                     </div>
                     <button onClick={() => finishTurn(answerResult)}>Continue →</button>
-                  </div>
-                )}
-              </div>
-            )}
-
-            {answerMode === "speak" && (
-              <div className="speak-panel">
-                <div className="sound-rings"><span>◉</span></div>
-                <h2>Say the missing word aloud</h2>
-                <p>The teacher decides if the answer is correct.</p>
-                {!showAnswer ? (
-                  <button className="reveal-button" onClick={() => setShowAnswer(true)}>Reveal answer</button>
-                ) : (
-                  <div className="teacher-check">
-                    <div className="revealed-answer">
-                      <span>Correct answer</span>
-                      <strong>{activeQuestion.answer}</strong>
-                    </div>
-                    <div>
-                      <button className="incorrect-button" onClick={() => finishTurn(false)}>× Incorrect</button>
-                      <button className="correct-button" onClick={() => finishTurn(true)}>✓ Correct +20</button>
-                    </div>
                   </div>
                 )}
               </div>

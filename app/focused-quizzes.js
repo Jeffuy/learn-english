@@ -1632,7 +1632,7 @@ const relativeQuestions = relativeSubjects.map(([noun, clause, type], index) => 
     "is shown on the information board",
   ];
   const ending =
-    index === 36 ? "is highlighted in the equipment report" : endings[index % endings.length];
+    index === 36 ? "is featured in the school newsletter" : endings[index % endings.length];
   return {
     sentence: `The ${noun} ___ ${ending}.`,
     answer,

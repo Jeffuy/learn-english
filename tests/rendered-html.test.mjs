@@ -142,3 +142,64 @@ test("the teacher can enable, pause and disable the answer timer", async () => {
   assert.match(page, /Time&apos;s up/);
   assert.match(page, /safeQuestionHint/);
 });
+
+test("every quiz question is complete and has one unambiguous answer", () => {
+  for (const [quizId, quiz] of Object.entries(QUIZZES)) {
+    for (const question of quiz.questions) {
+      const label = `${quizId}/${question.id}`;
+      const blanks = question.sentence.match(/___/g) ?? [];
+
+      assert.ok(blanks.length >= 1, `${label} must contain at least one blank`);
+      assert.equal(question.options.length, 4, `${label} must have four options`);
+      assert.equal(
+        new Set(question.options.map((option) => option.toLowerCase())).size,
+        4,
+        `${label} must have four different options`,
+      );
+      assert.ok(
+        question.options.includes(question.answer),
+        `${label} must include its answer among the options`,
+      );
+    }
+  }
+});
+
+test("questions and visible help do not reveal their own answers", () => {
+  const escapeRegExp = (value) =>
+    value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+
+  for (const [quizId, quiz] of Object.entries(QUIZZES)) {
+    for (const question of quiz.questions) {
+      const answer = question.answer.trim();
+      if (answer.length < 4 || answer.includes("/")) continue;
+
+      const answerPattern = new RegExp(
+        `(^|[^a-z])${escapeRegExp(answer.toLowerCase())}([^a-z]|$)`,
+      );
+      const visiblePrompt = [
+        question.sentence.replaceAll("___", ""),
+        question.context ?? "",
+      ]
+        .join(" ")
+        .toLowerCase();
+
+      assert.doesNotMatch(
+        visiblePrompt,
+        answerPattern,
+        `${quizId}/${question.id} reveals "${answer}" before answering`,
+      );
+    }
+  }
+});
+
+test("conditionals are fifty individually authored questions", async () => {
+  const source = await readFile(
+    new URL("../app/explicit-grammar-quizzes.js", import.meta.url),
+    "utf8",
+  );
+  const questions = QUIZZES.conditionals.questions;
+
+  assert.equal(questions.length, 50);
+  assert.equal(new Set(questions.map(({ sentence }) => sentence)).size, 50);
+  assert.doesNotMatch(source, /conditionalSituations|flatMap/);
+});

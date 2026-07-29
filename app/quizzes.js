@@ -1,4 +1,5 @@
 import { INITIAL_FOCUSED_QUIZZES } from "./focused-quizzes.js";
+import { EXPLICIT_GRAMMAR_QUIZZES } from "./explicit-grammar-quizzes.js";
 
 function makeQuestions(unitId, rows) {
   return rows.map(([sentence, answer, options, hint, context], index) => ({
@@ -930,4 +931,5 @@ export const QUIZZES = {
   ...MIXED_QUIZZES,
   ...FOCUSED_QUIZZES,
   ...INITIAL_FOCUSED_QUIZZES,
+  ...EXPLICIT_GRAMMAR_QUIZZES,
 };

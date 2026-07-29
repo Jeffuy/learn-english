@@ -2,24 +2,10 @@
 
 import { useMemo, useState } from "react";
 
-type Team = {
-  id: number;
-  name: string;
-  score: number;
-  color: string;
-};
-
-type Question = {
-  sentence: string;
-  answer: string;
-  options: string[];
-  hint: string;
-};
-
 const TEAM_COLORS = ["#ffcb3d", "#9ce36f", "#ff8d79", "#82c7ff", "#d7a7ff", "#63dbc9"];
 const QUESTION_COUNTS = [15, 25, 35, 50];
 
-const QUESTIONS: Question[] = [
+const QUESTIONS = [
   {
     sentence: "She ___ to school every morning.",
     answer: "walks",
@@ -82,20 +68,20 @@ const QUESTIONS: Question[] = [
   },
 ];
 
-function TeamMark({ color }: { color: string }) {
+function TeamMark({ color }) {
   return <span className="team-mark" style={{ background: color }} aria-hidden="true" />;
 }
 
 export default function Home() {
-  const [phase, setPhase] = useState<"setup" | "board" | "question" | "finished">("setup");
+  const [phase, setPhase] = useState("setup");
   const [teamNames, setTeamNames] = useState(["The Rockets", "Word Wizards"]);
-  const [teams, setTeams] = useState<Team[]>([]);
+  const [teams, setTeams] = useState([]);
   const [questionCount, setQuestionCount] = useState(15);
   const [currentTeam, setCurrentTeam] = useState(0);
-  const [selectedNumber, setSelectedNumber] = useState<number | null>(null);
-  const [usedNumbers, setUsedNumbers] = useState<number[]>([]);
-  const [answerMode, setAnswerMode] = useState<"choice" | "speak" | null>(null);
-  const [selectedOption, setSelectedOption] = useState<string | null>(null);
+  const [selectedNumber, setSelectedNumber] = useState(null);
+  const [usedNumbers, setUsedNumbers] = useState([]);
+  const [answerMode, setAnswerMode] = useState(null);
+  const [selectedOption, setSelectedOption] = useState(null);
   const [showAnswer, setShowAnswer] = useState(false);
 
   const activeQuestion = selectedNumber
@@ -111,7 +97,7 @@ export default function Home() {
     [teams],
   );
 
-  function updateTeamName(index: number, value: string) {
+  function updateTeamName(index, value) {
     setTeamNames((names) => names.map((name, i) => (i === index ? value : name)));
   }
 
@@ -121,7 +107,7 @@ export default function Home() {
     }
   }
 
-  function removeTeam(index: number) {
+  function removeTeam(index) {
     if (teamNames.length > 2) {
       setTeamNames((names) => names.filter((_, i) => i !== index));
     }
@@ -142,7 +128,7 @@ export default function Home() {
     setPhase("board");
   }
 
-  function openQuestion(number: number) {
+  function openQuestion(number) {
     setSelectedNumber(number);
     setAnswerMode(null);
     setSelectedOption(null);
@@ -150,7 +136,7 @@ export default function Home() {
     setPhase("question");
   }
 
-  function finishTurn(correct: boolean) {
+  function finishTurn(correct) {
     const points = answerMode === "speak" ? 20 : 10;
     if (correct) {
       setTeams((current) =>

@@ -1,8 +1,7 @@
-# vinext-starter
+# Word Rally
 
-A clean full-stack starter running on
-[vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
-Drizzle support.
+A classroom team game for learning English. The entire codebase uses JavaScript
+and runs on [vinext](https://github.com/cloudflare/vinext).
 
 ## Prerequisites
 
@@ -22,10 +21,10 @@ This starter does not use `wrangler.jsonc`.
 
 - edit site code under `app/`
 - `.openai/hosting.json` declares optional Sites D1 and R2 bindings
-- `vite.config.ts` simulates declared bindings for local development
-- `db/schema.ts` starts intentionally empty
+- `vite.config.js` simulates declared bindings for local development
+- `db/schema.js` starts intentionally empty
 - `examples/d1/` contains an optional D1 example surface
-- `drizzle.config.ts` supports local migration generation when needed
+- `drizzle.config.js` supports local migration generation when needed
 
 ## Workspace Auth Headers
 
@@ -39,7 +38,7 @@ SIWC-authenticated workspace sites may also receive
 
 Treat the full name as optional and fall back to email when it is absent:
 
-```tsx
+```jsx
 import { headers } from "next/headers";
 
 export default async function Home() {
@@ -60,7 +59,7 @@ export default async function Home() {
 
 ## Optional Dispatch-Owned ChatGPT Sign-In
 
-Import the ready-to-use helpers from `app/chatgpt-auth.ts` when the site needs
+Import the ready-to-use helpers from `app/chatgpt-auth.js` when the site needs
 optional or required ChatGPT sign-in:
 
 - Use `getChatGPTUser()` for optional signed-in UI.
@@ -89,7 +88,7 @@ actions tied to the current ChatGPT user. Leave public content anonymous.
 
 - `npm run dev`: start local development
 - `npm run build`: verify the vinext build output
-- `npm test`: build the starter and verify its rendered loading skeleton
+- `npm test`: build and verify the rendered Word Rally page
 - `npm run db:generate`: generate Drizzle migrations after schema changes
 
 ## Learn More

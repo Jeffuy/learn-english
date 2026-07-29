@@ -433,53 +433,433 @@ const unit8Questions = makeQuestions("unit8", [
   ["The park is ___ used by families at weekends.", "widely", ["deeply", "widely", "completely", "closely"], "Adverb + adjective collocations", "Many different families use the park at weekends."],
 ]);
 
-export const QUIZZES = {
+const MIXED_QUIZZES = {
   unit1: {
     name: "Art, Travel & Natural Wonders",
     description: "Present tenses, phrasal verbs, art & unusual phenomena",
     icon: "🎨",
+    kind: "mixed",
     questions: unit1Questions,
   },
   unit2: {
     name: "Film, Childhood & Traditions",
     description: "Past tenses, collocations, film & negative prefixes",
     icon: "🎬",
+    kind: "mixed",
     questions: unit2Questions,
   },
   unit3: {
     name: "Photography, Honesty & Adventure",
     description: "Future forms, make/do, photography & celebrations",
     icon: "📷",
+    kind: "mixed",
     questions: unit3Questions,
   },
   unit4: {
     name: "Food, Feelings & Festivals",
     description: "Reported speech, food phrasal verbs & noun suffixes",
     icon: "🎉",
+    kind: "mixed",
     questions: unit4Questions,
   },
   unit5: {
     name: "Fashion, Coffee & the Environment",
     description: "Conditionals, verb patterns, fashion & the environment",
     icon: "☕",
+    kind: "mixed",
     questions: unit5Questions,
   },
   unit6: {
     name: "Spice, Celebrations & Fundraising",
     description: "Comparatives, compounds, adjective suffixes & fundraising",
     icon: "🌶️",
+    kind: "mixed",
     questions: unit6Questions,
   },
   unit7: {
     name: "Sustainability, Business & Stories",
     description: "Relative clauses, green technology & confused words",
     icon: "🌱",
+    kind: "mixed",
     questions: unit7Questions,
   },
   unit8: {
     name: "Communication, Culture & Nature",
     description: "Passive forms, adjective collocations & communication",
     icon: "🐝",
+    kind: "mixed",
     questions: unit8Questions,
   },
+};
+
+const PRACTICE_CONTEXTS = [
+  "During a class discussion",
+  "While preparing a school project",
+  "At an evening workshop",
+  "During a team challenge",
+  "While visiting a local learning centre",
+  "In a student presentation",
+  "During an English lesson",
+  "While planning a community event",
+  "At a weekend activity",
+  "During a club meeting",
+  "While writing a short report",
+  "At a creative workshop",
+  "During a class debate",
+  "While preparing a display",
+  "In a group assignment",
+  "During a revision session",
+  "While organising a school event",
+  "At a language club meeting",
+  "During a practice round",
+  "While working with a partner",
+];
+
+const allMixedQuestions = Object.values(MIXED_QUIZZES).flatMap(
+  (quiz) => quiz.questions,
+);
+
+const modalSeeds = makeQuestions("modal-seed", [
+  ["You ___ wear a helmet when cycling on this track.", "must", ["must", "might", "could", "would"], "Modal verbs"],
+  ["___ I borrow your camera for the project?", "Could", ["Must", "Could", "Should have", "Need"], "Modal verbs"],
+  ["The lights are on, so Maya ___ be at home.", "must", ["must", "can't", "shouldn't", "would"], "Modal verbs"],
+  ["That ___ be Leo; he is travelling abroad.", "can't", ["must", "can't", "may", "should"], "Modal verbs"],
+  ["We ___ visit the exhibition tomorrow if we finish early.", "might", ["mustn't", "might", "need", "ought"], "Modal verbs"],
+  ["You ___ bring food into the laboratory.", "mustn't", ["don't have to", "might", "mustn't", "could"], "Modal verbs"],
+  ["Students ___ submit the form today; Friday is also fine.", "don't have to", ["mustn't", "don't have to", "can't", "shouldn't"], "Modal verbs"],
+  ["You ___ check the weather before hiking.", "should", ["should", "may have", "can't", "mustn't"], "Modal verbs"],
+  ["The train ___ arrive late because of the storm.", "may", ["has to", "may", "shouldn't", "must"], "Modal verbs"],
+  ["___ you help me move this table, please?", "Would", ["Must", "Would", "Need", "Shall have"], "Modal verbs"],
+]);
+
+function matchesAny(question, patterns) {
+  return patterns.some((pattern) =>
+    typeof pattern === "string"
+      ? question.hint === pattern
+      : pattern.test(question.hint),
+  );
+}
+
+function expandFocusedQuestions(id, sourceQuestions) {
+  if (!sourceQuestions.length) {
+    throw new Error(`Focused quiz "${id}" has no source questions.`);
+  }
+
+  return Array.from({ length: 50 }, (_, index) => {
+    const source = sourceQuestions[index % sourceQuestions.length];
+    const cycle = Math.floor(index / sourceQuestions.length);
+    const firstCharacter = source.sentence[0];
+    const firstWord = source.sentence.match(/^[A-Za-z]+/)?.[0];
+    const keepCapitalised = new Set([
+      "I",
+      "Leo",
+      "Mina",
+      "Nora",
+      "Mia",
+      "Ben",
+      "Maya",
+      "Lena",
+    ]).has(firstWord);
+    const loweredSentence =
+      keepCapitalised
+        ? source.sentence
+        : `${firstCharacter.toLowerCase()}${source.sentence.slice(1)}`;
+    const sentence =
+      cycle === 0
+        ? source.sentence
+        : `${PRACTICE_CONTEXTS[cycle - 1]}, ${loweredSentence}`;
+
+    return {
+      ...source,
+      id: `${id}-${String(index + 1).padStart(2, "0")}`,
+      sentence,
+    };
+  });
+}
+
+const focusedDefinitions = [
+  {
+    id: "present-tenses",
+    name: "Present Tenses",
+    description: "Present simple, continuous and perfect forms",
+    icon: "⏱️",
+    patterns: [
+      "Present simple",
+      "Present continuous",
+      "Present perfect",
+      "Present perfect continuous",
+      "State verbs",
+    ],
+  },
+  {
+    id: "phrasal-verbs",
+    name: "Phrasal Verbs",
+    description: "Meaning and use of common phrasal verbs",
+    icon: "🔗",
+    patterns: ["Phrasal verbs"],
+  },
+  {
+    id: "art-natural-phenomena",
+    name: "Art & Unusual Phenomena",
+    description: "Art, colour, places and extraordinary natural events",
+    icon: "🌌",
+    patterns: [
+      "Unusual natural phenomena",
+      "Colour and art",
+      "Art and places",
+      "Travel and art",
+    ],
+  },
+  {
+    id: "past-tenses",
+    name: "Past Tenses",
+    description: "Past simple, continuous, perfect and past habits",
+    icon: "⏪",
+    patterns: [
+      "Past simple",
+      "Past continuous",
+      "Past perfect",
+      "Used to",
+      "Would for past habits",
+      "Childhood beliefs",
+    ],
+  },
+  {
+    id: "collocations",
+    name: "Collocations",
+    description: "Natural verb, noun, adjective and adverb combinations",
+    icon: "🧩",
+    patterns: [/collocations$/i],
+  },
+  {
+    id: "film",
+    name: "Film & Visual Storytelling",
+    description: "Cinema, performance and visual storytelling vocabulary",
+    icon: "🎞️",
+    patterns: ["Film vocabulary", "Reviews", "Sport and colour"],
+  },
+  {
+    id: "negative-prefixes",
+    name: "Negative Prefixes",
+    description: "Form opposites with un-, in-, im-, il-, ir- and dis-",
+    icon: "➖",
+    patterns: ["Negative prefixes"],
+  },
+  {
+    id: "future-forms",
+    name: "Future Forms",
+    description: "Plans, predictions, arrangements and future perfect forms",
+    icon: "🔮",
+    patterns: [
+      "Future forms",
+      "Future decisions",
+      "Future possibility",
+      "Future arrangements",
+      "Future continuous",
+      "Future perfect",
+      "Going to",
+      "Predictions",
+      "Be about to",
+    ],
+  },
+  {
+    id: "make-do",
+    name: "Make & Do",
+    description: "Choose the natural expression with make or do",
+    icon: "🛠️",
+    patterns: ["Make and do"],
+  },
+  {
+    id: "photography",
+    name: "Photography",
+    description: "Cameras, images and black-and-white photography",
+    icon: "📸",
+    patterns: ["Photography", "Black-and-white photography"],
+  },
+  {
+    id: "celebrations",
+    name: "Celebrations & Gifts",
+    description: "Parties, suggestions, gifts and special occasions",
+    icon: "🎁",
+    patterns: [
+      "Party planning",
+      "Party suggestions",
+      "Gifts",
+      "Great gifts",
+      "Red-letter days",
+      "Red carpet",
+    ],
+  },
+  {
+    id: "reported-speech",
+    name: "Reported Speech",
+    description: "Reported statements, questions, requests and commands",
+    icon: "💬",
+    patterns: [/^Reported /],
+  },
+  {
+    id: "food-phrasal-verbs",
+    name: "Food Phrasal Verbs",
+    description: "Phrasal verbs used for cooking, eating and food",
+    icon: "🍳",
+    patterns: ["Food phrasal verbs"],
+  },
+  {
+    id: "noun-suffixes",
+    name: "Noun Suffixes",
+    description: "Build nouns with common suffixes",
+    icon: "🔤",
+    patterns: ["Noun suffixes", "Noun formation"],
+  },
+  {
+    id: "conditionals",
+    name: "Conditionals",
+    description: "Zero, first, second, third and alternative conditionals",
+    icon: "↔️",
+    patterns: [/conditional$/i, "Conditional forms"],
+  },
+  {
+    id: "verb-patterns",
+    name: "Verb Patterns",
+    description: "Verbs followed by infinitives or gerunds",
+    icon: "🧱",
+    patterns: ["Verb patterns"],
+  },
+  {
+    id: "fashion",
+    name: "Fashion & Shopping",
+    description: "Clothes, materials, shopping and consumer choices",
+    icon: "👗",
+    patterns: [
+      "Fashion",
+      "Black Friday",
+      "Vantablack",
+      "Clothes and culture",
+    ],
+  },
+  {
+    id: "environment",
+    name: "The Environment",
+    description: "Pollution, green spaces and sustainable choices",
+    icon: "🌍",
+    patterns: [
+      "Air pollution",
+      "Green spaces",
+      "Time outdoors",
+      "Honey bees",
+      "Favourite seasons",
+    ],
+  },
+  {
+    id: "comparatives",
+    name: "Comparatives & Superlatives",
+    description: "Compare people, places, objects and experiences",
+    icon: "⚖️",
+    patterns: ["Comparatives", "Superlatives"],
+  },
+  {
+    id: "compound-words",
+    name: "Compound Words",
+    description: "Build and recognise common compound words",
+    icon: "🧲",
+    patterns: ["Compound words"],
+  },
+  {
+    id: "adjective-suffixes",
+    name: "Adjective Suffixes",
+    description: "Build adjectives with common suffixes",
+    icon: "🏷️",
+    patterns: ["Adjective suffixes"],
+  },
+  {
+    id: "fundraising",
+    name: "Fundraising & Events",
+    description: "Charity events, campaigns and raising money",
+    icon: "🤝",
+    patterns: ["Raising money", "Red carpet", "Red-letter days", "Seeing red"],
+  },
+  {
+    id: "relative-clauses",
+    name: "Relative Clauses",
+    description: "Defining, non-defining and reduced relative clauses",
+    icon: "🧷",
+    patterns: [/relative clauses$/i, "Relative clauses"],
+  },
+  {
+    id: "green-technology",
+    name: "Green Technology",
+    description: "Sustainable products, energy and eco-friendly inventions",
+    icon: "♻️",
+    patterns: [
+      "Green technology",
+      "Green products",
+      "Business and green products",
+    ],
+  },
+  {
+    id: "confused-words",
+    name: "Easily Confused Words",
+    description: "Choose between words with similar forms or meanings",
+    icon: "🔀",
+    patterns: ["Easily confused words"],
+  },
+  {
+    id: "passive-forms",
+    name: "Passive Forms",
+    description: "Passive structures across tenses and reporting patterns",
+    icon: "🔄",
+    patterns: [/passive/i, "Passive agent", "Materials in passive descriptions"],
+  },
+  {
+    id: "adjective-collocations",
+    name: "Adjective Collocations",
+    description: "Natural adverb and adjective combinations",
+    icon: "🧠",
+    patterns: ["Adverb + adjective collocations"],
+  },
+  {
+    id: "communication",
+    name: "Communication & Culture",
+    description: "Messages, emojis, friendship and cultural identity",
+    icon: "🌐",
+    patterns: [
+      "Emojis and communication",
+      "Friendship",
+      "Clothes and culture",
+      "Colour and gender",
+    ],
+  },
+  {
+    id: "modal-verbs",
+    name: "Modal Verbs",
+    description: "Ability, permission, advice, obligation and deduction",
+    icon: "🚦",
+    source: modalSeeds,
+  },
+];
+
+const FOCUSED_QUIZZES = Object.fromEntries(
+  focusedDefinitions.map((definition) => {
+    const source =
+      definition.source ??
+      allMixedQuestions.filter((question) =>
+        matchesAny(question, definition.patterns),
+      );
+
+    return [
+      definition.id,
+      {
+        name: definition.name,
+        description: definition.description,
+        icon: definition.icon,
+        kind: "focused",
+        questions: expandFocusedQuestions(definition.id, source),
+      },
+    ];
+  }),
+);
+
+export const QUIZZES = {
+  ...MIXED_QUIZZES,
+  ...FOCUSED_QUIZZES,
 };

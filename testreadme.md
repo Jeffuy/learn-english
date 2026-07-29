@@ -1,6 +1,40 @@
 # Book quiz catalogue
 
-The app contains eight quizzes based on the eight units of *B2 First Formula Course Book*. Each quiz has 50 original multiple-choice questions. The examples are not copied from the book, and every question stays within the language and themes introduced in its unit.
+The app contains eight mixed quizzes based on *B2 First Formula Course Book*, plus focused quizzes for individual language and vocabulary areas. Every quiz has 50 multiple-choice questions and stays within the language and themes covered by the book.
+
+## Focused practice
+
+- Present Tenses
+- Phrasal Verbs
+- Art & Unusual Phenomena
+- Past Tenses
+- Collocations
+- Film & Visual Storytelling
+- Negative Prefixes
+- Future Forms
+- Make & Do
+- Photography
+- Celebrations & Gifts
+- Reported Speech
+- Food Phrasal Verbs
+- Noun Suffixes
+- Conditionals
+- Verb Patterns
+- Fashion & Shopping
+- The Environment
+- Comparatives & Superlatives
+- Compound Words
+- Adjective Suffixes
+- Fundraising & Events
+- Relative Clauses
+- Green Technology
+- Easily Confused Words
+- Passive Forms
+- Adjective Collocations
+- Communication & Culture
+- Modal Verbs
+
+## Mixed quizzes
 
 ## Art, Travel & Natural Wonders
 
@@ -96,8 +130,10 @@ The app contains eight quizzes based on the eight units of *B2 First Formula Cou
 
 ## Totals
 
-- 8 quizzes
+- 8 mixed quizzes
+- 29 focused quizzes
+- 37 quizzes in total
 - 50 questions per quiz
-- 400 questions in total
+- 1,850 question entries in total
 - 4 answer options per question
-- No repeated question text
+- No repeated question text within an individual quiz

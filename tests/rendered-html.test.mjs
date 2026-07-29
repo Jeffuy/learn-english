@@ -25,13 +25,17 @@ test("Word Rally keeps its core classroom game flow", async () => {
   assert.doesNotMatch(packageJson, /vinext|wrangler|vite/);
 });
 
-test("the book provides eight complete and valid unit quizzes", () => {
+test("the book provides complete mixed and focused quizzes", () => {
   const entries = Object.entries(QUIZZES);
   const allQuestions = entries.flatMap(([, quiz]) => quiz.questions);
+  const mixedEntries = entries.filter(([, quiz]) => quiz.kind === "mixed");
+  const focusedEntries = entries.filter(([, quiz]) => quiz.kind === "focused");
 
-  assert.equal(entries.length, 8);
+  assert.equal(entries.length, 37);
+  assert.equal(mixedEntries.length, 8);
+  assert.equal(focusedEntries.length, 29);
   assert.deepEqual(
-    entries.map(([, quiz]) => quiz.name),
+    mixedEntries.map(([, quiz]) => quiz.name),
     [
       "Art, Travel & Natural Wonders",
       "Film, Childhood & Traditions",
@@ -46,6 +50,11 @@ test("the book provides eight complete and valid unit quizzes", () => {
 
   for (const [quizId, quiz] of entries) {
     assert.equal(quiz.questions.length, 50, `${quizId} must contain 50 questions`);
+    assert.equal(
+      new Set(quiz.questions.map(({ sentence }) => sentence)).size,
+      50,
+      `${quizId} must not repeat question text`,
+    );
 
     for (const question of quiz.questions) {
       assert.equal(question.options.length, 4, `${question.id} must have four options`);
@@ -61,9 +70,8 @@ test("the book provides eight complete and valid unit quizzes", () => {
     }
   }
 
-  assert.equal(allQuestions.length, 400);
-  assert.equal(new Set(allQuestions.map(({ id }) => id)).size, 400);
-  assert.equal(new Set(allQuestions.map(({ sentence }) => sentence)).size, 400);
+  assert.equal(allQuestions.length, 1850);
+  assert.equal(new Set(allQuestions.map(({ id }) => id)).size, 1850);
 });
 
 test("ambiguous collocation questions include an explanatory context", () => {
@@ -71,6 +79,17 @@ test("ambiguous collocation questions include an explanatory context", () => {
     .flatMap((quiz) => quiz.questions)
     .filter(({ hint }) => hint === "Adverb + adjective collocations");
 
-  assert.equal(collocationQuestions.length, 11);
+  assert.ok(collocationQuestions.length >= 11);
   assert.ok(collocationQuestions.every(({ context }) => context?.length > 20));
+});
+
+test("the setup separates mixed quizzes from focused practice", async () => {
+  const page = await readFile(
+    new URL("../app/page.jsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(page, /Mixed quizzes/);
+  assert.match(page, /Focused practice/);
+  assert.match(page, /visibleQuizzes/);
 });

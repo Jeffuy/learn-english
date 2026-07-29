@@ -42,6 +42,7 @@ export default function Home() {
   const [teams, setTeams] = useState([]);
   const [questionCount, setQuestionCount] = useState(15);
   const [selectedQuiz, setSelectedQuiz] = useState("unit1");
+  const [quizKind, setQuizKind] = useState("mixed");
   const [questionDeck, setQuestionDeck] = useState([]);
   const [currentTeam, setCurrentTeam] = useState(0);
   const [selectedNumber, setSelectedNumber] = useState(null);
@@ -66,6 +67,13 @@ export default function Home() {
     () => [...teams].sort((a, b) => b.score - a.score),
     [teams],
   );
+  const visibleQuizzes = useMemo(
+    () =>
+      Object.entries(QUIZZES).filter(
+        ([, quizOption]) => quizOption.kind === quizKind,
+      ),
+    [quizKind],
+  );
 
   useEffect(() => {
     let savedGame = null;
@@ -85,7 +93,11 @@ export default function Home() {
         setTeamNames(savedGame.teamNames ?? ["The Rockets", "Word Wizards"]);
         setTeams(savedGame.teams ?? []);
         setQuestionCount(savedGame.questionCount ?? 15);
-        setSelectedQuiz(QUIZZES[savedGame.selectedQuiz] ? savedGame.selectedQuiz : "unit1");
+        const restoredQuiz = QUIZZES[savedGame.selectedQuiz]
+          ? savedGame.selectedQuiz
+          : "unit1";
+        setSelectedQuiz(restoredQuiz);
+        setQuizKind(QUIZZES[restoredQuiz].kind);
         setQuestionDeck(savedGame.questionDeck ?? []);
         setCurrentTeam(savedGame.currentTeam ?? 0);
         setSelectedNumber(savedGame.selectedNumber ?? null);
@@ -115,6 +127,7 @@ export default function Home() {
         teams,
         questionCount,
         selectedQuiz,
+        quizKind,
         questionDeck,
         currentTeam,
         selectedNumber,
@@ -132,6 +145,7 @@ export default function Home() {
     teams,
     questionCount,
     selectedQuiz,
+    quizKind,
     questionDeck,
     currentTeam,
     selectedNumber,
@@ -156,6 +170,14 @@ export default function Home() {
     if (teamNames.length > 2) {
       setTeamNames((names) => names.filter((_, i) => i !== index));
     }
+  }
+
+  function chooseQuizKind(kind) {
+    const firstQuiz = Object.entries(QUIZZES).find(
+      ([, quizOption]) => quizOption.kind === kind,
+    );
+    setQuizKind(kind);
+    if (firstQuiz) setSelectedQuiz(firstQuiz[0]);
   }
 
   function startGame() {
@@ -357,8 +379,30 @@ export default function Home() {
                     <p>Choose a quiz for this game</p>
                   </div>
                 </div>
+                <div className="quiz-kind-tabs" role="tablist" aria-label="Quiz type">
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={quizKind === "mixed"}
+                    className={quizKind === "mixed" ? "selected" : ""}
+                    onClick={() => chooseQuizKind("mixed")}
+                  >
+                    Mixed quizzes
+                    <small>Several skills together</small>
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    aria-selected={quizKind === "focused"}
+                    className={quizKind === "focused" ? "selected" : ""}
+                    onClick={() => chooseQuizKind("focused")}
+                  >
+                    Focused practice
+                    <small>One specific topic</small>
+                  </button>
+                </div>
                 <div className="topic-list">
-                  {Object.entries(QUIZZES).map(([quizId, quizOption]) => (
+                  {visibleQuizzes.map(([quizId, quizOption]) => (
                     <button
                       key={quizId}
                       className={`topic-option ${selectedQuiz === quizId ? "selected" : ""}`}

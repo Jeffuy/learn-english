@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import styles from "./page.module.css";
 import { CHAMULLERO_QUESTIONS } from "./questions";
 
@@ -45,6 +45,7 @@ function HighlightedSentence({ question }) {
 }
 
 export default function ChamulleroPage() {
+  const scrollPositionToRestore = useRef(null);
   const [hydrated, setHydrated] = useState(false);
   const [order, setOrder] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -60,6 +61,12 @@ export default function ChamulleroPage() {
   const currentQuestion = questionById.get(order[currentIndex]);
   const wasCorrect = selectedOption === currentQuestion?.answer;
   const progress = ((currentIndex + 1) / 50) * 100;
+
+  useLayoutEffect(() => {
+    if (scrollPositionToRestore.current === null) return;
+    window.scrollTo(0, scrollPositionToRestore.current);
+    scrollPositionToRestore.current = null;
+  });
 
   useEffect(() => {
     let savedGame = null;
@@ -111,6 +118,7 @@ export default function ChamulleroPage() {
       setPhase("finished");
       return;
     }
+    scrollPositionToRestore.current = window.scrollY;
     setCurrentIndex((index) => index + 1);
     setSelectedOption(null);
   }

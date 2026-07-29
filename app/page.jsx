@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import { QUIZZES } from "./quiz-bank";
 
 const TEAM_COLORS = ["#ffcb3d", "#9ce36f", "#ff8d79", "#82c7ff", "#d7a7ff", "#63dbc9"];
@@ -86,6 +86,7 @@ function safeQuestionHint(question) {
 }
 
 export default function Home() {
+  const scrollPositionToRestore = useRef(null);
   const [hydrated, setHydrated] = useState(false);
   const [phase, setPhase] = useState("setup");
   const [teamNames, setTeamNames] = useState(["The Rockets", "Word Wizards"]);
@@ -138,6 +139,12 @@ export default function Home() {
         .includes(search);
     });
   }, [quizKind, quizSearch]);
+
+  useLayoutEffect(() => {
+    if (scrollPositionToRestore.current === null) return;
+    window.scrollTo(0, scrollPositionToRestore.current);
+    scrollPositionToRestore.current = null;
+  });
 
   useEffect(() => {
     let savedGame = null;
@@ -375,6 +382,7 @@ export default function Home() {
       return;
     }
 
+    scrollPositionToRestore.current = window.scrollY;
     setCurrentTeam((current) => (current + 1) % teams.length);
     setTimerPaused(false);
     setTimedOut(false);

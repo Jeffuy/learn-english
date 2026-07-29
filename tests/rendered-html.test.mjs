@@ -23,6 +23,8 @@ test("Word Rally keeps its core classroom game flow", async () => {
   assert.match(page, /answer-feedback/);
   assert.match(page, /chooseChoiceAnswer\(option\)/);
   assert.doesNotMatch(page, /Lock in answer/);
+  assert.match(page, /scrollPositionToRestore/);
+  assert.match(page, /window\.scrollTo/);
   assert.match(page, /createQuestionDeck/);
   assert.match(page, /uniqueQuestions/);
   assert.match(page, /savedGameHasValidDeck/);
@@ -301,6 +303,8 @@ test("the secret Uruguayan slang quiz contains fifty complete questions", async 
   );
   assert.match(secretPage, /El Chamullero/);
   assert.match(secretPage, /HighlightedSentence/);
+  assert.match(secretPage, /scrollPositionToRestore/);
+  assert.match(secretPage, /window\.scrollTo/);
   assert.match(secretPage, /chamullero-secret-quiz-v1/);
   assert.match(secretPage, /¿Qué significa en esta frase\?/);
   assert.doesNotMatch(mainPage, /chamullero/i);

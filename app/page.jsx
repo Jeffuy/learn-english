@@ -7,6 +7,7 @@ const TEAM_COLORS = ["#ffcb3d", "#9ce36f", "#ff8d79", "#82c7ff", "#d7a7ff", "#63
 const QUESTION_COUNTS = [15, 25, 35, 50];
 const TIMER_OPTIONS = [0, 15, 30, 45, 60];
 const STORAGE_KEY = "word-rally-game-v3";
+const DEFAULT_QUIZ = "phrasal-verbs";
 
 function shuffled(items) {
   const copy = [...items];
@@ -94,8 +95,8 @@ export default function Home() {
   const [timeLeft, setTimeLeft] = useState(0);
   const [timerPaused, setTimerPaused] = useState(false);
   const [timedOut, setTimedOut] = useState(false);
-  const [selectedQuiz, setSelectedQuiz] = useState("unit1");
-  const [quizKind, setQuizKind] = useState("mixed");
+  const [selectedQuiz, setSelectedQuiz] = useState(DEFAULT_QUIZ);
+  const [quizKind, setQuizKind] = useState("focused");
   const [questionDeck, setQuestionDeck] = useState([]);
   const [currentTeam, setCurrentTeam] = useState(0);
   const [selectedNumber, setSelectedNumber] = useState(null);
@@ -158,7 +159,7 @@ export default function Home() {
         setTimedOut(savedGame.timedOut ?? false);
         const restoredQuiz = QUIZZES[savedGame.selectedQuiz]
           ? savedGame.selectedQuiz
-          : "unit1";
+          : DEFAULT_QUIZ;
         setSelectedQuiz(restoredQuiz);
         setQuizKind(QUIZZES[restoredQuiz].kind);
         setQuestionDeck(savedGame.questionDeck ?? []);

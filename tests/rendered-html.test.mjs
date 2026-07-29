@@ -120,6 +120,8 @@ test("the setup separates mixed quizzes from focused practice", async () => {
     "utf8",
   );
 
+  assert.match(page, /useState\(DEFAULT_QUIZ\)/);
+  assert.match(page, /useState\("focused"\)/);
   assert.match(page, /Mixed quizzes/);
   assert.match(page, /Focused practice/);
   assert.match(page, /visibleQuizzes/);

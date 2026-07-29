@@ -134,10 +134,10 @@ export const CHAMULLERO_QUESTIONS = [
     term: "Plancha",
     emoji: "🧢",
     sentence: "Antes se vestía medio plancha, pero ahora cambió pila el estilo.",
-    answer: "Con un estilo asociado a la subcultura urbana llamada plancha",
+    answer: "Con un estilo asociado a la subcultura urbana llamada plancha/turra",
     options: [
       "Con ropa formal para una ceremonia",
-      "Con un estilo asociado a la subcultura urbana llamada plancha",
+      "Con un estilo asociado a la subcultura urbana llamada plancha/turra",
       "Con prendas antiguas heredadas de la familia",
       "Con ropa arrugada y sin planchar",
     ],

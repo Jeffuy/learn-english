@@ -137,3 +137,10 @@ The app contains eight mixed quizzes based on *B2 First Formula Course Book*, pl
 - 1,850 question entries in total
 - 4 answer options per question
 - No repeated question text within an individual quiz
+
+## Game options
+
+- Optional answer timer: off, 15, 30, 45 or 60 seconds
+- The teacher can pause and resume the timer
+- A timed-out question is marked incorrect and reveals the correct answer
+- Game progress, timer state and remaining time are saved automatically

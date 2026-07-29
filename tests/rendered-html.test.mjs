@@ -55,6 +55,15 @@ test("the book provides complete mixed and focused quizzes", () => {
       50,
       `${quizId} must not repeat question text`,
     );
+    assert.ok(
+      quiz.questions.every(
+        ({ sentence }) =>
+          !/^(Warm-up|Class challenge|Team practice|Revision round|Quick review)/.test(
+            sentence,
+          ),
+      ),
+      `${quizId} must not add artificial exercise labels`,
+    );
 
     for (const question of quiz.questions) {
       assert.equal(question.options.length, 4, `${question.id} must have four options`);
@@ -66,6 +75,11 @@ test("the book provides complete mixed and focused quizzes", () => {
       assert.ok(
         question.options.includes(question.answer),
         `${question.id} must include its answer among its options`,
+      );
+      assert.ok(
+        !question.context ||
+          !question.context.toLowerCase().includes(question.answer.toLowerCase()),
+        `${question.id} must not reveal its answer in the context`,
       );
     }
   }
@@ -92,4 +106,17 @@ test("the setup separates mixed quizzes from focused practice", async () => {
   assert.match(page, /Mixed quizzes/);
   assert.match(page, /Focused practice/);
   assert.match(page, /visibleQuizzes/);
+});
+
+test("the teacher can enable, pause and disable the answer timer", async () => {
+  const page = await readFile(
+    new URL("../app/page.jsx", import.meta.url),
+    "utf8",
+  );
+
+  assert.match(page, /Answer timer/);
+  assert.match(page, /TIMER_OPTIONS/);
+  assert.match(page, /setTimerPaused/);
+  assert.match(page, /Time&apos;s up/);
+  assert.match(page, /safeQuestionHint/);
 });

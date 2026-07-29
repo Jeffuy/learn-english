@@ -415,6 +415,46 @@ input:focus-visible {
   box-shadow: inset 0 0 0 1px var(--blue);
 }
 
+.timer-setup {
+  margin-top: 18px;
+  padding-top: 17px;
+  border-top: 1px solid var(--line);
+}
+
+.timer-setup > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 9px;
+}
+
+.timer-setup > div:first-child span {
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.timer-options {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 7px;
+}
+
+.timer-options button {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: white;
+  padding: 8px 4px;
+  color: var(--muted);
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.timer-options button.selected {
+  border-color: var(--blue);
+  background: #f0f3ff;
+  color: var(--blue);
+}
+
 .topic-list {
   display: grid;
   gap: 9px;
@@ -763,6 +803,41 @@ input:focus-visible {
   text-transform: none;
 }
 
+.question-timer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--blue);
+  letter-spacing: 0;
+}
+
+.question-timer strong {
+  min-width: 46px;
+  font-size: 18px;
+  text-align: right;
+}
+
+.question-timer button {
+  border: 1px solid #cbd3ef;
+  border-radius: 999px;
+  background: #f4f6ff;
+  color: var(--blue);
+  padding: 6px 10px;
+  font-size: 11px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.question-timer.urgent {
+  color: #c74738;
+}
+
+.question-timer.urgent button {
+  border-color: #efb5ad;
+  background: #fff2f0;
+  color: #c74738;
+}
+
 .question-card {
   border: 1px solid var(--line);
   background: white;
@@ -807,6 +882,43 @@ input:focus-visible {
   letter-spacing: -1.5px;
   margin: 0 auto 43px;
   max-width: 760px;
+}
+
+.timeout-panel {
+  max-width: 620px;
+  margin: 0 auto;
+  border: 1px solid #efb5ad;
+  border-radius: 20px;
+  background: #fff4f2;
+  padding: 28px;
+}
+
+.timeout-panel > span {
+  color: #c74738;
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.timeout-panel h2 {
+  margin: 7px 0;
+  color: #9f3328;
+}
+
+.timeout-panel p {
+  margin: 0 0 20px;
+  color: #6d4540;
+}
+
+.timeout-panel button {
+  border: 0;
+  border-radius: 12px;
+  background: #c74738;
+  color: white;
+  padding: 12px 20px;
+  font-weight: 900;
+  cursor: pointer;
 }
 
 .mode-picker {
@@ -1319,5 +1431,6 @@ input:focus-visible {
   .question-topline {
     align-items: flex-start;
     gap: 10px;
+    flex-wrap: wrap;
   }
 }

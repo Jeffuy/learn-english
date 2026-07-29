@@ -492,28 +492,97 @@ const MIXED_QUIZZES = {
   },
 };
 
-const PRACTICE_CONTEXTS = [
-  "During a class discussion",
-  "While preparing a school project",
-  "At an evening workshop",
-  "During a team challenge",
-  "While visiting a local learning centre",
-  "In a student presentation",
-  "During an English lesson",
-  "While planning a community event",
-  "At a weekend activity",
-  "During a club meeting",
-  "While writing a short report",
-  "At a creative workshop",
-  "During a class debate",
-  "While preparing a display",
-  "In a group assignment",
-  "During a revision session",
-  "While organising a school event",
-  "At a language club meeting",
-  "During a practice round",
-  "While working with a partner",
+const NATURAL_DETAILS = [
+  "during the school project",
+  "at the local event",
+  "in yesterday's class",
+  "for the group presentation",
+  "at the weekend workshop",
+  "during the museum visit",
+  "in the student report",
+  "for the community campaign",
+  "at the language club",
+  "during the team activity",
+  "in the class discussion",
+  "for the final assignment",
+  "at the science fair",
+  "during the afternoon session",
+  "in the practice lesson",
+  "for the school display",
+  "at the cultural festival",
+  "during the field trip",
+  "in the online lesson",
+  "for the class competition",
 ];
+
+const SENTENCE_SUBSTITUTIONS = [
+  ["The editor", ["The archive technician", "The image specialist", "The museum assistant", "The restoration expert", "The digital artist", "The studio editor"]],
+  ["Careful lighting", ["Soft lighting", "Natural light", "Side lighting", "Studio lighting", "Warm lighting", "Balanced lighting"]],
+  ["The photographer", ["The portrait photographer", "The studio assistant", "The camera operator", "The photojournalist", "The wedding photographer", "The wildlife photographer"]],
+  ["the old", ["the faded", "the damaged", "the historic", "the family", "the archived", "the original"]],
+  ["a portrait", ["a headshot", "a close-up", "a studio image", "a family photograph", "an outdoor portrait", "a profile picture"]],
+  ["The film’s", ["The drama’s", "The period film’s", "The historical movie’s", "The television series’", "The stage production’s", "The adventure film’s"]],
+  ["The camera work", ["The soundtrack", "The lighting", "The set design", "The opening music", "The visual style", "The slow editing"]],
+  ["The final scene", ["The ending", "The last conversation", "The closing shot", "The final interview", "The last sequence", "The closing moment"]],
+  ["The review", ["The newspaper review", "The online review", "The festival review", "The critic’s article", "The magazine review", "The student review"]],
+  ["The opening scene", ["The opening sequence", "The first scene", "The opening shot", "The first conversation", "The introductory scene", "The opening minute"]],
+  ["The team’s red shirts", ["The club’s bright uniforms", "The band’s unusual jackets", "The staff’s matching T-shirts", "The players’ striped shirts", "The dancers’ vivid costumes", "The guides’ yellow coats"]],
+  ["A smart thermostat", ["A modern heat pump", "An intelligent meter", "A home energy monitor", "An automatic lighting system", "A programmable controller", "A smart power socket"]],
+  ["The device", ["The new appliance", "The small generator", "The monitoring unit", "The portable charger", "The heating system", "The prototype"]],
+  ["A sustainable business", ["An eco-friendly company", "A responsible manufacturer", "A local green enterprise", "A low-waste shop", "A renewable-energy company", "A sustainable start-up"]],
+  ["Customers", ["Online shoppers", "Local residents", "Many families", "Business owners", "Regular buyers", "Environmentally aware consumers"]],
+  ["The label", ["The certificate", "The product information", "The official mark", "The packaging note", "The supplier’s document", "The printed symbol"]],
+  ["the wood", ["the cotton", "the paper", "the coffee", "the rubber", "the timber", "the material"]],
+  ["the exhibition", ["the museum", "the science fair", "the gallery", "the cultural event", "the new display", "the public lecture"]],
+  ["the project", ["the assignment", "the presentation", "the class report", "the group task", "the workshop", "the campaign"]],
+  ["the storm", ["the heavy rain", "the transport strike", "the strong winds", "the road closure", "the technical problem", "the snow"]],
+  ["the camera", ["the tablet", "the recording equipment", "the school laptop", "the projector", "the microphone", "the video camera"]],
+  ["the park", ["the nature reserve", "the public garden", "the riverside path", "the recreation area", "the city garden", "the outdoor centre"]],
+  ["the gallery", ["the museum", "the arts centre", "the exhibition hall", "the studio", "the cultural centre", "the public collection"]],
+  ["the city", ["the town", "the neighbourhood", "the capital", "the coastal village", "the local district", "the urban area"]],
+  ["the artist", ["the designer", "the painter", "the sculptor", "the photographer", "the illustrator", "the craftsperson"]],
+  ["the film", ["the documentary", "the drama", "the series", "the performance", "the short movie", "the production"]],
+  ["the jacket", ["the coat", "the sweater", "the shirt", "the dress", "the uniform", "the scarf"]],
+  ["coffee", ["tea", "hot chocolate", "espresso", "herbal tea", "cocoa", "iced coffee"]],
+  ["the recipe", ["the cooking method", "the sauce recipe", "the cake instructions", "the family dish", "the soup recipe", "the dessert recipe"]],
+  ["the festival", ["the celebration", "the charity event", "the street fair", "the school party", "the cultural show", "the awards ceremony"]],
+  ["the message", ["the email", "the online comment", "the announcement", "the text", "the invitation", "the public notice"]],
+  ["the company", ["the organisation", "the manufacturer", "the local business", "the retailer", "the start-up", "the supplier"]],
+  ["the material", ["the coating", "the fabric", "the substance", "the surface", "the product", "the new textile"]],
+  ["The train", ["The coach", "The ferry", "The morning bus", "The flight", "The underground service", "The school minibus"]],
+  ["Students", ["Learners", "Team members", "Course participants", "Class representatives", "The volunteers", "The competitors"]],
+  ["You", ["Visitors", "Students", "Team members", "Passengers", "Cyclists", "Participants"]],
+  ["She", ["Maya", "Nora", "Sofia", "Grace", "Emma", "Lena"]],
+  ["He", ["Leo", "Ben", "Noah", "Daniel", "Omar", "James"]],
+  ["They", ["The students", "The volunteers", "Our neighbours", "The visitors", "My classmates", "The organisers"]],
+  ["We", ["My classmates and I", "My friends and I", "The team and I", "My family and I", "Our group and I", "My colleagues and I"]],
+];
+
+function addNaturalDetail(sentence, detail) {
+  const punctuation = sentence.endsWith("?") ? "?" : ".";
+  const withoutPunctuation = sentence.replace(/[?.!]$/, "");
+  return `${withoutPunctuation} ${detail}${punctuation}`;
+}
+
+function createSentenceVariant(sentence, cycle, index) {
+  let variant = sentence;
+
+  for (const [original, replacements] of SENTENCE_SUBSTITUTIONS) {
+    if (variant.includes(original)) {
+      const replacement = replacements[(cycle + index) % replacements.length];
+      variant = variant.replace(original, replacement);
+    }
+  }
+
+  if (variant === sentence) {
+    return addNaturalDetail(
+      sentence,
+      NATURAL_DETAILS[(cycle + index) % NATURAL_DETAILS.length],
+    );
+  }
+
+  return variant;
+}
 
 const allMixedQuestions = Object.values(MIXED_QUIZZES).flatMap(
   (quiz) => quiz.questions,
@@ -545,29 +614,25 @@ function expandFocusedQuestions(id, sourceQuestions) {
     throw new Error(`Focused quiz "${id}" has no source questions.`);
   }
 
+  const usedSentences = new Set();
+
   return Array.from({ length: 50 }, (_, index) => {
     const source = sourceQuestions[index % sourceQuestions.length];
     const cycle = Math.floor(index / sourceQuestions.length);
-    const firstCharacter = source.sentence[0];
-    const firstWord = source.sentence.match(/^[A-Za-z]+/)?.[0];
-    const keepCapitalised = new Set([
-      "I",
-      "Leo",
-      "Mina",
-      "Nora",
-      "Mia",
-      "Ben",
-      "Maya",
-      "Lena",
-    ]).has(firstWord);
-    const loweredSentence =
-      keepCapitalised
-        ? source.sentence
-        : `${firstCharacter.toLowerCase()}${source.sentence.slice(1)}`;
-    const sentence =
+    let sentence =
       cycle === 0
         ? source.sentence
-        : `${PRACTICE_CONTEXTS[cycle - 1]}, ${loweredSentence}`;
+        : createSentenceVariant(source.sentence, cycle, index);
+    let detailIndex = cycle + index;
+
+    while (usedSentences.has(sentence)) {
+      sentence = addNaturalDetail(
+        createSentenceVariant(source.sentence, cycle, index),
+        NATURAL_DETAILS[detailIndex % NATURAL_DETAILS.length],
+      );
+      detailIndex += 1;
+    }
+    usedSentences.add(sentence);
 
     return {
       ...source,

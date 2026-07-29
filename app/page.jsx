@@ -5,6 +5,7 @@ import { QUIZZES } from "./quizzes";
 
 const TEAM_COLORS = ["#ffcb3d", "#9ce36f", "#ff8d79", "#82c7ff", "#d7a7ff", "#63dbc9"];
 const QUESTION_COUNTS = [15, 25, 35, 50];
+const TIMER_OPTIONS = [0, 15, 30, 45, 60];
 const STORAGE_KEY = "word-rally-game-v2";
 
 function shuffled(items) {
@@ -35,12 +36,26 @@ function TeamMark({ color }) {
   return <span className="team-mark" style={{ background: color }} aria-hidden="true" />;
 }
 
+function safeQuestionHint(question) {
+  const hintWords = new Set(question.hint.toLowerCase().split(/[^a-z]+/).filter(Boolean));
+  const answerWords = question.answer.toLowerCase().split(/[^a-z]+/).filter(
+    (word) => word.length > 1,
+  );
+  return answerWords.some((word) => hintWords.has(word))
+    ? "Language focus"
+    : question.hint;
+}
+
 export default function Home() {
   const [hydrated, setHydrated] = useState(false);
   const [phase, setPhase] = useState("setup");
   const [teamNames, setTeamNames] = useState(["The Rockets", "Word Wizards"]);
   const [teams, setTeams] = useState([]);
   const [questionCount, setQuestionCount] = useState(15);
+  const [timerSeconds, setTimerSeconds] = useState(0);
+  const [timeLeft, setTimeLeft] = useState(0);
+  const [timerPaused, setTimerPaused] = useState(false);
+  const [timedOut, setTimedOut] = useState(false);
   const [selectedQuiz, setSelectedQuiz] = useState("unit1");
   const [quizKind, setQuizKind] = useState("mixed");
   const [questionDeck, setQuestionDeck] = useState([]);
@@ -93,6 +108,10 @@ export default function Home() {
         setTeamNames(savedGame.teamNames ?? ["The Rockets", "Word Wizards"]);
         setTeams(savedGame.teams ?? []);
         setQuestionCount(savedGame.questionCount ?? 15);
+        setTimerSeconds(savedGame.timerSeconds ?? 0);
+        setTimeLeft(savedGame.timeLeft ?? 0);
+        setTimerPaused(savedGame.timerPaused ?? false);
+        setTimedOut(savedGame.timedOut ?? false);
         const restoredQuiz = QUIZZES[savedGame.selectedQuiz]
           ? savedGame.selectedQuiz
           : "unit1";
@@ -126,6 +145,10 @@ export default function Home() {
         teamNames,
         teams,
         questionCount,
+        timerSeconds,
+        timeLeft,
+        timerPaused,
+        timedOut,
         selectedQuiz,
         quizKind,
         questionDeck,
@@ -144,6 +167,10 @@ export default function Home() {
     teamNames,
     teams,
     questionCount,
+    timerSeconds,
+    timeLeft,
+    timerPaused,
+    timedOut,
     selectedQuiz,
     quizKind,
     questionDeck,
@@ -154,6 +181,46 @@ export default function Home() {
     selectedOption,
     answerResult,
     showAnswer,
+  ]);
+
+  useEffect(() => {
+    const timerIsRunning =
+      phase === "question" &&
+      timerSeconds > 0 &&
+      timeLeft > 0 &&
+      !timerPaused &&
+      !timedOut &&
+      answerResult === null &&
+      !showAnswer;
+
+    if (!timerIsRunning) return undefined;
+
+    const interval = window.setInterval(() => {
+      setTimeLeft((current) => {
+        const next = Math.max(0, current - 1);
+        if (next === 0) {
+          setTimedOut(true);
+          setAnswerMode("timeout");
+          setOutcomes((currentOutcomes) =>
+            selectedNumber
+              ? { ...currentOutcomes, [selectedNumber]: false }
+              : currentOutcomes,
+          );
+        }
+        return next;
+      });
+    }, 1000);
+
+    return () => window.clearInterval(interval);
+  }, [
+    answerResult,
+    phase,
+    selectedNumber,
+    showAnswer,
+    timedOut,
+    timeLeft,
+    timerPaused,
+    timerSeconds,
   ]);
 
   function updateTeamName(index, value) {
@@ -198,6 +265,9 @@ export default function Home() {
     setSelectedOption(null);
     setAnswerResult(null);
     setShowAnswer(false);
+    setTimeLeft(timerSeconds);
+    setTimerPaused(false);
+    setTimedOut(false);
     setPhase("board");
   }
 
@@ -207,6 +277,9 @@ export default function Home() {
     setSelectedOption(null);
     setAnswerResult(null);
     setShowAnswer(false);
+    setTimeLeft(timerSeconds);
+    setTimerPaused(false);
+    setTimedOut(false);
     setPhase("question");
   }
 
@@ -235,6 +308,8 @@ export default function Home() {
     }
 
     setCurrentTeam((current) => (current + 1) % teams.length);
+    setTimerPaused(false);
+    setTimedOut(false);
     setPhase("board");
   }
 
@@ -258,6 +333,9 @@ export default function Home() {
     setSelectedOption(null);
     setAnswerResult(null);
     setShowAnswer(false);
+    setTimeLeft(0);
+    setTimerPaused(false);
+    setTimedOut(false);
   }
 
   if (!hydrated) {
@@ -368,6 +446,24 @@ export default function Home() {
                       <span>{count === 15 ? "Quick" : count === 25 ? "Classic" : count === 35 ? "Long" : "Epic"}</span>
                     </button>
                   ))}
+                </div>
+                <div className="timer-setup">
+                  <div>
+                    <strong>Answer timer</strong>
+                    <span>Optional time for each team</span>
+                  </div>
+                  <div className="timer-options">
+                    {TIMER_OPTIONS.map((seconds) => (
+                      <button
+                        type="button"
+                        key={seconds}
+                        className={timerSeconds === seconds ? "selected" : ""}
+                        onClick={() => setTimerSeconds(seconds)}
+                      >
+                        {seconds === 0 ? "Off" : `${seconds}s`}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </section>
 
@@ -485,14 +581,29 @@ export default function Home() {
 
       {phase === "question" && (
         <section className="question-shell">
-          <button className="back-button" onClick={() => setPhase("board")}>← Back to board</button>
+          {!timedOut && (
+            <button className="back-button" onClick={() => setPhase("board")}>← Back to board</button>
+          )}
           <div className="question-topline">
             <span>Question {selectedNumber} of {questionCount}</span>
+            {timerSeconds > 0 && (
+              <div className={`question-timer ${timeLeft <= 5 ? "urgent" : ""}`}>
+                <strong>{timeLeft}s</strong>
+                {!timedOut && answerResult === null && !showAnswer && (
+                  <button
+                    type="button"
+                    onClick={() => setTimerPaused((paused) => !paused)}
+                  >
+                    {timerPaused ? "Resume" : "Pause"}
+                  </button>
+                )}
+              </div>
+            )}
             <span className="playing-team"><TeamMark color={teams[currentTeam]?.color} /> {teams[currentTeam]?.name}</span>
           </div>
 
           <div className="question-card">
-            <span className="question-hint">{activeQuestion.hint}</span>
+            <span className="question-hint">{safeQuestionHint(activeQuestion)}</span>
             <p className="question-label">Complete the sentence</p>
             {activeQuestion.context && (
               <p className="question-context">{activeQuestion.context}</p>
@@ -514,6 +625,15 @@ export default function Home() {
                     <b>+20 pts</b>
                   </button>
                 </div>
+              </div>
+            )}
+
+            {answerMode === "timeout" && (
+              <div className="timeout-panel">
+                <span>Time&apos;s up</span>
+                <h2>This question is marked incorrect.</h2>
+                <p>The correct answer is <strong>{activeQuestion.answer}</strong>.</p>
+                <button onClick={() => finishTurn(false)}>Continue →</button>
               </div>
             )}
 

@@ -6,7 +6,7 @@ import { QUIZZES } from "./quizzes";
 const TEAM_COLORS = ["#ffcb3d", "#9ce36f", "#ff8d79", "#82c7ff", "#d7a7ff", "#63dbc9"];
 const QUESTION_COUNTS = [15, 25, 35, 50];
 const TIMER_OPTIONS = [0, 15, 30, 45, 60];
-const STORAGE_KEY = "word-rally-game-v2";
+const STORAGE_KEY = "word-rally-game-v3";
 
 function shuffled(items) {
   const copy = [...items];
@@ -18,18 +18,56 @@ function shuffled(items) {
 }
 
 function createQuestionDeck(quizId, count) {
-  const ids = QUIZZES[quizId].questions.map((question) => question.id);
-  const deck = [];
+  const uniqueQuestions = [
+    ...new Map(
+      QUIZZES[quizId].questions.map((question) => [
+        question.sentence.trim().toLowerCase(),
+        question,
+      ]),
+    ).values(),
+  ];
 
-  while (deck.length < count) {
-    let batch = shuffled(ids);
-    if (deck.length && batch[0] === deck[deck.length - 1]) {
-      batch = [...batch.slice(1), batch[0]];
-    }
-    deck.push(...batch);
+  if (uniqueQuestions.length < count) {
+    throw new Error(
+      `${QUIZZES[quizId].name} does not have ${count} unique questions.`,
+    );
   }
 
-  return deck.slice(0, count);
+  return shuffled(uniqueQuestions)
+    .slice(0, count)
+    .map((question) => question.id);
+}
+
+function savedGameHasValidDeck(savedGame) {
+  if (!savedGame || savedGame.phase === "setup") return true;
+
+  const savedQuiz = QUIZZES[savedGame.selectedQuiz];
+  const deck = savedGame.questionDeck;
+  const count = savedGame.questionCount;
+
+  if (
+    !savedQuiz ||
+    !Array.isArray(deck) ||
+    !QUESTION_COUNTS.includes(count) ||
+    deck.length !== count ||
+    new Set(deck).size !== deck.length
+  ) {
+    return false;
+  }
+
+  const questionById = new Map(
+    savedQuiz.questions.map((question) => [question.id, question]),
+  );
+  const restoredQuestions = deck.map((id) => questionById.get(id));
+
+  return (
+    restoredQuestions.every(Boolean) &&
+    new Set(
+      restoredQuestions.map((question) =>
+        question.sentence.trim().toLowerCase(),
+      ),
+    ).size === deck.length
+  );
 }
 
 function TeamMark({ color }) {
@@ -95,6 +133,8 @@ export default function Home() {
     let cancelled = false;
 
     try {
+      localStorage.removeItem("word-rally-game-v1");
+      localStorage.removeItem("word-rally-game-v2");
       savedGame = JSON.parse(localStorage.getItem(STORAGE_KEY));
     } catch {
       localStorage.removeItem(STORAGE_KEY);
@@ -103,7 +143,7 @@ export default function Home() {
     queueMicrotask(() => {
       if (cancelled) return;
 
-      if (savedGame?.version === 1) {
+      if (savedGame?.version === 1 && savedGameHasValidDeck(savedGame)) {
         setPhase(savedGame.phase ?? "setup");
         setTeamNames(savedGame.teamNames ?? ["The Rockets", "Word Wizards"]);
         setTeams(savedGame.teams ?? []);

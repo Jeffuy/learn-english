@@ -19,6 +19,10 @@ test("Word Rally keeps its core classroom game flow", async () => {
   assert.match(page, /Restart game/);
   assert.match(page, /answer-feedback/);
   assert.match(page, /createQuestionDeck/);
+  assert.match(page, /uniqueQuestions/);
+  assert.match(page, /savedGameHasValidDeck/);
+  assert.match(page, /word-rally-game-v3/);
+  assert.doesNotMatch(page, /while \(deck\.length < count\)/);
   assert.match(page, /wasCorrect \? "✓" : "×"/);
   assert.match(layout, /Word Rally/);
   assert.match(packageJson, /"build": "next build"/);

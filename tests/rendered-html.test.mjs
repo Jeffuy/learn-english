@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
-import { QUIZZES } from "../app/quizzes.js";
+import { QUIZZES } from "../app/quiz-bank.js";
 
 test("Word Rally keeps its core classroom game flow", async () => {
   const [page, layout, packageJson] = await Promise.all([
@@ -171,7 +171,7 @@ test("questions and visible help do not reveal their own answers", () => {
   for (const [quizId, quiz] of Object.entries(QUIZZES)) {
     for (const question of quiz.questions) {
       const answer = question.answer.trim();
-      if (answer.length < 4 || answer.includes("/")) continue;
+      if (answer.length < 3 || answer.includes("/")) continue;
 
       const answerPattern = new RegExp(
         `(^|[^a-z])${escapeRegExp(answer.toLowerCase())}([^a-z]|$)`,
@@ -194,12 +194,27 @@ test("questions and visible help do not reveal their own answers", () => {
 
 test("conditionals are fifty individually authored questions", async () => {
   const source = await readFile(
-    new URL("../app/explicit-grammar-quizzes.js", import.meta.url),
+    new URL("../app/quiz-bank.js", import.meta.url),
     "utf8",
   );
   const questions = QUIZZES.conditionals.questions;
 
   assert.equal(questions.length, 50);
   assert.equal(new Set(questions.map(({ sentence }) => sentence)).size, 50);
-  assert.doesNotMatch(source, /conditionalSituations|flatMap/);
+  assert.doesNotMatch(source, /conditionalSituations|flatMap|createSentenceVariant/);
+});
+
+test("the active bank stores every question explicitly", async () => {
+  const source = await readFile(
+    new URL("../app/quiz-bank.js", import.meta.url),
+    "utf8",
+  );
+
+  assert.equal((source.match(/"sentence":/g) ?? []).length, 1850);
+  assert.equal((source.match(/"answer":/g) ?? []).length, 1850);
+  assert.equal((source.match(/"options":/g) ?? []).length, 1850);
+  assert.doesNotMatch(
+    source,
+    /flatMap|createSentenceVariant|expandFocusedQuestions|conditionalSituations/,
+  );
 });

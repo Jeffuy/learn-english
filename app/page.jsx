@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { QUIZZES } from "./quizzes";
+import { QUIZZES } from "./quiz-bank";
 
 const TEAM_COLORS = ["#ffcb3d", "#9ce36f", "#ff8d79", "#82c7ff", "#d7a7ff", "#63dbc9"];
 const QUESTION_COUNTS = [15, 25, 35, 50];

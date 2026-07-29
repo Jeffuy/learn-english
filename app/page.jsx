@@ -1,124 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import { QUIZZES } from "./quizzes";
 
 const TEAM_COLORS = ["#ffcb3d", "#9ce36f", "#ff8d79", "#82c7ff", "#d7a7ff", "#63dbc9"];
 const QUESTION_COUNTS = [15, 25, 35, 50];
-const STORAGE_KEY = "word-rally-game-v1";
-
-const QUIZZES = {
-  everyday: {
-    name: "Everyday English",
-    description: "Grammar, places & common words",
-    icon: "Aa",
-    questions: [
-      {
-        id: "everyday-1",
-    sentence: "She ___ to school every morning.",
-    answer: "walks",
-    options: ["walk", "walks", "walking", "walked"],
-    hint: "Present simple",
-  },
-  {
-    id: "everyday-2",
-    sentence: "We are going to the ___ to borrow a book.",
-    answer: "library",
-    options: ["bakery", "library", "hospital", "station"],
-    hint: "Places in town",
-  },
-  {
-    id: "everyday-3",
-    sentence: "My brother is ___ than me.",
-    answer: "taller",
-    options: ["tall", "tallest", "taller", "more tall"],
-    hint: "Comparatives",
-  },
-  {
-    id: "everyday-4",
-    sentence: "There ___ two apples on the table.",
-    answer: "are",
-    options: ["is", "be", "am", "are"],
-    hint: "There is / There are",
-  },
-  {
-    id: "everyday-5",
-    sentence: "I ___ my homework yesterday.",
-    answer: "finished",
-    options: ["finish", "finishes", "finished", "finishing"],
-    hint: "Past simple",
-  },
-  {
-    id: "everyday-6",
-    sentence: "Could I have a glass ___ water, please?",
-    answer: "of",
-    options: ["at", "of", "for", "with"],
-    hint: "Common expressions",
-  },
-  {
-    id: "everyday-7",
-    sentence: "The cat is hiding ___ the bed.",
-    answer: "under",
-    options: ["under", "during", "into", "across"],
-    hint: "Prepositions",
-  },
-  {
-    id: "everyday-8",
-    sentence: "They ___ playing football right now.",
-    answer: "are",
-    options: ["is", "are", "do", "have"],
-    hint: "Present continuous",
-  },
-  {
-    id: "everyday-9",
-    sentence: "You ___ wear a seat belt in the car.",
-    answer: "must",
-    options: ["must", "might", "could", "would"],
-    hint: "Modal verbs",
-  },
-  {
-    id: "everyday-10",
-    sentence: "How ___ milk do we need?",
-    answer: "much",
-    options: ["many", "often", "long", "much"],
-    hint: "Countable and uncountable nouns",
-      },
-    ],
-  },
-  travel: {
-    name: "Travel Talk",
-    description: "Airports, hotels & getting around",
-    icon: "✈",
-    questions: [
-      { id: "travel-1", sentence: "Where can I ___ a taxi?", answer: "find", options: ["find", "found", "finding", "finds"], hint: "Asking for help" },
-      { id: "travel-2", sentence: "I would like to ___ a room for two nights.", answer: "book", options: ["stay", "book", "sleep", "visit"], hint: "At the hotel" },
-      { id: "travel-3", sentence: "What time does the train ___?", answer: "leave", options: ["leaves", "leaving", "leave", "left"], hint: "Transport" },
-      { id: "travel-4", sentence: "Could you show me your ___, please?", answer: "passport", options: ["ticket", "passport", "suitcase", "map"], hint: "At the airport" },
-      { id: "travel-5", sentence: "Our flight has been ___ for two hours.", answer: "delayed", options: ["delayed", "visited", "packed", "landed"], hint: "Flight updates" },
-      { id: "travel-6", sentence: "Is breakfast ___ in the room price?", answer: "included", options: ["including", "include", "included", "includes"], hint: "At the hotel" },
-      { id: "travel-7", sentence: "Turn left ___ the traffic lights.", answer: "at", options: ["on", "at", "for", "by"], hint: "Directions" },
-      { id: "travel-8", sentence: "How ___ is the city center from here?", answer: "far", options: ["far", "long", "many", "often"], hint: "Directions" },
-      { id: "travel-9", sentence: "We need to ___ our bags before the flight.", answer: "check in", options: ["take off", "check in", "get on", "pick up"], hint: "Airport phrases" },
-      { id: "travel-10", sentence: "The bus stop is ___ the bank and the café.", answer: "between", options: ["through", "above", "between", "across"], hint: "Prepositions" },
-    ],
-  },
-  food: {
-    name: "Food & Dining",
-    description: "Restaurants, ingredients & cooking",
-    icon: "🍴",
-    questions: [
-      { id: "food-1", sentence: "Could we see the ___, please?", answer: "menu", options: ["recipe", "menu", "bill", "plate"], hint: "At a restaurant" },
-      { id: "food-2", sentence: "I am allergic ___ peanuts.", answer: "to", options: ["with", "at", "to", "for"], hint: "Food allergies" },
-      { id: "food-3", sentence: "Would you like your steak rare or ___?", answer: "well-done", options: ["boiled", "well-done", "sweet", "fresh"], hint: "Ordering food" },
-      { id: "food-4", sentence: "Please ___ the onions into small pieces.", answer: "chop", options: ["pour", "chop", "boil", "taste"], hint: "Cooking verbs" },
-      { id: "food-5", sentence: "This soup is too ___.", answer: "salty", options: ["salt", "salty", "saltier", "salted"], hint: "Describing food" },
-      { id: "food-6", sentence: "Can we have the ___, please?", answer: "bill", options: ["order", "bill", "meal", "table"], hint: "At a restaurant" },
-      { id: "food-7", sentence: "There isn’t ___ sugar left.", answer: "any", options: ["some", "many", "any", "few"], hint: "Quantifiers" },
-      { id: "food-8", sentence: "First, ___ the water in a large pot.", answer: "boil", options: ["bake", "fry", "boil", "grill"], hint: "Cooking verbs" },
-      { id: "food-9", sentence: "I’d like the salad ___ the dressing.", answer: "without", options: ["without", "under", "during", "among"], hint: "Special requests" },
-      { id: "food-10", sentence: "How ___ eggs do we need for the cake?", answer: "many", options: ["much", "many", "often", "more"], hint: "Countable nouns" },
-    ],
-  },
-};
+const STORAGE_KEY = "word-rally-game-v2";
 
 function shuffled(items) {
   const copy = [...items];
@@ -154,7 +41,7 @@ export default function Home() {
   const [teamNames, setTeamNames] = useState(["The Rockets", "Word Wizards"]);
   const [teams, setTeams] = useState([]);
   const [questionCount, setQuestionCount] = useState(15);
-  const [selectedQuiz, setSelectedQuiz] = useState("everyday");
+  const [selectedQuiz, setSelectedQuiz] = useState("unit1");
   const [questionDeck, setQuestionDeck] = useState([]);
   const [currentTeam, setCurrentTeam] = useState(0);
   const [selectedNumber, setSelectedNumber] = useState(null);
@@ -198,7 +85,7 @@ export default function Home() {
         setTeamNames(savedGame.teamNames ?? ["The Rockets", "Word Wizards"]);
         setTeams(savedGame.teams ?? []);
         setQuestionCount(savedGame.questionCount ?? 15);
-        setSelectedQuiz(QUIZZES[savedGame.selectedQuiz] ? savedGame.selectedQuiz : "everyday");
+        setSelectedQuiz(QUIZZES[savedGame.selectedQuiz] ? savedGame.selectedQuiz : "unit1");
         setQuestionDeck(savedGame.questionDeck ?? []);
         setCurrentTeam(savedGame.currentTeam ?? 0);
         setSelectedNumber(savedGame.selectedNumber ?? null);

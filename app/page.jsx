@@ -85,6 +85,28 @@ function safeQuestionHint(question) {
     : question.hint;
 }
 
+function QuestionSentence({ question }) {
+  if (!question.highlight) return question.sentence;
+
+  const startIndex = question.sentence
+    .toLocaleLowerCase("en")
+    .indexOf(question.highlight.toLocaleLowerCase("en"));
+
+  if (startIndex === -1) return question.sentence;
+
+  const endIndex = startIndex + question.highlight.length;
+
+  return (
+    <>
+      {question.sentence.slice(0, startIndex)}
+      <mark className="question-highlight">
+        {question.sentence.slice(startIndex, endIndex)}
+      </mark>
+      {question.sentence.slice(endIndex)}
+    </>
+  );
+}
+
 export default function Home() {
   const scrollPositionToRestore = useRef(null);
   const [hydrated, setHydrated] = useState(false);
@@ -714,11 +736,22 @@ export default function Home() {
 
           <div className="question-card">
             <span className="question-hint">{safeQuestionHint(activeQuestion)}</span>
-            <p className="question-label">Complete the sentence</p>
+            <p className="question-label">
+              {activeQuestion.questionType === "meaning"
+                ? "What does the highlighted expression mean?"
+                : "Complete the sentence"}
+            </p>
             {activeQuestion.context && (
               <p className="question-context">{activeQuestion.context}</p>
             )}
-            <h1>{activeQuestion.sentence}</h1>
+            {activeQuestion.emoji && (
+              <div className="question-emoji" aria-hidden="true">
+                {activeQuestion.emoji}
+              </div>
+            )}
+            <h1>
+              <QuestionSentence question={activeQuestion} />
+            </h1>
 
             {timedOut && (
               <div className="timeout-panel">
@@ -732,7 +765,11 @@ export default function Home() {
             {!timedOut && (
               <div className="answer-area">
                 <div className="answer-header">
-                  <p>Choose the missing word</p>
+                  <p>
+                    {activeQuestion.questionType === "meaning"
+                      ? "Choose the correct meaning"
+                      : "Choose the missing word"}
+                  </p>
                   <span>Worth 10 points</span>
                 </div>
                 <div className="elimination-help">

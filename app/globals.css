@@ -973,6 +973,30 @@ input:focus-visible {
   line-height: 1.5;
 }
 
+.question-emoji {
+  display: grid;
+  place-items: center;
+  width: 76px;
+  height: 76px;
+  margin: 0 auto 18px;
+  border: 1px solid #dce5d4;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #f1efff, #eff9e9);
+  font-size: 40px;
+  line-height: 1;
+}
+
+.question-highlight {
+  padding: 0 0.08em;
+  border-radius: 0.16em;
+  background: linear-gradient(transparent 57%, rgba(255, 203, 61, 0.64) 57%);
+  color: var(--blue);
+  font: inherit;
+  font-weight: 800;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 .question-card > h1 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(31px, 5vw, 51px);

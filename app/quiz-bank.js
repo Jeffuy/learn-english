@@ -1,6 +1,8 @@
+import { IRISH_SLANG_QUIZ } from "./irish-slang-quiz.js";
+
 // Every question in this bank is stored explicitly.
 // Do not replace these entries with generated sentence variations.
-export const QUIZZES = {
+const BOOK_QUIZZES = {
   "unit1": {
     "name": "Art, Travel & Natural Wonders",
     "description": "Present tenses, phrasal verbs, art & unusual phenomena",
@@ -23958,4 +23960,9 @@ export const QUIZZES = {
       }
     ]
   }
+};
+
+export const QUIZZES = {
+  ...BOOK_QUIZZES,
+  "irish-slang": IRISH_SLANG_QUIZ,
 };

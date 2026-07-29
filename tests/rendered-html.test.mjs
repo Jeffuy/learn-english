@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import test from "node:test";
 import { QUIZZES } from "../app/quiz-bank.js";
 import { CHAMULLERO_QUESTIONS } from "../app/chamullero/questions.js";
+import { IRISH_SLANG_QUIZ } from "../app/irish-slang-quiz.js";
 
 test("Word Rally keeps its core classroom game flow", async () => {
   const [page, layout, packageJson] = await Promise.all([
@@ -15,6 +16,8 @@ test("Word Rally keeps its core classroom game flow", async () => {
   assert.match(page, /Create your teams/);
   assert.match(page, /Start the game/);
   assert.match(page, /Choose the missing word/);
+  assert.match(page, /Choose the correct meaning/);
+  assert.match(page, /QuestionSentence/);
   assert.doesNotMatch(page, /Say it aloud/);
   assert.match(page, /Remove one wrong answer/);
   assert.match(page, /buyElimination/);
@@ -42,9 +45,10 @@ test("the book provides complete mixed and focused quizzes", () => {
   const mixedEntries = entries.filter(([, quiz]) => quiz.kind === "mixed");
   const focusedEntries = entries.filter(([, quiz]) => quiz.kind === "focused");
 
-  assert.equal(entries.length, 37);
+  assert.equal(entries.length, 38);
   assert.equal(mixedEntries.length, 8);
-  assert.equal(focusedEntries.length, 29);
+  assert.equal(focusedEntries.length, 30);
+  assert.ok(focusedEntries.some(([, quiz]) => quiz.name === "Irish Slang"));
   assert.deepEqual(
     mixedEntries.map(([, quiz]) => quiz.name),
     [
@@ -106,8 +110,8 @@ test("the book provides complete mixed and focused quizzes", () => {
     }
   }
 
-  assert.equal(allQuestions.length, 1850);
-  assert.equal(new Set(allQuestions.map(({ id }) => id)).size, 1850);
+  assert.equal(allQuestions.length, 1900);
+  assert.equal(new Set(allQuestions.map(({ id }) => id)).size, 1900);
 });
 
 test("ambiguous collocation questions include an explanatory context", () => {
@@ -154,7 +158,19 @@ test("every quiz question is complete and has one unambiguous answer", () => {
       const label = `${quizId}/${question.id}`;
       const blanks = question.sentence.match(/___/g) ?? [];
 
-      assert.ok(blanks.length >= 1, `${label} must contain at least one blank`);
+      if (question.questionType === "meaning") {
+        assert.equal(blanks.length, 0, `${label} must show a complete example`);
+        assert.ok(question.highlight, `${label} must identify the expression`);
+        assert.ok(question.emoji, `${label} must include an emoji`);
+        assert.ok(
+          question.sentence
+            .toLocaleLowerCase("en")
+            .includes(question.highlight.toLocaleLowerCase("en")),
+          `${label} must highlight text that appears in its sentence`,
+        );
+      } else {
+        assert.ok(blanks.length >= 1, `${label} must contain at least one blank`);
+      }
       assert.equal(question.options.length, 4, `${label} must have four options`);
       assert.equal(
         new Set(question.options.map((option) => option.toLowerCase())).size,
@@ -210,18 +226,44 @@ test("conditionals are fifty individually authored questions", async () => {
 });
 
 test("the active bank stores every question explicitly", async () => {
-  const source = await readFile(
-    new URL("../app/quiz-bank.js", import.meta.url),
-    "utf8",
-  );
+  const [bookSource, irishSlangSource] = await Promise.all([
+    readFile(new URL("../app/quiz-bank.js", import.meta.url), "utf8"),
+    readFile(new URL("../app/irish-slang-quiz.js", import.meta.url), "utf8"),
+  ]);
+  const source = `${bookSource}\n${irishSlangSource}`;
 
-  assert.equal((source.match(/"sentence":/g) ?? []).length, 1850);
-  assert.equal((source.match(/"answer":/g) ?? []).length, 1850);
-  assert.equal((source.match(/"options":/g) ?? []).length, 1850);
+  assert.equal((source.match(/(?:"sentence"|sentence):/g) ?? []).length, 1900);
+  assert.equal((source.match(/(?:"answer"|answer):/g) ?? []).length, 1900);
+  assert.equal((source.match(/(?:"options"|options):/g) ?? []).length, 1900);
   assert.doesNotMatch(
     source,
     /flatMap|createSentenceVariant|expandFocusedQuestions|conditionalSituations/,
   );
+});
+
+test("Irish Slang has fifty explicit meaning questions", () => {
+  const questions = IRISH_SLANG_QUIZ.questions;
+
+  assert.equal(IRISH_SLANG_QUIZ.kind, "focused");
+  assert.equal(questions.length, 50);
+  assert.equal(new Set(questions.map(({ term }) => term)).size, 50);
+  assert.equal(new Set(questions.map(({ sentence }) => sentence)).size, 50);
+  assert.ok(
+    questions.every(
+      ({ answer, emoji, highlight, options, questionType, sentence }) =>
+        questionType === "meaning" &&
+        Boolean(emoji) &&
+        Boolean(highlight) &&
+        sentence.toLocaleLowerCase("en").includes(highlight.toLocaleLowerCase("en")) &&
+        options.length === 4 &&
+        options.includes(answer),
+    ),
+  );
+
+  const chancingQuestion = questions.find(
+    ({ term }) => term === "Chancing my arm",
+  );
+  assert.match(chancingQuestion.sentence, /chancing my arm/);
 });
 
 test("definition questions use distractors from the same semantic area", () => {

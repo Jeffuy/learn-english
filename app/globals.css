@@ -496,6 +496,67 @@ input:focus-visible {
   box-shadow: inset 0 0 0 1px var(--blue);
 }
 
+.quiz-search {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.quiz-search input {
+  width: 100%;
+  min-height: 43px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: #f8f9fd;
+  color: var(--ink);
+  padding: 10px 67px 10px 13px;
+  font: inherit;
+  font-size: 13px;
+  outline: none;
+  transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.quiz-search input:focus {
+  border-color: var(--blue);
+  background: white;
+  box-shadow: 0 0 0 3px rgba(61, 88, 218, 0.12);
+}
+
+.quiz-search button {
+  position: absolute;
+  top: 50%;
+  right: 7px;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: var(--blue);
+  padding: 6px 7px;
+  font-size: 11px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.quiz-empty-state {
+  display: grid;
+  place-items: center;
+  min-height: 130px;
+  border: 1px dashed var(--line);
+  border-radius: 15px;
+  color: var(--muted);
+  padding: 22px;
+  text-align: center;
+}
+
+.quiz-empty-state strong {
+  color: var(--ink);
+  font-size: 14px;
+}
+
+.quiz-empty-state span {
+  margin-top: 5px;
+  font-size: 11px;
+}
+
 .topic-option {
   display: flex;
   width: 100%;

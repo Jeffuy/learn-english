@@ -125,6 +125,9 @@ test("the setup separates mixed quizzes from focused practice", async () => {
   assert.match(page, /Mixed quizzes/);
   assert.match(page, /Focused practice/);
   assert.match(page, /visibleQuizzes/);
+  assert.match(page, /Search quizzes/);
+  assert.match(page, /quizOption\.name} \$\{quizOption\.description/);
+  assert.match(page, /No quizzes found/);
 });
 
 test("the teacher can enable, pause and disable the answer timer", async () => {

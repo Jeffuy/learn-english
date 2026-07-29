@@ -97,6 +97,7 @@ export default function Home() {
   const [timedOut, setTimedOut] = useState(false);
   const [selectedQuiz, setSelectedQuiz] = useState(DEFAULT_QUIZ);
   const [quizKind, setQuizKind] = useState("focused");
+  const [quizSearch, setQuizSearch] = useState("");
   const [questionDeck, setQuestionDeck] = useState([]);
   const [currentTeam, setCurrentTeam] = useState(0);
   const [selectedNumber, setSelectedNumber] = useState(null);
@@ -125,13 +126,18 @@ export default function Home() {
     () => [...teams].sort((a, b) => b.score - a.score),
     [teams],
   );
-  const visibleQuizzes = useMemo(
-    () =>
-      Object.entries(QUIZZES).filter(
-        ([, quizOption]) => quizOption.kind === quizKind,
-      ),
-    [quizKind],
-  );
+  const visibleQuizzes = useMemo(() => {
+    const search = quizSearch.trim().toLowerCase();
+
+    return Object.entries(QUIZZES).filter(([, quizOption]) => {
+      if (quizOption.kind !== quizKind) return false;
+      if (!search) return true;
+
+      return `${quizOption.name} ${quizOption.description}`
+        .toLowerCase()
+        .includes(search);
+    });
+  }, [quizKind, quizSearch]);
 
   useEffect(() => {
     let savedGame = null;
@@ -553,6 +559,24 @@ export default function Home() {
                     <small>One specific topic</small>
                   </button>
                 </div>
+                <div className="quiz-search">
+                  <input
+                    type="search"
+                    value={quizSearch}
+                    onChange={(event) => setQuizSearch(event.target.value)}
+                    placeholder="Search quizzes..."
+                    aria-label="Search quizzes"
+                  />
+                  {quizSearch && (
+                    <button
+                      type="button"
+                      onClick={() => setQuizSearch("")}
+                      aria-label="Clear quiz search"
+                    >
+                      Clear
+                    </button>
+                  )}
+                </div>
                 <div className="topic-list">
                   {visibleQuizzes.map(([quizId, quizOption]) => (
                     <button
@@ -568,6 +592,12 @@ export default function Home() {
                       {selectedQuiz === quizId && <span className="check">✓</span>}
                     </button>
                   ))}
+                  {visibleQuizzes.length === 0 && (
+                    <div className="quiz-empty-state">
+                      <strong>No quizzes found</strong>
+                      <span>Try a different search or quiz type.</span>
+                    </div>
+                  )}
                 </div>
               </section>
 

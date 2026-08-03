@@ -150,6 +150,8 @@ test("the teacher can enable, pause and disable the answer timer", async () => {
   assert.match(page, /setTimerPaused/);
   assert.match(page, /Time&apos;s up/);
   assert.match(page, /safeQuestionHint/);
+  assert.match(page, /role="timer"/);
+  assert.match(page, /seconds remaining/);
 });
 
 test("every quiz question is complete and has one unambiguous answer", () => {

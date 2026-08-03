@@ -719,7 +719,13 @@ export default function Home() {
           <div className="question-topline">
             <span>Question {selectedNumber} of {questionCount}</span>
             {timerSeconds > 0 && (
-              <div className={`question-timer ${timeLeft <= 5 ? "urgent" : ""}`}>
+              <div
+                className={`question-timer ${timeLeft <= 5 ? "urgent" : ""}`}
+                role="timer"
+                aria-live="polite"
+                aria-label={`${timeLeft} seconds remaining`}
+              >
+                <span className="timer-label" aria-hidden="true">⏱ Timer</span>
                 <strong>{timeLeft}s</strong>
                 {!timedOut && answerResult === null && (
                   <button
